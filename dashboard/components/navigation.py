@@ -14,6 +14,7 @@ NAV_GROUPS: List[Dict[str, Any]] = [
         "category": "COMMAND",
         "items": [
             ("📈 Market Overview", "Executive Macro Regime & Market Overview Intelligence"),
+            ("🎯 Quality Picks & Trade Tracker", "Daily, Weekly, Monthly, Long-Term Setups with Stop-Loss & Target Lifecycle Ledger"),
             ("🎯 Industry Intelligence", "Industry Intelligence Cockpit & Top Roster")
         ]
     },

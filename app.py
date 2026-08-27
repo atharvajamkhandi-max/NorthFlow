@@ -75,7 +75,10 @@ def main():
     page = render_grouped_navigation()
 
     # Route page
-    if page == "🎯 Industry Intelligence":
+    if page == "🎯 Quality Picks & Trade Tracker":
+        from dashboard.components.picks_tracker_service import render_quality_picks_dashboard
+        render_quality_picks_dashboard(db, selected_date)
+    elif page == "🎯 Industry Intelligence":
         render_phase13_intelligence_terminal(db, selected_date)
     elif page == "🔮 Live Forward Validation (Shadow)":
         from dashboard.live_forward_validation_ui import render_live_forward_validation_ui
