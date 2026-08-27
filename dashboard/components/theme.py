@@ -367,8 +367,8 @@ def apply_terminal_theme():
         touch-action: manipulation;
     }}
     
-    /* 2. Mobile Phones (Android, iPhone, iOS Safari: <= 480px) */
-    @media (max-width: 480px) {{
+    /* 2. Mobile Phones (Android, iPhone, iOS Safari: <= 600px) */
+    @media (max-width: 600px) {{
         section[data-testid="stSidebar"] {{
             width: 100% !important;
             min-width: 100% !important;
@@ -377,37 +377,64 @@ def apply_terminal_theme():
             padding-left: 0.5rem !important;
             padding-right: 0.5rem !important;
             padding-top: max(env(safe-area-inset-top), 0.5rem) !important;
-            padding-bottom: max(env(safe-area-inset-bottom), 1rem) !important;
+            padding-bottom: max(env(safe-area-inset-bottom), 1.5rem) !important;
             overflow-x: auto !important;
         }}
-        .analytical-card {{
-            padding: 8px 10px !important;
-            margin-bottom: 8px !important;
+        /* Responsive Streamlit column stack on mobile */
+        [data-testid="column"] {{
+            min-width: 100% !important;
+            flex: 1 1 100% !important;
+            margin-bottom: 6px !important;
         }}
-        .card-metric-col {{
-            min-width: 60px !important;
-        }}
-        .stButton > button {{
-            min-height: 40px !important;
-            padding: 6px 12px !important;
-            font-size: 0.82rem !important;
+        /* Two-mode radio tabs on mobile */
+        div[data-testid="stRadio"] div[role="radiogroup"] {{
+            flex-direction: column !important;
             width: 100% !important;
         }}
         div[data-testid="stRadio"] div[role="radiogroup"] > label {{
-            min-height: 38px !important;
-            padding: 6px 10px !important;
-            font-size: 0.78rem !important;
+            min-height: 42px !important;
+            padding: 8px 12px !important;
+            font-size: 0.85rem !important;
             display: flex !important;
             align-items: center !important;
+            justify-content: center !important;
+            width: 100% !important;
+            box-sizing: border-box !important;
+        }}
+        /* Analytical card metrics 2x2 grid on mobile */
+        .card-metric-grid {{
+            grid-template-columns: 1fr 1fr !important;
+            gap: 8px 10px !important;
+            padding: 8px 10px !important;
+        }}
+        .card-sparkline-col {{
+            display: none !important;
+        }}
+        .analytical-card {{
+            padding: 10px 12px !important;
+            margin-bottom: 10px !important;
+        }}
+        .card-metric-label {{
+            font-size: 0.62rem !important;
+        }}
+        .card-metric-value {{
+            font-size: 0.92rem !important;
+        }}
+        .stButton > button {{
+            min-height: 42px !important;
+            padding: 8px 14px !important;
+            font-size: 0.85rem !important;
+            width: 100% !important;
         }}
         div[data-testid="stDataFrame"] {{
             overflow-x: auto !important;
             -webkit-overflow-scrolling: touch !important;
+            font-size: 0.80rem !important;
         }}
     }}
 
-    /* 3. Tablets & Phablets (481px - 768px) */
-    @media (min-width: 481px) and (max-width: 768px) {{
+    /* 3. Tablets & Phablets (601px - 860px) */
+    @media (min-width: 601px) and (max-width: 860px) {{
         section[data-testid="stSidebar"] {{
             width: 85% !important;
             min-width: 280px !important;

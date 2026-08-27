@@ -123,7 +123,7 @@ def render_analytical_card(
 <span class="badge-pill {badge_cls}">{badge_text}</span>
 </div>
 </div>
-<div style="display: grid; grid-template-columns: repeat(4, 1fr) auto; gap: 6px; align-items: center; background: {t['secondary_bg']}; padding: 6px 10px; border-radius: 6px; border: 1px solid {t['card_border']};">
+<div class="card-metric-grid" style="display: grid; grid-template-columns: repeat(4, 1fr) auto; gap: 6px; align-items: center; background: {t['secondary_bg']}; padding: 6px 10px; border-radius: 6px; border: 1px solid {t['card_border']};">
 <div class="card-metric-col" style="text-align: left;">
 <div class="card-metric-label">STRENGTH</div>
 <div class="card-metric-value" style="color: {st_color};">{strength:.1f}<span style="font-size: 0.62rem; color: {t['text_dim']};">/100</span></div>
@@ -140,7 +140,7 @@ def render_analytical_card(
 <div class="card-metric-label">{extra_metric_label}</div>
 <div class="card-metric-value">{extra_metric_value}</div>
 </div>
-<div style="text-align: right; padding-left: 6px; border-left: 1px solid {t['card_border']};">
+<div class="card-sparkline-col" style="text-align: right; padding-left: 6px; border-left: 1px solid {t['card_border']};">
 {spark_svg}
 </div>
 </div>
