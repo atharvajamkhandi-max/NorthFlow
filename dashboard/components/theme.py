@@ -359,19 +359,93 @@ def apply_terminal_theme():
         border: 1px solid {t['negative_border']};
     }}
 
-    /* Responsive Breakpoints & Mobile Optimization */
-    @media (max-width: 768px) {{
+    /* Responsive Breakpoints & Universal Device Optimization */
+    /* 1. Universal Base Adjustments */
+    html, body {{
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+        touch-action: manipulation;
+    }}
+    
+    /* 2. Mobile Phones (Android, iPhone, iOS Safari: <= 480px) */
+    @media (max-width: 480px) {{
         section[data-testid="stSidebar"] {{
             width: 100% !important;
             min-width: 100% !important;
         }}
         .block-container {{
-            padding-left: 0.75rem !important;
-            padding-right: 0.75rem !important;
+            padding-left: 0.5rem !important;
+            padding-right: 0.5rem !important;
+            padding-top: max(env(safe-area-inset-top), 0.5rem) !important;
+            padding-bottom: max(env(safe-area-inset-bottom), 1rem) !important;
             overflow-x: auto !important;
         }}
+        .analytical-card {{
+            padding: 8px 10px !important;
+            margin-bottom: 8px !important;
+        }}
+        .card-metric-col {{
+            min-width: 60px !important;
+        }}
+        .stButton > button {{
+            min-height: 40px !important;
+            padding: 6px 12px !important;
+            font-size: 0.82rem !important;
+            width: 100% !important;
+        }}
+        div[data-testid="stRadio"] div[role="radiogroup"] > label {{
+            min-height: 38px !important;
+            padding: 6px 10px !important;
+            font-size: 0.78rem !important;
+            display: flex !important;
+            align-items: center !important;
+        }}
+        div[data-testid="stDataFrame"] {{
+            overflow-x: auto !important;
+            -webkit-overflow-scrolling: touch !important;
+        }}
     }}
-    /* Pitch Black Sidebar Theme Guarantee: background-color: #000000 !important; */
+
+    /* 3. Tablets & Phablets (481px - 768px) */
+    @media (min-width: 481px) and (max-width: 768px) {{
+        section[data-testid="stSidebar"] {{
+            width: 85% !important;
+            min-width: 280px !important;
+        }}
+        .block-container {{
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+            overflow-x: auto !important;
+        }}
+        .analytical-card {{
+            padding: 10px 12px !important;
+        }}
+        .stButton > button {{
+            min-height: 38px !important;
+        }}
+    }}
+
+    /* 4. Laptops & Standard Desktops (769px - 1440px) */
+    @media (min-width: 769px) and (max-width: 1440px) {{
+        .block-container {{
+            max-width: 96% !important;
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
+        }}
+    }}
+
+    /* 5. Ultra-wide & 4K TVs / Large Displays (>= 1441px) */
+    @media (min-width: 1441px) {{
+        .block-container {{
+            max-width: 1600px !important;
+            margin: 0 auto !important;
+            padding-left: 2rem !important;
+            padding-right: 2rem !important;
+        }}
+        .analytical-card {{
+            padding: 14px 18px !important;
+        }}
+    }}
     </style>
     """
     st.markdown(custom_css, unsafe_allow_html=True)
