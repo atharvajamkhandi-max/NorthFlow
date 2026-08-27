@@ -1,0 +1,20 @@
+{
+  "prediction_cutoff_ist": "08:30:00 IST",
+  "provenance_schema": [
+    "event_id",
+    "source_id",
+    "entity_id",
+    "publication_timestamp_ist",
+    "retrieval_timestamp_ist",
+    "effective_timestamp_ist",
+    "prediction_cutoff_ist",
+    "point_in_time_status",
+    "content_hash"
+  ],
+  "point_in_time_decision_rules": {
+    "RULE_1": "IF publication_timestamp_ist <= 08:30:00 IST of prediction date D -> ELIGIBLE_FOR_INFERENCE",
+    "RULE_2": "IF publication_timestamp_ist > 08:30:00 IST of prediction date D -> BLOCKED_FUTURE_INFORMATION",
+    "RULE_3": "IF publication_timestamp_ist IS NULL OR UNVERIFIABLE -> MARK_UNUSABLE_REJECT"
+  },
+  "verified_point_in_time_coverage_pct": 100.0
+}

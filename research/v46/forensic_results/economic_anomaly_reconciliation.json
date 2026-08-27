@@ -1,0 +1,11 @@
+{
+  "anomaly_identified": "-466.89% Bottom Decile Mean Return in Phase 45 Report",
+  "root_cause": "Double multiplication by 100 in print string formatter on columns already expressed in percentage units.",
+  "true_top_decile_return_pct": 0.211,
+  "true_bottom_decile_return_pct": -4.6689,
+  "true_spread_pct": 4.8799,
+  "true_spread_bps": 488.0,
+  "impact_on_model_ranking": "None (Rank IC and Decile assignments are unaffected)",
+  "impact_on_signal_logic": "None",
+  "impact_on_production": "None (Zero production mutations)"
+}

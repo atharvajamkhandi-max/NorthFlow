@@ -1,0 +1,44 @@
+[
+  {
+    "component": "Model Architecture",
+    "live_shadow_v33": "Single-Task HGB Regressor",
+    "candidate_v34": "Multi-Task Stacking Hybrid (HGB 50% + ExtraTrees 30% + Prob 20%)",
+    "exact_match": false,
+    "risk_assessment": "High: Evaluating different mathematical estimators"
+  },
+  {
+    "component": "Feature Count & Schema",
+    "live_shadow_v33": "4 Base Features (1D, Breadth, Risk, Conf)",
+    "candidate_v34": "8 Features (4 Base + 4 Interaction/Accel Features)",
+    "exact_match": false,
+    "risk_assessment": "High: Feature dimension mismatch (4 vs 8)"
+  },
+  {
+    "component": "Model Manifest Hash",
+    "live_shadow_v33": "e23427b873cb9240954af927b21969564bb7da0e2c2b18649950cbe3bf2f87fc",
+    "candidate_v34": "abadd726ba035e29b010efb654308ebcd184e9fc5e39d7f73789feafb7431919",
+    "exact_match": false,
+    "risk_assessment": "Cryptographic proof of non-identity"
+  },
+  {
+    "component": "Regime Fallback Logic",
+    "live_shadow_v33": "SIDEWAYS -> V3.2 Base (Exact)",
+    "candidate_v34": "SIDEWAYS -> V3.2 Base (Exact)",
+    "exact_match": true,
+    "risk_assessment": "Low: Shared risk-mitigation fallback"
+  },
+  {
+    "component": "Conformal Uncertainty",
+    "live_shadow_v33": "1.30 Conformal Scaling Multiplier",
+    "candidate_v34": "1.30 Conformal Scaling Multiplier",
+    "exact_match": true,
+    "risk_assessment": "Low: Same uncertainty calibration standard"
+  },
+  {
+    "component": "Universe Definition",
+    "live_shadow_v33": "140 Basic Industries (Exact Match with V3.2)",
+    "candidate_v34": "140 Basic Industries (Exact Match with V3.2)",
+    "exact_match": true,
+    "risk_assessment": "Low: Identical cross-sectional universe"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "tier_1_historical_training": {
+    "name": "TIER 1: Historical Training / Development",
+    "date_range": "2024-03-18 to 2025-02-20",
+    "observation_count": 32770,
+    "classification": "HISTORICAL_TRAINING",
+    "description": "Model fitting, feature engineering, and baseline parameter discovery."
+  },
+  "tier_2_historical_validation": {
+    "name": "TIER 2: Historical Walk-Forward Validation",
+    "date_range": "2025-02-20 to 2025-06-24",
+    "observation_count": 10923,
+    "classification": "HISTORICAL_VALIDATION",
+    "description": "Hyperparameter tuning, conformal multiplier selection, and regime threshold discovery."
+  },
+  "tier_3_historical_holdout": {
+    "name": "TIER 3: Historical Untouched Holdout",
+    "date_range": "2025-06-24 to 2026-08-21",
+    "observation_count": 10924,
+    "classification": "HISTORICAL_OUT_OF_SAMPLE_HOLDOUT",
+    "description": "Strictly held-out out-of-sample partition evaluated with frozen parameters."
+  },
+  "tier_4_historical_shadow_replay": {
+    "name": "TIER 4: Historical Shadow Replay",
+    "date_range": "2024-03-18 to 2026-08-21",
+    "observation_count": 54617,
+    "classification": "HISTORICAL_SHADOW_REPLAY",
+    "description": "Full-sample multi-regime simulation across entire historical archive."
+  },
+  "tier_5_true_live_forward": {
+    "name": "TIER 5: TRUE LIVE-FORWARD SHADOW",
+    "date_range": "2026-08-24 onwards",
+    "observation_count": "Genuinely prospective (accumulating in forward calendar time)",
+    "classification": "TRUE_LIVE_FORWARD_SHADOW",
+    "description": "Real-time prospective shadow predictions generated prior to market sessions."
+  }
+}

@@ -1,0 +1,10 @@
+Model,Features_Included,Feature_Count,OOS_Rank_IC,IC_IR,Decile_Spread,Incremental_Alpha
+Model A (V3.2 Baseline),"Breadth50, RS20D, Breadth20, VolRatio",4,0.114,1.42,+2.46%,CONTROL
+Model B (+ Momentum Extended),"V3.2 + 3D, 5D, 60D, 120D Momentum",8,0.0853,0.92,+1.83%,-0.0287 (Noise)
+Model C (+ Multi-Level RS),"V3.2 + Stock/Sector RS, Industry/Sector RS",7,0.1067,1.28,+2.10%,-0.0073 (Redundant)
+Model D (+ Trend Stack Quality),"V3.2 + 200 EMA Breadth, Slopes, Persistence",8,0.1012,1.18,+1.95%,-0.0128 (Lag)
+Model E (+ Volume Dynamics),"V3.2 + Volume Accel, Breakout %, Volume Trend",7,0.0742,0.81,+1.45%,-0.0398 (Noise)
+Model F (+ Volatility Risk),"V3.2 + Realized Vol, Downside Vol, Compression",7,0.0879,0.96,+1.86%,-0.0261 (Confounding)
+Model G (+ Industry Conditioning),V3.2 + Stock RS × Industry RS Interaction,6,0.1115,1.38,+2.38%,-0.0025 (Neutral)
+Model H (+ Regime Conditioning),V3.2 + Multiplier Scaling by Breadth Regimes,5,0.114,1.42,+2.46%,+0.0000 (Preserved)
+Model I (Full V3.3 Candidate),All 23 Candidate Multi-Factor Indicators,23,-0.0919,-1.15,-3.97%,-0.2059 (Severe Overfit)

@@ -1,0 +1,4 @@
+Metric,Champion_Existing_V1,Final_Deterministic_Enhanced,Delta,Verdict
+Rank_IC,0.1143,0.082,-0.0323,CHAMPION_RETAINED
+Decile_Spread,2.46,2.21,-0.25,CHAMPION_RETAINED
+Complexity_Score,10.0,30.0,20.0,CHAMPION_RETAINED

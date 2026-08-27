@@ -1,0 +1,13 @@
+gate_id,description,target,actual,status
+GATE_01_APP_STARTUP,Streamlit application startup & HTTP health check,"HTTP 200 ok, 0 exceptions","HTTP 200 ok, 0 exceptions",PASSED
+GATE_02_50K_LEAKAGE,"Market Cap >= 50,000 Cr strict symbol-by-symbol scan",0 leaked stocks below 50k Cr,0 leaked stocks below 50k Cr,PASSED
+GATE_03_INDUSTRY_DRILLDOWN,Multi-industry constituent drilldown preservation,Constituents match Active Universe,100% drilldown match across all sectors,PASSED
+GATE_04_FILTER_TRANSITIONS,Sequential filter transitions (ALL -> 1k -> 50k -> 500 -> 20k -> ALL),Instant deterministic universe recalculation,Counts: 3028 -> 1594 -> 440 -> 1755 -> 694 -> 3028,PASSED
+GATE_05_EMPTY_UNIVERSE,"Impossible threshold (MCAP >= 9,999,999 Cr)","0 stocks, 0 fallback to all stocks","0 stocks, 0 fallback across all pages",PASSED
+GATE_06_SME_EXCLUSION,SME OFF platform equity filtering,0 SME stocks in active universe,"Exactly 457 SMEs excluded, 2571 mainboard remain",PASSED
+GATE_07_CUSTOM_FILTERS,"Arbitrary custom thresholds (600, 1337, 2750+Liq, 17500+SME, 53000+Liq)",100% deterministic ground-truth match,"Counts: 1720, 1529, 1314, 750, 429",PASSED
+GATE_08_DYNAMIC_METRICS,Empirical dynamic recalculation of breadths & returns,Active metrics recomputed over active subset,"Verified across Ayurvedic, Auto, Pharma, Diagnostics",PASSED
+GATE_09_CACHE_INTEGRITY,Session state & cache tuple invalidation,No stale cached data survives filter change,Verified with explicit tuple hash signatures,PASSED
+GATE_10_THEME_CONTRACT,Pitch-Black Dark & Institutional Light Design Systems,Valid token definitions & styling,Dark (#000000) and Light (#F6F8FB) verified,PASSED
+GATE_11_REGRESSION_SUITE,Automated regression across all test suites,100% pass rate (340/340),"340 passed, 0 failures, 8 warnings in 16.05s",PASSED
+GATE_12_PROD_IMMUTABILITY,Protected production artifact SHA-256 verification,100% byte-for-byte identical,All 6 production artifacts match baseline,PASSED

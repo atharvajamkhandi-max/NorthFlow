@@ -1,0 +1,13 @@
+{
+  "live_session_date": "2026-08-24",
+  "live_observations_count": 134,
+  "horizons_status": {
+    "1D_horizon": "UNMATURED (Pending T+1 Close)",
+    "5D_horizon": "UNMATURED (Pending T+5 Close)",
+    "20D_horizon": "UNMATURED (Pending T+20 Close)",
+    "60D_horizon": "UNMATURED (Pending T+60 Close)"
+  },
+  "matured_observations_count": 0,
+  "unmatured_observations_count": 134,
+  "maturation_rule": "Strict Point-in-Time Realization \u2014 No modification of original forecasts"
+}

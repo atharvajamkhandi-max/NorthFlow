@@ -1,0 +1,101 @@
+prediction_id,date,industry,regime,final_shadow_signal,actual_20D_return,abs_error_20d,success_driver
+PRED_V60_aec6abe906c6,2026-07-16,Power Generation & Utilities,HIGH_VOLATILITY,-2.4498,-2.45,0.0002,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_f632404651a7,2024-12-12,Footwear,WEAK_BULL,-0.8693,-0.87,0.0007,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_3668bf296919,2025-03-11,Tea & Coffee,WEAK_BEAR,-1.0092,-1.01,0.0008,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_3bbd046f4ed9,2025-02-24,Oil Exploration & Refining,WEAK_BEAR,-0.6991,-0.7,0.0009,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_97e3380e5775,2026-07-03,Civil Buildings & Commercial EPC,HIGH_VOLATILITY,-0.5813,-0.58,0.0013,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_130a450e4ef6,2025-04-02,Residential & Commercial Real Estate,WEAK_BEAR,-1.898,-1.9,0.002,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_6889b80d7e6f,2025-02-17,Banks,WEAK_BEAR,-2.267,-2.27,0.003,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_fe3880093170,2025-04-02,Power Generation & Utilities,WEAK_BEAR,-1.3431,-1.34,0.0031,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_3e73fb19feda,2025-04-29,Agrochemicals & Pesticides,WEAK_BULL,-0.5568,-0.56,0.0032,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_7c032bd0fe07,2025-05-16,Iron & Steel,WEAK_BULL,-1.9433,-1.94,0.0033,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_29a3145af56d,2025-05-12,Packaged Foods & Consumer Staples,WEAK_BULL,2.3758,2.38,0.0042,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_e03d6e9e4fff,2025-03-24,Healthcare,WEAK_BEAR,-0.8358,-0.84,0.0042,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_89e84853dec2,2024-11-07,Pharmaceuticals,WEAK_BEAR,-3.6656,-3.67,0.0044,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_74728dfb9e35,2025-02-17,Metals & Mining,WEAK_BEAR,-0.5655,-0.57,0.0045,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_47bbe8f3765d,2025-05-30,Diversified & Fashion Retail,WEAK_BULL,-2.4647,-2.47,0.0053,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_692b0a2c75a6,2025-05-15,Packaging & Containers,WEAK_BULL,-1.3745,-1.38,0.0055,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_8ff275a0e568,2025-07-10,Auto Glass,WEAK_BULL,3.0842,3.09,0.0058,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_8c13c843b203,2025-02-21,"Hotels, Resorts & QSR",WEAK_BEAR,-2.9042,-2.91,0.0058,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_12b0cc8d888f,2025-06-05,Financial Services,WEAK_BULL,-0.696,-0.69,0.006,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_88f9a071c822,2026-07-17,Services,HIGH_VOLATILITY,-3.014,-3.02,0.006,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_2ac4dee44c1a,2025-04-11,Healthcare,WEAK_BEAR,2.0566,2.05,0.0066,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_0b66f112ffc5,2025-01-24,Paints,WEAK_BEAR,-2.9467,-2.94,0.0067,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_6b8854965329,2026-07-16,"Plywood, MDF & Laminates",HIGH_VOLATILITY,-1.8928,-1.9,0.0072,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_b05596cadeb0,2026-07-23,Railway Financing,HIGH_VOLATILITY,-0.5527,-0.56,0.0073,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_19d404deaf91,2026-07-02,Non Banking Financial Company (NBFC),HIGH_VOLATILITY,-3.1413,-3.15,0.0087,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_d58eb3bf4727,2025-06-03,Steel Manufacturing & Mining,WEAK_BULL,0.7506,0.76,0.0094,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_20aa5613f27c,2025-06-10,Non Banking Financial Company (NBFC),WEAK_BULL,-2.9605,-2.97,0.0095,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_5c3f70042439,2025-05-20,Aluminium & Mining,WEAK_BULL,1.4597,1.45,0.0097,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_b78db53304e2,2025-06-06,Chemicals,WEAK_BULL,-0.4502,-0.44,0.0102,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_d96c3cafd041,2024-12-10,Hospitals & Diagnostic Centres,WEAK_BULL,-2.2296,-2.24,0.0104,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_fe4b3447bf21,2025-02-21,Metals & Mining,WEAK_BEAR,-0.5305,-0.52,0.0105,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_d449b6d2f2dc,2024-11-07,Packaged Foods & FMCG Staples,WEAK_BEAR,-2.451,-2.44,0.011,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_d04654c40168,2025-04-25,Paints,WEAK_BULL,-1.239,-1.25,0.011,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_98f8d1971484,2025-03-26,Pipes & Tubes,WEAK_BEAR,-2.0289,-2.04,0.0111,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_8affc01d864c,2026-07-14,Commodity Chemicals,HIGH_VOLATILITY,-2.9725,-2.96,0.0125,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_a42e871431ec,2025-07-31,Batteries,WEAK_BEAR,-0.5026,-0.49,0.0126,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_442b0dadcd16,2024-12-05,Railway Financing,WEAK_BULL,1.3072,1.32,0.0128,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_5ca02cd87eda,2025-05-13,Fertilizers,WEAK_BULL,3.1866,3.2,0.0134,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_ff1e025f5c7c,2025-05-22,Superalloys & Special Metals,WEAK_BULL,2.5537,2.54,0.0137,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_039836d525a6,2026-07-16,Services,HIGH_VOLATILITY,-3.014,-3.0,0.014,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_7d896313a58c,2024-12-13,Pharmaceuticals & Biotechnology,WEAK_BULL,-3.6043,-3.59,0.0143,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_3e030a3a8909,2025-05-19,Packaged Foods & FMCG Staples,WEAK_BULL,-1.9544,-1.94,0.0144,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_590714ffe988,2025-08-12,Gas Distribution,WEAK_BEAR,-0.6444,-0.63,0.0144,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_93760bfab17e,2025-06-25,Renewable Energy - Solar & Wind,WEAK_BULL,-1.4548,-1.44,0.0148,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_41eb8f78735b,2025-07-07,Automobile and Auto Components,WEAK_BULL,-2.0751,-2.09,0.0149,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_13fe9432733e,2026-07-17,"Logistics, Ports & Supply Chain",HIGH_VOLATILITY,-2.745,-2.76,0.015,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_0d44e7d1b591,2025-05-26,Pharmaceuticals,WEAK_BULL,-3.0951,-3.08,0.0151,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_810566675e24,2025-06-05,Packaging Materials & Containers,WEAK_BULL,-1.6355,-1.62,0.0155,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_03c9e11a38e0,2025-04-11,Diversified & Fashion Retail,WEAK_BEAR,1.9939,2.01,0.0161,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_07998aa5fb15,2024-10-29,Water & Wastewater Treatment,WEAK_BEAR,-1.4136,-1.43,0.0164,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_beffbef5fb7f,2026-07-03,Auto Lighting,HIGH_VOLATILITY,2.8965,2.88,0.0165,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_604210ee4cd5,2024-10-29,Internet & Digital Platforms,WEAK_BEAR,-1.0535,-1.07,0.0165,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_6872c829b701,2025-05-20,Packaged Foods & Consumer Staples,WEAK_BULL,-1.9568,-1.94,0.0168,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_f906667ade22,2025-05-19,Heavy Electrical Equipment,WEAK_BULL,3.063,3.08,0.017,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_146ef48a6c1a,2024-11-27,Packaging & Containers,WEAK_BEAR,0.0928,0.11,0.0172,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_b7f82d794ec1,2025-05-13,Renewable Energy,WEAK_BULL,4.2573,4.24,0.0173,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_12223c418b77,2025-01-10,Aluminium & Mining,WEAK_BEAR,-1.292,-1.31,0.018,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_c931076e704a,2025-05-29,Packaged Foods & Consumer Staples,WEAK_BULL,-2.8887,-2.87,0.0187,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_4931ff844247,2025-07-01,Chemicals,WEAK_BULL,-2.0988,-2.08,0.0188,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_e1898d72234e,2025-03-07,Automobile OEMs,WEAK_BEAR,-1.2307,-1.25,0.0193,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_b5be08db3ecc,2025-06-10,Passenger Cars & Utility Vehicles,WEAK_BULL,3.4793,3.46,0.0193,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_0aa12903b38e,2025-03-10,Chemicals,WEAK_BEAR,-2.3696,-2.35,0.0196,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_1b33412fbb56,2025-05-28,Power Generation & Utilities,WEAK_BULL,-2.3002,-2.32,0.0198,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_efe391a37bcb,2025-07-08,Fast Moving Consumer Goods,WEAK_BULL,-2.3699,-2.39,0.0201,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_039566c5fddd,2024-10-28,Telecom Services & Infrastructure,WEAK_BEAR,-0.1502,-0.13,0.0202,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_d82de044a565,2025-05-28,Consumer Services,WEAK_BULL,-2.7297,-2.75,0.0203,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_b67ece3d8367,2025-05-23,Railway Infrastructure,WEAK_BULL,3.3904,3.37,0.0204,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_980972ff7ac6,2025-03-19,Auto Parts & Equipment,WEAK_BEAR,1.5395,1.56,0.0205,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_61dcb0718c1a,2025-06-02,Software Products & Digital Services,WEAK_BULL,-3.8205,-3.8,0.0205,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_8c93be66613c,2024-11-20,Batteries & Energy Storage,WEAK_BEAR,-0.4309,-0.41,0.0209,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_6a7d5f9da978,2026-07-08,Saw Pipes & Ductile Iron Pipes,HIGH_VOLATILITY,2.7381,2.76,0.0219,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_04c35025cf4f,2025-05-26,Tea & Coffee,WEAK_BULL,-1.902,-1.88,0.022,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_bd0bbb23d9f8,2025-05-29,Power Generation & Utilities,WEAK_BULL,-1.972,-1.95,0.022,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_e0d6789df079,2024-11-05,Dairy Products,WEAK_BEAR,-0.2725,-0.25,0.0225,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_362d24bd6812,2026-07-07,Air Conditioners & AC Components,HIGH_VOLATILITY,-0.1129,-0.09,0.0229,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_93b7fe3fca24,2025-07-07,Cement,WEAK_BULL,-1.563,-1.54,0.023,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_3a76deaf5cab,2025-02-12,Copper & Non-Ferrous Metals,WEAK_BEAR,0.1667,0.19,0.0233,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_5982f2136a70,2025-06-06,Healthcare,WEAK_BULL,-1.9367,-1.96,0.0233,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_1fd1da3513d8,2025-06-27,Fertilizers & Agrochemicals,WEAK_BULL,-2.1935,-2.17,0.0235,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_a0a0d020b899,2026-07-10,"Logistics, Ports & Supply Chain",HIGH_VOLATILITY,-1.7863,-1.81,0.0237,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_d7568aa4bafc,2025-06-02,Electronic Manufacturing Services (EMS),WEAK_BULL,1.3861,1.41,0.0239,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_b9c066618c83,2026-07-22,Fertilizers,HIGH_VOLATILITY,-0.5641,-0.54,0.0241,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_ba039710badb,2025-08-07,Financial Services,WEAK_BEAR,-3.0742,-3.05,0.0242,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_0fabbcd097a6,2026-07-09,Specialty Chemicals,HIGH_VOLATILITY,-0.0857,-0.06,0.0257,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_3a6a0593ba08,2025-01-10,Services,WEAK_BEAR,-2.934,-2.96,0.026,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_6a15d84261f0,2025-07-02,Pharmaceuticals,WEAK_BULL,-3.2639,-3.29,0.0261,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_b18160c41828,2025-04-16,Power Generation & Utilities,WEAK_BULL,0.0962,0.07,0.0262,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_a4afe987e6cf,2025-08-20,Auto Glass,WEAK_BEAR,0.7564,0.73,0.0264,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_00f66f0d89fd,2025-01-13,Batteries & Energy Storage,WEAK_BEAR,0.0367,0.01,0.0267,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_3bfd57a05b9e,2024-11-22,Renewable Energy - Solar & Wind,WEAK_BEAR,-0.9032,-0.93,0.0269,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_4b3063376a3d,2024-10-28,Packaged Foods & Consumer Staples,WEAK_BEAR,-2.3779,-2.35,0.0279,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_1a301b84e6fb,2025-04-08,Consumer Durables,WEAK_BEAR,2.1819,2.21,0.0281,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_33f25abdabbf,2025-03-13,Hotels & Restaurants,WEAK_BEAR,-2.9519,-2.98,0.0281,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_19102f67655b,2025-06-13,Hotels & Restaurants,WEAK_BULL,-2.9319,-2.96,0.0281,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_cbdd853276f6,2025-04-02,Tea & Coffee,WEAK_BEAR,-1.1708,-1.2,0.0292,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_86b8b2a2d320,2025-05-21,Packaged Foods & FMCG Staples,WEAK_BULL,-1.5907,-1.62,0.0293,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_403b5adc66df,2025-06-05,Consumer Durables,WEAK_BULL,-2.1405,-2.17,0.0295,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_7d16519dbd75,2025-06-09,Oil Exploration & Refining,WEAK_BULL,-1.1703,-1.2,0.0297,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_71636b4b64f3,2025-05-21,Wires & Cables,WEAK_BULL,-1.7197,-1.69,0.0297,High Breadth Concordance & Strong Institutional Momentum
+PRED_V60_fee033fb964e,2025-06-04,Steel Manufacturing & Mining,WEAK_BULL,2.0098,2.04,0.0302,High Breadth Concordance & Strong Institutional Momentum

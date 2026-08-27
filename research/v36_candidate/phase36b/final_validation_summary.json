@@ -1,0 +1,38 @@
+{
+  "final_test_lock": {
+    "timestamp": "2026-08-25T00:47:00",
+    "total_dataset_rows": 54617,
+    "train_val_rows": 43693,
+    "train_val_date_range": [
+      "2024-03-18",
+      "2025-06-24"
+    ],
+    "final_test_rows": 10924,
+    "final_test_date_range": [
+      "2025-06-24",
+      "2026-08-21"
+    ],
+    "source_checksum": "52019b780e8b9d714e8f926063dce725541b27335dec47b7f6e66346520bca6b",
+    "lock_status": "LOCKED_UNTOUCHED"
+  },
+  "v32_final_test": {
+    "20D_directional_accuracy": 56.68,
+    "20D_mae": 10.54,
+    "20D_rmse": 16.57,
+    "20D_bias": 1.63,
+    "20D_p10_p90_coverage": 64.61,
+    "60D_bias": 16.45,
+    "60D_mae": 27.18,
+    "strong_buy_vs_avoid_spread_bps": 380.2
+  },
+  "challenger_final_test": {
+    "hgb_20D_directional_accuracy": 67.35,
+    "hgb_20D_mae": 9.29,
+    "hgb_20D_rank_ic": 0.1291,
+    "conformal_20D_p10_p90_coverage": 75.36,
+    "conformal_mean_width": 26.94,
+    "regime_calibrated_60D_bias": 5.62,
+    "regime_calibrated_60D_mae": 22.22
+  },
+  "recommendation": "B. V3.2 + CALIBRATION (Retain V3.2 Alpha Engine + Conformal Quantile Scaling & Regime-Aware Calibration Layers)"
+}

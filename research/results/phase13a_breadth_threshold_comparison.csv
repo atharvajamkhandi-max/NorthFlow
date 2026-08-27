@@ -1,0 +1,6 @@
+Breadth_Threshold,Eligible_Industries,Sample_Observations,Rank_IC,Top_Decile_Return (%),Bottom_Decile_Return (%),Top_Bottom_Spread (%),Return_Variance,Empirical_Verdict
+N >= 3,86,31218,0.1046,2.38,-1.0,3.38,83.08,HIGH_FILTER
+N >= 5,75,27225,0.1015,2.03,-0.86,2.89,74.7,OPTIMAL PRODUCTION RULE
+N >= 7,69,25047,0.0993,1.8,-0.87,2.67,73.75,ACCEPTABLE
+N >= 10,56,20328,0.1007,1.79,-0.81,2.61,71.34,HIGH_FILTER
+N >= 15,35,12705,0.0879,1.52,-0.88,2.41,70.81,HIGH_FILTER

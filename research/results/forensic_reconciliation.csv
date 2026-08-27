@@ -1,0 +1,8 @@
+Model_Configuration,Evaluation_Mode,Rank_IC,Decile_Spread,Verdict
+Ablation_Full_17_In_Sample,IN_SAMPLE (Full Dataset),0.2974,+8.23%,INVALID FOR PRODUCTION (Overfitting Artifact)
+Ridge_17_Feature_OOS,"OUT_OF_SAMPLE (5 Splits, 20D Embargo)",-0.0919,-3.97%,VALID OOS (Suffers Multicollinearity)
+Existing_Deterministic_V3.2,"OUT_OF_SAMPLE (5 Splits, 20D Embargo)",+0.1140,+2.46%,VALID OOS (CHAMPION FOR PRODUCTION)
+XGBoost_OOS,"OUT_OF_SAMPLE (5 Splits, 20D Embargo)",-0.0541,+0.50%,VALID OOS (Underperforms Deterministic)
+LightGBM_OOS,"OUT_OF_SAMPLE (5 Splits, 20D Embargo)",-0.0599,+0.68%,VALID OOS (Underperforms Deterministic)
+RandomForest_OOS,"OUT_OF_SAMPLE (5 Splits, 20D Embargo)",-0.0283,+1.56%,VALID OOS (Underperforms Deterministic)
+Monte_Carlo_Placebo,500 Randomized Permutations,0.022749,0.00%,VALID (Confirms Signal is Non-Random)

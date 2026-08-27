@@ -1,0 +1,11 @@
+Experiment_ID,Hypothesis,Model,Features,OOS_Rank_IC,Status
+EXP_001_BASELINE,Reconstruct V3.2 baseline,V3.2_Frozen_Control,4,0.114,BENCHMARK
+EXP_002_MOMENTUM_EXT,Add multi-horizon momentum,Model_B,8,0.0853,REJECTED
+EXP_003_RS_MULTILEVEL,Add stock vs sector RS,Model_C,7,0.1067,REJECTED
+EXP_004_TREND_PERSIST,Add moving-average slopes,Model_D,8,0.1012,REJECTED
+EXP_005_VOL_DYNAMICS,Add volume acceleration,Model_E,7,0.0742,REJECTED
+EXP_006_VOLATILITY_RISK,Add downside volatility,Model_F,7,0.0879,REJECTED
+EXP_007_IND_CONDITION,Condition stock RS on industry RS,Model_G,6,0.1115,REJECTED
+EXP_008_REGIME_ADAPT,Regime-conditioned multiplier,Model_H,5,0.114,RETAINED_IN_V3_2
+EXP_009_ML_XGBOOST,Nonlinear decision trees,XGBoost,8,-0.0541,REJECTED
+EXP_010_ENSEMBLE_V3_3,V3.2 + Huber Regressor ensemble,V3.3_Ensemble_Adaptive,8,0.0682,REJECTED

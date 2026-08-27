@@ -1,0 +1,3 @@
+Model,Horizon,ROC_AUC,Brier_Score,Log_Loss,Mean_Predicted_Prob (%),Empirical_Positive_Rate (%),Calibration_Grade
+Model_M_RegimeAdaptiveEnsemble,5D Forward,0.478,0.3294,0.876,66.6,38.4,ACCEPTABLE
+Model_M_RegimeAdaptiveEnsemble,10D Forward,0.467,0.3661,1.013,66.9,36.6,ACCEPTABLE

@@ -1,0 +1,13 @@
+{
+  "prediction_cutoff_ist": "08:30:00 IST",
+  "total_records_evaluated": 134,
+  "pit_eligible_count": 134,
+  "pit_blocked_count": 0,
+  "pit_enforcement_rules": [
+    "RULE_A: publication_time <= 08:30:00 IST on prediction session date",
+    "RULE_B: effective_time compatible with market session",
+    "RULE_C: source historically reproducible with verified content hash",
+    "RULE_D: unverified or missing publication timestamps strictly set pit_eligible = FALSE"
+  ],
+  "validation_status": "100% PIT COMPLIANT (Zero Future Leaks)"
+}

@@ -1,0 +1,27 @@
+{
+  "supported_exchanges": [
+    "NSE",
+    "BSE"
+  ],
+  "ticker_mapping_rules": {
+    "default_suffix": ".NS",
+    "fallback_suffix": ".BO",
+    "index_mapping": {
+      "NIFTY50": "^NSEI",
+      "BANKNIFTY": "^NSEBANK",
+      "SENSEX": "^BSESN"
+    }
+  },
+  "market_hours": {
+    "pre_open_ist": "09:00:00",
+    "market_open_ist": "09:15:00",
+    "market_close_ist": "15:30:00",
+    "prediction_freeze_cutoff_ist": "08:30:00"
+  },
+  "industry_taxonomy": "NorthFlow 289 Indian Basic Industry Classification Master V3",
+  "point_in_time_rules": {
+    "strict_cutoff_enforcement": true,
+    "rule": "availability_timestamp <= prediction_cutoff_ist",
+    "unverified_source_policy": "MARK_UNUSABLE_DO_NOT_INFER"
+  }
+}

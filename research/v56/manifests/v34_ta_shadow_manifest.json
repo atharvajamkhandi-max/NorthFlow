@@ -1,0 +1,27 @@
+{
+  "model_name": "MODEL_NORTHFLOW_V34_TA_VETO_SHADOW",
+  "model_version": "v1.0.0-shadow-arm",
+  "target_market": "INDIAN_EQUITY_NSE_BSE",
+  "timezone": "Asia/Kolkata (IST)",
+  "prediction_cutoff_ist": "08:30:00 IST",
+  "v34_quantitative_manifest_hash": "abadd726ba035e29b010efb654308ebcd184e9fc5e39d7f73789feafb7431919",
+  "tradingagents_repo_commit": "f8a92b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a",
+  "tradingagents_role": "QUALITATIVE_EVIDENCE_AND_RISK_VETO_ONLY",
+  "feature_schema_hash": "6c74b66aefbd6684d8f62d531433bb878e908fdd4e716623c1c9160548aec2f2",
+  "universe_hash": "c6d2bb78bda9d4535f697f70900dd0b8c6fe7aa1497a5bf3f160747479331fd4",
+  "veto_rule_version": "v1.0-deterministic",
+  "veto_rule_specification": {
+    "INVALIDATED": "VETO (Signal Suppressed to 0.0)",
+    "HIGH_RISK": "VETO (Signal Suppressed to 0.0)",
+    "WATCH": "KEEP_WITH_WARNING (Confidence Scaled)",
+    "NORMAL": "KEEP (Unmodified V3.4 Signal)"
+  },
+  "side_by_side_benchmarks": [
+    "V3.2_PRODUCTION_BASELINE",
+    "V3.4_STANDALONE_SHADOW",
+    "V3.4_TA_VETO_SHADOW"
+  ],
+  "creation_timestamp": "2026-08-26T23:56:00+05:30",
+  "methodology_version": "Phase 56 Institutional Track B Live-Forward Shadow",
+  "manifest_hash": "3758a3458574e02b89756aa1caf35b819c35f9cf0caf467afecc66da77b13139"
+}

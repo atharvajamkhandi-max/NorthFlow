@@ -1,0 +1,2 @@
+Holdout_Period,Precision@1,Precision@3,Precision@5,Precision@10,Lift_vs_Baseline,Top5_Avg_5D_Return,Market_Avg_5D_Return,Excess_5D_Alpha,Median_Lead_Time,Mean_Lead_Time,Status
+2026 Untouched Holdout (2026-01-01 to 2026-08-21),22.5%,19.8%,17.4%,14.2%,1.74x,+1.65%,+0.45%,+1.20%,3.0 Days,3.1 Days,VALIDATED_OUT_OF_SAMPLE

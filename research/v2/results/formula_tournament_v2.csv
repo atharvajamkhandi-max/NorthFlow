@@ -1,0 +1,10 @@
+Formula_ID,Description,Complexity_Score,Rank_IC,IC,Decile_Spread,Sharpe,Delta_Rank_IC,Delta_Spread,Net_Alpha_Score,Status
+F2_Momentum_Quality,Momentum Quality: Return20 / Realized_Vol20,20.0,0.0708,0.0854,2.2,0.3,0.0252,-0.26,4.08,TOP_CHALLENGER
+F5_Pressure_Persistence,Observable Net Pressure 5D Persistence,20.0,0.0522,0.0732,2.2,0.3,0.0066,-0.26,2.22,TOP_CHALLENGER
+F0_Baseline_Existing,Existing Champion Deterministic Score Mapping,10.0,0.0456,0.0663,2.46,0.33,0.0,0.0,3.06,CHAMPION
+F8_V2_HYBRID_CHALLENGER,V2 Enhanced Hybrid (Champion + Acceleration Components),40.0,0.0423,0.0583,2.25,0.3,-0.0033,-0.22,-1.77,REJECTED
+F4_Volume_Confirmation,Observable Volume Confirmation Interaction,30.0,0.0344,0.0366,2.28,0.31,-0.0112,-0.18,-1.06,REJECTED
+F1_RS_Acceleration,Relative Strength Acceleration: RS20(t) - RS20(t-5),20.0,0.0318,0.0245,0.9,0.12,-0.0138,-1.57,0.18,REJECTED
+F6_Breadth_Acceleration,Breadth Acceleration: B50(t) - B50(t-5),20.0,0.0119,0.0205,0.54,0.07,-0.0337,-1.92,-1.81,REJECTED
+F7_Risk_Adjusted_Mom,Short-Term Risk Adjusted Momentum,20.0,-0.0008,0.0113,0.82,0.11,-0.0464,-1.64,-3.08,REJECTED
+F3_Trend_Coherence,Trend Coherence & Breadth Participation,20.0,-0.0118,0.0269,-0.39,-0.05,-0.0574,-2.85,-4.18,REJECTED

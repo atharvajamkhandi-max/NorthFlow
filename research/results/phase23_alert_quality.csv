@@ -1,0 +1,4 @@
+Tier,Precision,Recall,Avg_Alerts_Per_Day,False_Positive_Rate
+Top 1 Pick,22.5%,18.5%,1.0,77.5%
+Top 3 Tier,19.8%,34.2%,3.0,80.2%
+Top 5 Basket,18.5%,48.6%,5.0,81.5%

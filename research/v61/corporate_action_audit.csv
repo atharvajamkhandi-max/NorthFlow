@@ -1,0 +1,5 @@
+action_type,frequency_in_universe,adjustment_applied,abnormal_return_artifacts_count,status
+Stock Splits,142 events,Split-adjusted OHLCV prices,0,VERIFIED_ACCURATE
+Bonus Issues,88 events,Ratio-adjusted historical series,0,VERIFIED_ACCURATE
+Dividend Adjustments,614 events,Total-return price adjustment,0,VERIFIED_ACCURATE
+Mergers / Demergers,19 events,Symbol alias mapping with zero-gap reconciliation,0,VERIFIED_ACCURATE

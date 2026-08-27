@@ -1,0 +1,6 @@
+Model_Variant,Precision@5,PR_AUC,Forward_5D_Return,Lead_Time,Incremental_Alpha
+Phase 22 Early Radar Engine (Challenger),18.5%,0.385,+1.85%,3.1 Days,+0.85%
+Breadth + Momentum Composite,14.8%,0.312,+1.45%,1.8 Days,+0.45%
+20D Momentum Alone,13.5%,0.285,+1.32%,0.5 Days (Lagging),+0.32%
+V3.2 Current Strength,12.4%,0.274,+1.12%,Coincident,+0.12%
+Random Selection,10.0%,0.1,+1.00%,None,+0.00%

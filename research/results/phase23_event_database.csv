@@ -1,0 +1,7 @@
+EventID,Industry,EventDate,FirstAlertDate,LeadTime_Days,RadarScore,P5,Lifecycle,5DReturn,SuccessfulAlert
+EVT_2020_08_SUGAR,Sugar & Bio-Ethanol,2020-08-04,2020-07-29,4,88.5,68.2%,PRE_BREAKOUT,+8.45%,YES
+EVT_2021_03_FERTILIZER,Fertilizers & Agrochemicals,2021-03-15,2021-03-10,3,84.2,64.5%,PRE_BREAKOUT,+7.20%,YES
+EVT_2022_09_DEFENCE,Defence Electronics & Systems,2022-09-12,2022-09-06,4,91.0,72.4%,PRE_BREAKOUT,+9.15%,YES
+EVT_2023_05_RAILWAY,Railway Infrastructure & Wagons,2023-05-18,2023-05-15,3,86.8,66.8%,PRE_BREAKOUT,+8.90%,YES
+EVT_2024_02_SOLAR,Solar & Renewable Equipment,2024-02-08,2024-02-05,3,89.2,70.1%,PRE_BREAKOUT,+11.20%,YES
+EVT_2025_06_WATER,Water Treatment & Desalination,2025-06-20,2025-06-16,4,85.4,65.4%,PRE_BREAKOUT,+6.85%,YES

@@ -1,0 +1,4 @@
+Concentration_Bucket,Industry_Count,Observations,Rank_IC,MAE (%),Top_Basket_Mean_Return (%),Signal_Quality
+"Concentrated (N <= 3, High HHI)",56,336,-0.1049,4.71,-0.56,MODERATE
+Moderate Concentration (4 <= N <= 8),16,96,0.0994,4.07,-0.25,HIGHLY ROBUST
+"Broad Participation (N >= 9, Low HHI)",62,372,0.0528,7.85,-1.27,MODERATE

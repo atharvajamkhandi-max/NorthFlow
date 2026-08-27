@@ -1,0 +1,13 @@
+Model,Rank_IC,IC_IR,Decile_Spread_pct,Sharpe_Ratio,Max_Drawdown_pct,Brier_Score,IC_Hit_Rate_pct,Directional_Accuracy_pct,Profit_Factor,Status
+XGBoost,0.0373,0.19,1.01,-1.07,-100.0,0.2988,55.0,45.5,0.59,REJECTED
+Random_Forest,0.0315,0.18,0.84,-1.29,-100.0,0.2927,55.3,46.4,0.74,REJECTED
+LightGBM,0.0184,0.1,0.51,-1.2,-100.0,0.296,53.0,47.8,0.56,REJECTED
+V3.2_Frozen_Control,0.0152,0.08,-0.85,-1.42,-100.0,0.3039,49.3,48.0,0.45,CONTROL
+V3.4_Candidate_RegimeAdaptive,0.0152,0.08,-0.85,-1.42,-100.0,0.3023,49.3,48.3,0.45,REJECTED
+Ridge_L2,0.0138,0.08,0.72,-1.14,-100.0,0.2979,52.0,47.9,0.54,REJECTED
+V3.3_Candidate_Ensemble,0.0105,0.06,-0.22,-1.19,-100.0,0.2948,54.7,50.3,0.52,REJECTED
+Logistic_Classifier,0.0104,0.06,1.06,-1.1,-100.0,0.3072,54.0,47.3,0.55,REJECTED
+ElasticNet,0.0088,0.05,0.67,-1.15,-100.0,0.3034,50.7,47.5,0.54,REJECTED
+Quantile_Median,0.007,0.04,0.83,-1.13,-99.9,0.2979,53.3,47.9,0.55,REJECTED
+Huber_Regressor,0.007,0.04,0.83,-1.13,-99.9,0.2979,53.3,47.9,0.55,REJECTED
+CatBoost_Robust,-0.0267,-0.16,-0.32,-1.46,-100.0,0.3103,46.3,47.6,0.44,REJECTED

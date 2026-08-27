@@ -1,0 +1,22 @@
+TEST,EXPECTED,ACTUAL,STATUS
+App Startup & Health,"HTTP 200 ok, 0 exceptions",HTTP 200 on /_stcore/health & /,PASSED
+Industry Card Click Interaction,Card click selects industry & opens drilldown,"overview_selected_industry updated, drilldown displayed",PASSED
+Industry Dropdown Synchronization,Dropdown & card click synchronize identically,Both controls update same canonical state,PASSED
+Constituent Drilldown Fidelity,"ALL eligible constituents shown, 0 truncation","Complete constituent table, zero head() limit",PASSED
+Market Cap ≥ ₹500 Cr,"1,755 eligible equities, 0 below 500 Cr","1,755 eligible equities, 0 leakage",PASSED
+"Market Cap ≥ ₹1,000 Cr","1,594 eligible equities, 0 below 1,000 Cr","1,594 eligible equities, 0 leakage",PASSED
+"Market Cap ≥ ₹5,000 Cr","1,138 eligible equities, 0 below 5,000 Cr","1,138 eligible equities, 0 leakage",PASSED
+"Market Cap ≥ ₹20,000 Cr","694 eligible equities, 0 below 20,000 Cr","694 eligible equities, 0 leakage",PASSED
+"Market Cap ≥ ₹50,000 Cr (Mega-Cap)","440 eligible equities, 0 below 50,000 Cr","440 eligible equities, 0 leakage across all drilldowns",PASSED
+SME ON Mode,"SME platform securities included (3,028 total)","3,028 equities included in universal view",PASSED
+SME OFF Mode,SME securities excluded (457 SMEs excluded),"2,571 mainboard equities remain, 0 SMEs",PASSED
+Empty Universe Hard Gate,"MCAP >= 9,999,999 Cr -> 0 records, 0 fallback","0 records across both modes, zero fallback to all stocks",PASSED
+Industry Display Count Control,"10, 20, 30, 50, ALL controls display only",Slices displayed card grid only; universe unchanged,PASSED
+Stock Recommender Active Bounding,RECOMMENDED_STOCKS ⊆ ACTIVE_UNIVERSE,Strict subset bounding before ranking across all presets,PASSED
+Stock Ranking Controls,Reorders active subset by canonical metrics,5 ranking options verified with deterministic ordering,PASSED
+Filter Transition & Cache Reversibility,50k -> 1k -> 50k exact state restoration,"100% reversible, zero stale state leakage",PASSED
+Pitch-Black Dark Theme,"Canvas #000000, dark navy cards, high contrast","Tokens intact, zero clipped elements",PASSED
+Institutional Light Theme,"Canvas #F6F8FB, white cards, dark text","Tokens intact, zero dark leaks",PASSED
+Responsive Layout,2-column grid adapts cleanly,Streamlit responsive column flow verified,PASSED
+Automated Regression Suite,100% pass rate on all pytest suites,372 / 372 passed in 14.89s,PASSED
+Protected Production Artifact Hashes,6 production files byte-for-byte unchanged,100% SHA-256 baseline match,PASSED

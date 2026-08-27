@@ -1,0 +1,30 @@
+{
+  "attack_1_future_returns": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_2_future_prices": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_3_future_breadth": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_4_future_flow": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_5_future_rankings": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_6_future_volatility": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "clean_dataset_check": {
+    "detected": false,
+    "status": "CLEAN_0_LEAKAGE"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "A_historical_research": {
+    "description": "Phase 35-44 Tournaments (2024-03 to 2025-05)",
+    "rows": 44258,
+    "sessions": 313,
+    "status": "RESEARCH_ONLY"
+  },
+  "B_historical_oos_holdout": {
+    "description": "Phase 45 Untouched Final Test (2025-06 to 2026-08)",
+    "rows": 10359,
+    "sessions": 90,
+    "status": "LOCKED_FINAL_TEST"
+  },
+  "C_true_live_forward_captured": {
+    "description": "2026-08-24 onwards",
+    "rows": 140,
+    "sessions": 1,
+    "status": "LIVE_CAPTURED_UNMATURED"
+  },
+  "D_matured_true_live_forward": {
+    "description": "Matured 20D/60D Live Outcomes",
+    "rows": 0,
+    "sessions": 0,
+    "status": "PENDING_MATURATION"
+  }
+}

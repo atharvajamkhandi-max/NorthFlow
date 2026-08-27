@@ -1,0 +1,7 @@
+Feature_Group,Weight_Pct,Delta_IC_When_Removed,Economic_Function,Significance
+"Relative Strength vs Smallcap 250 (3D, 5D, 20D)",30.0%,-0.0373,Demand Outperformance Filter,p < 0.001
+"Dynamic Leadership Weighting (Mom x Liq, 15% Cap)",25.0%,-0.0301,Constituent Aggregation Alpha,p < 0.001
+"Breadth (% > EMA20, % > EMA50, Breadth Delta)",20.0%,-0.024,Broad Capital Participation,p < 0.005
+Residual Momentum (Beta-Isolated Alpha),15.0%,-0.0164,Pure Alpha Isolation,p < 0.01
+Directional Volume & Delivery Spread,10.0%,-0.012,Confirmation / Accumulation Check,p < 0.05
+"Multi-Period RSI (RSI 5, 14, 21)",0.0% (REJECTED),0.0015,Harmful / Collinear Redundancy,Rejected

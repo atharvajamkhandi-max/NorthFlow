@@ -1,0 +1,7 @@
+Filter_Name,Coverage_Pct,Opportunity_Count,Rank_IC,Top_Decile_20D,Bottom_Decile_20D,Top_Bottom_Spread,Win_Rate,Sharpe_Ratio
+A1: V3.2 Baseline (No Filter),100.0%,220418,-0.0149,+1.81%,-0.15%,+1.97%,49.0%,0.39
+A2: V3.2 + Industry V3.2 >= 50,52.3%,180650,-0.0302,+1.84%,+1.17%,+0.67%,49.6%,0.44
+A3: V3.2 + Industry V3.2 >= 60,29.5%,125563,-0.0236,+2.09%,+1.60%,+0.49%,50.7%,0.51
+A4: V3.2 + Industry V3.2 >= 70,9.7%,57873,-0.0167,+2.42%,+1.77%,+0.65%,52.5%,0.58
+A5: V3.2 + Industry Breadth >= 50%,52.0%,174878,-0.0255,+1.82%,+0.85%,+0.97%,49.5%,0.43
+A6: V3.2 + Industry Breadth >= 60%,39.2%,145543,-0.0167,+1.93%,+0.91%,+1.02%,49.9%,0.47

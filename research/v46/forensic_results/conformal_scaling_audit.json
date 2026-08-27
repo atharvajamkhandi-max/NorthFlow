@@ -1,0 +1,8 @@
+{
+  "raw_coverage_pct": 66.48,
+  "raw_interval_width_pct": 20.72,
+  "conformal_multiplier": 1.3,
+  "calibrated_coverage_pct": 77.25,
+  "calibrated_interval_width_pct": 26.94,
+  "interval_monotonicity": true
+}

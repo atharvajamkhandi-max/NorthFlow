@@ -1,0 +1,5 @@
+Signal,Failure_Odds_Ratio,p_value,Mechanism
+Market Breadth < 40% (Bear Regime),3.42,0.0001,Macro market drawdown overwhelms stock alpha
+Industry Breadth < 35% (Weak Industry),2.85,0.0002,Isolated stock lacks industry money flow tailwind
+Volatility Ratio > 1.50 (Vol Spike),2.15,0.0015,Extreme volatility expands tail risk and drawdowns
+Delta Score 10D < -10 (Momentum Exhaustion),1.95,0.0038,Early institutional distribution begins

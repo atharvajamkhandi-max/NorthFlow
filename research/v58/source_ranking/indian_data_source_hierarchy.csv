@@ -1,0 +1,8 @@
+category,primary_source,secondary_source,fallback_source,rejected_sources,ranking_score,status
+Daily OHLCV Prices,NSE Official Bhavcopy,Yahoo Finance (.NS),BSE Official Bhavcopy (.BO),Unadjusted scraped quotes,98.5,PRIMARY
+Trading & Delivery Volume,NSE Security-wise Delivery,Yahoo Finance Volume,BSE Delivery Data,Third-party social aggregators,97.0,PRIMARY
+Market Breadth & Flow,Internal Market Flow DB,NSE Advance/Decline Feed,BSE Market Summary,Intraday estimates,99.0,PRIMARY
+Institutional Flows (FII/DII),NSE / NSDL Official Reports,BSE FII Reports,Moneycontrol Aggregated,Brokerage tweet estimates,96.0,PRIMARY
+Corporate Announcements,NSE API Announcements Feed,BSE Corporate Announcements,Company Regulatory Filings,News headlines / Social Media,92.0,PRIMARY
+Macro & Regulatory Events,RBI / MoSPI Official Portals,SEBI Circulars / Press,PIB Government Releases,FRED (US Only) / Polymarket,95.0,PRIMARY
+Qualitative Financial News,Exchange Filings Text,Economic Times / Moneycontrol,Yahoo Finance India News,Reddit / Stocktwits,85.0,SECONDARY

@@ -1,0 +1,136 @@
+Industry,Constituent_Count,Reliability_Level,Analog_Count,Analog_Similarity,Confidence_Score
+API & CDMO / CRAMS,9,HIGH,10,86.3,78.6
+Aerospace & Defence,20,VERY HIGH,10,94.6,97.7
+Affordable Housing Finance Company,1,LOW (N<2),10,97.9,46.4
+Agrochemicals & Pesticides,2,MODERATE,10,98.1,52.1
+Air Conditioners & AC Components,9,HIGH,10,93.2,74.0
+Air Conditioners & Appliances,4,MODERATE,10,91.0,61.4
+Aluminium & Mining,11,VERY HIGH,10,93.5,81.2
+Asset Management & Wealth,2,MODERATE,10,74.1,56.8
+Asset Management Company (AMC),3,MODERATE,10,87.7,61.1
+Auto Glass,1,LOW (N<2),10,97.3,55.8
+Auto Lighting,1,LOW (N<2),10,95.3,45.8
+Auto Parts & Equipment,40,VERY HIGH,10,95.0,98.0
+Automobile OEMs,16,VERY HIGH,10,91.6,91.6
+Automobile and Auto Components,7,HIGH,10,94.8,73.0
+Banks,45,VERY HIGH,10,93.7,98.0
+Batteries,2,MODERATE,10,78.1,54.9
+Batteries & Energy Storage,1,LOW (N<2),10,92.6,55.1
+Bearings & Friction Solutions,9,HIGH,10,92.0,76.8
+Breweries & Distilleries,11,VERY HIGH,10,93.9,82.1
+Capital Goods,30,VERY HIGH,10,94.4,98.0
+Capital Markets & Asset Management,11,VERY HIGH,10,89.2,83.6
+Cement,8,HIGH,10,95.3,71.4
+Cement & Clinker,21,VERY HIGH,10,94.1,94.7
+Ceramics & Tiles,9,HIGH,10,95.0,75.0
+Chemicals,10,VERY HIGH,10,93.9,78.9
+Civil Buildings & Commercial EPC,1,LOW (N<2),10,84.8,43.8
+Civil Construction & Infrastructure,43,VERY HIGH,10,94.6,98.0
+Civil Construction & Infrastructure EPC,10,VERY HIGH,10,93.2,78.7
+Commodity Chemicals,43,VERY HIGH,10,94.7,98.0
+Construction,5,HIGH,10,86.1,69.0
+Construction Materials,1,LOW (N<2),10,95.3,50.0
+Consumer Durables,22,VERY HIGH,10,92.7,98.0
+Consumer Services,21,VERY HIGH,10,90.7,98.0
+Copper & Non-Ferrous Metals,1,LOW (N<2),10,97.7,55.8
+Copper Mining,1,LOW (N<2),10,90.6,49.0
+Dairy Products,5,HIGH,10,82.5,67.4
+Data Centers & Real Estate,1,LOW (N<2),10,97.4,55.7
+Diagnostic & Healthcare Laboratories,1,LOW (N<2),10,97.1,55.6
+Diversified & Fashion Retail,13,VERY HIGH,10,94.8,84.6
+Diversified Commercial,1864,VERY HIGH,10,95.9,98.0
+Diversified Retail,10,VERY HIGH,10,91.7,76.3
+Edible Oils,2,MODERATE,10,95.7,56.8
+Electronic Manufacturing Services (EMS),11,VERY HIGH,10,91.0,81.5
+Explosives & Defence Chemicals,2,MODERATE,10,96.5,56.7
+Fast Moving Consumer Goods,14,VERY HIGH,10,94.5,86.6
+Fertilizers,2,MODERATE,10,97.6,51.8
+Fertilizers & Agrochemicals,17,VERY HIGH,10,94.1,88.8
+Financial Services,12,VERY HIGH,10,94.9,83.8
+Footwear,2,MODERATE,10,83.5,54.1
+Gas Distribution,1,LOW (N<2),10,98.1,46.5
+Gas Transmission & Distribution,4,MODERATE,10,91.0,59.7
+Healthcare,14,VERY HIGH,10,94.7,87.5
+Heavy Electrical Equipment,1,LOW (N<2),10,92.8,55.5
+Hospitals & Diagnostic Centres,32,VERY HIGH,10,95.0,98.0
+Hospitals & Healthcare Services,1,LOW (N<2),10,94.7,45.7
+Hotels & Restaurants,23,VERY HIGH,10,94.2,98.0
+"Hotels, Resorts & QSR",17,VERY HIGH,10,91.2,93.9
+Housing & Urban Infrastructure Financing,1,LOW (N<2),10,98.2,46.5
+IT Consulting & Software,28,VERY HIGH,10,92.6,98.0
+Information Technology,9,HIGH,10,94.1,75.9
+Insurance,10,VERY HIGH,10,93.4,78.4
+Internet & Digital Platforms,11,VERY HIGH,10,92.0,84.2
+Iron & Steel,27,VERY HIGH,10,95.2,98.0
+Logistics & Transportation,20,VERY HIGH,10,94.6,96.2
+"Logistics, Ports & Supply Chain",15,VERY HIGH,10,94.2,89.7
+Lubricants & Specialty Oils,5,HIGH,10,84.0,69.0
+Media & Entertainment,23,VERY HIGH,10,95.2,98.0
+Media Entertainment & Publication,2,MODERATE,10,85.1,59.4
+Metals & Mining,7,HIGH,10,93.6,69.7
+Microfinance NBFC,1,LOW (N<2),10,96.8,46.7
+Mining & Mineral Products,8,HIGH,10,90.4,74.4
+Non Banking Financial Company (NBFC),124,VERY HIGH,10,95.7,98.0
+Oil Exploration & Refining,15,VERY HIGH,10,93.3,87.0
+Oil Gas & Consumable Fuels,1,LOW (N<2),10,92.3,55.4
+Packaged Foods & Consumer Staples,13,VERY HIGH,10,92.8,85.6
+Packaged Foods & FMCG Staples,20,VERY HIGH,10,93.9,93.9
+Packaging & Containers,3,MODERATE,10,97.0,65.0
+Packaging Materials & Containers,8,HIGH,10,92.4,77.3
+Paints,4,MODERATE,10,94.4,63.9
+Paints & Coatings,2,MODERATE,10,95.4,60.7
+Paper & Paper Products,11,VERY HIGH,10,94.1,79.2
+Passenger Cars & Utility Vehicles,2,MODERATE,10,88.7,55.9
+Pharmaceuticals,39,VERY HIGH,10,94.6,98.0
+Pharmaceuticals & Biotechnology,38,VERY HIGH,10,95.7,98.0
+Pipes & Tubes,18,VERY HIGH,10,88.2,95.8
+Plastic Pipes & Fittings,3,MODERATE,10,90.1,63.9
+Plastic Pipes & Moulded Products,2,MODERATE,10,89.6,52.5
+Plywood & Boards,1,LOW (N<2),10,34.2,44.0
+"Plywood, MDF & Laminates",7,HIGH,10,93.4,72.7
+Power,6,HIGH,10,92.7,65.7
+Power Generation & Distribution,1,LOW (N<2),10,96.8,46.2
+Power Generation & Utilities,11,VERY HIGH,10,92.0,76.6
+Power Sector Financing NBFC,1,LOW (N<2),10,95.0,46.1
+Project Management & Civil Construction,1,LOW (N<2),10,97.7,46.6
+Pumps & Compressors,10,VERY HIGH,10,91.0,76.2
+Railway Financing,1,LOW (N<2),10,98.8,46.6
+Railway Infrastructure,2,MODERATE,10,98.6,52.1
+Railway Infrastructure & Consulting,1,LOW (N<2),10,97.8,46.5
+Railway Telecom,1,LOW (N<2),10,81.9,52.3
+Railway Ticketing & Catering,1,LOW (N<2),10,96.9,46.3
+Railway Wagons & Equipment,3,MODERATE,10,92.8,55.6
+Railways,3,MODERATE,10,90.5,60.8
+Realty,3,MODERATE,10,83.2,62.5
+Renewable Energy,8,HIGH,10,90.4,71.8
+Renewable Energy - Solar & Wind,10,VERY HIGH,10,93.5,75.7
+Renewable Energy Financing NBFC,1,LOW (N<2),10,98.3,46.6
+Residential & Commercial Real Estate,37,VERY HIGH,10,95.1,98.0
+Roads & Highways EPC,1,LOW (N<2),10,98.3,46.7
+Rubber Chemicals,1,LOW (N<2),10,95.3,46.9
+Saw Pipes & Ductile Iron Pipes,1,LOW (N<2),10,32.4,44.2
+Semiconductors & Electronic Components,1,LOW (N<2),10,97.7,43.6
+Services,16,VERY HIGH,10,94.7,90.0
+Ship Building & Defence,3,MODERATE,10,86.9,61.4
+Software Products & Digital Services,62,VERY HIGH,10,94.4,98.0
+Specialty Chemicals,40,VERY HIGH,10,94.2,98.0
+Steel Manufacturing & Mining,1,LOW (N<2),10,97.7,55.9
+Stockbroking & Financial Products,16,VERY HIGH,10,94.1,90.6
+Structural Steel Tubes & Pipes,1,LOW (N<2),10,96.5,55.8
+Sugar & Bio-Ethanol,28,VERY HIGH,10,65.0,98.0
+Superalloys & Special Metals,1,LOW (N<2),10,94.3,55.5
+Tea & Coffee,13,VERY HIGH,10,93.4,87.5
+Telecom Services & Infrastructure,10,VERY HIGH,10,94.5,76.3
+Telecommunication,6,HIGH,10,94.9,68.2
+Textiles,3,MODERATE,10,87.0,64.5
+Textiles & Apparel,29,VERY HIGH,10,95.1,98.0
+"Textiles, Yarns & Apparel",15,VERY HIGH,10,91.4,89.9
+Tractors & Farm Equipment,2,MODERATE,10,93.7,56.6
+Transformers & T&D Equipment,13,VERY HIGH,10,90.2,85.3
+Travel Tech SaaS Solutions,1,LOW (N<2),10,80.8,48.6
+Tyres & Rubber Products,9,HIGH,10,91.8,74.8
+Utilities,1,LOW (N<2),10,96.7,46.5
+Water & Wastewater Treatment,5,HIGH,10,90.3,62.8
+Wealth & Asset Management,1,LOW (N<2),10,97.8,55.8
+Wires & Cables,23,VERY HIGH,10,95.0,98.0
+Zinc & Silver Mining,1,LOW (N<2),10,76.7,52.7

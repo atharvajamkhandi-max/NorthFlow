@@ -1,0 +1,11 @@
+Model,OOS_Rank_IC,IC_IR,t_statistic,Top_Bottom_Spread_20d,Net_CAGR,Net_Sharpe,Max_Drawdown,Brier_Score,Status
+V3.2_Frozen_Control,0.0246,0.2,3.46,-0.25%,28.4%,1.14,-14.8%,0.1784,CHAMPION
+V3.3_Deterministic_Composite,0.0233,0.19,3.24,-0.29%,19.3%,0.41,-19.3%,0.2238,REJECTED
+V3.3_Ensemble_Adaptive,-0.0004,-0.0,-0.06,-0.45%,17.0%,0.22,-20.5%,0.2356,REJECTED
+Regularized_Nonlinear_Ensemble,-0.0061,-0.05,-0.91,-0.78%,16.4%,0.18,-20.8%,0.2384,REJECTED
+Random_Forest,-0.0189,-0.16,-2.77,-0.65%,15.1%,0.08,-21.4%,0.2448,REJECTED
+Gradient_Boosting,-0.0308,-0.24,-4.23,-0.84%,13.9%,-0.02,-22.0%,0.2508,REJECTED
+Quantile_Median,-0.044,-0.36,-6.31,-1.09%,12.6%,-0.12,-22.7%,0.2574,REJECTED
+Huber_Regressor,-0.0447,-0.37,-6.38,-1.04%,12.5%,-0.13,-22.7%,0.2578,REJECTED
+ElasticNet,-0.0459,-0.38,-6.63,-1.03%,12.4%,-0.14,-22.8%,0.2583,REJECTED
+Ridge_L2,-0.0491,-0.4,-6.97,-1.08%,12.1%,-0.16,-23.0%,0.26,REJECTED

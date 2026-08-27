@@ -1,0 +1,6 @@
+False_Positive_Category,Relative_Frequency,Prescription
+Accumulation Without Immediate Breakout (Chop),38.5%,Apply 40D time stop or monitor for re-acceleration
+Macro Market Liquidation Shock,26.2%,Regime gate (Filter B) pauses entries when Market Breadth < 40%
+Single-Stock Skew / Distortion,16.8%,Enforce minimum constituent breadth (% > 50 EMA >= 40%)
+Volume Exhaustion Trap,12.5%,Penalize abnormal volume spikes exceeding 3.5x 20D MA
+Binary News Event Reversal,6.0%,Exogenous tail risk managed via position sizing

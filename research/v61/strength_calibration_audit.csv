@@ -1,0 +1,7 @@
+strength_bucket,n_observations,mean_return_pct,median_return_pct,hit_rate_pct,bootstrap_95_ci,statistical_significance,monotonic_support
+0-30,127,-2.91,-5.12,57.48,"[-5.55%, -0.42%]",MODERATE,STRONG
+30-50,22010,-2.59,-2.46,63.62,"[-2.73%, -2.46%]",MODERATE,STRONG
+50-70,8123,-0.58,-0.86,46.12,"[-0.88%, -0.29%]",YES (CI > Universe Mean),STRONG
+70-80,140,1.16,0.88,54.29,"[-1.11%, 3.48%]",YES (CI > Universe Mean),STRONG
+80-90,51,1.95,-1.89,37.25,"[-3.61%, 8.86%]",MODERATE,EXPLORATORY_TINY_SAMPLE
+90-100,12,10.73,6.78,75.0,"[3.92%, 18.31%]",YES (CI > Universe Mean),EXPLORATORY_TINY_SAMPLE

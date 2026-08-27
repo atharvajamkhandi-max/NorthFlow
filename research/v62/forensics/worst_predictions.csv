@@ -1,0 +1,101 @@
+prediction_id,prediction_date,industry,maturation_status,forecast_return_1D,actual_return_1D,forecast_error_1D,direction_correct_1D,actual_return_5D,actual_return_20D,actual_return_60D,abs_err_1D,failure_diagnosis
+LIVE_SHADOW_3f6484ad9087ac,2026-08-24,Stainless Steel & Special Alloys,1D_MATURED_PENDING_5D_20D_60D,-1.39,3.11,-4.5,0.0,,,,4.5,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_7196275054503a,2026-08-24,Diamond Studded & Solitaires,1D_MATURED_PENDING_5D_20D_60D,-0.73,2.86,-3.59,0.0,,,,3.59,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_c5821136bfda8b,2026-08-24,Liquid Storage Terminals & Logistics,1D_MATURED_PENDING_5D_20D_60D,1.38,-2.1,3.48,0.0,,,,3.48,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_ad4d5e46f8ebe7,2026-08-24,Auto Lighting & Electricals,1D_MATURED_PENDING_5D_20D_60D,0.55,-2.89,3.44,0.0,,,,3.44,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_44a7d936b564c6,2026-08-24,Tea Plantations & Packaging,1D_MATURED_PENDING_5D_20D_60D,-0.52,2.83,-3.35,0.0,,,,3.35,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_ceef3e91830fe9,2026-08-24,Home Appliances (White Goods),1D_MATURED_PENDING_5D_20D_60D,-0.18,-3.42,3.24,1.0,,,,3.24,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_558dc70fc4ab7d,2026-08-24,Television Content & OTT Production,1D_MATURED_PENDING_5D_20D_60D,-0.01,-3.02,3.01,1.0,,,,3.01,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_5ba039cd4ed079,2026-08-24,"Industrial Effluent, Desalination & ZLD",1D_MATURED_PENDING_5D_20D_60D,0.06,-2.94,3.0,0.0,,,,3.0,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_6e327f088d00e1,2026-08-24,Life Insurance,1D_MATURED_PENDING_5D_20D_60D,-0.53,2.38,-2.91,0.0,,,,2.91,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_d8b3b31f0c211b,2026-08-24,Business Process Management (BPM),1D_MATURED_PENDING_5D_20D_60D,-0.19,2.7,-2.89,0.0,,,,2.89,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e55296407b5565,2026-08-24,Corporate & Wholesale Finance,1D_MATURED_PENDING_5D_20D_60D,0.9,-1.92,2.82,0.0,,,,2.82,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_8cedef9bc67e50,2026-08-24,Auto Glass & Safety Systems,1D_MATURED_PENDING_5D_20D_60D,1.73,-1.07,2.8,0.0,,,,2.8,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_a198ead8f83893,2026-08-24,Home Textiles,1D_MATURED_PENDING_5D_20D_60D,0.24,-2.56,2.8,0.0,,,,2.8,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_47637ac1d5066e,2026-08-24,Automotive Radials & Off-Highway Tyres,1D_MATURED_PENDING_5D_20D_60D,-0.46,2.33,-2.79,0.0,,,,2.79,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_258607c937b030,2026-08-24,Edible Oils & Vanaspati,1D_MATURED_PENDING_5D_20D_60D,-0.13,2.58,-2.71,0.0,,,,2.71,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_be737aaac37e1d,2026-08-24,Garments & Apparel Exports,1D_MATURED_PENDING_5D_20D_60D,-0.69,2.01,-2.7,0.0,,,,2.7,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_39f4f1aa743f02,2026-08-24,Advertising & Digital Marketing,1D_MATURED_PENDING_5D_20D_60D,-0.5,2.15,-2.65,0.0,,,,2.65,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_eaceb498573ec6,2026-08-24,Passenger Airlines,1D_MATURED_PENDING_5D_20D_60D,-0.58,2.05,-2.63,0.0,,,,2.63,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_65745719f02e5d,2026-08-24,Data Center Cooling & Liquid Systems,1D_MATURED_PENDING_5D_20D_60D,0.03,-2.53,2.56,0.0,,,,2.56,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_f680ac9aae2bc2,2026-08-24,Industrial Abrasives & Ceramics,1D_MATURED_PENDING_5D_20D_60D,-1.13,1.42,-2.55,0.0,,,,2.55,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_4064b64d07e2db,2026-08-24,Small Finance & Payment Banks,1D_MATURED_PENDING_5D_20D_60D,0.49,-2.03,2.52,0.0,,,,2.52,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e96ca5806d91fb,2026-08-24,Naval Warships & Submarines,1D_MATURED_PENDING_5D_20D_60D,1.05,-1.44,2.49,0.0,,,,2.49,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_96155dc3a9b50a,2026-08-24,PCB Assembly & Fabrication,1D_MATURED_PENDING_5D_20D_60D,-1.38,1.08,-2.46,0.0,,,,2.46,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e54d638ce34a6b,2026-08-24,Tobacco Products & Cigarettes,1D_MATURED_PENDING_5D_20D_60D,-0.56,1.9,-2.46,0.0,,,,2.46,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_d5c4028a25bbd6,2026-08-24,Mutual Fund Registrar & Transfer Agent,1D_MATURED_PENDING_5D_20D_60D,-0.3,2.13,-2.43,0.0,,,,2.43,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_46fd0f21e60481,2026-08-24,Auto Body & Closure Systems,1D_MATURED_PENDING_5D_20D_60D,-0.81,1.61,-2.42,0.0,,,,2.42,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_7b7afa44c110ae,2026-08-24,"AI Solutions, Analytics & Cloud Data",1D_MATURED_PENDING_5D_20D_60D,1.07,-1.31,2.38,0.0,,,,2.38,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_f6edf36a39ae8f,2026-08-24,Oral Hygiene,1D_MATURED_PENDING_5D_20D_60D,-0.05,-2.43,2.38,1.0,,,,2.38,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_7369c4bbcc46b6,2026-08-24,Green Energy Generation (IPP),1D_MATURED_PENDING_5D_20D_60D,-0.11,-2.45,2.34,1.0,,,,2.34,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_10fb3b85cffb7f,2026-08-24,Staffing & Security Services,1D_MATURED_PENDING_5D_20D_60D,0.74,-1.54,2.28,0.0,,,,2.28,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_436e05c49b3e1c,2026-08-24,Online Travel Agency (OTA) & Flight Booking,1D_MATURED_PENDING_5D_20D_60D,0.71,-1.55,2.26,0.0,,,,2.26,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_f0cf2b5162b3f4,2026-08-24,EV Charging Infrastructure,1D_MATURED_PENDING_5D_20D_60D,-1.65,0.61,-2.26,0.0,,,,2.26,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_46c734c29cb297,2026-08-24,Pre-Engineered Steel Buildings,1D_MATURED_PENDING_5D_20D_60D,0.25,-2.0,2.25,0.0,,,,2.25,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_5bbca462de85b1,2026-08-24,Zinc & Non-Ferrous Alloys,1D_MATURED_PENDING_5D_20D_60D,0.4,2.62,-2.22,1.0,,,,2.22,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_8c42ad9c4eb73f,2026-08-24,Biopharma & Biosimilars,1D_MATURED_PENDING_5D_20D_60D,-0.69,1.53,-2.22,0.0,,,,2.22,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_ee808e32b14c14,2026-08-24,Aluminium Recycling & Secondary Metals,1D_MATURED_PENDING_5D_20D_60D,1.05,-1.17,2.22,0.0,,,,2.22,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e22296799cbf3d,2026-08-24,Domestic Consumer Appliance EMS (AC/TV/Washing Machines),1D_MATURED_PENDING_5D_20D_60D,0.22,2.42,-2.2,1.0,,,,2.2,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_1f83f42669c509,2026-08-24,Stampings & Pressed Metal Auto Parts,1D_MATURED_PENDING_5D_20D_60D,0.41,-1.78,2.19,0.0,,,,2.19,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_66c67dd66afcac,2026-08-24,Plywood & Laminates,1D_MATURED_PENDING_5D_20D_60D,0.13,-2.05,2.18,0.0,,,,2.18,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_9f37e14379cdbb,2026-08-24,Engineered Polymers & Compounding,1D_MATURED_PENDING_5D_20D_60D,0.38,-1.79,2.17,0.0,,,,2.17,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_7a43f36d149328,2026-08-24,Railway Lease Financing,1D_MATURED_PENDING_5D_20D_60D,0.92,-1.23,2.15,0.0,,,,2.15,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_4ab9c62487771d,2026-08-24,Ayurvedic & Herbal Care,1D_MATURED_PENDING_5D_20D_60D,0.32,2.47,-2.15,1.0,,,,2.15,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_1fc6d83578e26c,2026-08-24,Travel Tech & Revenue Management SaaS,1D_MATURED_PENDING_5D_20D_60D,-0.54,1.59,-2.13,0.0,,,,2.13,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e3297145ad83f1,2026-08-24,Auto Batteries & Storage,1D_MATURED_PENDING_5D_20D_60D,-0.49,1.64,-2.13,0.0,,,,2.13,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_38a44382862bf7,2026-08-24,Industrial Compressors & Pumps,1D_MATURED_PENDING_5D_20D_60D,-0.27,1.84,-2.11,0.0,,,,2.11,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e7b21bf63bbe5f,2026-08-24,Co-Working & Managed Office Spaces,1D_MATURED_PENDING_5D_20D_60D,-0.37,1.72,-2.09,0.0,,,,2.09,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_07a2954e072ddf,2026-08-24,Excipients & Pharma Binders,1D_MATURED_PENDING_5D_20D_60D,1.19,-0.89,2.08,0.0,,,,2.08,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_af38068c6f14bd,2026-08-24,Refining & Marketing (OMC),1D_MATURED_PENDING_5D_20D_60D,0.33,2.4,-2.07,1.0,,,,2.07,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_83044145ebe8ba,2026-08-24,Music Labels & VFX Studios,1D_MATURED_PENDING_5D_20D_60D,0.77,2.83,-2.06,1.0,,,,2.06,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_7f2e20cd80b8ed,2026-08-24,Baby & Infant Nutrition,1D_MATURED_PENDING_5D_20D_60D,-0.38,1.67,-2.05,0.0,,,,2.05,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e1c617e1b5c5e8,2026-08-24,Stationery & Writing Instruments,1D_MATURED_PENDING_5D_20D_60D,0.98,-1.06,2.04,0.0,,,,2.04,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_9ba6e84ea66d9f,2026-08-24,Print Media & Publishing,1D_MATURED_PENDING_5D_20D_60D,0.96,-1.08,2.04,0.0,,,,2.04,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_1dad0a5d1524dc,2026-08-24,Diagnostic & Pathology Labs,1D_MATURED_PENDING_5D_20D_60D,0.28,-1.76,2.04,0.0,,,,2.04,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_24f7600a3675e6,2026-08-24,Worsted Fabric & Suiting,1D_MATURED_PENDING_5D_20D_60D,0.69,-1.31,2.0,0.0,,,,2.0,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_4bf61b79214000,2026-08-24,API & Bulk Drugs,1D_MATURED_PENDING_5D_20D_60D,-0.64,1.33,-1.97,0.0,,,,1.97,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_14ac802ace0eef,2026-08-24,Architectural Glass & Windows,1D_MATURED_PENDING_5D_20D_60D,-0.13,1.84,-1.97,0.0,,,,1.97,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_4609c5307d241e,2026-08-24,Beauty & Fashion E-Commerce,1D_MATURED_PENDING_5D_20D_60D,-0.27,1.7,-1.97,0.0,,,,1.97,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_87169c22ff0a09,2026-08-24,Iron Ore Mining,1D_MATURED_PENDING_5D_20D_60D,-0.48,1.48,-1.96,0.0,,,,1.96,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_f7b7ac5d22791e,2026-08-24,Consumer Electronics,1D_MATURED_PENDING_5D_20D_60D,0.5,-1.45,1.95,0.0,,,,1.95,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_9e97234426eb1f,2026-08-24,Luggage & Travel Gear,1D_MATURED_PENDING_5D_20D_60D,0.2,-1.68,1.88,0.0,,,,1.88,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_1e8acaaa3e797d,2026-08-24,Precision Powertrain Engine Components,1D_MATURED_PENDING_5D_20D_60D,0.69,2.56,-1.87,1.0,,,,1.87,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_2e07f63b300379,2026-08-24,Semiconductor Assembly & Packaging (OSAT),1D_MATURED_PENDING_5D_20D_60D,0.69,2.56,-1.87,1.0,,,,1.87,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_2ac83018ec1fa9,2026-08-24,Education Academies & Publishing,1D_MATURED_PENDING_5D_20D_60D,0.62,2.49,-1.87,1.0,,,,1.87,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_63b9d33bfa63f0,2026-08-24,Renewable Energy & Solar,1D_MATURED_PENDING_5D_20D_60D,1.19,-0.67,1.86,0.0,,,,1.86,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_3a5a9a91fe6566,2026-08-24,Consumer Lending & BNPL FinTech,1D_MATURED_PENDING_5D_20D_60D,0.4,-1.46,1.86,0.0,,,,1.86,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_90cfa063a2a31d,2026-08-24,AdTech & Marketing Analytics,1D_MATURED_PENDING_5D_20D_60D,0.43,2.27,-1.84,1.0,,,,1.84,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_d30e884cfda6a2,2026-08-24,Cruise Ships & Water Tourism,1D_MATURED_PENDING_5D_20D_60D,-0.07,1.76,-1.83,0.0,,,,1.83,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_1728f150c34cf4,2026-08-24,Geospatial AI & Digital Mapping,1D_MATURED_PENDING_5D_20D_60D,0.67,-1.16,1.83,0.0,,,,1.83,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_7c5a57cf4201b7,2026-08-24,Finished Formulations,1D_MATURED_PENDING_5D_20D_60D,0.07,-1.75,1.82,0.0,,,,1.82,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e6c398e1b6e3c9,2026-08-24,Sports & Athleisure Footwear,1D_MATURED_PENDING_5D_20D_60D,-0.41,1.41,-1.82,0.0,,,,1.82,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_d597ce7f8ff525,2026-08-24,Secondary Steel & TMT Rebars,1D_MATURED_PENDING_5D_20D_60D,2.5,0.69,1.81,1.0,,,,1.81,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_96ffb6327000b7,2026-08-24,Passenger Vehicles (Cars & SUVs),1D_MATURED_PENDING_5D_20D_60D,-0.23,1.56,-1.79,0.0,,,,1.79,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_436e05c49b3e1c,2026-08-24,Online Travel Agency (OTA) & Flight Booking,1D_MATURED_PENDING_5D_20D_60D,0.36,-1.42,1.78,0.0,,,,1.78,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_52dad0ce3b2d6f,2026-08-24,Civil & Commercial Construction,1D_MATURED_PENDING_5D_20D_60D,0.29,2.05,-1.76,1.0,,,,1.76,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_ed1bd0b6cd677b,2026-08-24,Coated & Galvanised Steel,1D_MATURED_PENDING_5D_20D_60D,-1.6,0.16,-1.76,0.0,,,,1.76,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_d09a205afd0dc5,2026-08-24,Silver & Fashion Gemstones,1D_MATURED_PENDING_5D_20D_60D,0.31,-1.43,1.74,0.0,,,,1.74,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_965b771e981728,2026-08-24,Telecom Cellular Operators,1D_MATURED_PENDING_5D_20D_60D,0.46,-1.27,1.73,0.0,,,,1.73,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_23040da14315e8,2026-08-24,Packaged Foods & Snacks,1D_MATURED_PENDING_5D_20D_60D,-0.2,-1.92,1.72,1.0,,,,1.72,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_a2e098d5668332,2026-08-24,Industrial Rubber Products,1D_MATURED_PENDING_5D_20D_60D,-1.1,0.62,-1.72,0.0,,,,1.72,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_e1cf4cb06e5db9,2026-08-24,Cable & Broadband Distribution,1D_MATURED_PENDING_5D_20D_60D,-0.11,-1.82,1.71,1.0,,,,1.71,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_6afacce924a0e0,2026-08-24,"Gaming, Casinos & Entertainment",1D_MATURED_PENDING_5D_20D_60D,0.68,-1.01,1.69,0.0,,,,1.69,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_93ada57e9366a7,2026-08-24,Gold Mining & Precious Metals Exploration,1D_MATURED_PENDING_5D_20D_60D,0.25,1.94,-1.69,1.0,,,,1.69,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_d95cb19f271af2,2026-08-24,Specialty Chemicals,1D_MATURED_PENDING_5D_20D_60D,0.09,1.78,-1.69,1.0,,,,1.69,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_5353eabc5bfdfb,2026-08-24,Railway Ticketing & Catering,1D_MATURED_PENDING_5D_20D_60D,0.18,1.86,-1.68,1.0,,,,1.68,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_a34689e9208c93,2026-08-24,Refining & Petrochemicals,1D_MATURED_PENDING_5D_20D_60D,0.63,2.26,-1.63,1.0,,,,1.63,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_3d3284d4d64b20,2026-08-24,Furniture & Mattresses,1D_MATURED_PENDING_5D_20D_60D,0.74,-0.88,1.62,0.0,,,,1.62,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_98cbd6d50c76fd,2026-08-24,Mining Equipment & Mill Liners,1D_MATURED_PENDING_5D_20D_60D,0.1,-1.52,1.62,0.0,,,,1.62,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_f759b4e76bd686,2026-08-24,Fuel Retailing (OMC),1D_MATURED_PENDING_5D_20D_60D,0.76,-0.84,1.6,0.0,,,,1.6,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_d37aa839cd85f2,2026-08-24,Crop Protection Formulations,1D_MATURED_PENDING_5D_20D_60D,0.07,-1.53,1.6,0.0,,,,1.6,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_c35f0dee6834fb,2026-08-24,Precision Machine Tools & Fasteners,1D_MATURED_PENDING_5D_20D_60D,0.21,1.76,-1.55,1.0,,,,1.55,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_547c37d0e4d34b,2026-08-24,Plastic & CPVC Pipes,1D_MATURED_PENDING_5D_20D_60D,1.55,0.01,1.54,1.0,,,,1.54,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_cfb20ae55e3f4e,2026-08-24,Metals & Fabrication,1D_MATURED_PENDING_5D_20D_60D,0.14,-1.39,1.53,0.0,,,,1.53,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_9b66579c3fa12a,2026-08-24,Branded Innerwear,1D_MATURED_PENDING_5D_20D_60D,-0.27,1.25,-1.52,0.0,,,,1.52,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_3a57685fbad0c0,2026-08-24,Specialty Enzymes & Biologicals,1D_MATURED_PENDING_5D_20D_60D,0.95,2.44,-1.49,1.0,,,,1.49,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_a7c6aa8fec1415,2026-08-24,Complex Fertilizers & Soil Nutrients,1D_MATURED_PENDING_5D_20D_60D,-0.09,1.39,-1.48,0.0,,,,1.48,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_28b88ee79fc1cc,2026-08-24,Air Conditioners & Commercial HVAC,1D_MATURED_PENDING_5D_20D_60D,0.07,-1.41,1.48,0.0,,,,1.48,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_c2e58ef475d818,2026-08-24,Design & Facility Architecture,1D_MATURED_PENDING_5D_20D_60D,1.0,-0.47,1.47,0.0,,,,1.47,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_5470fef0795e7a,2026-08-24,Heavy Infrastructure & Highways EPC,1D_MATURED_PENDING_5D_20D_60D,1.18,2.65,-1.47,1.0,,,,1.47,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_ba361da9407937,2026-08-24,Tobacco Products,1D_MATURED_PENDING_5D_20D_60D,0.51,-0.95,1.46,0.0,,,,1.46,1D Intraday Mean Reversal vs Macro Chop
+LIVE_SHADOW_9d036a7d4366a1,2026-08-24,Eyewear Retail & Optical Products,1D_MATURED_PENDING_5D_20D_60D,0.09,1.53,-1.44,1.0,,,,1.44,1D Intraday Mean Reversal vs Macro Chop

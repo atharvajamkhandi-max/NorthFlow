@@ -1,0 +1,10 @@
+Configuration,Feature_Count,Out_of_Sample_Rank_IC,MAE,Incremental_Alpha_Status
+Model_E_Price_Vol_Mkt_Sec_Ind,5,0.2629,5.26,BENCHMARK
+Model_G_Full_Minus_Delivery,5,0.2207,5.32,BENCHMARK
+Model_F_Full_Model,5,0.2207,5.32,LEADER
+Model_C_Price_Vol_Market,3,0.21,5.36,BENCHMARK
+Model_D_Price_Vol_Mkt_Sector,4,0.2026,5.34,BENCHMARK
+Model_H_Full_Minus_Volume,4,0.1979,5.34,BENCHMARK
+Model_B_Price_Volume,3,0.1891,5.37,BENCHMARK
+Model_I_Full_Minus_RS,4,0.1769,5.36,BENCHMARK
+Model_A_Price_Only,2,0.163,5.38,BENCHMARK

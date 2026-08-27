@@ -1,0 +1,4 @@
+recommendation,count,mean_return_pct,median_return_pct,volatility_pct,worst_outcome_pct,best_outcome_pct,benchmark_relative_alpha_pct,cost_adjusted_alpha_pct,verdict
+BUY,2901,0.77,-0.2,14.87,-63.15,134.94,2.88,2.68,GENUINE_ALPHA_POSITIVE
+SELL,5005,-3.24,-3.02,10.3,-47.28,140.76,-1.13,-1.33,GENUINE_ALPHA_DEFENSIVE
+HOLD,22557,-2.11,-2.02,11.46,-65.56,135.43,-0.0,-0.2,TURNOVER_FILTER

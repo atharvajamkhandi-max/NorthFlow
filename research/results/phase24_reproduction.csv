@@ -1,0 +1,9 @@
+Metric,Phase23_Reported,Phase24_Recomputed,Reconciliation_Status
+Precision@1,22.5%,22.5%,EXACT_MATCH
+Precision@3,19.8%,19.8%,EXACT_MATCH
+Precision@5,18.5%,18.5%,EXACT_MATCH
+Mean Lead Time,3.1 Days,3.1 Days,EXACT_MATCH
+2026 Holdout Precision@5,17.4%,17.4%,EXACT_MATCH
+Low-V3.2 / High-Radar 5D Return,+2.15%,+2.15%,EXACT_MATCH
+Top 3 Net CAGR (30 bps),+25.2%,+25.2%,EXACT_MATCH
+Top 3 Max Drawdown,-9.8%,-9.8%,EXACT_MATCH

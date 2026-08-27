@@ -1,0 +1,101 @@
+prediction_id,date,industry,regime,final_shadow_signal,actual_20D_return,abs_error_20d,failure_reason
+PRED_V60_989a85407717,2025-07-25,Heavy Electrical Equipment,SIDEWAYS,-4.08,140.76,144.84,market-regime failure
+PRED_V60_e41415d65387,2025-07-29,Heavy Electrical Equipment,SIDEWAYS,1.035,135.43,134.395,market-regime failure
+PRED_V60_b353865160aa,2025-07-28,Heavy Electrical Equipment,WEAK_BEAR,-0.2354,132.75,132.9854,momentum failure
+PRED_V60_c065741b9a8b,2025-08-08,Heavy Electrical Equipment,WEAK_BEAR,2.6628,134.94,132.2772,forecast calibration failure
+PRED_V60_0cfa73ecc99a,2025-08-12,Heavy Electrical Equipment,WEAK_BEAR,-0.0924,131.63,131.7224,momentum failure
+PRED_V60_1c295317235e,2025-08-07,Heavy Electrical Equipment,WEAK_BEAR,0.6675,132.04,131.3725,forecast calibration failure
+PRED_V60_817ac71565b8,2025-08-05,Heavy Electrical Equipment,WEAK_BEAR,1.0365,130.62,129.5835,forecast calibration failure
+PRED_V60_cf81ae25ec6d,2025-08-11,Heavy Electrical Equipment,WEAK_BEAR,0.4297,129.2,128.7703,forecast calibration failure
+PRED_V60_a27d4cb364ee,2025-08-04,Heavy Electrical Equipment,WEAK_BEAR,1.6784,129.07,127.3916,forecast calibration failure
+PRED_V60_de097c8cc9b4,2025-08-14,Heavy Electrical Equipment,WEAK_BEAR,3.1208,130.46,127.3392,forecast calibration failure
+PRED_V60_5b4fa4a9956b,2025-08-06,Heavy Electrical Equipment,WEAK_BEAR,0.4305,126.8,126.3695,forecast calibration failure
+PRED_V60_dfe24111c72c,2025-08-20,Heavy Electrical Equipment,WEAK_BEAR,3.0818,128.17,125.0882,forecast calibration failure
+PRED_V60_dc12f96ed17d,2025-08-13,Heavy Electrical Equipment,WEAK_BEAR,3.2404,128.21,124.9696,forecast calibration failure
+PRED_V60_f216a9e2f429,2025-08-01,Heavy Electrical Equipment,WEAK_BEAR,0.6713,124.96,124.2887,forecast calibration failure
+PRED_V60_80769b82b638,2025-08-18,Heavy Electrical Equipment,WEAK_BEAR,4.1449,128.0,123.8551,forecast calibration failure
+PRED_V60_586bcfd24cf7,2025-08-21,Heavy Electrical Equipment,WEAK_BEAR,3.2373,125.62,122.3827,forecast calibration failure
+PRED_V60_f7e42be76290,2025-07-31,Heavy Electrical Equipment,WEAK_BEAR,0.9432,123.03,122.0868,forecast calibration failure
+PRED_V60_8117b7df1240,2025-08-19,Heavy Electrical Equipment,WEAK_BEAR,3.5847,123.97,120.3853,forecast calibration failure
+PRED_V60_96916a5fbae9,2025-07-30,Heavy Electrical Equipment,SIDEWAYS,10.72,125.48,114.76,market-regime failure
+PRED_V60_e3d138d10e25,2025-08-22,Heavy Electrical Equipment,WEAK_BEAR,2.9695,117.59,114.6205,forecast calibration failure
+PRED_V60_c5340f2d0b7a,2025-07-25,Travel Tech SaaS Solutions,SIDEWAYS,-5.295,102.02,107.315,market-regime failure
+PRED_V60_a6fe91d539d2,2025-07-30,Travel Tech SaaS Solutions,SIDEWAYS,-4.2,103.09,107.29,market-regime failure
+PRED_V60_52b288bed9bf,2025-08-06,Travel Tech SaaS Solutions,WEAK_BEAR,-0.0842,106.91,106.9942,momentum failure
+PRED_V60_0b74107f2dcf,2025-08-07,Travel Tech SaaS Solutions,WEAK_BEAR,-0.2489,106.72,106.9689,momentum failure
+PRED_V60_d2e825c9f071,2025-08-01,Copper Mining,WEAK_BEAR,-0.1561,106.79,106.9461,momentum failure
+PRED_V60_dc3f3cd33ed3,2025-08-11,Copper Mining,WEAK_BEAR,-0.4728,106.39,106.8628,momentum failure
+PRED_V60_28d458214bbd,2025-08-18,Copper Mining,WEAK_BEAR,-0.514,106.05,106.5639,momentum failure
+PRED_V60_03ebc0d98c4d,2025-08-14,Copper Mining,WEAK_BEAR,-0.5452,106.0,106.5452,momentum failure
+PRED_V60_134cec70ef5d,2025-07-29,Travel Tech SaaS Solutions,SIDEWAYS,-4.375,101.98,106.355,market-regime failure
+PRED_V60_8cce0e941aa3,2025-08-22,Copper Mining,WEAK_BEAR,-0.5484,105.79,106.3384,momentum failure
+PRED_V60_3809abd6936d,2025-08-13,Copper Mining,WEAK_BEAR,-0.5144,105.82,106.3344,momentum failure
+PRED_V60_aed5056cb6c6,2025-08-08,Copper Mining,WEAK_BEAR,-0.6209,105.54,106.1609,momentum failure
+PRED_V60_de9d7b110300,2025-08-07,Copper Mining,WEAK_BEAR,0.1403,105.92,105.7797,forecast calibration failure
+PRED_V60_3f00f9f68234,2025-08-12,Copper Mining,WEAK_BEAR,-0.5769,104.9,105.4769,momentum failure
+PRED_V60_cae59b8966d7,2025-07-28,Copper Mining,WEAK_BEAR,-0.4455,104.98,105.4255,momentum failure
+PRED_V60_2e3f6b760734,2025-08-04,Copper Mining,WEAK_BEAR,0.937,106.34,105.403,forecast calibration failure
+PRED_V60_955a7d145298,2025-08-05,Copper Mining,WEAK_BEAR,-0.3467,104.9,105.2467,momentum failure
+PRED_V60_40171d7e2891,2025-07-29,Copper Mining,SIDEWAYS,-5.11,99.99,105.1,market-regime failure
+PRED_V60_8229723798a1,2025-08-20,Copper Mining,WEAK_BEAR,-0.4091,104.45,104.859,momentum failure
+PRED_V60_aad289d71a0f,2025-08-01,Travel Tech SaaS Solutions,WEAK_BEAR,-0.1298,104.6,104.7298,momentum failure
+PRED_V60_e42682c0077b,2025-08-06,Copper Mining,WEAK_BEAR,-0.1072,104.57,104.6772,momentum failure
+PRED_V60_b0f1a863a992,2025-08-19,Copper Mining,WEAK_BEAR,-0.5533,103.91,104.4633,momentum failure
+PRED_V60_846aa1eab9e0,2025-07-30,Copper Mining,SIDEWAYS,-4.05,100.18,104.23,market-regime failure
+PRED_V60_645a1cacdd39,2025-07-28,Travel Tech SaaS Solutions,WEAK_BEAR,-0.5933,102.98,103.5733,momentum failure
+PRED_V60_ac98bf8c9261,2025-08-05,Travel Tech SaaS Solutions,WEAK_BEAR,-0.1015,103.45,103.5515,momentum failure
+PRED_V60_05283d34bf1c,2025-08-21,Copper Mining,WEAK_BEAR,-0.5217,102.85,103.3717,momentum failure
+PRED_V60_2ac84cbeff52,2025-07-31,Copper Mining,WEAK_BEAR,1.2257,104.33,103.1043,forecast calibration failure
+PRED_V60_459d1645c7d9,2025-07-25,Copper Mining,SIDEWAYS,-3.06,99.99,103.05,market-regime failure
+PRED_V60_f44ff224fecf,2025-08-04,Travel Tech SaaS Solutions,WEAK_BEAR,0.3553,103.22,102.8647,forecast calibration failure
+PRED_V60_8732d56b6470,2025-07-31,Travel Tech SaaS Solutions,WEAK_BEAR,-0.5565,100.56,101.1165,momentum failure
+PRED_V60_dde91da43be6,2025-08-08,Travel Tech SaaS Solutions,WEAK_BEAR,0.0027,98.26,98.2573,forecast calibration failure
+PRED_V60_2191abe6ecf3,2025-08-11,Travel Tech SaaS Solutions,WEAK_BEAR,1.1864,95.52,94.3336,forecast calibration failure
+PRED_V60_afb39abcc734,2025-08-12,Travel Tech SaaS Solutions,WEAK_BEAR,0.9757,92.23,91.2543,forecast calibration failure
+PRED_V60_49aafd99d788,2025-08-13,Travel Tech SaaS Solutions,WEAK_BEAR,1.3247,90.24,88.9153,forecast calibration failure
+PRED_V60_38a859790178,2025-08-22,Travel Tech SaaS Solutions,WEAK_BEAR,0.6595,88.88,88.2205,forecast calibration failure
+PRED_V60_5da12c9347e0,2025-08-14,Travel Tech SaaS Solutions,WEAK_BEAR,0.7318,87.2,86.4682,forecast calibration failure
+PRED_V60_ce1eac8000db,2025-08-21,Travel Tech SaaS Solutions,WEAK_BEAR,0.7155,86.64,85.9245,forecast calibration failure
+PRED_V60_07f89fbee6bb,2025-08-19,Travel Tech SaaS Solutions,WEAK_BEAR,1.7822,87.17,85.3878,forecast calibration failure
+PRED_V60_e814506acb72,2025-08-20,Travel Tech SaaS Solutions,WEAK_BEAR,1.1453,86.46,85.3147,forecast calibration failure
+PRED_V60_a9f3cce55e96,2025-08-18,Travel Tech SaaS Solutions,WEAK_BEAR,1.3499,85.93,84.5801,forecast calibration failure
+PRED_V60_149edb6811f5,2024-11-07,Copper & Non-Ferrous Metals,WEAK_BEAR,3.4132,80.78,77.3668,forecast calibration failure
+PRED_V60_fa84b102b2fa,2024-11-08,Copper & Non-Ferrous Metals,WEAK_BEAR,0.6904,76.84,76.1496,forecast calibration failure
+PRED_V60_d3f851327bcf,2024-11-11,Copper & Non-Ferrous Metals,WEAK_BEAR,-0.5204,74.09,74.6104,momentum failure
+PRED_V60_afcf75542207,2024-11-12,Copper & Non-Ferrous Metals,WEAK_BEAR,-0.2586,72.37,72.6286,momentum failure
+PRED_V60_f90d166c92c6,2024-11-06,Copper & Non-Ferrous Metals,WEAK_BEAR,4.1622,75.11,70.9478,forecast calibration failure
+PRED_V60_87b82704ef2e,2024-11-13,Copper & Non-Ferrous Metals,WEAK_BEAR,-0.3574,67.79,68.1475,momentum failure
+PRED_V60_e1e1866a944e,2025-08-21,Edible Oils,WEAK_BEAR,1.7369,-65.56,67.2969,momentum failure
+PRED_V60_6268ebc83ff1,2025-08-19,Edible Oils,WEAK_BEAR,3.2383,-63.15,66.3883,momentum failure
+PRED_V60_36bb198c90f7,2025-08-20,Edible Oils,WEAK_BEAR,0.8672,-65.47,66.3372,momentum failure
+PRED_V60_51da1369ad9f,2025-08-12,Edible Oils,WEAK_BEAR,0.6604,-63.72,64.3804,momentum failure
+PRED_V60_5b243c5ff0b8,2024-11-05,Copper & Non-Ferrous Metals,WEAK_BEAR,3.2613,67.23,63.9687,forecast calibration failure
+PRED_V60_b5ae7e437e87,2025-07-29,Passenger Cars & Utility Vehicles,SIDEWAYS,-5.31,58.21,63.52,market-regime failure
+PRED_V60_6c89918258a5,2025-08-18,Edible Oils,WEAK_BEAR,1.525,-61.95,63.475,momentum failure
+PRED_V60_55ac775d4c1f,2025-08-13,Edible Oils,WEAK_BEAR,1.3123,-62.06,63.3723,momentum failure
+PRED_V60_56eb4e4e3ae6,2025-08-11,Edible Oils,WEAK_BEAR,1.0315,-62.24,63.2715,momentum failure
+PRED_V60_9db8ff41e19f,2024-11-14,Copper & Non-Ferrous Metals,WEAK_BEAR,-0.6036,62.27,62.8736,momentum failure
+PRED_V60_2c47f98381c4,2025-08-22,Agrochemicals & Pesticides,WEAK_BEAR,0.9898,-61.69,62.6798,momentum failure
+PRED_V60_0559d960cbf6,2025-07-25,Passenger Cars & Utility Vehicles,SIDEWAYS,-7.44,55.04,62.48,market-regime failure
+PRED_V60_ada44b3cb07b,2025-07-31,Agrochemicals & Pesticides,WEAK_BEAR,1.0634,-60.8,61.8634,momentum failure
+PRED_V60_3ffe0f9f4eb0,2025-08-07,Passenger Cars & Utility Vehicles,WEAK_BEAR,-1.5368,60.32,61.8568,momentum failure
+PRED_V60_6385a98efd2b,2025-08-22,Edible Oils,WEAK_BEAR,1.1871,-60.08,61.2671,momentum failure
+PRED_V60_bc3b00046e51,2025-08-14,Edible Oils,WEAK_BEAR,-0.4989,-60.33,59.8311,forecast calibration failure
+PRED_V60_3db8df2177d2,2025-08-12,Passenger Cars & Utility Vehicles,WEAK_BEAR,-1.4215,58.31,59.7315,momentum failure
+PRED_V60_2846b596f2dd,2025-08-11,Passenger Cars & Utility Vehicles,WEAK_BEAR,-1.4503,57.23,58.6803,momentum failure
+PRED_V60_4a5d383373ea,2025-07-28,Passenger Cars & Utility Vehicles,WEAK_BEAR,-1.6427,56.99,58.6327,momentum failure
+PRED_V60_b8de30e7dd2b,2025-07-31,Edible Oils,WEAK_BEAR,1.367,-57.05,58.417,momentum failure
+PRED_V60_bf710c83f0ad,2025-07-30,Agrochemicals & Pesticides,SIDEWAYS,1.67,-56.52,58.19,market-regime failure
+PRED_V60_1fa33cc4f769,2024-11-04,Copper & Non-Ferrous Metals,WEAK_BEAR,0.0191,58.19,58.1709,forecast calibration failure
+PRED_V60_b07d8f8c24a8,2025-07-30,Passenger Cars & Utility Vehicles,SIDEWAYS,0.065,58.11,58.045,market-regime failure
+PRED_V60_5f76fa9254c5,2025-08-19,Agrochemicals & Pesticides,WEAK_BEAR,-0.8714,-58.47,57.5986,forecast calibration failure
+PRED_V60_caf95fe7a498,2025-08-08,Edible Oils,WEAK_BEAR,-1.6232,-59.19,57.5668,forecast calibration failure
+PRED_V60_115e2675e21a,2025-08-04,Agrochemicals & Pesticides,WEAK_BEAR,1.2883,-56.15,57.4383,momentum failure
+PRED_V60_197c9d3f4490,2025-08-21,Agrochemicals & Pesticides,WEAK_BEAR,-0.0924,-57.23,57.1376,forecast calibration failure
+PRED_V60_d60d9d68f0f2,2025-07-30,Edible Oils,SIDEWAYS,0.51,-56.48,56.99,market-regime failure
+PRED_V60_b6b93754782a,2025-08-06,Passenger Cars & Utility Vehicles,WEAK_BEAR,2.917,59.9,56.983,forecast calibration failure
+PRED_V60_e6ffc2bc73f3,2025-07-29,Edible Oils,SIDEWAYS,0.52,-56.46,56.98,market-regime failure
+PRED_V60_388e444db315,2025-08-12,Agrochemicals & Pesticides,WEAK_BEAR,0.0253,-56.95,56.9753,momentum failure
+PRED_V60_c369854bfe23,2025-08-07,Edible Oils,WEAK_BEAR,-1.6848,-58.42,56.7352,forecast calibration failure
+PRED_V60_ecb03c9d5b94,2025-08-01,Agrochemicals & Pesticides,WEAK_BEAR,0.2971,-56.08,56.3771,momentum failure
+PRED_V60_c427f21ea9eb,2025-07-25,Edible Oils,SIDEWAYS,1.23,-55.07,56.3,market-regime failure

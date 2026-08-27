@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+*.cert
+secrets.toml
+
+# Large Temporary DB Backups (>100MB, non-production)
+data/decision_ledger_backup_pre_opt.db
+data/market_flow_backup_pre_tiering.db
+data/market_flow_37d_backup.db
+data/market_flow_v1_backup.db
+data/staging_candidate.db
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary / Scratch scripts
+scratch/
+*.log
+
+# Cold Parquet Archives (>100MB)
+archive/

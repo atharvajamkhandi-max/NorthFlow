@@ -1,0 +1,115 @@
+name: NorthFlow CI Release Gates
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  release-gates:
+    name: Full Release Gates & Security Verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Gate 1 — Secret & Security Scan
+        run: |
+          python -c "
+          import re, os, sys
+          from pathlib import Path
+
+          pats = [
+              r'(?i)(password|secret|api_key|access_token|auth_token)\s*[:=]\s*["\']([^"\']+)["\']',
+              r'(?i)ghp_[A-Za-z0-9_]{36}',
+              r'(?i)AKIA[0-9A-Z]{16}',
+              r'(?i)AIza[0-9A-Za-z-_]{35}'
+          ]
+          clean = True
+          for root, _, files in os.walk('.'):
+              if any(p in root for p in ['.git', '.pytest_cache', '__pycache__', 'scratch', 'tests']):
+                  continue
+              for f in files:
+                  if f.endswith(('.py', '.json', '.toml', '.yml', '.yaml', '.env')):
+                      fp = Path(root) / f
+                      content = fp.read_text(encoding='utf-8', errors='ignore')
+                      for p in pats:
+                          matches = re.findall(p, content)
+                          for m in matches:
+                              val = m[1] if isinstance(m, tuple) and len(m) > 1 else str(m)
+                              if val.lower() not in ['none', 'true', 'false', '', 'dummy', 'placeholder', 'x']:
+                                  print(f'SECURITY ALERT: Found potential secret in {fp}: {m}')
+                                  clean = False
+          if not clean:
+              sys.exit(1)
+          print('Gate 1 (Security & Secret Scan): PASSED')
+          "
+
+      - name: Gate 2 — Protected Production Hashes Verification
+        run: |
+          python -c "
+          import hashlib, sys
+          from pathlib import Path
+
+          expected = {
+              'config/model_v3_2_frozen.py': 'e350e9209960357d75668ff3dc9fb742162525169ae1f19d7fb7b681beadc756',
+              'research/final_v3/results/final_predictions.csv': '52019b780e8b9d714e8f926063dce725541b27335dec47b7f6e66346520bca6b',
+              'research/live_forward/ledger/live_predictions.csv': '7950580952b7d3e4d082aeb2c8b48ed892fbe9ce2487d0755255cce81977136e',
+              'research/live_forward/ledger/live_hashes.csv': '0010c55813170804e62726ce458ac78cee0394b8995b9f3d2bd8066014c0ca43',
+              'research/live_forward/promotion_gate/promotion_status.json': 'e9761f0b27853f1e2d3635dbe11a36a859b2dee899a1aeb6a15a8f39c1575fa3',
+              'data/decision_ledger.db': '2a3f7046e8cf072a959c044ddd879a61720deb049eb7ff5cc16703acdf8f7696'
+          }
+
+          for path_str, exp_hash in expected.items():
+              p = Path(path_str)
+              if not p.exists():
+                  print(f'FAILED: {path_str} does not exist!')
+                  sys.exit(1)
+              actual = hashlib.sha256(p.read_bytes()).hexdigest()
+              if actual != exp_hash:
+                  print(f'FAILED: Hash mismatch on {path_str}! Expected {exp_hash}, got {actual}')
+                  sys.exit(1)
+              print(f'[MATCH] {path_str} -> {actual[:16]}...')
+          print('Gate 2 (Protected Production Hashes): PASSED')
+          "
+
+      - name: Gate 3 — Full Pytest Regression Suite
+        run: |
+          python -m pytest tests/ research/v73_filter_consistency/ research/classification_audit/tests/ -q --maxfail=1
+
+      - name: Gate 4 — Application Smoke & Health Test
+        run: |
+          python -c "
+          from database.db import Database
+          from dashboard.components.universe_service import resolve_active_market_universe, get_current_universe_context
+          from analytics.canonical_v3_2_service import get_canonical_industry_intelligence_table
+
+          db = Database()
+          dates = db.get_existing_price_dates()
+          assert len(dates) > 0, 'No dates found in database'
+          latest = dates[-1]
+
+          # Test universal & mega-cap bounding
+          u_all = resolve_active_market_universe(latest, 'all', 0.0, False)
+          assert u_all['count'] == 3028, f'Universal count expected 3028, got {u_all["count"]}'
+
+          u_50k = resolve_active_market_universe(latest, 'mega', 50000.0, False)
+          assert u_50k['count'] == 440, f'Mega-cap count expected 440, got {u_50k["count"]}'
+
+          print('Gate 4 (Application & Universe Invariants): PASSED')
+          "

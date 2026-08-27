@@ -1,0 +1,6 @@
+Rule,Coverage_Pct,Top_Decile_Return,Bottom_Decile_Return,Decile_Spread,Win_Rate
+Rule_0: Baseline V3.2 (No Filter),100.0,1.81,-0.15,+1.97%,49.0%
+Rule_1: V3.2 + Market Filter (Mkt Breadth > 40%),63.1,1.82,0.75,+1.08%,49.3%
+Rule_2: V3.2 + Industry Alignment (Ind Breadth > 40%),60.8,1.84,0.78,+1.06%,49.3%
+Rule_3: V3.2 + Anti-Exhaustion (Vol Ratio < 1.5),98.7,1.84,-0.17,+2.00%,49.1%
+Rule_4: V3.2 + Combined Robust Filter (Rules 1+2+3),53.7,1.84,0.9,+0.95%,49.4%

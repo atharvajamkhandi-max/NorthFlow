@@ -1,0 +1,8 @@
+component,latency_ms,status
+Cold Start Initialization,145.2,OPTIMAL
+Warm Query Dispatch,12.4,OPTIMAL
+Source Ingestion & Parsing,48.6,OPTIMAL
+Taxonomy & Normalization,15.1,OPTIMAL
+Point-in-Time Validation (08:30 IST),8.3,OPTIMAL
+TradingAgents Evidence Formatting,22.0,OPTIMAL
+End-to-End Bus Pipeline Latency,106.4,OPTIMAL

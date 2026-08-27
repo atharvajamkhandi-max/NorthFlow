@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-08-25T00:56:00",
+  "locked_candidate": {
+    "model_version": "MODEL_V3.3_CANDIDATE",
+    "lock_timestamp": "2026-08-25T00:55:00",
+    "feature_cols": [
+      "industry_return_1d",
+      "breadth_50",
+      "RISK_SCORE",
+      "CONFIDENCE_SCORE"
+    ],
+    "target_col": "future_return_20D",
+    "hgb_hyperparameters": {
+      "max_iter": 80,
+      "max_depth": 4,
+      "l2_regularization": 2.0,
+      "learning_rate": 0.1,
+      "random_state": 42
+    },
+    "conformal_quantile_scale": 1.3,
+    "regime_60d_offsets": {
+      "WEAK_BULL": 12.22,
+      "WEAK_BEAR": -5.67,
+      "SIDEWAYS": 4.01,
+      "HIGH_VOLATILITY": 0.0
+    },
+    "regime_conditional_rules": {
+      "WEAK_BULL": "USE_HGB",
+      "WEAK_BEAR": "USE_HGB",
+      "HIGH_VOLATILITY": "USE_HGB",
+      "SIDEWAYS": "USE_V32_BASE"
+    }
+  },
+  "clustered_uncertainty_95ci": {
+    "directional_accuracy_gain_pp": [
+      7.883674608336688,
+      13.127856382054556
+    ],
+    "mae_reduction_pp": [
+      -1.507798044760255,
+      -0.970147261570445
+    ],
+    "rank_ic_gain": [
+      0.0705248502078889,
+      0.11408144367049339
+    ]
+  },
+  "sideways_investigation": {
+    "v32_accuracy": 64.36,
+    "hgb_accuracy": 61.56,
+    "conclusion": "V3.2 is superior in SIDEWAYS regimes due to structural mean-reversion filtering"
+  },
+  "recommendation": "B. V3.3 READY FOR SHADOW DEPLOYMENT (Maintain V3.2 in production; deploy V3.3 in prospective shadow logging mode)"
+}

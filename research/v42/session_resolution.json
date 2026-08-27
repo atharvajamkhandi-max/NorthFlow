@@ -1,0 +1,7 @@
+{
+  "latest_known_production_session": "2026-08-21",
+  "true_live_forward_boundary": "2026-08-24",
+  "calendar_source": "NSE_TRADING_CALENDAR_FROZEN",
+  "resolution_timestamp": "2026-08-25T01:08:00",
+  "live_operation_mode": "ACTIVE_SHADOW_NO_ONLINE_LEARNING"
+}

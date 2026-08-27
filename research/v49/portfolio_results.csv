@@ -1,0 +1,5 @@
+strategy,mean_return_pct,mean_return_bps
+Long Top Decile (Top 10%),-0.2173,-21.7
+Short Bottom Decile (Bottom 10%),-3.1935,-319.3
+Gross Long/Short Spread,2.9762,297.6
+Net Long/Short Spread (After 20 bps cost),2.7762,277.6

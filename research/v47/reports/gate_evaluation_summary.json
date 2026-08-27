@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-08-26T22:52:00",
+  "gates_passed_count": 6,
+  "total_gates": 15,
+  "decision": "B. CONTINUE TRUE LIVE-FORWARD SHADOW",
+  "gate_details": [
+    {
+      "gate": 1,
+      "name": ">=60 Independent Live Sessions Captured",
+      "required": 60,
+      "observed": 1,
+      "passed": false
+    },
+    {
+      "gate": 2,
+      "name": ">=40 Matured 20D Live Sessions",
+      "required": 40,
+      "observed": 0,
+      "passed": false
+    },
+    {
+      "gate": 3,
+      "name": "No 20D Directional Accuracy Collapse",
+      "required": ">= 55.0%",
+      "observed": "Pending Maturity",
+      "passed": false
+    },
+    {
+      "gate": 4,
+      "name": "20D MAE Superior to V3.2",
+      "required": "< 9.5%",
+      "observed": "Pending Maturity",
+      "passed": false
+    },
+    {
+      "gate": 5,
+      "name": "20D Rank IC Superior to V3.2",
+      "required": "> +0.0800",
+      "observed": "Pending Maturity",
+      "passed": false
+    },
+    {
+      "gate": 6,
+      "name": "Economic Ranking Spread Positive after Costs",
+      "required": "> +100 bps",
+      "observed": "Pending Maturity",
+      "passed": false
+    },
+    {
+      "gate": 7,
+      "name": "P10-P90 Uncertainty Coverage Valid",
+      "required": ">= 75.0%",
+      "observed": "Pending Maturity",
+      "passed": false
+    },
+    {
+      "gate": 8,
+      "name": "No Catastrophic Regime Failure",
+      "required": "All regimes pass",
+      "observed": "Pending Maturity",
+      "passed": false
+    },
+    {
+      "gate": 9,
+      "name": "No Industry Concentration Collapse",
+      "required": "130+ industries robust",
+      "observed": "Pending Maturity",
+      "passed": false
+    },
+    {
+      "gate": 10,
+      "name": "Zero Point-in-Time / Lookahead Violations",
+      "required": 0,
+      "observed": 0,
+      "passed": true
+    },
+    {
+      "gate": 11,
+      "name": "Zero Live-Forward Contamination",
+      "required": 0,
+      "observed": 0,
+      "passed": true
+    },
+    {
+      "gate": 12,
+      "name": "Zero Post-Hoc Model Tuning during Observation",
+      "required": 0,
+      "observed": 0,
+      "passed": true
+    },
+    {
+      "gate": 13,
+      "name": "V3.4 Model Manifest Unchanged",
+      "required": "100% hash match",
+      "observed": "Matched",
+      "passed": true
+    },
+    {
+      "gate": 14,
+      "name": "Production V3.2 Untouched",
+      "required": "100% hash match",
+      "observed": "Matched",
+      "passed": true
+    },
+    {
+      "gate": 15,
+      "name": "All Checksum & Reproducibility Tests Pass",
+      "required": "100% passing",
+      "observed": "240/240 passed",
+      "passed": true
+    }
+  ]
+}

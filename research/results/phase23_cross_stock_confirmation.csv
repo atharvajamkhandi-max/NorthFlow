@@ -1,0 +1,4 @@
+Synchronization_Tier,Precision@5,Avg_5D_Return,False_Alarm_Rate
+High Synchronization (>= 65% Co-movement),23.4%,+2.45%,16.5%
+Moderate Synchronization (50% - 65%),17.8%,+1.52%,28.2%
+Low Synchronization (< 50% Single-Stock Skew),11.2%,+0.45%,48.5%

@@ -1,0 +1,3361 @@
+date,industry,sector_strength
+2024-10-28,Automobile and Auto Components,10.29
+2024-10-28,Capital Goods,23.03625
+2024-10-28,Chemicals,19.96
+2024-10-28,Construction,14.445
+2024-10-28,Construction Materials,18.44
+2024-10-28,Consumer Durables,26.543333333333333
+2024-10-28,Consumer Services,17.676666666666666
+2024-10-28,Diversified Commercial,25.0
+2024-10-28,Fast Moving Consumer Goods,16.566666666666666
+2024-10-28,Financial Services,27.623333333333335
+2024-10-28,Forest Materials,10.6
+2024-10-28,Healthcare,34.992000000000004
+2024-10-28,Information Technology,26.65
+2024-10-28,Media,16.88
+2024-10-28,Metals & Mining,21.808
+2024-10-28,Oil Gas & Consumable Fuels,10.34
+2024-10-28,Power,12.856666666666667
+2024-10-28,Realty,19.72
+2024-10-28,Services,19.68
+2024-10-28,Telecommunication,22.48
+2024-10-28,Textiles,15.8
+2024-10-29,Automobile and Auto Components,10.8375
+2024-10-29,Capital Goods,20.8975
+2024-10-29,Chemicals,19.205
+2024-10-29,Construction,15.629999999999999
+2024-10-29,Construction Materials,19.7375
+2024-10-29,Consumer Durables,31.776666666666667
+2024-10-29,Consumer Services,19.508333333333333
+2024-10-29,Diversified Commercial,22.5
+2024-10-29,Fast Moving Consumer Goods,21.496666666666666
+2024-10-29,Financial Services,29.376666666666665
+2024-10-29,Forest Materials,15.65
+2024-10-29,Healthcare,34.416000000000004
+2024-10-29,Information Technology,26.15
+2024-10-29,Media,13.26
+2024-10-29,Metals & Mining,24.236
+2024-10-29,Oil Gas & Consumable Fuels,7.025
+2024-10-29,Power,11.94
+2024-10-29,Realty,24.32
+2024-10-29,Services,18.44666666666667
+2024-10-29,Telecommunication,18.985
+2024-10-29,Textiles,12.355
+2024-10-30,Automobile and Auto Components,14.4375
+2024-10-30,Capital Goods,27.8475
+2024-10-30,Chemicals,22.202499999999997
+2024-10-30,Construction,19.3
+2024-10-30,Construction Materials,20.4975
+2024-10-30,Consumer Durables,32.78333333333333
+2024-10-30,Consumer Services,23.258333333333336
+2024-10-30,Diversified Commercial,26.28
+2024-10-30,Fast Moving Consumer Goods,24.021666666666665
+2024-10-30,Financial Services,35.90833333333333
+2024-10-30,Forest Materials,13.34
+2024-10-30,Healthcare,41.048
+2024-10-30,Information Technology,28.0425
+2024-10-30,Media,15.53
+2024-10-30,Metals & Mining,23.478
+2024-10-30,Oil Gas & Consumable Fuels,8.77
+2024-10-30,Power,12.476666666666667
+2024-10-30,Realty,19.98
+2024-10-30,Services,29.686666666666667
+2024-10-30,Telecommunication,28.450000000000003
+2024-10-30,Textiles,22.98
+2024-10-31,Automobile and Auto Components,14.795
+2024-10-31,Capital Goods,33.95375
+2024-10-31,Chemicals,25.59
+2024-10-31,Construction,28.89
+2024-10-31,Construction Materials,26.565
+2024-10-31,Consumer Durables,30.986666666666665
+2024-10-31,Consumer Services,26.53
+2024-10-31,Diversified Commercial,28.05
+2024-10-31,Fast Moving Consumer Goods,27.978333333333335
+2024-10-31,Financial Services,37.60666666666666
+2024-10-31,Forest Materials,14.51
+2024-10-31,Healthcare,46.6
+2024-10-31,Information Technology,33.2325
+2024-10-31,Media,24.94
+2024-10-31,Metals & Mining,25.503999999999998
+2024-10-31,Oil Gas & Consumable Fuels,8.809999999999999
+2024-10-31,Power,13.896666666666667
+2024-10-31,Realty,25.3
+2024-10-31,Services,29.92
+2024-10-31,Telecommunication,24.87
+2024-10-31,Textiles,19.305
+2024-11-01,Automobile and Auto Components,13.5775
+2024-11-01,Capital Goods,32.8475
+2024-11-01,Chemicals,25.575
+2024-11-01,Construction,25.395
+2024-11-01,Construction Materials,26.295
+2024-11-01,Consumer Durables,31.28333333333333
+2024-11-01,Consumer Services,26.959999999999997
+2024-11-01,Diversified Commercial,30.63
+2024-11-01,Fast Moving Consumer Goods,28.73
+2024-11-01,Financial Services,38.05166666666667
+2024-11-01,Forest Materials,13.18
+2024-11-01,Healthcare,41.878
+2024-11-01,Information Technology,32.6875
+2024-11-01,Media,26.64
+2024-11-01,Metals & Mining,26.806
+2024-11-01,Oil Gas & Consumable Fuels,10.61
+2024-11-01,Power,13.99
+2024-11-01,Realty,25.57
+2024-11-01,Services,27.14
+2024-11-01,Telecommunication,31.045
+2024-11-01,Textiles,18.65
+2024-11-04,Automobile and Auto Components,18.2925
+2024-11-04,Capital Goods,36.269999999999996
+2024-11-04,Chemicals,29.75
+2024-11-04,Construction,24.805
+2024-11-04,Construction Materials,27.87
+2024-11-04,Consumer Durables,32.29333333333333
+2024-11-04,Consumer Services,32.91166666666667
+2024-11-04,Diversified Commercial,33.52
+2024-11-04,Fast Moving Consumer Goods,31.35833333333333
+2024-11-04,Financial Services,39.19166666666666
+2024-11-04,Forest Materials,23.93
+2024-11-04,Healthcare,48.862
+2024-11-04,Information Technology,34.535
+2024-11-04,Media,26.73
+2024-11-04,Metals & Mining,26.256
+2024-11-04,Oil Gas & Consumable Fuels,16.61
+2024-11-04,Power,19.646666666666665
+2024-11-04,Realty,26.78
+2024-11-04,Services,35.410000000000004
+2024-11-04,Telecommunication,31.125
+2024-11-04,Textiles,28.3
+2024-11-05,Automobile and Auto Components,16.98
+2024-11-05,Capital Goods,36.23
+2024-11-05,Chemicals,31.3525
+2024-11-05,Construction,24.205
+2024-11-05,Construction Materials,32.9925
+2024-11-05,Consumer Durables,31.3
+2024-11-05,Consumer Services,26.865
+2024-11-05,Diversified Commercial,34.68
+2024-11-05,Fast Moving Consumer Goods,35.288333333333334
+2024-11-05,Financial Services,39.625
+2024-11-05,Forest Materials,26.05
+2024-11-05,Healthcare,51.7
+2024-11-05,Information Technology,33.6025
+2024-11-05,Media,23.89
+2024-11-05,Metals & Mining,28.560000000000002
+2024-11-05,Oil Gas & Consumable Fuels,19.224999999999998
+2024-11-05,Power,20.73
+2024-11-05,Realty,27.25
+2024-11-05,Services,35.776666666666664
+2024-11-05,Telecommunication,29.765
+2024-11-05,Textiles,27.015
+2024-11-06,Automobile and Auto Components,19.3125
+2024-11-06,Capital Goods,40.87375
+2024-11-06,Chemicals,38.355000000000004
+2024-11-06,Construction,27.295
+2024-11-06,Construction Materials,36.065
+2024-11-06,Consumer Durables,50.22
+2024-11-06,Consumer Services,33.193333333333335
+2024-11-06,Diversified Commercial,40.22
+2024-11-06,Fast Moving Consumer Goods,39.58833333333333
+2024-11-06,Financial Services,41.365
+2024-11-06,Forest Materials,22.26
+2024-11-06,Healthcare,57.274
+2024-11-06,Information Technology,47.1025
+2024-11-06,Media,36.83
+2024-11-06,Metals & Mining,38.839999999999996
+2024-11-06,Oil Gas & Consumable Fuels,23.58
+2024-11-06,Power,22.849999999999998
+2024-11-06,Realty,31.93
+2024-11-06,Services,37.67333333333334
+2024-11-06,Telecommunication,37.69499999999999
+2024-11-06,Textiles,31.83
+2024-11-07,Automobile and Auto Components,22.595
+2024-11-07,Capital Goods,39.59125
+2024-11-07,Chemicals,41.15
+2024-11-07,Construction,25.939999999999998
+2024-11-07,Construction Materials,34.605
+2024-11-07,Consumer Durables,48.28333333333333
+2024-11-07,Consumer Services,35.663333333333334
+2024-11-07,Diversified Commercial,38.48
+2024-11-07,Fast Moving Consumer Goods,36.54666666666667
+2024-11-07,Financial Services,39.65
+2024-11-07,Forest Materials,19.83
+2024-11-07,Healthcare,51.89
+2024-11-07,Information Technology,48.6725
+2024-11-07,Media,29.15
+2024-11-07,Metals & Mining,35.656
+2024-11-07,Oil Gas & Consumable Fuels,20.985
+2024-11-07,Power,22.76
+2024-11-07,Realty,32.42
+2024-11-07,Services,38.86
+2024-11-07,Telecommunication,39.239999999999995
+2024-11-07,Textiles,33.400000000000006
+2024-11-08,Automobile and Auto Components,17.067500000000003
+2024-11-08,Capital Goods,36.7475
+2024-11-08,Chemicals,30.3675
+2024-11-08,Construction,26.595000000000002
+2024-11-08,Construction Materials,28.767500000000002
+2024-11-08,Consumer Durables,41.71
+2024-11-08,Consumer Services,34.34166666666667
+2024-11-08,Diversified Commercial,35.77
+2024-11-08,Fast Moving Consumer Goods,29.985
+2024-11-08,Financial Services,36.925000000000004
+2024-11-08,Forest Materials,18.2
+2024-11-08,Healthcare,48.58
+2024-11-08,Information Technology,45.8775
+2024-11-08,Media,18.99
+2024-11-08,Metals & Mining,31.708
+2024-11-08,Oil Gas & Consumable Fuels,19.915
+2024-11-08,Power,16.930000000000003
+2024-11-08,Realty,31.26
+2024-11-08,Services,31.23
+2024-11-08,Telecommunication,40.64
+2024-11-08,Textiles,32.715
+2024-11-11,Automobile and Auto Components,16.91
+2024-11-11,Capital Goods,33.74625
+2024-11-11,Chemicals,27.085
+2024-11-11,Construction,22.045
+2024-11-11,Construction Materials,26.717499999999998
+2024-11-11,Consumer Durables,38.64666666666667
+2024-11-11,Consumer Services,30.816666666666666
+2024-11-11,Diversified Commercial,35.26
+2024-11-11,Fast Moving Consumer Goods,28.221666666666664
+2024-11-11,Financial Services,36.32333333333333
+2024-11-11,Forest Materials,16.49
+2024-11-11,Healthcare,44.68
+2024-11-11,Information Technology,42.3125
+2024-11-11,Media,19.83
+2024-11-11,Metals & Mining,21.722
+2024-11-11,Oil Gas & Consumable Fuels,10.33
+2024-11-11,Power,23.893333333333334
+2024-11-11,Realty,25.6
+2024-11-11,Services,34.82
+2024-11-11,Telecommunication,34.39
+2024-11-11,Textiles,25.655
+2024-11-12,Automobile and Auto Components,13.942499999999999
+2024-11-12,Capital Goods,31.4425
+2024-11-12,Chemicals,20.0675
+2024-11-12,Construction,21.105
+2024-11-12,Construction Materials,26.94
+2024-11-12,Consumer Durables,34.35666666666666
+2024-11-12,Consumer Services,25.16
+2024-11-12,Diversified Commercial,31.09
+2024-11-12,Fast Moving Consumer Goods,24.508333333333336
+2024-11-12,Financial Services,32.01166666666666
+2024-11-12,Forest Materials,15.58
+2024-11-12,Healthcare,42.148
+2024-11-12,Information Technology,41.0025
+2024-11-12,Media,15.4
+2024-11-12,Metals & Mining,17.048
+2024-11-12,Oil Gas & Consumable Fuels,10.305
+2024-11-12,Power,16.743333333333332
+2024-11-12,Realty,22.39
+2024-11-12,Services,32.51333333333333
+2024-11-12,Telecommunication,24.96
+2024-11-12,Textiles,20.689999999999998
+2024-11-13,Automobile and Auto Components,13.46
+2024-11-13,Capital Goods,19.76125
+2024-11-13,Chemicals,17.8575
+2024-11-13,Construction,21.375
+2024-11-13,Construction Materials,18.95
+2024-11-13,Consumer Durables,28.676666666666666
+2024-11-13,Consumer Services,20.213333333333335
+2024-11-13,Diversified Commercial,26.98
+2024-11-13,Fast Moving Consumer Goods,20.951666666666664
+2024-11-13,Financial Services,23.611666666666668
+2024-11-13,Forest Materials,13.46
+2024-11-13,Healthcare,33.62
+2024-11-13,Information Technology,30.9575
+2024-11-13,Media,15.33
+2024-11-13,Metals & Mining,13.542000000000002
+2024-11-13,Oil Gas & Consumable Fuels,9.655
+2024-11-13,Power,16.69
+2024-11-13,Realty,16.75
+2024-11-13,Services,21.423333333333336
+2024-11-13,Telecommunication,28.92
+2024-11-13,Textiles,24.685000000000002
+2024-11-14,Automobile and Auto Components,14.5775
+2024-11-14,Capital Goods,27.71125
+2024-11-14,Chemicals,19.685
+2024-11-14,Construction,15.015
+2024-11-14,Construction Materials,19.435
+2024-11-14,Consumer Durables,29.22
+2024-11-14,Consumer Services,19.893333333333334
+2024-11-14,Diversified Commercial,25.57
+2024-11-14,Fast Moving Consumer Goods,22.471666666666664
+2024-11-14,Financial Services,24.813333333333333
+2024-11-14,Forest Materials,16.43
+2024-11-14,Healthcare,39.936
+2024-11-14,Information Technology,35.0
+2024-11-14,Media,20.65
+2024-11-14,Metals & Mining,13.569999999999999
+2024-11-14,Oil Gas & Consumable Fuels,8.68
+2024-11-14,Power,14.056666666666667
+2024-11-14,Realty,19.94
+2024-11-14,Services,26.8
+2024-11-14,Telecommunication,32.195
+2024-11-14,Textiles,21.545
+2024-11-18,Automobile and Auto Components,13.5725
+2024-11-18,Capital Goods,23.09375
+2024-11-18,Chemicals,19.415
+2024-11-18,Construction,16.259999999999998
+2024-11-18,Construction Materials,19.445
+2024-11-18,Consumer Durables,30.026666666666667
+2024-11-18,Consumer Services,21.560000000000002
+2024-11-18,Diversified Commercial,25.83
+2024-11-18,Fast Moving Consumer Goods,23.52
+2024-11-18,Financial Services,25.570000000000004
+2024-11-18,Forest Materials,15.94
+2024-11-18,Healthcare,35.136
+2024-11-18,Information Technology,34.9425
+2024-11-18,Media,17.35
+2024-11-18,Metals & Mining,15.472
+2024-11-18,Oil Gas & Consumable Fuels,8.465
+2024-11-18,Power,17.16
+2024-11-18,Realty,19.5
+2024-11-18,Services,24.156666666666666
+2024-11-18,Telecommunication,25.45
+2024-11-18,Textiles,23.78
+2024-11-19,Automobile and Auto Components,15.32
+2024-11-19,Capital Goods,25.04625
+2024-11-19,Chemicals,19.0025
+2024-11-19,Construction,19.015
+2024-11-19,Construction Materials,20.099999999999998
+2024-11-19,Consumer Durables,34.223333333333336
+2024-11-19,Consumer Services,22.008333333333336
+2024-11-19,Diversified Commercial,27.58
+2024-11-19,Fast Moving Consumer Goods,27.165000000000003
+2024-11-19,Financial Services,29.463333333333335
+2024-11-19,Forest Materials,19.28
+2024-11-19,Healthcare,37.906
+2024-11-19,Information Technology,38.335
+2024-11-19,Media,22.72
+2024-11-19,Metals & Mining,15.456
+2024-11-19,Oil Gas & Consumable Fuels,8.895
+2024-11-19,Power,17.33
+2024-11-19,Realty,19.78
+2024-11-19,Services,24.320000000000004
+2024-11-19,Telecommunication,25.025
+2024-11-19,Textiles,21.88
+2024-11-20,Automobile and Auto Components,17.2275
+2024-11-20,Capital Goods,26.98875
+2024-11-20,Chemicals,20.982499999999998
+2024-11-20,Construction,22.35
+2024-11-20,Construction Materials,22.02
+2024-11-20,Consumer Durables,36.26
+2024-11-20,Consumer Services,23.525000000000002
+2024-11-20,Diversified Commercial,28.33
+2024-11-20,Fast Moving Consumer Goods,28.815
+2024-11-20,Financial Services,31.406666666666666
+2024-11-20,Forest Materials,21.44
+2024-11-20,Healthcare,39.704
+2024-11-20,Information Technology,40.480000000000004
+2024-11-20,Media,26.19
+2024-11-20,Metals & Mining,18.094
+2024-11-20,Oil Gas & Consumable Fuels,11.225000000000001
+2024-11-20,Power,19.333333333333332
+2024-11-20,Realty,22.1
+2024-11-20,Services,27.036666666666665
+2024-11-20,Telecommunication,27.345
+2024-11-20,Textiles,23.740000000000002
+2024-11-21,Automobile and Auto Components,15.182500000000001
+2024-11-21,Capital Goods,23.666249999999998
+2024-11-21,Chemicals,20.2175
+2024-11-21,Construction,19.16
+2024-11-21,Construction Materials,28.2575
+2024-11-21,Consumer Durables,33.663333333333334
+2024-11-21,Consumer Services,24.383333333333336
+2024-11-21,Diversified Commercial,26.65
+2024-11-21,Fast Moving Consumer Goods,27.245
+2024-11-21,Financial Services,29.830000000000002
+2024-11-21,Forest Materials,19.2
+2024-11-21,Healthcare,38.466
+2024-11-21,Information Technology,36.934999999999995
+2024-11-21,Media,25.19
+2024-11-21,Metals & Mining,21.036
+2024-11-21,Oil Gas & Consumable Fuels,10.4
+2024-11-21,Power,27.263333333333335
+2024-11-21,Realty,20.94
+2024-11-21,Services,29.866666666666664
+2024-11-21,Telecommunication,25.950000000000003
+2024-11-21,Textiles,20.79
+2024-11-22,Automobile and Auto Components,15.94
+2024-11-22,Capital Goods,24.12875
+2024-11-22,Chemicals,20.3375
+2024-11-22,Construction,23.43
+2024-11-22,Construction Materials,23.88
+2024-11-22,Consumer Durables,32.873333333333335
+2024-11-22,Consumer Services,29.653333333333336
+2024-11-22,Diversified Commercial,27.18
+2024-11-22,Fast Moving Consumer Goods,27.576666666666668
+2024-11-22,Financial Services,30.301666666666666
+2024-11-22,Forest Materials,19.34
+2024-11-22,Healthcare,45.978
+2024-11-22,Information Technology,42.0
+2024-11-22,Media,22.17
+2024-11-22,Metals & Mining,19.753999999999998
+2024-11-22,Oil Gas & Consumable Fuels,15.594999999999999
+2024-11-22,Power,25.75333333333333
+2024-11-22,Realty,25.74
+2024-11-22,Services,28.796666666666667
+2024-11-22,Telecommunication,26.39
+2024-11-22,Textiles,19.93
+2024-11-25,Automobile and Auto Components,23.555
+2024-11-25,Capital Goods,34.795
+2024-11-25,Chemicals,27.175
+2024-11-25,Construction,36.385
+2024-11-25,Construction Materials,26.9875
+2024-11-25,Consumer Durables,43.40333333333333
+2024-11-25,Consumer Services,35.02333333333333
+2024-11-25,Diversified Commercial,32.66
+2024-11-25,Fast Moving Consumer Goods,31.37166666666667
+2024-11-25,Financial Services,42.06166666666667
+2024-11-25,Forest Materials,31.89
+2024-11-25,Healthcare,53.104
+2024-11-25,Information Technology,45.085
+2024-11-25,Media,26.34
+2024-11-25,Metals & Mining,24.794
+2024-11-25,Oil Gas & Consumable Fuels,20.605
+2024-11-25,Power,32.1
+2024-11-25,Realty,35.06
+2024-11-25,Services,34.96333333333333
+2024-11-25,Telecommunication,34.864999999999995
+2024-11-25,Textiles,26.7
+2024-11-26,Automobile and Auto Components,24.9675
+2024-11-26,Capital Goods,32.5875
+2024-11-26,Chemicals,25.7675
+2024-11-26,Construction,37.78
+2024-11-26,Construction Materials,29.285
+2024-11-26,Consumer Durables,33.943333333333335
+2024-11-26,Consumer Services,33.27
+2024-11-26,Diversified Commercial,33.13
+2024-11-26,Fast Moving Consumer Goods,30.076666666666664
+2024-11-26,Financial Services,37.928333333333335
+2024-11-26,Forest Materials,28.2
+2024-11-26,Healthcare,46.751999999999995
+2024-11-26,Information Technology,50.255
+2024-11-26,Media,34.67
+2024-11-26,Metals & Mining,23.018
+2024-11-26,Oil Gas & Consumable Fuels,15.73
+2024-11-26,Power,19.893333333333334
+2024-11-26,Realty,26.69
+2024-11-26,Services,32.06666666666666
+2024-11-26,Telecommunication,44.21
+2024-11-26,Textiles,29.48
+2024-11-27,Automobile and Auto Components,33.655
+2024-11-27,Capital Goods,41.18375
+2024-11-27,Chemicals,28.845000000000002
+2024-11-27,Construction,40.015
+2024-11-27,Construction Materials,33.1725
+2024-11-27,Consumer Durables,37.81
+2024-11-27,Consumer Services,39.1
+2024-11-27,Diversified Commercial,34.47
+2024-11-27,Fast Moving Consumer Goods,34.63666666666666
+2024-11-27,Financial Services,37.10166666666667
+2024-11-27,Forest Materials,21.57
+2024-11-27,Healthcare,46.754000000000005
+2024-11-27,Information Technology,50.425
+2024-11-27,Media,32.98
+2024-11-27,Metals & Mining,25.336
+2024-11-27,Oil Gas & Consumable Fuels,17.835
+2024-11-27,Power,23.040000000000003
+2024-11-27,Realty,34.65
+2024-11-27,Services,41.56
+2024-11-27,Telecommunication,40.955
+2024-11-27,Textiles,41.504999999999995
+2024-11-28,Automobile and Auto Components,24.5625
+2024-11-28,Capital Goods,38.38125
+2024-11-28,Chemicals,31.802500000000002
+2024-11-28,Construction,41.525
+2024-11-28,Construction Materials,35.5525
+2024-11-28,Consumer Durables,37.81
+2024-11-28,Consumer Services,38.085
+2024-11-28,Diversified Commercial,34.41
+2024-11-28,Fast Moving Consumer Goods,37.34
+2024-11-28,Financial Services,39.98
+2024-11-28,Forest Materials,22.44
+2024-11-28,Healthcare,46.736000000000004
+2024-11-28,Information Technology,50.07
+2024-11-28,Media,26.6
+2024-11-28,Metals & Mining,26.656
+2024-11-28,Oil Gas & Consumable Fuels,17.935
+2024-11-28,Power,28.209999999999997
+2024-11-28,Realty,36.13
+2024-11-28,Services,36.56666666666667
+2024-11-28,Telecommunication,35.68
+2024-11-28,Textiles,35.545
+2024-11-29,Automobile and Auto Components,25.91
+2024-11-29,Capital Goods,36.39
+2024-11-29,Chemicals,37.9425
+2024-11-29,Construction,42.3
+2024-11-29,Construction Materials,37.5975
+2024-11-29,Consumer Durables,37.35666666666667
+2024-11-29,Consumer Services,38.04333333333333
+2024-11-29,Diversified Commercial,36.3
+2024-11-29,Fast Moving Consumer Goods,39.18
+2024-11-29,Financial Services,41.803333333333335
+2024-11-29,Forest Materials,26.82
+2024-11-29,Healthcare,52.65599999999999
+2024-11-29,Information Technology,47.917500000000004
+2024-11-29,Media,26.26
+2024-11-29,Metals & Mining,32.358000000000004
+2024-11-29,Oil Gas & Consumable Fuels,16.33
+2024-11-29,Power,23.45
+2024-11-29,Realty,32.03
+2024-11-29,Services,34.63666666666666
+2024-11-29,Telecommunication,37.52
+2024-11-29,Textiles,36.74
+2024-12-02,Automobile and Auto Components,33.7125
+2024-12-02,Capital Goods,39.94
+2024-12-02,Chemicals,34.345
+2024-12-02,Construction,47.150000000000006
+2024-12-02,Construction Materials,45.4225
+2024-12-02,Consumer Durables,43.73333333333333
+2024-12-02,Consumer Services,40.74666666666666
+2024-12-02,Diversified Commercial,38.35
+2024-12-02,Fast Moving Consumer Goods,41.074999999999996
+2024-12-02,Financial Services,40.735
+2024-12-02,Forest Materials,61.65
+2024-12-02,Healthcare,56.662
+2024-12-02,Information Technology,54.6475
+2024-12-02,Media,32.35
+2024-12-02,Metals & Mining,30.546
+2024-12-02,Oil Gas & Consumable Fuels,21.545
+2024-12-02,Power,26.94333333333333
+2024-12-02,Realty,36.89
+2024-12-02,Services,40.443333333333335
+2024-12-02,Telecommunication,38.855
+2024-12-02,Textiles,43.900000000000006
+2024-12-03,Automobile and Auto Components,35.255
+2024-12-03,Capital Goods,46.975
+2024-12-03,Chemicals,42.465
+2024-12-03,Construction,53.445
+2024-12-03,Construction Materials,49.05
+2024-12-03,Consumer Durables,53.34
+2024-12-03,Consumer Services,45.80833333333334
+2024-12-03,Diversified Commercial,43.15
+2024-12-03,Fast Moving Consumer Goods,43.01833333333334
+2024-12-03,Financial Services,47.69
+2024-12-03,Forest Materials,62.29
+2024-12-03,Healthcare,60.61600000000001
+2024-12-03,Information Technology,54.56
+2024-12-03,Media,41.41
+2024-12-03,Metals & Mining,37.37
+2024-12-03,Oil Gas & Consumable Fuels,21.2
+2024-12-03,Power,30.743333333333336
+2024-12-03,Realty,52.19
+2024-12-03,Services,47.419999999999995
+2024-12-03,Telecommunication,39.34
+2024-12-03,Textiles,51.565
+2024-12-04,Automobile and Auto Components,36.435
+2024-12-04,Capital Goods,53.4975
+2024-12-04,Chemicals,41.8575
+2024-12-04,Construction,53.055
+2024-12-04,Construction Materials,51.9625
+2024-12-04,Consumer Durables,55.31666666666666
+2024-12-04,Consumer Services,45.53
+2024-12-04,Diversified Commercial,44.61
+2024-12-04,Fast Moving Consumer Goods,41.805
+2024-12-04,Financial Services,50.916666666666664
+2024-12-04,Forest Materials,50.08
+2024-12-04,Healthcare,56.898
+2024-12-04,Information Technology,54.665
+2024-12-04,Media,41.36
+2024-12-04,Metals & Mining,39.94
+2024-12-04,Oil Gas & Consumable Fuels,22.115000000000002
+2024-12-04,Power,30.926666666666666
+2024-12-04,Realty,48.95
+2024-12-04,Services,46.01333333333334
+2024-12-04,Telecommunication,41.2
+2024-12-04,Textiles,50.07
+2024-12-05,Automobile and Auto Components,35.7625
+2024-12-05,Capital Goods,50.68625
+2024-12-05,Chemicals,44.07
+2024-12-05,Construction,53.015
+2024-12-05,Construction Materials,47.36
+2024-12-05,Consumer Durables,50.71333333333333
+2024-12-05,Consumer Services,43.055
+2024-12-05,Diversified Commercial,44.12
+2024-12-05,Fast Moving Consumer Goods,43.49
+2024-12-05,Financial Services,52.24666666666667
+2024-12-05,Forest Materials,46.5
+2024-12-05,Healthcare,52.464
+2024-12-05,Information Technology,51.9225
+2024-12-05,Media,54.16
+2024-12-05,Metals & Mining,45.141999999999996
+2024-12-05,Oil Gas & Consumable Fuels,33.68
+2024-12-05,Power,34.00333333333334
+2024-12-05,Realty,47.18
+2024-12-05,Services,44.15
+2024-12-05,Telecommunication,44.61
+2024-12-05,Textiles,62.455
+2024-12-06,Automobile and Auto Components,36.3275
+2024-12-06,Capital Goods,51.38875
+2024-12-06,Chemicals,46.095
+2024-12-06,Construction,59.265
+2024-12-06,Construction Materials,50.832499999999996
+2024-12-06,Consumer Durables,61.18000000000001
+2024-12-06,Consumer Services,46.708333333333336
+2024-12-06,Diversified Commercial,46.87
+2024-12-06,Fast Moving Consumer Goods,44.58833333333333
+2024-12-06,Financial Services,52.81833333333333
+2024-12-06,Forest Materials,57.71
+2024-12-06,Healthcare,52.098
+2024-12-06,Information Technology,55.385
+2024-12-06,Media,47.7
+2024-12-06,Metals & Mining,42.94199999999999
+2024-12-06,Oil Gas & Consumable Fuels,43.39
+2024-12-06,Power,42.096666666666664
+2024-12-06,Realty,61.45
+2024-12-06,Services,45.13666666666666
+2024-12-06,Telecommunication,57.290000000000006
+2024-12-06,Textiles,58.45
+2024-12-09,Automobile and Auto Components,41.315
+2024-12-09,Capital Goods,51.555
+2024-12-09,Chemicals,48.015
+2024-12-09,Construction,61.875
+2024-12-09,Construction Materials,53.4375
+2024-12-09,Consumer Durables,63.38999999999999
+2024-12-09,Consumer Services,51.538333333333334
+2024-12-09,Diversified Commercial,50.14
+2024-12-09,Fast Moving Consumer Goods,47.58166666666667
+2024-12-09,Financial Services,57.028333333333336
+2024-12-09,Forest Materials,60.71
+2024-12-09,Healthcare,49.146
+2024-12-09,Information Technology,54.33
+2024-12-09,Media,59.22
+2024-12-09,Metals & Mining,45.412
+2024-12-09,Oil Gas & Consumable Fuels,39.975
+2024-12-09,Power,40.96333333333333
+2024-12-09,Realty,59.24
+2024-12-09,Services,50.81666666666666
+2024-12-09,Telecommunication,54.114999999999995
+2024-12-09,Textiles,68.265
+2024-12-10,Automobile and Auto Components,46.067499999999995
+2024-12-10,Capital Goods,54.88875
+2024-12-10,Chemicals,57.099999999999994
+2024-12-10,Construction,64.305
+2024-12-10,Construction Materials,57.552499999999995
+2024-12-10,Consumer Durables,63.48
+2024-12-10,Consumer Services,53.93833333333333
+2024-12-10,Diversified Commercial,52.16
+2024-12-10,Fast Moving Consumer Goods,53.199999999999996
+2024-12-10,Financial Services,58.27166666666667
+2024-12-10,Forest Materials,52.79
+2024-12-10,Healthcare,50.546
+2024-12-10,Information Technology,62.5325
+2024-12-10,Media,41.48
+2024-12-10,Metals & Mining,48.836
+2024-12-10,Oil Gas & Consumable Fuels,43.195
+2024-12-10,Power,39.49666666666666
+2024-12-10,Realty,54.74
+2024-12-10,Services,55.73666666666666
+2024-12-10,Telecommunication,52.474999999999994
+2024-12-10,Textiles,75.285
+2024-12-11,Automobile and Auto Components,41.980000000000004
+2024-12-11,Capital Goods,50.20375
+2024-12-11,Chemicals,57.7675
+2024-12-11,Construction,75.67
+2024-12-11,Construction Materials,66.1275
+2024-12-11,Consumer Durables,60.43666666666667
+2024-12-11,Consumer Services,54.85166666666667
+2024-12-11,Diversified Commercial,54.08
+2024-12-11,Fast Moving Consumer Goods,55.538333333333334
+2024-12-11,Financial Services,56.964999999999996
+2024-12-11,Forest Materials,56.32
+2024-12-11,Healthcare,52.95399999999999
+2024-12-11,Information Technology,63.019999999999996
+2024-12-11,Media,38.63
+2024-12-11,Metals & Mining,56.552
+2024-12-11,Oil Gas & Consumable Fuels,41.94
+2024-12-11,Power,39.343333333333334
+2024-12-11,Realty,63.61
+2024-12-11,Services,55.46333333333333
+2024-12-11,Telecommunication,52.215
+2024-12-11,Textiles,74.44999999999999
+2024-12-12,Automobile and Auto Components,42.905
+2024-12-12,Capital Goods,49.0225
+2024-12-12,Chemicals,53.7275
+2024-12-12,Construction,64.345
+2024-12-12,Construction Materials,67.1525
+2024-12-12,Consumer Durables,58.89333333333334
+2024-12-12,Consumer Services,54.60333333333333
+2024-12-12,Diversified Commercial,53.99
+2024-12-12,Fast Moving Consumer Goods,50.60166666666667
+2024-12-12,Financial Services,57.031666666666666
+2024-12-12,Forest Materials,47.19
+2024-12-12,Healthcare,52.068000000000005
+2024-12-12,Information Technology,66.1875
+2024-12-12,Media,41.89
+2024-12-12,Metals & Mining,51.492
+2024-12-12,Oil Gas & Consumable Fuels,45.565
+2024-12-12,Power,45.596666666666664
+2024-12-12,Realty,57.73
+2024-12-12,Services,51.69
+2024-12-12,Telecommunication,62.745
+2024-12-12,Textiles,70.94
+2024-12-13,Automobile and Auto Components,44.6875
+2024-12-13,Capital Goods,48.143750000000004
+2024-12-13,Chemicals,50.769999999999996
+2024-12-13,Construction,64.055
+2024-12-13,Construction Materials,60.1625
+2024-12-13,Consumer Durables,55.82333333333333
+2024-12-13,Consumer Services,53.60166666666667
+2024-12-13,Diversified Commercial,54.54
+2024-12-13,Fast Moving Consumer Goods,51.22666666666667
+2024-12-13,Financial Services,56.11333333333334
+2024-12-13,Forest Materials,45.81
+2024-12-13,Healthcare,44.528
+2024-12-13,Information Technology,64.815
+2024-12-13,Media,38.32
+2024-12-13,Metals & Mining,45.81
+2024-12-13,Oil Gas & Consumable Fuels,44.385000000000005
+2024-12-13,Power,42.11
+2024-12-13,Realty,57.7
+2024-12-13,Services,48.89333333333334
+2024-12-13,Telecommunication,61.11
+2024-12-13,Textiles,77.86500000000001
+2024-12-16,Automobile and Auto Components,56.4125
+2024-12-16,Capital Goods,51.20875
+2024-12-16,Chemicals,54.2525
+2024-12-16,Construction,68.56
+2024-12-16,Construction Materials,58.62
+2024-12-16,Consumer Durables,55.870000000000005
+2024-12-16,Consumer Services,55.218333333333334
+2024-12-16,Diversified Commercial,57.2
+2024-12-16,Fast Moving Consumer Goods,50.32
+2024-12-16,Financial Services,56.538333333333334
+2024-12-16,Forest Materials,82.02
+2024-12-16,Healthcare,49.344
+2024-12-16,Information Technology,68.10249999999999
+2024-12-16,Media,46.67
+2024-12-16,Metals & Mining,47.304
+2024-12-16,Oil Gas & Consumable Fuels,43.34
+2024-12-16,Power,45.199999999999996
+2024-12-16,Realty,70.08
+2024-12-16,Services,48.85666666666666
+2024-12-16,Telecommunication,61.405
+2024-12-16,Textiles,82.67500000000001
+2024-12-17,Automobile and Auto Components,48.615
+2024-12-17,Capital Goods,56.25875
+2024-12-17,Chemicals,53.037499999999994
+2024-12-17,Construction,66.1
+2024-12-17,Construction Materials,53.89
+2024-12-17,Consumer Durables,58.9
+2024-12-17,Consumer Services,53.47666666666667
+2024-12-17,Diversified Commercial,54.22
+2024-12-17,Fast Moving Consumer Goods,49.365
+2024-12-17,Financial Services,53.01
+2024-12-17,Forest Materials,59.86
+2024-12-17,Healthcare,44.314
+2024-12-17,Information Technology,65.2275
+2024-12-17,Media,48.03
+2024-12-17,Metals & Mining,44.94
+2024-12-17,Oil Gas & Consumable Fuels,42.80500000000001
+2024-12-17,Power,41.97666666666667
+2024-12-17,Realty,65.35
+2024-12-17,Services,51.92666666666667
+2024-12-17,Telecommunication,58.075
+2024-12-17,Textiles,74.34
+2024-12-18,Automobile and Auto Components,36.4975
+2024-12-18,Capital Goods,48.52625
+2024-12-18,Chemicals,44.6725
+2024-12-18,Construction,57.75
+2024-12-18,Construction Materials,47.635
+2024-12-18,Consumer Durables,55.20666666666667
+2024-12-18,Consumer Services,52.419999999999995
+2024-12-18,Diversified Commercial,49.52
+2024-12-18,Fast Moving Consumer Goods,49.57166666666666
+2024-12-18,Financial Services,46.538333333333334
+2024-12-18,Forest Materials,56.19
+2024-12-18,Healthcare,44.79
+2024-12-18,Information Technology,62.1325
+2024-12-18,Media,52.93
+2024-12-18,Metals & Mining,39.756
+2024-12-18,Oil Gas & Consumable Fuels,38.08
+2024-12-18,Power,29.223333333333333
+2024-12-18,Realty,60.89
+2024-12-18,Services,41.126666666666665
+2024-12-18,Telecommunication,62.379999999999995
+2024-12-18,Textiles,69.815
+2024-12-19,Automobile and Auto Components,35.557500000000005
+2024-12-19,Capital Goods,46.926249999999996
+2024-12-19,Chemicals,43.835
+2024-12-19,Construction,53.09
+2024-12-19,Construction Materials,45.724999999999994
+2024-12-19,Consumer Durables,52.96
+2024-12-19,Consumer Services,51.221666666666664
+2024-12-19,Diversified Commercial,48.21
+2024-12-19,Fast Moving Consumer Goods,50.410000000000004
+2024-12-19,Financial Services,44.541666666666664
+2024-12-19,Forest Materials,66.9
+2024-12-19,Healthcare,43.862
+2024-12-19,Information Technology,65.0125
+2024-12-19,Media,50.71
+2024-12-19,Metals & Mining,39.12
+2024-12-19,Oil Gas & Consumable Fuels,43.84
+2024-12-19,Power,39.556666666666665
+2024-12-19,Realty,56.36
+2024-12-19,Services,38.48666666666667
+2024-12-19,Telecommunication,60.32
+2024-12-19,Textiles,63.834999999999994
+2024-12-20,Automobile and Auto Components,29.51
+2024-12-20,Capital Goods,41.77625
+2024-12-20,Chemicals,34.042500000000004
+2024-12-20,Construction,44.14
+2024-12-20,Construction Materials,40.4525
+2024-12-20,Consumer Durables,42.913333333333334
+2024-12-20,Consumer Services,46.06833333333333
+2024-12-20,Diversified Commercial,43.37
+2024-12-20,Fast Moving Consumer Goods,40.678333333333335
+2024-12-20,Financial Services,39.721666666666664
+2024-12-20,Forest Materials,40.69
+2024-12-20,Healthcare,34.438
+2024-12-20,Information Technology,53.585
+2024-12-20,Media,46.06
+2024-12-20,Metals & Mining,35.288
+2024-12-20,Oil Gas & Consumable Fuels,39.019999999999996
+2024-12-20,Power,32.699999999999996
+2024-12-20,Realty,43.88
+2024-12-20,Services,37.026666666666664
+2024-12-20,Telecommunication,50.17
+2024-12-20,Textiles,55.025
+2024-12-23,Automobile and Auto Components,27.77
+2024-12-23,Capital Goods,36.3975
+2024-12-23,Chemicals,31.8175
+2024-12-23,Construction,42.105000000000004
+2024-12-23,Construction Materials,39.915
+2024-12-23,Consumer Durables,46.31666666666666
+2024-12-23,Consumer Services,45.05833333333334
+2024-12-23,Diversified Commercial,39.55
+2024-12-23,Fast Moving Consumer Goods,35.449999999999996
+2024-12-23,Financial Services,31.495
+2024-12-23,Forest Materials,29.1
+2024-12-23,Healthcare,31.074
+2024-12-23,Information Technology,53.3425
+2024-12-23,Media,35.93
+2024-12-23,Metals & Mining,32.098
+2024-12-23,Oil Gas & Consumable Fuels,33.300000000000004
+2024-12-23,Power,28.42
+2024-12-23,Realty,43.26
+2024-12-23,Services,32.61666666666667
+2024-12-23,Telecommunication,38.935
+2024-12-23,Textiles,47.755
+2024-12-24,Automobile and Auto Components,27.2725
+2024-12-24,Capital Goods,36.1925
+2024-12-24,Chemicals,34.2275
+2024-12-24,Construction,38.415000000000006
+2024-12-24,Construction Materials,31.4775
+2024-12-24,Consumer Durables,42.60333333333333
+2024-12-24,Consumer Services,43.461666666666666
+2024-12-24,Diversified Commercial,38.32
+2024-12-24,Fast Moving Consumer Goods,39.19833333333333
+2024-12-24,Financial Services,32.748333333333335
+2024-12-24,Forest Materials,35.03
+2024-12-24,Healthcare,32.648
+2024-12-24,Information Technology,48.387499999999996
+2024-12-24,Media,37.72
+2024-12-24,Metals & Mining,28.839999999999996
+2024-12-24,Oil Gas & Consumable Fuels,33.11
+2024-12-24,Power,24.386666666666667
+2024-12-24,Realty,40.61
+2024-12-24,Services,35.973333333333336
+2024-12-24,Telecommunication,39.34
+2024-12-24,Textiles,45.235
+2024-12-25,Automobile and Auto Components,26.384999999999998
+2024-12-25,Capital Goods,35.08625
+2024-12-25,Chemicals,32.4025
+2024-12-25,Construction,37.785
+2024-12-25,Construction Materials,30.802500000000002
+2024-12-25,Consumer Durables,40.443333333333335
+2024-12-25,Consumer Services,43.129999999999995
+2024-12-25,Diversified Commercial,37.59
+2024-12-25,Fast Moving Consumer Goods,37.208333333333336
+2024-12-25,Financial Services,31.971666666666664
+2024-12-25,Forest Materials,34.57
+2024-12-25,Healthcare,31.906
+2024-12-25,Information Technology,47.39
+2024-12-25,Media,37.07
+2024-12-25,Metals & Mining,27.448
+2024-12-25,Oil Gas & Consumable Fuels,32.405
+2024-12-25,Power,23.856666666666666
+2024-12-25,Realty,39.77
+2024-12-25,Services,35.089999999999996
+2024-12-25,Telecommunication,38.455
+2024-12-25,Textiles,43.785
+2024-12-26,Automobile and Auto Components,38.03
+2024-12-26,Capital Goods,37.573750000000004
+2024-12-26,Chemicals,28.69
+2024-12-26,Construction,39.379999999999995
+2024-12-26,Construction Materials,33.9975
+2024-12-26,Consumer Durables,41.81333333333333
+2024-12-26,Consumer Services,44.82
+2024-12-26,Diversified Commercial,37.62
+2024-12-26,Fast Moving Consumer Goods,36.73166666666666
+2024-12-26,Financial Services,31.95
+2024-12-26,Forest Materials,31.92
+2024-12-26,Healthcare,35.178000000000004
+2024-12-26,Information Technology,46.905
+2024-12-26,Media,39.54
+2024-12-26,Metals & Mining,28.059999999999995
+2024-12-26,Oil Gas & Consumable Fuels,30.46
+2024-12-26,Power,22.863333333333333
+2024-12-26,Realty,38.91
+2024-12-26,Services,35.67333333333333
+2024-12-26,Telecommunication,33.825
+2024-12-26,Textiles,36.41
+2024-12-27,Automobile and Auto Components,37.825
+2024-12-27,Capital Goods,41.09125
+2024-12-27,Chemicals,29.705
+2024-12-27,Construction,39.175
+2024-12-27,Construction Materials,33.34
+2024-12-27,Consumer Durables,39.330000000000005
+2024-12-27,Consumer Services,48.87166666666667
+2024-12-27,Diversified Commercial,37.93
+2024-12-27,Fast Moving Consumer Goods,32.60333333333333
+2024-12-27,Financial Services,29.55
+2024-12-27,Forest Materials,27.02
+2024-12-27,Healthcare,36.802
+2024-12-27,Information Technology,48.877500000000005
+2024-12-27,Media,40.37
+2024-12-27,Metals & Mining,26.601999999999997
+2024-12-27,Oil Gas & Consumable Fuels,28.445
+2024-12-27,Power,22.22
+2024-12-27,Realty,40.27
+2024-12-27,Services,32.86
+2024-12-27,Telecommunication,31.625
+2024-12-27,Textiles,36.03
+2024-12-30,Automobile and Auto Components,30.4075
+2024-12-30,Capital Goods,37.975
+2024-12-30,Chemicals,31.41
+2024-12-30,Construction,42.095
+2024-12-30,Construction Materials,36.71
+2024-12-30,Consumer Durables,41.13333333333333
+2024-12-30,Consumer Services,45.55166666666667
+2024-12-30,Diversified Commercial,34.45
+2024-12-30,Fast Moving Consumer Goods,31.743333333333336
+2024-12-30,Financial Services,33.31666666666667
+2024-12-30,Forest Materials,16.72
+2024-12-30,Healthcare,37.832
+2024-12-30,Information Technology,46.865
+2024-12-30,Media,34.81
+2024-12-30,Metals & Mining,26.5
+2024-12-30,Oil Gas & Consumable Fuels,23.17
+2024-12-30,Power,28.626666666666665
+2024-12-30,Realty,40.34
+2024-12-30,Services,27.09
+2024-12-30,Telecommunication,35.015
+2024-12-30,Textiles,30.445
+2024-12-31,Automobile and Auto Components,26.1275
+2024-12-31,Capital Goods,36.36125
+2024-12-31,Chemicals,32.415
+2024-12-31,Construction,42.79
+2024-12-31,Construction Materials,32.845
+2024-12-31,Consumer Durables,40.25666666666667
+2024-12-31,Consumer Services,44.278333333333336
+2024-12-31,Diversified Commercial,35.45
+2024-12-31,Fast Moving Consumer Goods,37.998333333333335
+2024-12-31,Financial Services,33.555
+2024-12-31,Forest Materials,15.71
+2024-12-31,Healthcare,36.07
+2024-12-31,Information Technology,44.555
+2024-12-31,Media,29.43
+2024-12-31,Metals & Mining,24.672
+2024-12-31,Oil Gas & Consumable Fuels,32.980000000000004
+2024-12-31,Power,25.343333333333334
+2024-12-31,Realty,36.5
+2024-12-31,Services,30.916666666666668
+2024-12-31,Telecommunication,35.68
+2024-12-31,Textiles,33.61
+2025-01-01,Automobile and Auto Components,37.792500000000004
+2025-01-01,Capital Goods,41.615
+2025-01-01,Chemicals,33.4825
+2025-01-01,Construction,44.69
+2025-01-01,Construction Materials,39.5525
+2025-01-01,Consumer Durables,48.50333333333333
+2025-01-01,Consumer Services,46.928333333333335
+2025-01-01,Diversified Commercial,37.08
+2025-01-01,Fast Moving Consumer Goods,38.82666666666667
+2025-01-01,Financial Services,36.946666666666665
+2025-01-01,Forest Materials,34.1
+2025-01-01,Healthcare,41.73
+2025-01-01,Information Technology,58.14
+2025-01-01,Media,30.87
+2025-01-01,Metals & Mining,30.084000000000003
+2025-01-01,Oil Gas & Consumable Fuels,37.025
+2025-01-01,Power,27.166666666666668
+2025-01-01,Realty,39.41
+2025-01-01,Services,31.423333333333332
+2025-01-01,Telecommunication,40.245
+2025-01-01,Textiles,40.325
+2025-01-02,Automobile and Auto Components,48.5175
+2025-01-02,Capital Goods,44.97375
+2025-01-02,Chemicals,36.96
+2025-01-02,Construction,48.375
+2025-01-02,Construction Materials,39.9725
+2025-01-02,Consumer Durables,50.73333333333334
+2025-01-02,Consumer Services,49.36333333333334
+2025-01-02,Diversified Commercial,41.8
+2025-01-02,Fast Moving Consumer Goods,39.63
+2025-01-02,Financial Services,38.166666666666664
+2025-01-02,Forest Materials,33.14
+2025-01-02,Healthcare,42.318
+2025-01-02,Information Technology,57.7875
+2025-01-02,Media,36.13
+2025-01-02,Metals & Mining,32.062
+2025-01-02,Oil Gas & Consumable Fuels,42.989999999999995
+2025-01-02,Power,25.01
+2025-01-02,Realty,45.93
+2025-01-02,Services,33.24666666666666
+2025-01-02,Telecommunication,41.515
+2025-01-02,Textiles,39.614999999999995
+2025-01-03,Automobile and Auto Components,49.387499999999996
+2025-01-03,Capital Goods,44.261250000000004
+2025-01-03,Chemicals,35.167500000000004
+2025-01-03,Construction,50.12
+2025-01-03,Construction Materials,38.3125
+2025-01-03,Consumer Durables,45.54
+2025-01-03,Consumer Services,56.126666666666665
+2025-01-03,Diversified Commercial,42.14
+2025-01-03,Fast Moving Consumer Goods,39.36833333333333
+2025-01-03,Financial Services,35.49666666666667
+2025-01-03,Forest Materials,26.14
+2025-01-03,Healthcare,43.368
+2025-01-03,Information Technology,53.9775
+2025-01-03,Media,50.31
+2025-01-03,Metals & Mining,34.208
+2025-01-03,Oil Gas & Consumable Fuels,40.655
+2025-01-03,Power,18.69333333333333
+2025-01-03,Realty,42.2
+2025-01-03,Services,33.22
+2025-01-03,Telecommunication,46.355000000000004
+2025-01-03,Textiles,45.8
+2025-01-06,Automobile and Auto Components,36.82
+2025-01-06,Capital Goods,38.0975
+2025-01-06,Chemicals,29.1
+2025-01-06,Construction,33.975
+2025-01-06,Construction Materials,23.975
+2025-01-06,Consumer Durables,41.47666666666667
+2025-01-06,Consumer Services,43.86166666666667
+2025-01-06,Diversified Commercial,33.5
+2025-01-06,Fast Moving Consumer Goods,30.473333333333333
+2025-01-06,Financial Services,23.761666666666667
+2025-01-06,Forest Materials,16.94
+2025-01-06,Healthcare,41.766
+2025-01-06,Information Technology,40.965
+2025-01-06,Media,29.84
+2025-01-06,Metals & Mining,26.089999999999996
+2025-01-06,Oil Gas & Consumable Fuels,20.685
+2025-01-06,Power,15.0
+2025-01-06,Realty,34.49
+2025-01-06,Services,27.02333333333333
+2025-01-06,Telecommunication,36.614999999999995
+2025-01-06,Textiles,23.759999999999998
+2025-01-07,Automobile and Auto Components,34.9125
+2025-01-07,Capital Goods,42.816250000000004
+2025-01-07,Chemicals,30.2275
+2025-01-07,Construction,36.55
+2025-01-07,Construction Materials,26.5175
+2025-01-07,Consumer Durables,44.35333333333333
+2025-01-07,Consumer Services,43.800000000000004
+2025-01-07,Diversified Commercial,33.83
+2025-01-07,Fast Moving Consumer Goods,35.05166666666667
+2025-01-07,Financial Services,27.703333333333333
+2025-01-07,Forest Materials,19.58
+2025-01-07,Healthcare,44.696
+2025-01-07,Information Technology,46.0975
+2025-01-07,Media,33.16
+2025-01-07,Metals & Mining,28.077999999999996
+2025-01-07,Oil Gas & Consumable Fuels,29.84
+2025-01-07,Power,15.300000000000002
+2025-01-07,Realty,36.58
+2025-01-07,Services,29.883333333333336
+2025-01-07,Telecommunication,34.73
+2025-01-07,Textiles,29.275
+2025-01-08,Automobile and Auto Components,32.535
+2025-01-08,Capital Goods,39.44375
+2025-01-08,Chemicals,26.9575
+2025-01-08,Construction,34.595
+2025-01-08,Construction Materials,22.25
+2025-01-08,Consumer Durables,38.17333333333333
+2025-01-08,Consumer Services,39.62166666666666
+2025-01-08,Diversified Commercial,33.74
+2025-01-08,Fast Moving Consumer Goods,27.295
+2025-01-08,Financial Services,23.968333333333334
+2025-01-08,Forest Materials,17.26
+2025-01-08,Healthcare,40.64
+2025-01-08,Information Technology,38.207499999999996
+2025-01-08,Media,35.04
+2025-01-08,Metals & Mining,27.106
+2025-01-08,Oil Gas & Consumable Fuels,29.975
+2025-01-08,Power,13.526666666666666
+2025-01-08,Realty,34.42
+2025-01-08,Services,31.52
+2025-01-08,Telecommunication,37.095
+2025-01-08,Textiles,22.65
+2025-01-09,Automobile and Auto Components,30.2925
+2025-01-09,Capital Goods,33.9625
+2025-01-09,Chemicals,30.7
+2025-01-09,Construction,29.034999999999997
+2025-01-09,Construction Materials,18.445
+2025-01-09,Consumer Durables,32.98666666666667
+2025-01-09,Consumer Services,33.89666666666667
+2025-01-09,Diversified Commercial,30.05
+2025-01-09,Fast Moving Consumer Goods,28.598333333333333
+2025-01-09,Financial Services,22.388333333333332
+2025-01-09,Forest Materials,12.41
+2025-01-09,Healthcare,33.012
+2025-01-09,Information Technology,31.58
+2025-01-09,Media,36.83
+2025-01-09,Metals & Mining,24.580000000000002
+2025-01-09,Oil Gas & Consumable Fuels,21.235
+2025-01-09,Power,14.056666666666667
+2025-01-09,Realty,28.66
+2025-01-09,Services,23.123333333333335
+2025-01-09,Telecommunication,31.105
+2025-01-09,Textiles,19.125
+2025-01-10,Automobile and Auto Components,33.5575
+2025-01-10,Capital Goods,28.65
+2025-01-10,Chemicals,20.05
+2025-01-10,Construction,19.66
+2025-01-10,Construction Materials,14.9425
+2025-01-10,Consumer Durables,24.563333333333333
+2025-01-10,Consumer Services,28.82166666666667
+2025-01-10,Diversified Commercial,27.83
+2025-01-10,Fast Moving Consumer Goods,26.521666666666665
+2025-01-10,Financial Services,21.2
+2025-01-10,Forest Materials,11.07
+2025-01-10,Healthcare,25.389999999999997
+2025-01-10,Information Technology,28.1825
+2025-01-10,Media,31.57
+2025-01-10,Metals & Mining,22.89
+2025-01-10,Oil Gas & Consumable Fuels,15.419999999999998
+2025-01-10,Power,15.399999999999999
+2025-01-10,Realty,23.88
+2025-01-10,Services,20.063333333333336
+2025-01-10,Telecommunication,20.445
+2025-01-10,Textiles,15.175
+2025-01-13,Automobile and Auto Components,17.71
+2025-01-13,Capital Goods,20.35375
+2025-01-13,Chemicals,15.4675
+2025-01-13,Construction,14.739999999999998
+2025-01-13,Construction Materials,16.1725
+2025-01-13,Consumer Durables,20.38
+2025-01-13,Consumer Services,21.015
+2025-01-13,Diversified Commercial,28.84
+2025-01-13,Fast Moving Consumer Goods,18.30333333333333
+2025-01-13,Financial Services,16.82166666666667
+2025-01-13,Forest Materials,6.65
+2025-01-13,Healthcare,23.022
+2025-01-13,Information Technology,19.575
+2025-01-13,Media,26.88
+2025-01-13,Metals & Mining,18.296
+2025-01-13,Oil Gas & Consumable Fuels,16.97
+2025-01-13,Power,14.146666666666667
+2025-01-13,Realty,17.04
+2025-01-13,Services,13.729999999999999
+2025-01-13,Telecommunication,15.815000000000001
+2025-01-13,Textiles,12.43
+2025-01-14,Automobile and Auto Components,20.8725
+2025-01-14,Capital Goods,19.37375
+2025-01-14,Chemicals,13.787500000000001
+2025-01-14,Construction,15.99
+2025-01-14,Construction Materials,11.385
+2025-01-14,Consumer Durables,18.459999999999997
+2025-01-14,Consumer Services,21.14
+2025-01-14,Diversified Commercial,21.1
+2025-01-14,Fast Moving Consumer Goods,19.55
+2025-01-14,Financial Services,20.913333333333334
+2025-01-14,Forest Materials,6.53
+2025-01-14,Healthcare,25.375999999999998
+2025-01-14,Information Technology,19.502499999999998
+2025-01-14,Media,26.27
+2025-01-14,Metals & Mining,19.154
+2025-01-14,Oil Gas & Consumable Fuels,12.16
+2025-01-14,Power,23.150000000000002
+2025-01-14,Realty,16.13
+2025-01-14,Services,14.13
+2025-01-14,Telecommunication,19.060000000000002
+2025-01-14,Textiles,14.190000000000001
+2025-01-15,Automobile and Auto Components,18.4275
+2025-01-15,Capital Goods,21.673750000000002
+2025-01-15,Chemicals,15.705
+2025-01-15,Construction,14.91
+2025-01-15,Construction Materials,14.0075
+2025-01-15,Consumer Durables,20.726666666666667
+2025-01-15,Consumer Services,26.721666666666668
+2025-01-15,Diversified Commercial,21.68
+2025-01-15,Fast Moving Consumer Goods,21.311666666666667
+2025-01-15,Financial Services,19.208333333333332
+2025-01-15,Forest Materials,7.59
+2025-01-15,Healthcare,20.830000000000002
+2025-01-15,Information Technology,19.63
+2025-01-15,Media,22.93
+2025-01-15,Metals & Mining,20.514000000000003
+2025-01-15,Oil Gas & Consumable Fuels,11.935
+2025-01-15,Power,17.846666666666668
+2025-01-15,Realty,15.17
+2025-01-15,Services,16.253333333333334
+2025-01-15,Telecommunication,18.1
+2025-01-15,Textiles,24.93
+2025-01-16,Automobile and Auto Components,19.0625
+2025-01-16,Capital Goods,23.5825
+2025-01-16,Chemicals,21.4075
+2025-01-16,Construction,26.935000000000002
+2025-01-16,Construction Materials,16.4425
+2025-01-16,Consumer Durables,21.563333333333333
+2025-01-16,Consumer Services,26.034999999999997
+2025-01-16,Diversified Commercial,25.07
+2025-01-16,Fast Moving Consumer Goods,22.863333333333333
+2025-01-16,Financial Services,25.405
+2025-01-16,Forest Materials,6.76
+2025-01-16,Healthcare,22.226
+2025-01-16,Information Technology,18.7775
+2025-01-16,Media,22.7
+2025-01-16,Metals & Mining,24.394
+2025-01-16,Oil Gas & Consumable Fuels,14.225
+2025-01-16,Power,15.61
+2025-01-16,Realty,17.73
+2025-01-16,Services,19.143333333333334
+2025-01-16,Telecommunication,25.485
+2025-01-16,Textiles,20.39
+2025-01-17,Automobile and Auto Components,17.575
+2025-01-17,Capital Goods,23.8475
+2025-01-17,Chemicals,26.5175
+2025-01-17,Construction,25.36
+2025-01-17,Construction Materials,16.705
+2025-01-17,Consumer Durables,25.14
+2025-01-17,Consumer Services,27.150000000000002
+2025-01-17,Diversified Commercial,26.23
+2025-01-17,Fast Moving Consumer Goods,23.268333333333334
+2025-01-17,Financial Services,21.843333333333334
+2025-01-17,Forest Materials,9.1
+2025-01-17,Healthcare,25.1
+2025-01-17,Information Technology,19.262500000000003
+2025-01-17,Media,22.61
+2025-01-17,Metals & Mining,24.962
+2025-01-17,Oil Gas & Consumable Fuels,19.465
+2025-01-17,Power,17.683333333333334
+2025-01-17,Realty,24.28
+2025-01-17,Services,21.216666666666665
+2025-01-17,Telecommunication,27.075
+2025-01-17,Textiles,23.075
+2025-01-20,Automobile and Auto Components,18.4475
+2025-01-20,Capital Goods,27.59
+2025-01-20,Chemicals,25.485
+2025-01-20,Construction,28.244999999999997
+2025-01-20,Construction Materials,22.54
+2025-01-20,Consumer Durables,31.343333333333334
+2025-01-20,Consumer Services,30.005
+2025-01-20,Diversified Commercial,29.28
+2025-01-20,Fast Moving Consumer Goods,33.96
+2025-01-20,Financial Services,25.578333333333333
+2025-01-20,Forest Materials,12.08
+2025-01-20,Healthcare,33.022000000000006
+2025-01-20,Information Technology,26.7675
+2025-01-20,Media,25.79
+2025-01-20,Metals & Mining,27.3
+2025-01-20,Oil Gas & Consumable Fuels,19.57
+2025-01-20,Power,17.146666666666665
+2025-01-20,Realty,23.26
+2025-01-20,Services,24.67
+2025-01-20,Telecommunication,39.67
+2025-01-20,Textiles,24.16
+2025-01-21,Automobile and Auto Components,17.982499999999998
+2025-01-21,Capital Goods,21.744999999999997
+2025-01-21,Chemicals,26.2075
+2025-01-21,Construction,21.53
+2025-01-21,Construction Materials,24.58
+2025-01-21,Consumer Durables,23.5
+2025-01-21,Consumer Services,22.661666666666665
+2025-01-21,Diversified Commercial,26.32
+2025-01-21,Fast Moving Consumer Goods,27.646666666666665
+2025-01-21,Financial Services,22.376666666666665
+2025-01-21,Forest Materials,9.19
+2025-01-21,Healthcare,24.782
+2025-01-21,Information Technology,20.805
+2025-01-21,Media,22.04
+2025-01-21,Metals & Mining,23.818
+2025-01-21,Oil Gas & Consumable Fuels,20.045
+2025-01-21,Power,16.286666666666665
+2025-01-21,Realty,35.57
+2025-01-21,Services,18.036666666666665
+2025-01-21,Telecommunication,27.630000000000003
+2025-01-21,Textiles,19.91
+2025-01-22,Automobile and Auto Components,17.5325
+2025-01-22,Capital Goods,22.27625
+2025-01-22,Chemicals,21.4275
+2025-01-22,Construction,19.485
+2025-01-22,Construction Materials,24.545
+2025-01-22,Consumer Durables,17.593333333333334
+2025-01-22,Consumer Services,20.256666666666664
+2025-01-22,Diversified Commercial,23.27
+2025-01-22,Fast Moving Consumer Goods,27.12
+2025-01-22,Financial Services,22.311666666666667
+2025-01-22,Forest Materials,9.7
+2025-01-22,Healthcare,24.382
+2025-01-22,Information Technology,20.6475
+2025-01-22,Media,20.17
+2025-01-22,Metals & Mining,20.16
+2025-01-22,Oil Gas & Consumable Fuels,16.44
+2025-01-22,Power,17.80666666666667
+2025-01-22,Realty,24.87
+2025-01-22,Services,18.326666666666668
+2025-01-22,Telecommunication,22.055
+2025-01-22,Textiles,17.25
+2025-01-23,Automobile and Auto Components,16.775
+2025-01-23,Capital Goods,20.33875
+2025-01-23,Chemicals,24.06
+2025-01-23,Construction,18.255
+2025-01-23,Construction Materials,30.345
+2025-01-23,Consumer Durables,18.316666666666666
+2025-01-23,Consumer Services,18.638333333333332
+2025-01-23,Diversified Commercial,22.51
+2025-01-23,Fast Moving Consumer Goods,24.74
+2025-01-23,Financial Services,23.41
+2025-01-23,Forest Materials,11.27
+2025-01-23,Healthcare,28.558
+2025-01-23,Information Technology,22.567500000000003
+2025-01-23,Media,22.73
+2025-01-23,Metals & Mining,23.154
+2025-01-23,Oil Gas & Consumable Fuels,15.530000000000001
+2025-01-23,Power,16.346666666666668
+2025-01-23,Realty,22.3
+2025-01-23,Services,17.38
+2025-01-23,Telecommunication,27.41
+2025-01-23,Textiles,17.259999999999998
+2025-01-24,Automobile and Auto Components,24.0475
+2025-01-24,Capital Goods,13.73875
+2025-01-24,Chemicals,20.4775
+2025-01-24,Construction,15.635
+2025-01-24,Construction Materials,23.985
+2025-01-24,Consumer Durables,19.07
+2025-01-24,Consumer Services,13.951666666666668
+2025-01-24,Diversified Commercial,20.64
+2025-01-24,Fast Moving Consumer Goods,21.265
+2025-01-24,Financial Services,19.236666666666668
+2025-01-24,Forest Materials,11.66
+2025-01-24,Healthcare,23.669999999999998
+2025-01-24,Information Technology,22.26
+2025-01-24,Media,17.42
+2025-01-24,Metals & Mining,18.387999999999998
+2025-01-24,Oil Gas & Consumable Fuels,14.575000000000001
+2025-01-24,Power,12.126666666666667
+2025-01-24,Realty,18.11
+2025-01-24,Services,17.13
+2025-01-24,Telecommunication,22.61
+2025-01-24,Textiles,15.940000000000001
+2025-01-27,Automobile and Auto Components,17.7925
+2025-01-27,Capital Goods,13.08
+2025-01-27,Chemicals,16.6025
+2025-01-27,Construction,14.725000000000001
+2025-01-27,Construction Materials,24.8475
+2025-01-27,Consumer Durables,10.066666666666666
+2025-01-27,Consumer Services,14.85
+2025-01-27,Diversified Commercial,19.35
+2025-01-27,Fast Moving Consumer Goods,20.483333333333334
+2025-01-27,Financial Services,16.838333333333335
+2025-01-27,Forest Materials,14.34
+2025-01-27,Healthcare,17.15
+2025-01-27,Information Technology,16.4725
+2025-01-27,Media,27.93
+2025-01-27,Metals & Mining,15.568000000000001
+2025-01-27,Oil Gas & Consumable Fuels,10.33
+2025-01-27,Power,11.316666666666668
+2025-01-27,Realty,24.44
+2025-01-27,Services,16.536666666666665
+2025-01-27,Telecommunication,17.65
+2025-01-27,Textiles,13.315
+2025-01-28,Automobile and Auto Components,18.06
+2025-01-28,Capital Goods,14.40375
+2025-01-28,Chemicals,14.655000000000001
+2025-01-28,Construction,13.96
+2025-01-28,Construction Materials,17.9025
+2025-01-28,Consumer Durables,12.61
+2025-01-28,Consumer Services,12.751666666666667
+2025-01-28,Diversified Commercial,18.17
+2025-01-28,Fast Moving Consumer Goods,17.093333333333334
+2025-01-28,Financial Services,17.18166666666667
+2025-01-28,Forest Materials,9.43
+2025-01-28,Healthcare,15.324000000000002
+2025-01-28,Information Technology,15.2075
+2025-01-28,Media,12.57
+2025-01-28,Metals & Mining,14.596
+2025-01-28,Oil Gas & Consumable Fuels,10.595
+2025-01-28,Power,10.713333333333333
+2025-01-28,Realty,15.01
+2025-01-28,Services,13.526666666666666
+2025-01-28,Telecommunication,20.215
+2025-01-28,Textiles,11.59
+2025-01-29,Automobile and Auto Components,17.575
+2025-01-29,Capital Goods,12.80625
+2025-01-29,Chemicals,19.38
+2025-01-29,Construction,14.184999999999999
+2025-01-29,Construction Materials,19.7875
+2025-01-29,Consumer Durables,11.436666666666667
+2025-01-29,Consumer Services,15.723333333333334
+2025-01-29,Diversified Commercial,17.56
+2025-01-29,Fast Moving Consumer Goods,18.723333333333333
+2025-01-29,Financial Services,17.608333333333334
+2025-01-29,Forest Materials,7.66
+2025-01-29,Healthcare,13.626
+2025-01-29,Information Technology,17.384999999999998
+2025-01-29,Media,11.42
+2025-01-29,Metals & Mining,16.072
+2025-01-29,Oil Gas & Consumable Fuels,9.684999999999999
+2025-01-29,Power,12.21
+2025-01-29,Realty,15.12
+2025-01-29,Services,13.016666666666666
+2025-01-29,Telecommunication,13.135
+2025-01-29,Textiles,9.43
+2025-01-30,Automobile and Auto Components,30.15
+2025-01-30,Capital Goods,9.55625
+2025-01-30,Chemicals,19.7875
+2025-01-30,Construction,11.235
+2025-01-30,Construction Materials,16.055
+2025-01-30,Consumer Durables,12.15
+2025-01-30,Consumer Services,14.459999999999999
+2025-01-30,Diversified Commercial,17.01
+2025-01-30,Fast Moving Consumer Goods,18.59
+2025-01-30,Financial Services,15.275
+2025-01-30,Forest Materials,15.39
+2025-01-30,Healthcare,16.228
+2025-01-30,Information Technology,14.002500000000001
+2025-01-30,Media,13.28
+2025-01-30,Metals & Mining,13.41
+2025-01-30,Oil Gas & Consumable Fuels,10.125
+2025-01-30,Power,9.063333333333333
+2025-01-30,Realty,15.1
+2025-01-30,Services,14.049999999999999
+2025-01-30,Telecommunication,13.18
+2025-01-30,Textiles,10.4
+2025-01-31,Automobile and Auto Components,25.4525
+2025-01-31,Capital Goods,11.90625
+2025-01-31,Chemicals,18.935000000000002
+2025-01-31,Construction,15.37
+2025-01-31,Construction Materials,17.380000000000003
+2025-01-31,Consumer Durables,12.506666666666668
+2025-01-31,Consumer Services,17.82
+2025-01-31,Diversified Commercial,20.16
+2025-01-31,Fast Moving Consumer Goods,19.926666666666666
+2025-01-31,Financial Services,18.876666666666665
+2025-01-31,Forest Materials,16.06
+2025-01-31,Healthcare,21.234
+2025-01-31,Information Technology,11.76
+2025-01-31,Media,11.91
+2025-01-31,Metals & Mining,16.516
+2025-01-31,Oil Gas & Consumable Fuels,12.365
+2025-01-31,Power,11.910000000000002
+2025-01-31,Realty,16.94
+2025-01-31,Services,14.176666666666668
+2025-01-31,Telecommunication,15.41
+2025-01-31,Textiles,10.2
+2025-02-03,Automobile and Auto Components,29.95
+2025-02-03,Capital Goods,10.44625
+2025-02-03,Chemicals,20.6975
+2025-02-03,Construction,14.05
+2025-02-03,Construction Materials,21.697499999999998
+2025-02-03,Consumer Durables,20.38
+2025-02-03,Consumer Services,35.045
+2025-02-03,Diversified Commercial,19.33
+2025-02-03,Fast Moving Consumer Goods,26.918333333333333
+2025-02-03,Financial Services,18.425
+2025-02-03,Forest Materials,12.7
+2025-02-03,Healthcare,22.009999999999998
+2025-02-03,Information Technology,12.695
+2025-02-03,Media,25.28
+2025-02-03,Metals & Mining,12.852
+2025-02-03,Oil Gas & Consumable Fuels,10.805
+2025-02-03,Power,12.273333333333333
+2025-02-03,Realty,18.34
+2025-02-03,Services,13.949999999999998
+2025-02-03,Telecommunication,17.285
+2025-02-03,Textiles,10.705
+2025-02-04,Automobile and Auto Components,31.2275
+2025-02-04,Capital Goods,9.8375
+2025-02-04,Chemicals,18.415
+2025-02-04,Construction,14.085
+2025-02-04,Construction Materials,19.384999999999998
+2025-02-04,Consumer Durables,19.816666666666666
+2025-02-04,Consumer Services,31.395
+2025-02-04,Diversified Commercial,20.87
+2025-02-04,Fast Moving Consumer Goods,27.698333333333334
+2025-02-04,Financial Services,18.146666666666665
+2025-02-04,Forest Materials,12.11
+2025-02-04,Healthcare,26.254
+2025-02-04,Information Technology,12.3975
+2025-02-04,Media,21.05
+2025-02-04,Metals & Mining,13.664000000000001
+2025-02-04,Oil Gas & Consumable Fuels,21.310000000000002
+2025-02-04,Power,15.876666666666665
+2025-02-04,Realty,18.5
+2025-02-04,Services,15.173333333333332
+2025-02-04,Telecommunication,17.23
+2025-02-04,Textiles,12.455
+2025-02-05,Automobile and Auto Components,29.795
+2025-02-05,Capital Goods,11.8475
+2025-02-05,Chemicals,21.377499999999998
+2025-02-05,Construction,16.76
+2025-02-05,Construction Materials,28.845
+2025-02-05,Consumer Durables,26.51
+2025-02-05,Consumer Services,29.118333333333336
+2025-02-05,Diversified Commercial,22.54
+2025-02-05,Fast Moving Consumer Goods,26.804999999999996
+2025-02-05,Financial Services,23.526666666666667
+2025-02-05,Forest Materials,15.66
+2025-02-05,Healthcare,33.406
+2025-02-05,Information Technology,18.1175
+2025-02-05,Media,22.62
+2025-02-05,Metals & Mining,16.182
+2025-02-05,Oil Gas & Consumable Fuels,19.205
+2025-02-05,Power,12.716666666666667
+2025-02-05,Realty,21.0
+2025-02-05,Services,21.08
+2025-02-05,Telecommunication,20.94
+2025-02-05,Textiles,13.530000000000001
+2025-02-06,Automobile and Auto Components,34.1075
+2025-02-06,Capital Goods,12.16625
+2025-02-06,Chemicals,25.025
+2025-02-06,Construction,20.485
+2025-02-06,Construction Materials,29.22
+2025-02-06,Consumer Durables,20.843333333333334
+2025-02-06,Consumer Services,28.10666666666667
+2025-02-06,Diversified Commercial,22.39
+2025-02-06,Fast Moving Consumer Goods,26.128333333333334
+2025-02-06,Financial Services,21.853333333333335
+2025-02-06,Forest Materials,18.72
+2025-02-06,Healthcare,36.31
+2025-02-06,Information Technology,18.317500000000003
+2025-02-06,Media,21.02
+2025-02-06,Metals & Mining,16.994
+2025-02-06,Oil Gas & Consumable Fuels,29.284999999999997
+2025-02-06,Power,12.793333333333331
+2025-02-06,Realty,20.83
+2025-02-06,Services,24.313333333333333
+2025-02-06,Telecommunication,18.759999999999998
+2025-02-06,Textiles,17.445
+2025-02-07,Automobile and Auto Components,35.695
+2025-02-07,Capital Goods,13.6425
+2025-02-07,Chemicals,23.7625
+2025-02-07,Construction,18.265
+2025-02-07,Construction Materials,29.36
+2025-02-07,Consumer Durables,21.16
+2025-02-07,Consumer Services,25.935000000000002
+2025-02-07,Diversified Commercial,22.22
+2025-02-07,Fast Moving Consumer Goods,29.458333333333332
+2025-02-07,Financial Services,23.893333333333334
+2025-02-07,Forest Materials,18.44
+2025-02-07,Healthcare,34.242000000000004
+2025-02-07,Information Technology,19.795
+2025-02-07,Media,24.6
+2025-02-07,Metals & Mining,19.863999999999997
+2025-02-07,Oil Gas & Consumable Fuels,30.445
+2025-02-07,Power,15.483333333333334
+2025-02-07,Realty,21.56
+2025-02-07,Services,20.766666666666666
+2025-02-07,Telecommunication,32.660000000000004
+2025-02-07,Textiles,15.905000000000001
+2025-02-10,Automobile and Auto Components,23.8025
+2025-02-10,Capital Goods,15.036249999999999
+2025-02-10,Chemicals,24.0125
+2025-02-10,Construction,26.405
+2025-02-10,Construction Materials,24.134999999999998
+2025-02-10,Consumer Durables,19.246666666666666
+2025-02-10,Consumer Services,24.983333333333334
+2025-02-10,Diversified Commercial,22.48
+2025-02-10,Fast Moving Consumer Goods,24.785
+2025-02-10,Financial Services,21.366666666666664
+2025-02-10,Forest Materials,20.42
+2025-02-10,Healthcare,31.222
+2025-02-10,Information Technology,18.2
+2025-02-10,Media,23.26
+2025-02-10,Metals & Mining,16.28
+2025-02-10,Oil Gas & Consumable Fuels,30.525000000000002
+2025-02-10,Power,14.543333333333331
+2025-02-10,Realty,33.37
+2025-02-10,Services,24.133333333333336
+2025-02-10,Telecommunication,22.405
+2025-02-10,Textiles,16.39
+2025-02-11,Automobile and Auto Components,18.895
+2025-02-11,Capital Goods,15.2875
+2025-02-11,Chemicals,18.7625
+2025-02-11,Construction,14.315000000000001
+2025-02-11,Construction Materials,20.3475
+2025-02-11,Consumer Durables,13.916666666666666
+2025-02-11,Consumer Services,21.508333333333336
+2025-02-11,Diversified Commercial,19.11
+2025-02-11,Fast Moving Consumer Goods,20.89
+2025-02-11,Financial Services,17.093333333333334
+2025-02-11,Forest Materials,21.02
+2025-02-11,Healthcare,22.642
+2025-02-11,Information Technology,14.34
+2025-02-11,Media,15.84
+2025-02-11,Metals & Mining,16.842000000000002
+2025-02-11,Oil Gas & Consumable Fuels,24.735
+2025-02-11,Power,10.229999999999999
+2025-02-11,Realty,19.87
+2025-02-11,Services,19.86
+2025-02-11,Telecommunication,17.015
+2025-02-11,Textiles,14.315000000000001
+2025-02-12,Automobile and Auto Components,21.11
+2025-02-12,Capital Goods,18.442500000000003
+2025-02-12,Chemicals,22.8575
+2025-02-12,Construction,16.135
+2025-02-12,Construction Materials,16.665
+2025-02-12,Consumer Durables,17.706666666666667
+2025-02-12,Consumer Services,22.653333333333332
+2025-02-12,Diversified Commercial,19.58
+2025-02-12,Fast Moving Consumer Goods,24.56833333333333
+2025-02-12,Financial Services,17.631666666666664
+2025-02-12,Forest Materials,29.89
+2025-02-12,Healthcare,25.601999999999997
+2025-02-12,Information Technology,18.625
+2025-02-12,Media,21.4
+2025-02-12,Metals & Mining,17.104
+2025-02-12,Oil Gas & Consumable Fuels,24.785
+2025-02-12,Power,17.106666666666666
+2025-02-12,Realty,21.49
+2025-02-12,Services,20.996666666666666
+2025-02-12,Telecommunication,15.670000000000002
+2025-02-12,Textiles,12.95
+2025-02-13,Automobile and Auto Components,16.9425
+2025-02-13,Capital Goods,12.6625
+2025-02-13,Chemicals,19.77
+2025-02-13,Construction,8.665
+2025-02-13,Construction Materials,14.5675
+2025-02-13,Consumer Durables,15.406666666666666
+2025-02-13,Consumer Services,19.671666666666667
+2025-02-13,Diversified Commercial,17.2
+2025-02-13,Fast Moving Consumer Goods,21.088333333333335
+2025-02-13,Financial Services,14.566666666666668
+2025-02-13,Forest Materials,28.64
+2025-02-13,Healthcare,24.454
+2025-02-13,Information Technology,16.775
+2025-02-13,Media,23.32
+2025-02-13,Metals & Mining,13.969999999999999
+2025-02-13,Oil Gas & Consumable Fuels,28.604999999999997
+2025-02-13,Power,12.356666666666664
+2025-02-13,Realty,14.87
+2025-02-13,Services,17.28
+2025-02-13,Telecommunication,15.044999999999998
+2025-02-13,Textiles,10.775
+2025-02-14,Automobile and Auto Components,11.120000000000001
+2025-02-14,Capital Goods,11.36125
+2025-02-14,Chemicals,17.61
+2025-02-14,Construction,8.705
+2025-02-14,Construction Materials,14.627500000000001
+2025-02-14,Consumer Durables,12.816666666666668
+2025-02-14,Consumer Services,14.461666666666666
+2025-02-14,Diversified Commercial,17.1
+2025-02-14,Fast Moving Consumer Goods,19.958333333333332
+2025-02-14,Financial Services,13.611666666666666
+2025-02-14,Forest Materials,18.65
+2025-02-14,Healthcare,18.472
+2025-02-14,Information Technology,11.5725
+2025-02-14,Media,12.56
+2025-02-14,Metals & Mining,13.203999999999999
+2025-02-14,Oil Gas & Consumable Fuels,16.650000000000002
+2025-02-14,Power,9.866666666666667
+2025-02-14,Realty,10.56
+2025-02-14,Services,14.770000000000001
+2025-02-14,Telecommunication,10.665
+2025-02-14,Textiles,9.989999999999998
+2025-02-17,Automobile and Auto Components,12.822500000000002
+2025-02-17,Capital Goods,12.717500000000001
+2025-02-17,Chemicals,14.287500000000001
+2025-02-17,Construction,7.93
+2025-02-17,Construction Materials,13.0725
+2025-02-17,Consumer Durables,10.700000000000001
+2025-02-17,Consumer Services,14.998333333333333
+2025-02-17,Diversified Commercial,14.34
+2025-02-17,Fast Moving Consumer Goods,19.573333333333334
+2025-02-17,Financial Services,12.553333333333335
+2025-02-17,Forest Materials,20.1
+2025-02-17,Healthcare,19.160000000000004
+2025-02-17,Information Technology,11.49
+2025-02-17,Media,11.67
+2025-02-17,Metals & Mining,17.726
+2025-02-17,Oil Gas & Consumable Fuels,17.185000000000002
+2025-02-17,Power,10.416666666666666
+2025-02-17,Realty,10.81
+2025-02-17,Services,14.443333333333333
+2025-02-17,Telecommunication,9.085
+2025-02-17,Textiles,8.175
+2025-02-18,Automobile and Auto Components,11.6075
+2025-02-18,Capital Goods,11.01
+2025-02-18,Chemicals,11.567499999999999
+2025-02-18,Construction,7.035
+2025-02-18,Construction Materials,9.3075
+2025-02-18,Consumer Durables,8.003333333333332
+2025-02-18,Consumer Services,13.656666666666666
+2025-02-18,Diversified Commercial,12.99
+2025-02-18,Fast Moving Consumer Goods,17.68
+2025-02-18,Financial Services,11.700000000000001
+2025-02-18,Forest Materials,16.25
+2025-02-18,Healthcare,15.972
+2025-02-18,Information Technology,9.6525
+2025-02-18,Media,7.22
+2025-02-18,Metals & Mining,15.13
+2025-02-18,Oil Gas & Consumable Fuels,18.1
+2025-02-18,Power,11.353333333333333
+2025-02-18,Realty,7.64
+2025-02-18,Services,23.066666666666666
+2025-02-18,Telecommunication,9.565000000000001
+2025-02-18,Textiles,6.805
+2025-02-19,Automobile and Auto Components,12.82
+2025-02-19,Capital Goods,11.9775
+2025-02-19,Chemicals,14.295
+2025-02-19,Construction,9.415
+2025-02-19,Construction Materials,13.81
+2025-02-19,Consumer Durables,12.306666666666667
+2025-02-19,Consumer Services,18.345
+2025-02-19,Diversified Commercial,14.73
+2025-02-19,Fast Moving Consumer Goods,21.02
+2025-02-19,Financial Services,15.948333333333332
+2025-02-19,Forest Materials,22.81
+2025-02-19,Healthcare,18.454
+2025-02-19,Information Technology,11.8775
+2025-02-19,Media,11.01
+2025-02-19,Metals & Mining,16.176
+2025-02-19,Oil Gas & Consumable Fuels,24.375
+2025-02-19,Power,15.87
+2025-02-19,Realty,13.28
+2025-02-19,Services,18.573333333333334
+2025-02-19,Telecommunication,10.17
+2025-02-19,Textiles,11.399999999999999
+2025-02-20,Automobile and Auto Components,15.2475
+2025-02-20,Capital Goods,9.5125
+2025-02-20,Chemicals,17.06
+2025-02-20,Construction,9.675
+2025-02-20,Construction Materials,12.1775
+2025-02-20,Consumer Durables,12.079999999999998
+2025-02-20,Consumer Services,21.00166666666667
+2025-02-20,Diversified Commercial,14.79
+2025-02-20,Fast Moving Consumer Goods,22.215
+2025-02-20,Financial Services,16.531666666666666
+2025-02-20,Forest Materials,29.89
+2025-02-20,Healthcare,20.176
+2025-02-20,Information Technology,12.06
+2025-02-20,Media,11.49
+2025-02-20,Metals & Mining,16.326
+2025-02-20,Oil Gas & Consumable Fuels,24.935
+2025-02-20,Power,20.72
+2025-02-20,Realty,11.13
+2025-02-20,Services,16.166666666666668
+2025-02-20,Telecommunication,9.095
+2025-02-20,Textiles,10.875
+2025-02-21,Automobile and Auto Components,27.845
+2025-02-21,Capital Goods,10.62
+2025-02-21,Chemicals,16.4
+2025-02-21,Construction,13.07
+2025-02-21,Construction Materials,18.1825
+2025-02-21,Consumer Durables,22.330000000000002
+2025-02-21,Consumer Services,19.913333333333334
+2025-02-21,Diversified Commercial,15.75
+2025-02-21,Fast Moving Consumer Goods,19.881666666666664
+2025-02-21,Financial Services,18.42833333333333
+2025-02-21,Forest Materials,26.52
+2025-02-21,Healthcare,17.55
+2025-02-21,Information Technology,12.545
+2025-02-21,Media,13.13
+2025-02-21,Metals & Mining,19.348
+2025-02-21,Oil Gas & Consumable Fuels,24.465
+2025-02-21,Power,21.973333333333333
+2025-02-21,Realty,13.06
+2025-02-21,Services,16.893333333333334
+2025-02-21,Telecommunication,10.035
+2025-02-21,Textiles,9.875
+2025-02-24,Automobile and Auto Components,16.72
+2025-02-24,Capital Goods,10.97875
+2025-02-24,Chemicals,16.3625
+2025-02-24,Construction,10.004999999999999
+2025-02-24,Construction Materials,14.89
+2025-02-24,Consumer Durables,17.993333333333332
+2025-02-24,Consumer Services,17.603333333333335
+2025-02-24,Diversified Commercial,16.42
+2025-02-24,Fast Moving Consumer Goods,20.298333333333332
+2025-02-24,Financial Services,17.325
+2025-02-24,Forest Materials,33.27
+2025-02-24,Healthcare,20.566
+2025-02-24,Information Technology,12.9225
+2025-02-24,Media,11.7
+2025-02-24,Metals & Mining,19.346
+2025-02-24,Oil Gas & Consumable Fuels,20.805
+2025-02-24,Power,18.173333333333332
+2025-02-24,Realty,11.41
+2025-02-24,Services,18.156666666666666
+2025-02-24,Telecommunication,10.995
+2025-02-24,Textiles,10.385
+2025-02-25,Automobile and Auto Components,15.532499999999999
+2025-02-25,Capital Goods,10.4025
+2025-02-25,Chemicals,17.1025
+2025-02-25,Construction,10.28
+2025-02-25,Construction Materials,13.1675
+2025-02-25,Consumer Durables,19.36
+2025-02-25,Consumer Services,21.58666666666667
+2025-02-25,Diversified Commercial,16.21
+2025-02-25,Fast Moving Consumer Goods,21.208333333333332
+2025-02-25,Financial Services,18.215
+2025-02-25,Forest Materials,22.87
+2025-02-25,Healthcare,21.492
+2025-02-25,Information Technology,14.1675
+2025-02-25,Media,13.82
+2025-02-25,Metals & Mining,18.233999999999998
+2025-02-25,Oil Gas & Consumable Fuels,20.725
+2025-02-25,Power,22.44666666666667
+2025-02-25,Realty,11.98
+2025-02-25,Services,17.669999999999998
+2025-02-25,Telecommunication,13.84
+2025-02-25,Textiles,14.43
+2025-02-27,Automobile and Auto Components,12.44
+2025-02-27,Capital Goods,12.713750000000001
+2025-02-27,Chemicals,13.7975
+2025-02-27,Construction,6.82
+2025-02-27,Construction Materials,12.9925
+2025-02-27,Consumer Durables,16.31
+2025-02-27,Consumer Services,16.541666666666668
+2025-02-27,Diversified Commercial,14.38
+2025-02-27,Fast Moving Consumer Goods,17.981666666666666
+2025-02-27,Financial Services,16.908333333333335
+2025-02-27,Forest Materials,20.42
+2025-02-27,Healthcare,17.306
+2025-02-27,Information Technology,11.3475
+2025-02-27,Media,11.43
+2025-02-27,Metals & Mining,13.904
+2025-02-27,Oil Gas & Consumable Fuels,28.825
+2025-02-27,Power,13.86
+2025-02-27,Realty,10.4
+2025-02-27,Services,14.660000000000002
+2025-02-27,Telecommunication,11.99
+2025-02-27,Textiles,9.205
+2025-02-28,Automobile and Auto Components,12.7925
+2025-02-28,Capital Goods,13.286249999999999
+2025-02-28,Chemicals,13.685
+2025-02-28,Construction,9.11
+2025-02-28,Construction Materials,13.7625
+2025-02-28,Consumer Durables,25.150000000000002
+2025-02-28,Consumer Services,18.593333333333334
+2025-02-28,Diversified Commercial,14.43
+2025-02-28,Fast Moving Consumer Goods,18.150000000000002
+2025-02-28,Financial Services,18.861666666666668
+2025-02-28,Forest Materials,21.61
+2025-02-28,Healthcare,18.56
+2025-02-28,Information Technology,12.9275
+2025-02-28,Media,10.91
+2025-02-28,Metals & Mining,16.919999999999998
+2025-02-28,Oil Gas & Consumable Fuels,20.92
+2025-02-28,Power,18.056666666666665
+2025-02-28,Realty,13.78
+2025-02-28,Services,16.606666666666666
+2025-02-28,Telecommunication,11.055
+2025-02-28,Textiles,9.434999999999999
+2025-03-03,Automobile and Auto Components,11.265
+2025-03-03,Capital Goods,10.120000000000001
+2025-03-03,Chemicals,13.08
+2025-03-03,Construction,11.149999999999999
+2025-03-03,Construction Materials,12.97
+2025-03-03,Consumer Durables,20.866666666666664
+2025-03-03,Consumer Services,15.098333333333334
+2025-03-03,Diversified Commercial,13.44
+2025-03-03,Fast Moving Consumer Goods,17.981666666666666
+2025-03-03,Financial Services,14.5
+2025-03-03,Forest Materials,20.77
+2025-03-03,Healthcare,17.948
+2025-03-03,Information Technology,8.6875
+2025-03-03,Media,9.86
+2025-03-03,Metals & Mining,14.886000000000001
+2025-03-03,Oil Gas & Consumable Fuels,18.275
+2025-03-03,Power,15.079999999999998
+2025-03-03,Realty,9.55
+2025-03-03,Services,12.306666666666667
+2025-03-03,Telecommunication,12.605
+2025-03-03,Textiles,16.29
+2025-03-04,Automobile and Auto Components,11.8725
+2025-03-04,Capital Goods,12.88125
+2025-03-04,Chemicals,12.485
+2025-03-04,Construction,10.41
+2025-03-04,Construction Materials,13.504999999999999
+2025-03-04,Consumer Durables,19.183333333333334
+2025-03-04,Consumer Services,12.611666666666666
+2025-03-04,Diversified Commercial,14.42
+2025-03-04,Fast Moving Consumer Goods,18.515
+2025-03-04,Financial Services,15.784999999999998
+2025-03-04,Forest Materials,14.76
+2025-03-04,Healthcare,17.498
+2025-03-04,Information Technology,8.425
+2025-03-04,Media,7.46
+2025-03-04,Metals & Mining,15.330000000000002
+2025-03-04,Oil Gas & Consumable Fuels,22.830000000000002
+2025-03-04,Power,16.473333333333333
+2025-03-04,Realty,7.11
+2025-03-04,Services,14.033333333333333
+2025-03-04,Telecommunication,7.505000000000001
+2025-03-04,Textiles,12.48
+2025-03-05,Automobile and Auto Components,13.2
+2025-03-05,Capital Goods,12.28375
+2025-03-05,Chemicals,16.715
+2025-03-05,Construction,11.61
+2025-03-05,Construction Materials,12.8925
+2025-03-05,Consumer Durables,20.09
+2025-03-05,Consumer Services,15.276666666666666
+2025-03-05,Diversified Commercial,15.97
+2025-03-05,Fast Moving Consumer Goods,22.201666666666664
+2025-03-05,Financial Services,15.219999999999999
+2025-03-05,Forest Materials,16.46
+2025-03-05,Healthcare,18.464
+2025-03-05,Information Technology,10.2225
+2025-03-05,Media,11.13
+2025-03-05,Metals & Mining,22.836
+2025-03-05,Oil Gas & Consumable Fuels,24.689999999999998
+2025-03-05,Power,19.599999999999998
+2025-03-05,Realty,11.92
+2025-03-05,Services,19.586666666666666
+2025-03-05,Telecommunication,13.094999999999999
+2025-03-05,Textiles,10.42
+2025-03-06,Automobile and Auto Components,14.395
+2025-03-06,Capital Goods,12.52
+2025-03-06,Chemicals,16.8725
+2025-03-06,Construction,14.495000000000001
+2025-03-06,Construction Materials,11.8325
+2025-03-06,Consumer Durables,21.61
+2025-03-06,Consumer Services,19.278333333333332
+2025-03-06,Diversified Commercial,15.12
+2025-03-06,Fast Moving Consumer Goods,23.115
+2025-03-06,Financial Services,15.135
+2025-03-06,Forest Materials,15.61
+2025-03-06,Healthcare,20.244
+2025-03-06,Information Technology,11.315
+2025-03-06,Media,8.99
+2025-03-06,Metals & Mining,27.796000000000003
+2025-03-06,Oil Gas & Consumable Fuels,40.72
+2025-03-06,Power,20.8
+2025-03-06,Realty,10.15
+2025-03-06,Services,19.58666666666667
+2025-03-06,Telecommunication,15.09
+2025-03-06,Textiles,10.04
+2025-03-07,Automobile and Auto Components,14.587499999999999
+2025-03-07,Capital Goods,14.366249999999999
+2025-03-07,Chemicals,18.7025
+2025-03-07,Construction,12.95
+2025-03-07,Construction Materials,11.6025
+2025-03-07,Consumer Durables,22.72666666666667
+2025-03-07,Consumer Services,18.14
+2025-03-07,Diversified Commercial,16.29
+2025-03-07,Fast Moving Consumer Goods,21.926666666666666
+2025-03-07,Financial Services,15.778333333333334
+2025-03-07,Forest Materials,20.99
+2025-03-07,Healthcare,17.496
+2025-03-07,Information Technology,9.8525
+2025-03-07,Media,13.82
+2025-03-07,Metals & Mining,27.782
+2025-03-07,Oil Gas & Consumable Fuels,29.975
+2025-03-07,Power,26.070000000000004
+2025-03-07,Realty,9.73
+2025-03-07,Services,19.11
+2025-03-07,Telecommunication,10.71
+2025-03-07,Textiles,13.1
+2025-03-10,Automobile and Auto Components,12.5525
+2025-03-10,Capital Goods,10.09625
+2025-03-10,Chemicals,17.165
+2025-03-10,Construction,9.885
+2025-03-10,Construction Materials,10.005
+2025-03-10,Consumer Durables,25.28333333333333
+2025-03-10,Consumer Services,16.763333333333332
+2025-03-10,Diversified Commercial,15.23
+2025-03-10,Fast Moving Consumer Goods,21.855
+2025-03-10,Financial Services,14.26
+2025-03-10,Forest Materials,18.33
+2025-03-10,Healthcare,17.232
+2025-03-10,Information Technology,8.805
+2025-03-10,Media,9.75
+2025-03-10,Metals & Mining,24.198
+2025-03-10,Oil Gas & Consumable Fuels,24.66
+2025-03-10,Power,21.099999999999998
+2025-03-10,Realty,11.29
+2025-03-10,Services,16.196666666666665
+2025-03-10,Telecommunication,10.33
+2025-03-10,Textiles,14.524999999999999
+2025-03-11,Automobile and Auto Components,13.73
+2025-03-11,Capital Goods,10.37
+2025-03-11,Chemicals,16.935000000000002
+2025-03-11,Construction,11.965
+2025-03-11,Construction Materials,12.05
+2025-03-11,Consumer Durables,24.09
+2025-03-11,Consumer Services,19.153333333333332
+2025-03-11,Diversified Commercial,14.48
+2025-03-11,Fast Moving Consumer Goods,19.753333333333334
+2025-03-11,Financial Services,14.108333333333334
+2025-03-11,Forest Materials,13.28
+2025-03-11,Healthcare,20.625999999999998
+2025-03-11,Information Technology,13.6825
+2025-03-11,Media,16.28
+2025-03-11,Metals & Mining,24.48
+2025-03-11,Oil Gas & Consumable Fuels,31.84
+2025-03-11,Power,20.856666666666666
+2025-03-11,Realty,19.35
+2025-03-11,Services,16.786666666666665
+2025-03-11,Telecommunication,17.445
+2025-03-11,Textiles,12.59
+2025-03-12,Automobile and Auto Components,15.405000000000001
+2025-03-12,Capital Goods,11.3425
+2025-03-12,Chemicals,18.755
+2025-03-12,Construction,14.585
+2025-03-12,Construction Materials,13.035
+2025-03-12,Consumer Durables,25.293333333333333
+2025-03-12,Consumer Services,18.37
+2025-03-12,Diversified Commercial,16.81
+2025-03-12,Fast Moving Consumer Goods,22.36
+2025-03-12,Financial Services,15.135
+2025-03-12,Forest Materials,16.87
+2025-03-12,Healthcare,19.602
+2025-03-12,Information Technology,10.905000000000001
+2025-03-12,Media,12.72
+2025-03-12,Metals & Mining,23.826
+2025-03-12,Oil Gas & Consumable Fuels,29.435
+2025-03-12,Power,27.150000000000002
+2025-03-12,Realty,16.85
+2025-03-12,Services,16.62
+2025-03-12,Telecommunication,14.835
+2025-03-12,Textiles,12.785
+2025-03-13,Automobile and Auto Components,14.28
+2025-03-13,Capital Goods,12.0825
+2025-03-13,Chemicals,19.125
+2025-03-13,Construction,10.835
+2025-03-13,Construction Materials,13.557500000000001
+2025-03-13,Consumer Durables,25.62
+2025-03-13,Consumer Services,18.673333333333336
+2025-03-13,Diversified Commercial,16.52
+2025-03-13,Fast Moving Consumer Goods,20.971666666666668
+2025-03-13,Financial Services,14.085
+2025-03-13,Forest Materials,15.07
+2025-03-13,Healthcare,19.064
+2025-03-13,Information Technology,11.317499999999999
+2025-03-13,Media,14.19
+2025-03-13,Metals & Mining,27.03
+2025-03-13,Oil Gas & Consumable Fuels,34.19
+2025-03-13,Power,25.400000000000002
+2025-03-13,Realty,14.16
+2025-03-13,Services,13.86
+2025-03-13,Telecommunication,10.685
+2025-03-13,Textiles,11.855
+2025-03-17,Automobile and Auto Components,13.96
+2025-03-17,Capital Goods,15.30375
+2025-03-17,Chemicals,19.8925
+2025-03-17,Construction,11.665
+2025-03-17,Construction Materials,20.939999999999998
+2025-03-17,Consumer Durables,24.176666666666666
+2025-03-17,Consumer Services,18.763333333333332
+2025-03-17,Diversified Commercial,16.82
+2025-03-17,Fast Moving Consumer Goods,25.295
+2025-03-17,Financial Services,16.515
+2025-03-17,Forest Materials,13.03
+2025-03-17,Healthcare,23.753999999999998
+2025-03-17,Information Technology,13.1475
+2025-03-17,Media,9.32
+2025-03-17,Metals & Mining,25.060000000000002
+2025-03-17,Oil Gas & Consumable Fuels,26.88
+2025-03-17,Power,25.616666666666664
+2025-03-17,Realty,13.11
+2025-03-17,Services,14.703333333333333
+2025-03-17,Telecommunication,11.85
+2025-03-17,Textiles,9.68
+2025-03-18,Automobile and Auto Components,21.665
+2025-03-18,Capital Goods,21.68875
+2025-03-18,Chemicals,24.58
+2025-03-18,Construction,17.259999999999998
+2025-03-18,Construction Materials,24.252499999999998
+2025-03-18,Consumer Durables,32.410000000000004
+2025-03-18,Consumer Services,25.695000000000004
+2025-03-18,Diversified Commercial,20.9
+2025-03-18,Fast Moving Consumer Goods,29.30666666666667
+2025-03-18,Financial Services,22.616666666666664
+2025-03-18,Forest Materials,17.6
+2025-03-18,Healthcare,29.056
+2025-03-18,Information Technology,18.14
+2025-03-18,Media,16.46
+2025-03-18,Metals & Mining,33.334
+2025-03-18,Oil Gas & Consumable Fuels,30.990000000000002
+2025-03-18,Power,34.333333333333336
+2025-03-18,Realty,19.97
+2025-03-18,Services,19.12
+2025-03-18,Telecommunication,12.48
+2025-03-18,Textiles,16.54
+2025-03-19,Automobile and Auto Components,27.4825
+2025-03-19,Capital Goods,27.825000000000003
+2025-03-19,Chemicals,31.66
+2025-03-19,Construction,22.634999999999998
+2025-03-19,Construction Materials,22.895
+2025-03-19,Consumer Durables,38.50666666666667
+2025-03-19,Consumer Services,31.17
+2025-03-19,Diversified Commercial,25.81
+2025-03-19,Fast Moving Consumer Goods,31.628333333333334
+2025-03-19,Financial Services,28.311666666666667
+2025-03-19,Forest Materials,20.49
+2025-03-19,Healthcare,33.692
+2025-03-19,Information Technology,22.8975
+2025-03-19,Media,24.08
+2025-03-19,Metals & Mining,39.394
+2025-03-19,Oil Gas & Consumable Fuels,35.485
+2025-03-19,Power,39.06333333333333
+2025-03-19,Realty,29.37
+2025-03-19,Services,26.12
+2025-03-19,Telecommunication,20.03
+2025-03-19,Textiles,17.009999999999998
+2025-03-20,Automobile and Auto Components,28.494999999999997
+2025-03-20,Capital Goods,32.17875
+2025-03-20,Chemicals,34.6425
+2025-03-20,Construction,28.705
+2025-03-20,Construction Materials,25.4375
+2025-03-20,Consumer Durables,46.03666666666667
+2025-03-20,Consumer Services,32.068333333333335
+2025-03-20,Diversified Commercial,28.14
+2025-03-20,Fast Moving Consumer Goods,34.04833333333333
+2025-03-20,Financial Services,32.06666666666667
+2025-03-20,Forest Materials,23.3
+2025-03-20,Healthcare,37.88
+2025-03-20,Information Technology,23.85
+2025-03-20,Media,27.77
+2025-03-20,Metals & Mining,42.082
+2025-03-20,Oil Gas & Consumable Fuels,35.769999999999996
+2025-03-20,Power,42.22
+2025-03-20,Realty,27.97
+2025-03-20,Services,32.85666666666667
+2025-03-20,Telecommunication,20.759999999999998
+2025-03-20,Textiles,18.69
+2025-03-21,Automobile and Auto Components,34.25
+2025-03-21,Capital Goods,36.925
+2025-03-21,Chemicals,37.6
+2025-03-21,Construction,28.285
+2025-03-21,Construction Materials,29.7475
+2025-03-21,Consumer Durables,51.28
+2025-03-21,Consumer Services,36.16
+2025-03-21,Diversified Commercial,28.01
+2025-03-21,Fast Moving Consumer Goods,40.571666666666665
+2025-03-21,Financial Services,39.43333333333333
+2025-03-21,Forest Materials,24.51
+2025-03-21,Healthcare,44.604
+2025-03-21,Information Technology,24.3825
+2025-03-21,Media,26.37
+2025-03-21,Metals & Mining,43.766000000000005
+2025-03-21,Oil Gas & Consumable Fuels,42.33
+2025-03-21,Power,53.29333333333333
+2025-03-21,Realty,38.13
+2025-03-21,Services,29.150000000000002
+2025-03-21,Telecommunication,25.87
+2025-03-21,Textiles,21.97
+2025-03-24,Automobile and Auto Components,44.4875
+2025-03-24,Capital Goods,40.6525
+2025-03-24,Chemicals,42.765
+2025-03-24,Construction,26.9
+2025-03-24,Construction Materials,28.6425
+2025-03-24,Consumer Durables,47.03333333333333
+2025-03-24,Consumer Services,35.07333333333333
+2025-03-24,Diversified Commercial,31.61
+2025-03-24,Fast Moving Consumer Goods,39.565
+2025-03-24,Financial Services,38.22666666666667
+2025-03-24,Forest Materials,26.49
+2025-03-24,Healthcare,40.218
+2025-03-24,Information Technology,29.0775
+2025-03-24,Media,27.64
+2025-03-24,Metals & Mining,41.715999999999994
+2025-03-24,Oil Gas & Consumable Fuels,40.099999999999994
+2025-03-24,Power,50.76666666666667
+2025-03-24,Realty,34.33
+2025-03-24,Services,32.373333333333335
+2025-03-24,Telecommunication,24.119999999999997
+2025-03-24,Textiles,29.02
+2025-03-25,Automobile and Auto Components,31.28
+2025-03-25,Capital Goods,34.19
+2025-03-25,Chemicals,38.775000000000006
+2025-03-25,Construction,26.37
+2025-03-25,Construction Materials,29.4575
+2025-03-25,Consumer Durables,41.70666666666667
+2025-03-25,Consumer Services,34.315
+2025-03-25,Diversified Commercial,28.86
+2025-03-25,Fast Moving Consumer Goods,36.656666666666666
+2025-03-25,Financial Services,35.57333333333333
+2025-03-25,Forest Materials,20.6
+2025-03-25,Healthcare,38.696
+2025-03-25,Information Technology,26.6175
+2025-03-25,Media,17.73
+2025-03-25,Metals & Mining,36.412
+2025-03-25,Oil Gas & Consumable Fuels,37.515
+2025-03-25,Power,45.71333333333333
+2025-03-25,Realty,34.65
+2025-03-25,Services,35.20666666666667
+2025-03-25,Telecommunication,20.33
+2025-03-25,Textiles,25.485
+2025-03-26,Automobile and Auto Components,32.4175
+2025-03-26,Capital Goods,29.84625
+2025-03-26,Chemicals,31.1475
+2025-03-26,Construction,26.634999999999998
+2025-03-26,Construction Materials,24.1825
+2025-03-26,Consumer Durables,37.68
+2025-03-26,Consumer Services,29.10166666666667
+2025-03-26,Diversified Commercial,26.04
+2025-03-26,Fast Moving Consumer Goods,33.96666666666667
+2025-03-26,Financial Services,33.28
+2025-03-26,Forest Materials,27.53
+2025-03-26,Healthcare,35.902
+2025-03-26,Information Technology,25.8575
+2025-03-26,Media,16.97
+2025-03-26,Metals & Mining,32.757999999999996
+2025-03-26,Oil Gas & Consumable Fuels,38.7
+2025-03-26,Power,44.10999999999999
+2025-03-26,Realty,30.16
+2025-03-26,Services,32.93333333333333
+2025-03-26,Telecommunication,22.825
+2025-03-26,Textiles,21.22
+2025-03-27,Automobile and Auto Components,35.055
+2025-03-27,Capital Goods,34.84375
+2025-03-27,Chemicals,38.2625
+2025-03-27,Construction,30.799999999999997
+2025-03-27,Construction Materials,35.645
+2025-03-27,Consumer Durables,43.403333333333336
+2025-03-27,Consumer Services,35.04
+2025-03-27,Diversified Commercial,36.1
+2025-03-27,Fast Moving Consumer Goods,38.4
+2025-03-27,Financial Services,39.446666666666665
+2025-03-27,Forest Materials,29.78
+2025-03-27,Healthcare,40.888
+2025-03-27,Information Technology,31.262500000000003
+2025-03-27,Media,25.72
+2025-03-27,Metals & Mining,39.772000000000006
+2025-03-27,Oil Gas & Consumable Fuels,43.995
+2025-03-27,Power,52.556666666666665
+2025-03-27,Realty,34.88
+2025-03-27,Services,36.193333333333335
+2025-03-27,Telecommunication,24.745
+2025-03-27,Textiles,20.21
+2025-03-28,Automobile and Auto Components,31.564999999999998
+2025-03-28,Capital Goods,32.76
+2025-03-28,Chemicals,38.735
+2025-03-28,Construction,30.71
+2025-03-28,Construction Materials,30.88
+2025-03-28,Consumer Durables,41.99
+2025-03-28,Consumer Services,31.715000000000003
+2025-03-28,Diversified Commercial,27.19
+2025-03-28,Fast Moving Consumer Goods,37.86833333333333
+2025-03-28,Financial Services,35.095
+2025-03-28,Forest Materials,26.4
+2025-03-28,Healthcare,41.754000000000005
+2025-03-28,Information Technology,28.5925
+2025-03-28,Media,22.28
+2025-03-28,Metals & Mining,36.984
+2025-03-28,Oil Gas & Consumable Fuels,37.815
+2025-03-28,Power,50.28666666666667
+2025-03-28,Realty,29.8
+2025-03-28,Services,30.433333333333337
+2025-03-28,Telecommunication,23.42
+2025-03-28,Textiles,20.07
+2025-04-01,Automobile and Auto Components,29.8075
+2025-04-01,Capital Goods,33.55125
+2025-04-01,Chemicals,36.7025
+2025-04-01,Construction,28.84
+2025-04-01,Construction Materials,28.4475
+2025-04-01,Consumer Durables,35.53333333333333
+2025-04-01,Consumer Services,32.76833333333333
+2025-04-01,Diversified Commercial,27.97
+2025-04-01,Fast Moving Consumer Goods,40.82666666666667
+2025-04-01,Financial Services,35.413333333333334
+2025-04-01,Forest Materials,27.69
+2025-04-01,Healthcare,39.994
+2025-04-01,Information Technology,29.0525
+2025-04-01,Media,25.98
+2025-04-01,Metals & Mining,40.46
+2025-04-01,Oil Gas & Consumable Fuels,38.67
+2025-04-01,Power,49.050000000000004
+2025-04-01,Realty,29.12
+2025-04-01,Services,32.78666666666667
+2025-04-01,Telecommunication,32.28
+2025-04-01,Textiles,22.03
+2025-04-02,Automobile and Auto Components,32.4575
+2025-04-02,Capital Goods,34.67375
+2025-04-02,Chemicals,41.7375
+2025-04-02,Construction,31.630000000000003
+2025-04-02,Construction Materials,40.417500000000004
+2025-04-02,Consumer Durables,39.873333333333335
+2025-04-02,Consumer Services,43.26666666666667
+2025-04-02,Diversified Commercial,31.44
+2025-04-02,Fast Moving Consumer Goods,43.781666666666666
+2025-04-02,Financial Services,39.22
+2025-04-02,Forest Materials,28.42
+2025-04-02,Healthcare,43.954
+2025-04-02,Information Technology,33.1025
+2025-04-02,Media,26.88
+2025-04-02,Metals & Mining,44.614
+2025-04-02,Oil Gas & Consumable Fuels,39.415
+2025-04-02,Power,52.57666666666666
+2025-04-02,Realty,33.83
+2025-04-02,Services,37.96333333333333
+2025-04-02,Telecommunication,29.49
+2025-04-02,Textiles,25.244999999999997
+2025-04-03,Automobile and Auto Components,33.715
+2025-04-03,Capital Goods,37.1075
+2025-04-03,Chemicals,44.2675
+2025-04-03,Construction,33.665
+2025-04-03,Construction Materials,40.525
+2025-04-03,Consumer Durables,38.61333333333334
+2025-04-03,Consumer Services,43.35833333333333
+2025-04-03,Diversified Commercial,34.81
+2025-04-03,Fast Moving Consumer Goods,43.96
+2025-04-03,Financial Services,44.64333333333334
+2025-04-03,Forest Materials,32.63
+2025-04-03,Healthcare,56.766
+2025-04-03,Information Technology,35.585
+2025-04-03,Media,29.1
+2025-04-03,Metals & Mining,44.146
+2025-04-03,Oil Gas & Consumable Fuels,39.04
+2025-04-03,Power,56.916666666666664
+2025-04-03,Realty,37.15
+2025-04-03,Services,38.57666666666666
+2025-04-03,Telecommunication,35.410000000000004
+2025-04-03,Textiles,48.375
+2025-04-04,Automobile and Auto Components,27.002499999999998
+2025-04-04,Capital Goods,28.8075
+2025-04-04,Chemicals,32.38
+2025-04-04,Construction,26.905
+2025-04-04,Construction Materials,36.2225
+2025-04-04,Consumer Durables,30.616666666666664
+2025-04-04,Consumer Services,35.800000000000004
+2025-04-04,Diversified Commercial,29.17
+2025-04-04,Fast Moving Consumer Goods,37.013333333333335
+2025-04-04,Financial Services,37.041666666666664
+2025-04-04,Forest Materials,26.63
+2025-04-04,Healthcare,38.656
+2025-04-04,Information Technology,26.36
+2025-04-04,Media,24.33
+2025-04-04,Metals & Mining,30.282
+2025-04-04,Oil Gas & Consumable Fuels,36.92
+2025-04-04,Power,50.169999999999995
+2025-04-04,Realty,30.05
+2025-04-04,Services,27.55
+2025-04-04,Telecommunication,28.775
+2025-04-04,Textiles,34.785
+2025-04-07,Automobile and Auto Components,22.405
+2025-04-07,Capital Goods,18.1775
+2025-04-07,Chemicals,24.15
+2025-04-07,Construction,17.805
+2025-04-07,Construction Materials,30.405
+2025-04-07,Consumer Durables,20.69
+2025-04-07,Consumer Services,26.599999999999998
+2025-04-07,Diversified Commercial,22.77
+2025-04-07,Fast Moving Consumer Goods,29.938333333333333
+2025-04-07,Financial Services,25.23
+2025-04-07,Forest Materials,22.86
+2025-04-07,Healthcare,23.503999999999998
+2025-04-07,Information Technology,18.622500000000002
+2025-04-07,Media,15.47
+2025-04-07,Metals & Mining,17.804000000000002
+2025-04-07,Oil Gas & Consumable Fuels,27.15
+2025-04-07,Power,40.10666666666666
+2025-04-07,Realty,22.6
+2025-04-07,Services,22.326666666666668
+2025-04-07,Telecommunication,22.355
+2025-04-07,Textiles,22.08
+2025-04-08,Automobile and Auto Components,21.4425
+2025-04-08,Capital Goods,21.49375
+2025-04-08,Chemicals,26.0575
+2025-04-08,Construction,21.2
+2025-04-08,Construction Materials,31.4175
+2025-04-08,Consumer Durables,26.92
+2025-04-08,Consumer Services,29.72666666666667
+2025-04-08,Diversified Commercial,22.56
+2025-04-08,Fast Moving Consumer Goods,31.51
+2025-04-08,Financial Services,31.355
+2025-04-08,Forest Materials,18.9
+2025-04-08,Healthcare,29.020000000000003
+2025-04-08,Information Technology,19.865000000000002
+2025-04-08,Media,30.65
+2025-04-08,Metals & Mining,19.526
+2025-04-08,Oil Gas & Consumable Fuels,28.910000000000004
+2025-04-08,Power,43.15
+2025-04-08,Realty,25.18
+2025-04-08,Services,22.776666666666667
+2025-04-08,Telecommunication,26.275
+2025-04-08,Textiles,23.384999999999998
+2025-04-09,Automobile and Auto Components,22.557499999999997
+2025-04-09,Capital Goods,19.1225
+2025-04-09,Chemicals,25.295
+2025-04-09,Construction,20.34
+2025-04-09,Construction Materials,31.335
+2025-04-09,Consumer Durables,25.076666666666668
+2025-04-09,Consumer Services,29.27
+2025-04-09,Diversified Commercial,23.15
+2025-04-09,Fast Moving Consumer Goods,33.82333333333333
+2025-04-09,Financial Services,30.24666666666667
+2025-04-09,Forest Materials,19.73
+2025-04-09,Healthcare,24.869999999999997
+2025-04-09,Information Technology,20.7875
+2025-04-09,Media,27.7
+2025-04-09,Metals & Mining,16.186
+2025-04-09,Oil Gas & Consumable Fuels,27.45
+2025-04-09,Power,39.13666666666666
+2025-04-09,Realty,24.53
+2025-04-09,Services,22.506666666666664
+2025-04-09,Telecommunication,28.745
+2025-04-09,Textiles,21.52
+2025-04-11,Automobile and Auto Components,29.1275
+2025-04-11,Capital Goods,27.39375
+2025-04-11,Chemicals,38.714999999999996
+2025-04-11,Construction,28.325000000000003
+2025-04-11,Construction Materials,36.3375
+2025-04-11,Consumer Durables,37.5
+2025-04-11,Consumer Services,34.81166666666667
+2025-04-11,Diversified Commercial,28.9
+2025-04-11,Fast Moving Consumer Goods,40.559999999999995
+2025-04-11,Financial Services,37.145
+2025-04-11,Forest Materials,27.84
+2025-04-11,Healthcare,35.534000000000006
+2025-04-11,Information Technology,29.7575
+2025-04-11,Media,23.52
+2025-04-11,Metals & Mining,31.686
+2025-04-11,Oil Gas & Consumable Fuels,30.925
+2025-04-11,Power,47.88666666666666
+2025-04-11,Realty,27.44
+2025-04-11,Services,29.319999999999997
+2025-04-11,Telecommunication,30.405
+2025-04-11,Textiles,29.79
+2025-04-15,Automobile and Auto Components,35.8375
+2025-04-15,Capital Goods,35.5875
+2025-04-15,Chemicals,45.980000000000004
+2025-04-15,Construction,34.83
+2025-04-15,Construction Materials,43.5275
+2025-04-15,Consumer Durables,47.43
+2025-04-15,Consumer Services,47.035
+2025-04-15,Diversified Commercial,37.35
+2025-04-15,Fast Moving Consumer Goods,49.343333333333334
+2025-04-15,Financial Services,46.47333333333333
+2025-04-15,Forest Materials,32.65
+2025-04-15,Healthcare,44.54
+2025-04-15,Information Technology,36.6525
+2025-04-15,Media,25.75
+2025-04-15,Metals & Mining,35.452
+2025-04-15,Oil Gas & Consumable Fuels,39.175
+2025-04-15,Power,56.71333333333333
+2025-04-15,Realty,37.79
+2025-04-15,Services,35.46666666666667
+2025-04-15,Telecommunication,35.47
+2025-04-15,Textiles,36.69
+2025-04-16,Automobile and Auto Components,50.572500000000005
+2025-04-16,Capital Goods,38.2525
+2025-04-16,Chemicals,50.58
+2025-04-16,Construction,39.2
+2025-04-16,Construction Materials,47.775000000000006
+2025-04-16,Consumer Durables,48.833333333333336
+2025-04-16,Consumer Services,46.11333333333334
+2025-04-16,Diversified Commercial,40.39
+2025-04-16,Fast Moving Consumer Goods,52.251666666666665
+2025-04-16,Financial Services,52.12166666666667
+2025-04-16,Forest Materials,45.22
+2025-04-16,Healthcare,47.762
+2025-04-16,Information Technology,37.462500000000006
+2025-04-16,Media,32.17
+2025-04-16,Metals & Mining,46.916000000000004
+2025-04-16,Oil Gas & Consumable Fuels,43.14
+2025-04-16,Power,58.76000000000001
+2025-04-16,Realty,50.74
+2025-04-16,Services,46.086666666666666
+2025-04-16,Telecommunication,40.76
+2025-04-16,Textiles,48.795
+2025-04-17,Automobile and Auto Components,53.8925
+2025-04-17,Capital Goods,43.35375
+2025-04-17,Chemicals,55.98
+2025-04-17,Construction,40.8
+2025-04-17,Construction Materials,54.339999999999996
+2025-04-17,Consumer Durables,53.55666666666667
+2025-04-17,Consumer Services,48.598333333333336
+2025-04-17,Diversified Commercial,43.75
+2025-04-17,Fast Moving Consumer Goods,54.6
+2025-04-17,Financial Services,54.556666666666665
+2025-04-17,Forest Materials,52.0
+2025-04-17,Healthcare,48.376
+2025-04-17,Information Technology,43.082499999999996
+2025-04-17,Media,32.14
+2025-04-17,Metals & Mining,43.306
+2025-04-17,Oil Gas & Consumable Fuels,47.379999999999995
+2025-04-17,Power,62.333333333333336
+2025-04-17,Realty,45.73
+2025-04-17,Services,45.553333333333335
+2025-04-17,Telecommunication,46.17
+2025-04-17,Textiles,54.575
+2025-04-21,Automobile and Auto Components,55.917500000000004
+2025-04-21,Capital Goods,52.475
+2025-04-21,Chemicals,56.542500000000004
+2025-04-21,Construction,43.725
+2025-04-21,Construction Materials,51.1375
+2025-04-21,Consumer Durables,48.223333333333336
+2025-04-21,Consumer Services,54.69833333333333
+2025-04-21,Diversified Commercial,48.26
+2025-04-21,Fast Moving Consumer Goods,56.251666666666665
+2025-04-21,Financial Services,61.20666666666667
+2025-04-21,Forest Materials,55.16
+2025-04-21,Healthcare,46.406
+2025-04-21,Information Technology,40.98
+2025-04-21,Media,40.72
+2025-04-21,Metals & Mining,48.532
+2025-04-21,Oil Gas & Consumable Fuels,50.769999999999996
+2025-04-21,Power,66.26
+2025-04-21,Realty,61.63
+2025-04-21,Services,50.23666666666667
+2025-04-21,Telecommunication,47.245000000000005
+2025-04-21,Textiles,50.14
+2025-04-22,Automobile and Auto Components,53.832499999999996
+2025-04-22,Capital Goods,50.96625
+2025-04-22,Chemicals,59.1175
+2025-04-22,Construction,46.155
+2025-04-22,Construction Materials,58.565
+2025-04-22,Consumer Durables,52.75666666666666
+2025-04-22,Consumer Services,53.708333333333336
+2025-04-22,Diversified Commercial,49.37
+2025-04-22,Fast Moving Consumer Goods,61.093333333333334
+2025-04-22,Financial Services,62.303333333333335
+2025-04-22,Forest Materials,58.8
+2025-04-22,Healthcare,47.356
+2025-04-22,Information Technology,40.7775
+2025-04-22,Media,53.99
+2025-04-22,Metals & Mining,51.42
+2025-04-22,Oil Gas & Consumable Fuels,53.364999999999995
+2025-04-22,Power,66.78666666666668
+2025-04-22,Realty,56.87
+2025-04-22,Services,50.60999999999999
+2025-04-22,Telecommunication,48.510000000000005
+2025-04-22,Textiles,60.39
+2025-04-23,Automobile and Auto Components,56.589999999999996
+2025-04-23,Capital Goods,54.36625
+2025-04-23,Chemicals,57.0075
+2025-04-23,Construction,46.985
+2025-04-23,Construction Materials,53.7425
+2025-04-23,Consumer Durables,50.68000000000001
+2025-04-23,Consumer Services,52.846666666666664
+2025-04-23,Diversified Commercial,51.69
+2025-04-23,Fast Moving Consumer Goods,59.406666666666666
+2025-04-23,Financial Services,66.22166666666666
+2025-04-23,Forest Materials,51.34
+2025-04-23,Healthcare,51.088
+2025-04-23,Information Technology,51.512499999999996
+2025-04-23,Media,45.41
+2025-04-23,Metals & Mining,49.239999999999995
+2025-04-23,Oil Gas & Consumable Fuels,52.665000000000006
+2025-04-23,Power,70.38333333333334
+2025-04-23,Realty,59.66
+2025-04-23,Services,52.870000000000005
+2025-04-23,Telecommunication,53.66
+2025-04-23,Textiles,55.815
+2025-04-24,Automobile and Auto Components,55.3675
+2025-04-24,Capital Goods,49.50125
+2025-04-24,Chemicals,57.9725
+2025-04-24,Construction,46.845
+2025-04-24,Construction Materials,55.33
+2025-04-24,Consumer Durables,48.67666666666667
+2025-04-24,Consumer Services,53.28
+2025-04-24,Diversified Commercial,51.01
+2025-04-24,Fast Moving Consumer Goods,60.175000000000004
+2025-04-24,Financial Services,61.74666666666667
+2025-04-24,Forest Materials,53.47
+2025-04-24,Healthcare,59.936
+2025-04-24,Information Technology,50.4675
+2025-04-24,Media,43.24
+2025-04-24,Metals & Mining,48.08
+2025-04-24,Oil Gas & Consumable Fuels,51.215
+2025-04-24,Power,64.20333333333333
+2025-04-24,Realty,54.48
+2025-04-24,Services,55.5
+2025-04-24,Telecommunication,51.849999999999994
+2025-04-24,Textiles,59.005
+2025-04-25,Automobile and Auto Components,50.79
+2025-04-25,Capital Goods,44.17875
+2025-04-25,Chemicals,53.2225
+2025-04-25,Construction,37.81
+2025-04-25,Construction Materials,49.035
+2025-04-25,Consumer Durables,41.00333333333333
+2025-04-25,Consumer Services,46.589999999999996
+2025-04-25,Diversified Commercial,46.19
+2025-04-25,Fast Moving Consumer Goods,53.35333333333333
+2025-04-25,Financial Services,60.574999999999996
+2025-04-25,Forest Materials,31.09
+2025-04-25,Healthcare,49.626
+2025-04-25,Information Technology,38.620000000000005
+2025-04-25,Media,32.72
+2025-04-25,Metals & Mining,39.278
+2025-04-25,Oil Gas & Consumable Fuels,50.11
+2025-04-25,Power,57.373333333333335
+2025-04-25,Realty,47.57
+2025-04-25,Services,42.29
+2025-04-25,Telecommunication,39.08
+2025-04-25,Textiles,43.275
+2025-04-28,Automobile and Auto Components,55.135
+2025-04-28,Capital Goods,45.0925
+2025-04-28,Chemicals,51.0175
+2025-04-28,Construction,38.605000000000004
+2025-04-28,Construction Materials,47.620000000000005
+2025-04-28,Consumer Durables,35.52
+2025-04-28,Consumer Services,45.48666666666667
+2025-04-28,Diversified Commercial,45.03
+2025-04-28,Fast Moving Consumer Goods,54.27333333333333
+2025-04-28,Financial Services,59.45166666666666
+2025-04-28,Forest Materials,39.15
+2025-04-28,Healthcare,45.751999999999995
+2025-04-28,Information Technology,40.9875
+2025-04-28,Media,33.18
+2025-04-28,Metals & Mining,41.78
+2025-04-28,Oil Gas & Consumable Fuels,50.975
+2025-04-28,Power,57.49
+2025-04-28,Realty,50.09
+2025-04-28,Services,42.879999999999995
+2025-04-28,Telecommunication,37.504999999999995
+2025-04-28,Textiles,55.144999999999996
+2025-04-29,Automobile and Auto Components,57.800000000000004
+2025-04-29,Capital Goods,48.95875
+2025-04-29,Chemicals,50.535
+2025-04-29,Construction,38.269999999999996
+2025-04-29,Construction Materials,49.822500000000005
+2025-04-29,Consumer Durables,36.126666666666665
+2025-04-29,Consumer Services,46.586666666666666
+2025-04-29,Diversified Commercial,46.31
+2025-04-29,Fast Moving Consumer Goods,53.88333333333333
+2025-04-29,Financial Services,59.27333333333333
+2025-04-29,Forest Materials,43.02
+2025-04-29,Healthcare,47.763999999999996
+2025-04-29,Information Technology,41.7275
+2025-04-29,Media,34.6
+2025-04-29,Metals & Mining,39.932
+2025-04-29,Oil Gas & Consumable Fuels,48.555
+2025-04-29,Power,55.24333333333333
+2025-04-29,Realty,50.45
+2025-04-29,Services,45.47666666666667
+2025-04-29,Telecommunication,40.254999999999995
+2025-04-29,Textiles,55.885000000000005
+2025-04-30,Automobile and Auto Components,61.2875
+2025-04-30,Capital Goods,45.83375
+2025-04-30,Chemicals,46.22
+2025-04-30,Construction,28.169999999999998
+2025-04-30,Construction Materials,41.17
+2025-04-30,Consumer Durables,30.66333333333333
+2025-04-30,Consumer Services,44.48833333333334
+2025-04-30,Diversified Commercial,43.36
+2025-04-30,Fast Moving Consumer Goods,50.406666666666666
+2025-04-30,Financial Services,54.31
+2025-04-30,Forest Materials,31.73
+2025-04-30,Healthcare,39.046
+2025-04-30,Information Technology,35.7225
+2025-04-30,Media,28.58
+2025-04-30,Metals & Mining,32.096
+2025-04-30,Oil Gas & Consumable Fuels,45.455
+2025-04-30,Power,47.71
+2025-04-30,Realty,51.14
+2025-04-30,Services,41.84
+2025-04-30,Telecommunication,34.629999999999995
+2025-04-30,Textiles,46.01
+2025-05-02,Automobile and Auto Components,58.665
+2025-05-02,Capital Goods,48.73625
+2025-05-02,Chemicals,48.105
+2025-05-02,Construction,30.52
+2025-05-02,Construction Materials,38.7875
+2025-05-02,Consumer Durables,29.80333333333333
+2025-05-02,Consumer Services,43.73833333333334
+2025-05-02,Diversified Commercial,44.06
+2025-05-02,Fast Moving Consumer Goods,46.75
+2025-05-02,Financial Services,52.90833333333333
+2025-05-02,Forest Materials,34.6
+2025-05-02,Healthcare,38.058
+2025-05-02,Information Technology,38.0025
+2025-05-02,Media,32.0
+2025-05-02,Metals & Mining,36.727999999999994
+2025-05-02,Oil Gas & Consumable Fuels,47.894999999999996
+2025-05-02,Power,44.38333333333333
+2025-05-02,Realty,46.18
+2025-05-02,Services,40.07666666666666
+2025-05-02,Telecommunication,32.489999999999995
+2025-05-02,Textiles,40.65
+2025-05-05,Automobile and Auto Components,58.285
+2025-05-05,Capital Goods,53.5225
+2025-05-05,Chemicals,50.58
+2025-05-05,Construction,33.43
+2025-05-05,Construction Materials,39.82
+2025-05-05,Consumer Durables,35.96
+2025-05-05,Consumer Services,49.26333333333334
+2025-05-05,Diversified Commercial,46.38
+2025-05-05,Fast Moving Consumer Goods,48.49166666666667
+2025-05-05,Financial Services,54.64666666666667
+2025-05-05,Forest Materials,39.15
+2025-05-05,Healthcare,40.494
+2025-05-05,Information Technology,41.015
+2025-05-05,Media,34.72
+2025-05-05,Metals & Mining,40.838
+2025-05-05,Oil Gas & Consumable Fuels,45.945
+2025-05-05,Power,52.346666666666664
+2025-05-05,Realty,48.34
+2025-05-05,Services,43.94333333333333
+2025-05-05,Telecommunication,34.605000000000004
+2025-05-05,Textiles,45.535
+2025-05-06,Automobile and Auto Components,40.394
+2025-05-06,Capital Goods,44.1425
+2025-05-06,Chemicals,43.2475
+2025-05-06,Construction,24.020000000000003
+2025-05-06,Construction Materials,38.0375
+2025-05-06,Consumer Durables,26.676666666666666
+2025-05-06,Consumer Services,39.6
+2025-05-06,Diversified Commercial,39.32
+2025-05-06,Fast Moving Consumer Goods,43.35
+2025-05-06,Financial Services,41.33833333333333
+2025-05-06,Forest Materials,16.3
+2025-05-06,Healthcare,39.958000000000006
+2025-05-06,Information Technology,31.3175
+2025-05-06,Media,19.73
+2025-05-06,Metals & Mining,29.451999999999998
+2025-05-06,Oil Gas & Consumable Fuels,37.995000000000005
+2025-05-06,Power,34.343333333333334
+2025-05-06,Realty,40.02
+2025-05-06,Services,34.42666666666667
+2025-05-06,Telecommunication,29.27
+2025-05-06,Textiles,32.11
+2025-05-07,Automobile and Auto Components,47.612
+2025-05-07,Capital Goods,45.3925
+2025-05-07,Chemicals,44.125
+2025-05-07,Construction,24.13
+2025-05-07,Construction Materials,29.095
+2025-05-07,Consumer Durables,28.840000000000003
+2025-05-07,Consumer Services,41.586666666666666
+2025-05-07,Diversified Commercial,39.23
+2025-05-07,Fast Moving Consumer Goods,43.23333333333333
+2025-05-07,Financial Services,45.21
+2025-05-07,Forest Materials,23.0
+2025-05-07,Healthcare,41.233999999999995
+2025-05-07,Information Technology,38.1375
+2025-05-07,Media,20.77
+2025-05-07,Metals & Mining,29.028000000000002
+2025-05-07,Oil Gas & Consumable Fuels,39.635
+2025-05-07,Power,36.52333333333333
+2025-05-07,Realty,38.55
+2025-05-07,Services,34.77333333333333
+2025-05-07,Telecommunication,28.27
+2025-05-07,Textiles,46.215
+2025-05-08,Automobile and Auto Components,48.248
+2025-05-08,Capital Goods,47.36625
+2025-05-08,Chemicals,41.4675
+2025-05-08,Construction,23.285
+2025-05-08,Construction Materials,32.7175
+2025-05-08,Consumer Durables,32.876666666666665
+2025-05-08,Consumer Services,37.44833333333333
+2025-05-08,Diversified Commercial,38.82
+2025-05-08,Fast Moving Consumer Goods,39.32666666666666
+2025-05-08,Financial Services,44.04833333333334
+2025-05-08,Forest Materials,18.86
+2025-05-08,Healthcare,36.001999999999995
+2025-05-08,Information Technology,37.105
+2025-05-08,Media,25.01
+2025-05-08,Metals & Mining,26.592000000000002
+2025-05-08,Oil Gas & Consumable Fuels,36.5
+2025-05-08,Power,29.650000000000002
+2025-05-08,Realty,31.24
+2025-05-08,Services,31.176666666666666
+2025-05-08,Telecommunication,30.675
+2025-05-08,Textiles,49.06
+2025-05-09,Automobile and Auto Components,49.727999999999994
+2025-05-09,Capital Goods,52.28125
+2025-05-09,Chemicals,41.8125
+2025-05-09,Construction,24.439999999999998
+2025-05-09,Construction Materials,33.6325
+2025-05-09,Consumer Durables,30.513333333333335
+2025-05-09,Consumer Services,35.43833333333333
+2025-05-09,Diversified Commercial,38.2
+2025-05-09,Fast Moving Consumer Goods,41.199999999999996
+2025-05-09,Financial Services,41.61
+2025-05-09,Forest Materials,20.2
+2025-05-09,Healthcare,37.548
+2025-05-09,Information Technology,35.7025
+2025-05-09,Media,23.52
+2025-05-09,Metals & Mining,27.27
+2025-05-09,Oil Gas & Consumable Fuels,37.83
+2025-05-09,Power,30.076666666666664
+2025-05-09,Realty,32.39
+2025-05-09,Services,29.64
+2025-05-09,Telecommunication,31.445
+2025-05-09,Textiles,43.82
+2025-05-12,Automobile and Auto Components,66.402
+2025-05-12,Capital Goods,64.0
+2025-05-12,Chemicals,60.432500000000005
+2025-05-12,Construction,43.59
+2025-05-12,Construction Materials,56.53
+2025-05-12,Consumer Durables,51.53666666666667
+2025-05-12,Consumer Services,52.07500000000001
+2025-05-12,Diversified Commercial,51.1
+2025-05-12,Fast Moving Consumer Goods,58.24
+2025-05-12,Financial Services,57.76833333333334
+2025-05-12,Forest Materials,41.0
+2025-05-12,Healthcare,45.304
+2025-05-12,Information Technology,60.845
+2025-05-12,Media,39.21
+2025-05-12,Metals & Mining,53.882000000000005
+2025-05-12,Oil Gas & Consumable Fuels,54.485
+2025-05-12,Power,54.48333333333333
+2025-05-12,Realty,53.23
+2025-05-12,Services,50.633333333333326
+2025-05-12,Telecommunication,42.565
+2025-05-12,Textiles,56.790000000000006
+2025-05-13,Automobile and Auto Components,64.51
+2025-05-13,Capital Goods,67.975
+2025-05-13,Chemicals,64.3275
+2025-05-13,Construction,46.435
+2025-05-13,Construction Materials,61.0275
+2025-05-13,Consumer Durables,54.21
+2025-05-13,Consumer Services,54.52166666666667
+2025-05-13,Diversified Commercial,54.28
+2025-05-13,Fast Moving Consumer Goods,58.046666666666674
+2025-05-13,Financial Services,63.50833333333333
+2025-05-13,Forest Materials,45.33
+2025-05-13,Healthcare,52.964
+2025-05-13,Information Technology,68.0825
+2025-05-13,Media,42.31
+2025-05-13,Metals & Mining,55.827999999999996
+2025-05-13,Oil Gas & Consumable Fuels,59.36
+2025-05-13,Power,53.696666666666665
+2025-05-13,Realty,55.39
+2025-05-13,Services,54.45333333333334
+2025-05-13,Telecommunication,42.695
+2025-05-13,Textiles,58.135000000000005
+2025-05-14,Automobile and Auto Components,68.42999999999999
+2025-05-14,Capital Goods,72.84875
+2025-05-14,Chemicals,67.8725
+2025-05-14,Construction,49.19
+2025-05-14,Construction Materials,61.6175
+2025-05-14,Consumer Durables,49.910000000000004
+2025-05-14,Consumer Services,50.946666666666665
+2025-05-14,Diversified Commercial,56.75
+2025-05-14,Fast Moving Consumer Goods,61.666666666666664
+2025-05-14,Financial Services,64.1
+2025-05-14,Forest Materials,65.36
+2025-05-14,Healthcare,54.717999999999996
+2025-05-14,Information Technology,61.87
+2025-05-14,Media,45.25
+2025-05-14,Metals & Mining,59.112
+2025-05-14,Oil Gas & Consumable Fuels,64.65
+2025-05-14,Power,59.60333333333333
+2025-05-14,Realty,61.12
+2025-05-14,Services,59.32
+2025-05-14,Telecommunication,48.04
+2025-05-14,Textiles,61.18
+2025-05-15,Automobile and Auto Components,68.49
+2025-05-15,Capital Goods,74.7075
+2025-05-15,Chemicals,66.65
+2025-05-15,Construction,55.26
+2025-05-15,Construction Materials,62.965
+2025-05-15,Consumer Durables,44.64000000000001
+2025-05-15,Consumer Services,54.405
+2025-05-15,Diversified Commercial,57.74
+2025-05-15,Fast Moving Consumer Goods,61.40166666666667
+2025-05-15,Financial Services,62.585
+2025-05-15,Forest Materials,65.22
+2025-05-15,Healthcare,52.408
+2025-05-15,Information Technology,63.08
+2025-05-15,Media,52.09
+2025-05-15,Metals & Mining,62.239999999999995
+2025-05-15,Oil Gas & Consumable Fuels,67.67
+2025-05-15,Power,60.586666666666666
+2025-05-15,Realty,60.39
+2025-05-15,Services,63.52
+2025-05-15,Telecommunication,49.07
+2025-05-15,Textiles,62.379999999999995
+2025-05-16,Automobile and Auto Components,67.934
+2025-05-16,Capital Goods,77.48375
+2025-05-16,Chemicals,67.07
+2025-05-16,Construction,60.17
+2025-05-16,Construction Materials,62.677499999999995
+2025-05-16,Consumer Durables,45.19
+2025-05-16,Consumer Services,56.305
+2025-05-16,Diversified Commercial,59.11
+2025-05-16,Fast Moving Consumer Goods,63.69166666666666
+2025-05-16,Financial Services,66.90333333333332
+2025-05-16,Forest Materials,60.24
+2025-05-16,Healthcare,52.517999999999994
+2025-05-16,Information Technology,65.5675
+2025-05-16,Media,56.53
+2025-05-16,Metals & Mining,59.812
+2025-05-16,Oil Gas & Consumable Fuels,71.35
+2025-05-16,Power,64.19666666666666
+2025-05-16,Realty,66.12
+2025-05-16,Services,65.49
+2025-05-16,Telecommunication,59.545
+2025-05-16,Textiles,60.754999999999995
+2025-05-19,Automobile and Auto Components,76.41
+2025-05-19,Capital Goods,78.0625
+2025-05-19,Chemicals,71.9275
+2025-05-19,Construction,59.405
+2025-05-19,Construction Materials,63.2025
+2025-05-19,Consumer Durables,46.45333333333334
+2025-05-19,Consumer Services,59.775
+2025-05-19,Diversified Commercial,60.48
+2025-05-19,Fast Moving Consumer Goods,71.97833333333334
+2025-05-19,Financial Services,67.39999999999999
+2025-05-19,Forest Materials,70.23
+2025-05-19,Healthcare,55.215999999999994
+2025-05-19,Information Technology,65.8625
+2025-05-19,Media,66.34
+2025-05-19,Metals & Mining,62.286
+2025-05-19,Oil Gas & Consumable Fuels,67.19
+2025-05-19,Power,62.776666666666664
+2025-05-19,Realty,66.17
+2025-05-19,Services,71.91333333333334
+2025-05-19,Telecommunication,54.96
+2025-05-19,Textiles,64.095
+2025-05-20,Automobile and Auto Components,68.894
+2025-05-20,Capital Goods,73.01375
+2025-05-20,Chemicals,64.8075
+2025-05-20,Construction,54.495
+2025-05-20,Construction Materials,59.5825
+2025-05-20,Consumer Durables,46.51333333333334
+2025-05-20,Consumer Services,51.65833333333333
+2025-05-20,Diversified Commercial,57.81
+2025-05-20,Fast Moving Consumer Goods,63.903333333333336
+2025-05-20,Financial Services,63.44833333333333
+2025-05-20,Forest Materials,64.91
+2025-05-20,Healthcare,50.866
+2025-05-20,Information Technology,65.02250000000001
+2025-05-20,Media,62.26
+2025-05-20,Metals & Mining,59.025999999999996
+2025-05-20,Oil Gas & Consumable Fuels,66.10499999999999
+2025-05-20,Power,63.22666666666667
+2025-05-20,Realty,63.83
+2025-05-20,Services,66.36333333333333
+2025-05-20,Telecommunication,44.555
+2025-05-20,Textiles,61.045
+2025-05-21,Automobile and Auto Components,76.138
+2025-05-21,Capital Goods,71.965
+2025-05-21,Chemicals,63.730000000000004
+2025-05-21,Construction,53.370000000000005
+2025-05-21,Construction Materials,59.717499999999994
+2025-05-21,Consumer Durables,46.31333333333333
+2025-05-21,Consumer Services,51.165
+2025-05-21,Diversified Commercial,58.5
+2025-05-21,Fast Moving Consumer Goods,65.42166666666667
+2025-05-21,Financial Services,65.89166666666667
+2025-05-21,Forest Materials,64.21
+2025-05-21,Healthcare,52.366
+2025-05-21,Information Technology,62.7825
+2025-05-21,Media,51.64
+2025-05-21,Metals & Mining,58.366
+2025-05-21,Oil Gas & Consumable Fuels,60.31
+2025-05-21,Power,58.453333333333326
+2025-05-21,Realty,60.81
+2025-05-21,Services,69.10000000000001
+2025-05-21,Telecommunication,53.955
+2025-05-21,Textiles,63.955
+2025-05-22,Automobile and Auto Components,71.402
+2025-05-22,Capital Goods,70.53375
+2025-05-22,Chemicals,61.89
+2025-05-22,Construction,53.075
+2025-05-22,Construction Materials,66.1
+2025-05-22,Consumer Durables,43.68333333333334
+2025-05-22,Consumer Services,48.781666666666666
+2025-05-22,Diversified Commercial,56.71
+2025-05-22,Fast Moving Consumer Goods,62.550000000000004
+2025-05-22,Financial Services,61.065
+2025-05-22,Forest Materials,71.03
+2025-05-22,Healthcare,50.510000000000005
+2025-05-22,Information Technology,61.47
+2025-05-22,Media,53.3
+2025-05-22,Metals & Mining,57.196000000000005
+2025-05-22,Oil Gas & Consumable Fuels,57.595
+2025-05-22,Power,58.583333333333336
+2025-05-22,Realty,57.42
+2025-05-22,Services,71.38666666666667
+2025-05-22,Telecommunication,56.114999999999995
+2025-05-22,Textiles,58.785
+2025-05-23,Automobile and Auto Components,74.488
+2025-05-23,Capital Goods,73.81625
+2025-05-23,Chemicals,65.75
+2025-05-23,Construction,53.425
+2025-05-23,Construction Materials,68.88
+2025-05-23,Consumer Durables,42.20666666666667
+2025-05-23,Consumer Services,55.574999999999996
+2025-05-23,Diversified Commercial,57.6
+2025-05-23,Fast Moving Consumer Goods,65.07333333333334
+2025-05-23,Financial Services,64.81666666666666
+2025-05-23,Forest Materials,70.41
+2025-05-23,Healthcare,50.538
+2025-05-23,Information Technology,66.9925
+2025-05-23,Media,54.89
+2025-05-23,Metals & Mining,66.586
+2025-05-23,Oil Gas & Consumable Fuels,69.735
+2025-05-23,Power,59.50333333333333
+2025-05-23,Realty,59.71
+2025-05-23,Services,68.69333333333333
+2025-05-23,Telecommunication,58.26
+2025-05-23,Textiles,57.735
+2025-05-26,Automobile and Auto Components,79.404
+2025-05-26,Capital Goods,76.11625000000001
+2025-05-26,Chemicals,71.195
+2025-05-26,Construction,59.61
+2025-05-26,Construction Materials,70.235
+2025-05-26,Consumer Durables,46.099999999999994
+2025-05-26,Consumer Services,53.285
+2025-05-26,Diversified Commercial,60.91
+2025-05-26,Fast Moving Consumer Goods,66.10333333333334
+2025-05-26,Financial Services,66.43333333333334
+2025-05-26,Forest Materials,72.32
+2025-05-26,Healthcare,55.224000000000004
+2025-05-26,Information Technology,65.3125
+2025-05-26,Media,72.23
+2025-05-26,Metals & Mining,66.52799999999999
+2025-05-26,Oil Gas & Consumable Fuels,67.035
+2025-05-26,Power,61.19
+2025-05-26,Realty,63.48
+2025-05-26,Services,69.16000000000001
+2025-05-26,Telecommunication,56.935
+2025-05-26,Textiles,64.815
+2025-05-27,Automobile and Auto Components,76.726
+2025-05-27,Capital Goods,76.71375
+2025-05-27,Chemicals,73.3775
+2025-05-27,Construction,53.815
+2025-05-27,Construction Materials,66.33
+2025-05-27,Consumer Durables,46.419999999999995
+2025-05-27,Consumer Services,53.67666666666667
+2025-05-27,Diversified Commercial,61.94
+2025-05-27,Fast Moving Consumer Goods,63.08166666666667
+2025-05-27,Financial Services,63.82
+2025-05-27,Forest Materials,70.27
+2025-05-27,Healthcare,53.85799999999999
+2025-05-27,Information Technology,61.620000000000005
+2025-05-27,Media,57.47
+2025-05-27,Metals & Mining,63.626
+2025-05-27,Oil Gas & Consumable Fuels,61.39
+2025-05-27,Power,61.306666666666665
+2025-05-27,Realty,70.33
+2025-05-27,Services,73.92
+2025-05-27,Telecommunication,65.31
+2025-05-27,Textiles,63.995
+2025-05-28,Automobile and Auto Components,71.11
+2025-05-28,Capital Goods,72.8175
+2025-05-28,Chemicals,67.9525
+2025-05-28,Construction,56.86
+2025-05-28,Construction Materials,65.73750000000001
+2025-05-28,Consumer Durables,44.63333333333333
+2025-05-28,Consumer Services,52.60833333333333
+2025-05-28,Diversified Commercial,61.52
+2025-05-28,Fast Moving Consumer Goods,65.56833333333333
+2025-05-28,Financial Services,67.785
+2025-05-28,Forest Materials,71.69
+2025-05-28,Healthcare,53.798
+2025-05-28,Information Technology,67.725
+2025-05-28,Media,58.67
+2025-05-28,Metals & Mining,65.676
+2025-05-28,Oil Gas & Consumable Fuels,61.974999999999994
+2025-05-28,Power,59.629999999999995
+2025-05-28,Realty,60.31
+2025-05-28,Services,70.02666666666666
+2025-05-28,Telecommunication,71.525
+2025-05-28,Textiles,65.85499999999999
+2025-05-29,Automobile and Auto Components,68.998
+2025-05-29,Capital Goods,76.94500000000001
+2025-05-29,Chemicals,68.605
+2025-05-29,Construction,58.875
+2025-05-29,Construction Materials,65.82
+2025-05-29,Consumer Durables,44.60666666666666
+2025-05-29,Consumer Services,52.195
+2025-05-29,Diversified Commercial,63.1
+2025-05-29,Fast Moving Consumer Goods,65.095
+2025-05-29,Financial Services,66.885
+2025-05-29,Forest Materials,75.58
+2025-05-29,Healthcare,53.565999999999995
+2025-05-29,Information Technology,66.15
+2025-05-29,Media,62.44
+2025-05-29,Metals & Mining,69.606
+2025-05-29,Oil Gas & Consumable Fuels,75.205
+2025-05-29,Power,65.77666666666666
+2025-05-29,Realty,61.68
+2025-05-29,Services,69.06333333333333
+2025-05-29,Telecommunication,66.0
+2025-05-29,Textiles,67.63499999999999
+2025-05-30,Automobile and Auto Components,71.386
+2025-05-30,Capital Goods,76.21875
+2025-05-30,Chemicals,71.415
+2025-05-30,Construction,57.125
+2025-05-30,Construction Materials,73.235
+2025-05-30,Consumer Durables,44.98
+2025-05-30,Consumer Services,56.76166666666666
+2025-05-30,Diversified Commercial,61.55
+2025-05-30,Fast Moving Consumer Goods,65.925
+2025-05-30,Financial Services,70.085
+2025-05-30,Forest Materials,73.19
+2025-05-30,Healthcare,57.284000000000006
+2025-05-30,Information Technology,66.3075
+2025-05-30,Media,63.81
+2025-05-30,Metals & Mining,60.976
+2025-05-30,Oil Gas & Consumable Fuels,65.53999999999999
+2025-05-30,Power,67.07000000000001
+2025-05-30,Realty,65.51
+2025-05-30,Services,71.43333333333334
+2025-05-30,Telecommunication,64.875
+2025-05-30,Textiles,62.075
+2025-06-02,Automobile and Auto Components,70.55199999999999
+2025-06-02,Capital Goods,72.73375
+2025-06-02,Chemicals,71.83
+2025-06-02,Construction,57.394999999999996
+2025-06-02,Construction Materials,59.8475
+2025-06-02,Consumer Durables,42.446666666666665
+2025-06-02,Consumer Services,51.03666666666667
+2025-06-02,Diversified Commercial,59.54
+2025-06-02,Fast Moving Consumer Goods,63.59166666666667
+2025-06-02,Financial Services,72.70666666666666
+2025-06-02,Forest Materials,78.37
+2025-06-02,Healthcare,55.838
+2025-06-02,Information Technology,61.89
+2025-06-02,Media,70.71
+2025-06-02,Metals & Mining,57.088
+2025-06-02,Oil Gas & Consumable Fuels,73.18
+2025-06-02,Power,62.88666666666666
+2025-06-02,Realty,63.95
+2025-06-02,Services,68.72666666666667
+2025-06-02,Telecommunication,56.72
+2025-06-02,Textiles,58.254999999999995
+2025-06-03,Automobile and Auto Components,67.268
+2025-06-03,Capital Goods,74.38
+2025-06-03,Chemicals,77.43
+2025-06-03,Construction,54.46
+2025-06-03,Construction Materials,63.515
+2025-06-03,Consumer Durables,40.839999999999996
+2025-06-03,Consumer Services,51.086666666666666
+2025-06-03,Diversified Commercial,59.78
+2025-06-03,Fast Moving Consumer Goods,63.211666666666666
+2025-06-03,Financial Services,70.17833333333333
+2025-06-03,Forest Materials,76.28
+2025-06-03,Healthcare,53.934000000000005
+2025-06-03,Information Technology,62.015
+2025-06-03,Media,67.78
+2025-06-03,Metals & Mining,56.396
+2025-06-03,Oil Gas & Consumable Fuels,64.03
+2025-06-03,Power,56.03
+2025-06-03,Realty,68.16
+2025-06-03,Services,74.73666666666666
+2025-06-03,Telecommunication,62.305
+2025-06-03,Textiles,59.519999999999996
+2025-06-04,Automobile and Auto Components,63.222
+2025-06-04,Capital Goods,72.10374999999999
+2025-06-04,Chemicals,70.50750000000001
+2025-06-04,Construction,55.230000000000004
+2025-06-04,Construction Materials,60.105
+2025-06-04,Consumer Durables,39.03666666666667
+2025-06-04,Consumer Services,54.26
+2025-06-04,Diversified Commercial,59.49
+2025-06-04,Fast Moving Consumer Goods,63.11833333333333
+2025-06-04,Financial Services,67.44666666666667
+2025-06-04,Forest Materials,74.88
+2025-06-04,Healthcare,54.60600000000001
+2025-06-04,Information Technology,63.915
+2025-06-04,Media,78.48
+2025-06-04,Metals & Mining,59.312
+2025-06-04,Oil Gas & Consumable Fuels,60.949999999999996
+2025-06-04,Power,66.35666666666667
+2025-06-04,Realty,65.82
+2025-06-04,Services,68.43666666666667
+2025-06-04,Telecommunication,61.26
+2025-06-04,Textiles,52.455
+2025-06-05,Automobile and Auto Components,66.674
+2025-06-05,Capital Goods,79.31
+2025-06-05,Chemicals,71.2825
+2025-06-05,Construction,67.935
+2025-06-05,Construction Materials,66.61
+2025-06-05,Consumer Durables,40.046666666666674
+2025-06-05,Consumer Services,55.06166666666667
+2025-06-05,Diversified Commercial,60.8
+2025-06-05,Fast Moving Consumer Goods,65.57833333333333
+2025-06-05,Financial Services,70.00333333333333
+2025-06-05,Forest Materials,79.87
+2025-06-05,Healthcare,52.866
+2025-06-05,Information Technology,63.2175
+2025-06-05,Media,68.94
+2025-06-05,Metals & Mining,63.05799999999999
+2025-06-05,Oil Gas & Consumable Fuels,62.175
+2025-06-05,Power,62.9
+2025-06-05,Realty,74.48
+2025-06-05,Services,70.34333333333333
+2025-06-05,Telecommunication,62.475
+2025-06-05,Textiles,56.99
+2025-06-06,Automobile and Auto Components,69.898
+2025-06-06,Capital Goods,77.6775
+2025-06-06,Chemicals,71.6875
+2025-06-06,Construction,64.83
+2025-06-06,Construction Materials,70.355
+2025-06-06,Consumer Durables,39.45333333333333
+2025-06-06,Consumer Services,53.745000000000005
+2025-06-06,Diversified Commercial,63.48
+2025-06-06,Fast Moving Consumer Goods,66.82166666666667
+2025-06-06,Financial Services,76.72666666666667
+2025-06-06,Forest Materials,73.27
+2025-06-06,Healthcare,54.288
+2025-06-06,Information Technology,63.335
+2025-06-06,Media,68.33
+2025-06-06,Metals & Mining,73.474
+2025-06-06,Oil Gas & Consumable Fuels,61.13
+2025-06-06,Power,69.22666666666667
+2025-06-06,Realty,86.98
+2025-06-06,Services,71.01
+2025-06-06,Telecommunication,78.385
+2025-06-06,Textiles,57.525000000000006
+2025-06-09,Automobile and Auto Components,73.146
+2025-06-09,Capital Goods,72.97
+2025-06-09,Chemicals,73.2675
+2025-06-09,Construction,64.13499999999999
+2025-06-09,Construction Materials,73.045
+2025-06-09,Consumer Durables,40.946666666666665
+2025-06-09,Consumer Services,58.815
+2025-06-09,Diversified Commercial,64.31
+2025-06-09,Fast Moving Consumer Goods,65.25166666666667
+2025-06-09,Financial Services,77.21666666666667
+2025-06-09,Forest Materials,78.18
+2025-06-09,Healthcare,52.936
+2025-06-09,Information Technology,66.7575
+2025-06-09,Media,68.33
+2025-06-09,Metals & Mining,69.688
+2025-06-09,Oil Gas & Consumable Fuels,62.864999999999995
+2025-06-09,Power,76.13666666666667
+2025-06-09,Realty,80.23
+2025-06-09,Services,72.91000000000001
+2025-06-09,Telecommunication,69.64500000000001
+2025-06-09,Textiles,60.54
+2025-06-10,Automobile and Auto Components,73.994
+2025-06-10,Capital Goods,74.38125
+2025-06-10,Chemicals,70.5225
+2025-06-10,Construction,64.08
+2025-06-10,Construction Materials,75.10249999999999
+2025-06-10,Consumer Durables,40.18
+2025-06-10,Consumer Services,56.056666666666665
+2025-06-10,Diversified Commercial,64.15
+2025-06-10,Fast Moving Consumer Goods,66.17333333333333
+2025-06-10,Financial Services,73.31
+2025-06-10,Forest Materials,73.39
+2025-06-10,Healthcare,54.153999999999996
+2025-06-10,Information Technology,65.7775
+2025-06-10,Media,73.84
+2025-06-10,Metals & Mining,68.22
+2025-06-10,Oil Gas & Consumable Fuels,78.055
+2025-06-10,Power,84.56
+2025-06-10,Realty,77.66
+2025-06-10,Services,70.97333333333334
+2025-06-10,Telecommunication,64.32
+2025-06-10,Textiles,68.52000000000001
+2025-06-11,Automobile and Auto Components,70.438
+2025-06-11,Capital Goods,70.53875
+2025-06-11,Chemicals,73.085
+2025-06-11,Construction,71.845
+2025-06-11,Construction Materials,71.1775
+2025-06-11,Consumer Durables,46.47
+2025-06-11,Consumer Services,57.29833333333334
+2025-06-11,Diversified Commercial,65.07
+2025-06-11,Fast Moving Consumer Goods,66.02166666666666
+2025-06-11,Financial Services,73.96166666666666
+2025-06-11,Forest Materials,75.22
+2025-06-11,Healthcare,60.644000000000005
+2025-06-11,Information Technology,63.0625
+2025-06-11,Media,66.65
+2025-06-11,Metals & Mining,68.38399999999999
+2025-06-11,Oil Gas & Consumable Fuels,82.21000000000001
+2025-06-11,Power,79.12666666666667
+2025-06-11,Realty,75.93
+2025-06-11,Services,71.10000000000001
+2025-06-11,Telecommunication,69.735
+2025-06-11,Textiles,73.955
+2025-06-12,Automobile and Auto Components,66.392
+2025-06-12,Capital Goods,67.42625
+2025-06-12,Chemicals,67.0075
+2025-06-12,Construction,59.394999999999996
+2025-06-12,Construction Materials,62.4325
+2025-06-12,Consumer Durables,38.67
+2025-06-12,Consumer Services,46.01166666666666
+2025-06-12,Diversified Commercial,59.94
+2025-06-12,Fast Moving Consumer Goods,58.03
+2025-06-12,Financial Services,65.55833333333334
+2025-06-12,Forest Materials,68.47
+2025-06-12,Healthcare,59.758
+2025-06-12,Information Technology,57.5125
+2025-06-12,Media,62.96
+2025-06-12,Metals & Mining,61.410000000000004
+2025-06-12,Oil Gas & Consumable Fuels,68.385
+2025-06-12,Power,62.25333333333333
+2025-06-12,Realty,71.07
+2025-06-12,Services,64.59333333333333
+2025-06-12,Telecommunication,73.195
+2025-06-12,Textiles,56.34
+2025-06-13,Automobile and Auto Components,68.65599999999999
+2025-06-13,Capital Goods,61.7175
+2025-06-13,Chemicals,65.68
+2025-06-13,Construction,51.56
+2025-06-13,Construction Materials,58.3275
+2025-06-13,Consumer Durables,36.343333333333334
+2025-06-13,Consumer Services,41.65
+2025-06-13,Diversified Commercial,54.24
+2025-06-13,Fast Moving Consumer Goods,53.365
+2025-06-13,Financial Services,62.82333333333333
+2025-06-13,Forest Materials,56.8
+2025-06-13,Healthcare,56.391999999999996
+2025-06-13,Information Technology,50.37
+2025-06-13,Media,55.92
+2025-06-13,Metals & Mining,53.60600000000001
+2025-06-13,Oil Gas & Consumable Fuels,60.64
+2025-06-13,Power,51.39333333333334
+2025-06-13,Realty,67.23
+2025-06-13,Services,59.0
+2025-06-13,Telecommunication,62.260000000000005
+2025-06-13,Textiles,49.635000000000005
+2025-06-16,Automobile and Auto Components,65.26
+2025-06-16,Capital Goods,60.665
+2025-06-16,Chemicals,59.5025
+2025-06-16,Construction,53.53
+2025-06-16,Construction Materials,54.472500000000004
+2025-06-16,Consumer Durables,36.97666666666667
+2025-06-16,Consumer Services,39.973333333333336
+2025-06-16,Diversified Commercial,55.93
+2025-06-16,Fast Moving Consumer Goods,47.85999999999999
+2025-06-16,Financial Services,63.33166666666667
+2025-06-16,Forest Materials,58.53
+2025-06-16,Healthcare,53.872
+2025-06-16,Information Technology,52.055
+2025-06-16,Media,57.99
+2025-06-16,Metals & Mining,55.577999999999996
+2025-06-16,Oil Gas & Consumable Fuels,53.07
+2025-06-16,Power,52.82
+2025-06-16,Realty,67.16
+2025-06-16,Services,53.73333333333333
+2025-06-16,Telecommunication,71.16
+2025-06-16,Textiles,47.105000000000004
+2025-06-17,Automobile and Auto Components,62.010000000000005
+2025-06-17,Capital Goods,59.20375
+2025-06-17,Chemicals,57.82
+2025-06-17,Construction,53.519999999999996
+2025-06-17,Construction Materials,53.99250000000001
+2025-06-17,Consumer Durables,31.55333333333333
+2025-06-17,Consumer Services,42.641666666666666
+2025-06-17,Diversified Commercial,51.75
+2025-06-17,Fast Moving Consumer Goods,46.403333333333336
+2025-06-17,Financial Services,58.038333333333334
+2025-06-17,Forest Materials,51.73
+2025-06-17,Healthcare,48.972
+2025-06-17,Information Technology,58.135
+2025-06-17,Media,63.02
+2025-06-17,Metals & Mining,53.062
+2025-06-17,Oil Gas & Consumable Fuels,53.47
+2025-06-17,Power,40.196666666666665
+2025-06-17,Realty,67.62
+2025-06-17,Services,50.156666666666666
+2025-06-17,Telecommunication,68.155
+2025-06-17,Textiles,38.625
+2025-06-18,Automobile and Auto Components,63.128
+2025-06-18,Capital Goods,54.43625
+2025-06-18,Chemicals,53.485
+2025-06-18,Construction,44.535
+2025-06-18,Construction Materials,47.2675
+2025-06-18,Consumer Durables,36.14666666666667
+2025-06-18,Consumer Services,44.431666666666665
+2025-06-18,Diversified Commercial,49.36
+2025-06-18,Fast Moving Consumer Goods,45.52166666666667
+2025-06-18,Financial Services,53.906666666666666
+2025-06-18,Forest Materials,47.88
+2025-06-18,Healthcare,47.638
+2025-06-18,Information Technology,53.185
+2025-06-18,Media,64.7
+2025-06-18,Metals & Mining,49.626
+2025-06-18,Oil Gas & Consumable Fuels,51.865
+2025-06-18,Power,37.086666666666666
+2025-06-18,Realty,62.65
+2025-06-18,Services,44.88666666666666
+2025-06-18,Telecommunication,64.7
+2025-06-18,Textiles,33.9

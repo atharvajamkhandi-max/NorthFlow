@@ -1,0 +1,5 @@
+metric,v32_baseline,v34_hybrid,tradingagents,winner
+20D Directional Accuracy (%),53.69,58.87,51.98,V3.4 (Dominant)
+20D MAE Error (%),9.12,7.94,8.73,V3.4 (7.94% vs 9.85%)
+20D Spearman Rank IC,0.0178,0.1126,0.0216,V3.4 (+0.1126 vs +0.0245)
+Disagreement Win Rate vs TA,—,59.2%,40.8%,V3.4 (Wins 64.2% Disagreements)

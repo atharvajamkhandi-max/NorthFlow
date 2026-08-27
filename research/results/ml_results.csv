@@ -1,0 +1,6 @@
+Model,Task,Accuracy,ROC_AUC,F1_Score,Brier_Score,Observations,MAE,RMSE,R2,Rank_IC
+Logistic_Regression,Classification (P5),60.2,0.513,0.059,0.248,804,,,,
+Elastic_Net,Classification (P5),59.6,0.52,0.156,0.257,804,,,,
+Random_Forest,Classification (P5),59.7,0.52,0.047,0.245,804,,,,
+Gradient_Boosting,Classification (P5),59.1,0.513,0.063,0.247,804,,,,
+Gradient_Boosting (Regression),Return Prediction (5D),,,,,804,2.27,3.56,-0.1474,0.007

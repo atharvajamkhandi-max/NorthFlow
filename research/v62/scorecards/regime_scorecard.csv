@@ -1,0 +1,4 @@
+regime,live_sessions,when_v34_wins,when_v32_wins,ta_veto_role
+BULL,1,High trend persistence and upside breakout momentum,Never,Filters false overextended blow-off tops
+BEAR,1,Identifies institutional distribution and heavy selling,Never,Vetoes falling knives and high debt entities
+SIDEWAYS,2,Sector rotation leadership detection,Mean-reversion range chop,Compresses portfolio turnover

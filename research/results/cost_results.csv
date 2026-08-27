@@ -1,0 +1,6 @@
+Transaction_Cost_Bps,Net_Rel_Return_5D,Survives_Cost
+0 bps,1.11,YES
+10 bps,0.91,YES
+25 bps,0.61,YES
+50 bps,0.11,YES
+100 bps,-0.89,NO

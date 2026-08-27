@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "RELIANCE",
+    "base_price": 3000.0,
+    "parent_industry": "Oil Refining & Marketing",
+    "p10_price": 2693.1,
+    "p50_price": 3003.9,
+    "p90_price": 3314.7,
+    "p10_ret": -10.23,
+    "p50_ret": 0.13,
+    "p90_ret": 10.49,
+    "quantile_monotonicity": true
+  },
+  {
+    "symbol": "TCS",
+    "base_price": 4200.0,
+    "parent_industry": "Computers - Software & Consulting",
+    "p10_price": 3818.64,
+    "p50_price": 4253.76,
+    "p90_price": 4688.88,
+    "p10_ret": -9.08,
+    "p50_ret": 1.28,
+    "p90_ret": 11.64,
+    "quantile_monotonicity": true
+  },
+  {
+    "symbol": "HDFCBANK",
+    "base_price": 1600.0,
+    "parent_industry": "Private Sector Bank",
+    "p10_price": 1300.32,
+    "p50_price": 1466.08,
+    "p90_price": 1631.84,
+    "p10_ret": -18.73,
+    "p50_ret": -8.37,
+    "p90_ret": 1.99,
+    "quantile_monotonicity": true
+  }
+]

@@ -1,0 +1,136 @@
+Industry,Leadership_State,Accel_Score,Recent_RS_Delta,Recent_Breadth_Delta
+API & CDMO / CRAMS,NEUTRAL,44.4,1.62,0.0
+Aerospace & Defence,DECELERATING,39.2,-3.34,5.0
+Affordable Housing Finance Company,NEUTRAL,47.6,-3.34,0.0
+Agrochemicals & Pesticides,WEAKENING,39.0,5.68,0.0
+Air Conditioners & AC Components,NEUTRAL,45.2,-2.06,0.0
+Air Conditioners & Appliances,NEUTRAL,51.2,1.77,0.0
+Aluminium & Mining,NEUTRAL,51.9,3.04,0.0
+Asset Management & Wealth,EMERGING LEADER,100.0,2.66,100.0
+Asset Management Company (AMC),ACCELERATING,77.3,2.86,33.33
+Auto Glass,DECELERATING,16.5,-4.89,0.0
+Auto Lighting,NEUTRAL,54.8,7.01,0.0
+Auto Parts & Equipment,NEUTRAL,42.5,-2.84,-5.0
+Automobile OEMs,NEUTRAL,53.5,0.04,0.0
+Automobile and Auto Components,NEUTRAL,47.4,-0.02,14.29
+Banks,ACCELERATING,59.3,0.71,4.44
+Batteries,NEUTRAL,48.7,-1.43,0.0
+Batteries & Energy Storage,NEUTRAL,49.8,-0.15,0.0
+Bearings & Friction Solutions,NEUTRAL,49.3,1.23,11.11
+Breweries & Distilleries,EMERGING LEADER,61.3,0.45,18.18
+Capital Goods,NEUTRAL,48.2,-1.3,0.0
+Capital Markets & Asset Management,EMERGING LEADER,65.6,0.33,9.09
+Cement,WEAKENING,42.3,-0.2,0.0
+Cement & Clinker,NEUTRAL,54.8,0.84,0.0
+Ceramics & Tiles,NEUTRAL,46.4,-0.68,0.0
+Chemicals,NEUTRAL,52.6,-2.6,10.0
+Civil Buildings & Commercial EPC,ACCELERATING,77.6,-2.65,0.0
+Civil Construction & Infrastructure,NEUTRAL,47.4,-1.11,2.33
+Civil Construction & Infrastructure EPC,NEUTRAL,52.1,3.32,0.0
+Commodity Chemicals,NEUTRAL,50.7,-0.71,-2.33
+Construction,EMERGING LEADER,60.4,1.65,20.0
+Construction Materials,NEUTRAL,51.5,2.2,0.0
+Consumer Durables,NEUTRAL,52.6,0.64,4.55
+Consumer Services,ACCELERATING,59.0,1.54,4.76
+Copper & Non-Ferrous Metals,EMERGING LEADER,79.3,-0.68,0.0
+Copper Mining,EMERGING LEADER,100.0,1.12,0.0
+Dairy Products,EMERGING LEADER,75.4,1.95,40.0
+Data Centers & Real Estate,NEUTRAL,46.4,-5.15,0.0
+Diagnostic & Healthcare Laboratories,NEUTRAL,50.2,0.4,0.0
+Diversified & Fashion Retail,ACCELERATING,58.5,-0.62,0.0
+Diversified Commercial,NEUTRAL,53.0,0.01,2.63
+Diversified Retail,NEUTRAL,47.9,3.02,-10.0
+Edible Oils,NEUTRAL,49.1,-1.31,0.0
+Electronic Manufacturing Services (EMS),DECELERATING,32.2,0.13,-9.09
+Explosives & Defence Chemicals,DECELERATING,31.4,-5.41,0.0
+Fast Moving Consumer Goods,NEUTRAL,45.2,-2.27,-7.14
+Fertilizers,ACCELERATING,64.2,-0.97,0.0
+Fertilizers & Agrochemicals,WEAKENING,43.5,-1.69,-11.76
+Financial Services,NEUTRAL,54.9,-0.08,16.67
+Footwear,ACCELERATING,61.7,-4.5,0.0
+Gas Distribution,NEUTRAL,49.0,-1.54,0.0
+Gas Transmission & Distribution,WEAKENING,34.7,-0.51,0.0
+Healthcare,NEUTRAL,44.8,1.75,0.0
+Heavy Electrical Equipment,DECELERATING,34.2,-21.93,0.0
+Hospitals & Diagnostic Centres,NEUTRAL,51.6,-0.56,0.0
+Hospitals & Healthcare Services,WEAKENING,1.6,-4.01,-100.0
+Hotels & Restaurants,NEUTRAL,57.0,1.49,4.35
+"Hotels, Resorts & QSR",EMERGING LEADER,63.8,1.08,17.65
+Housing & Urban Infrastructure Financing,NEUTRAL,50.4,0.98,0.0
+IT Consulting & Software,NEUTRAL,57.5,-0.01,14.29
+Information Technology,WEAKENING,44.9,-0.12,-11.11
+Insurance,NEUTRAL,53.7,0.73,20.0
+Internet & Digital Platforms,EMERGING LEADER,60.7,1.41,9.09
+Iron & Steel,WEAKENING,44.1,0.36,-11.11
+Logistics & Transportation,NEUTRAL,56.8,1.17,10.0
+"Logistics, Ports & Supply Chain",NEUTRAL,44.6,-0.57,-6.67
+Lubricants & Specialty Oils,DECELERATING,32.3,-3.08,-20.0
+Media & Entertainment,NEUTRAL,56.7,-0.87,4.35
+Media Entertainment & Publication,DECELERATING,29.4,2.45,-50.0
+Metals & Mining,WEAKENING,34.2,-0.83,-42.86
+Microfinance NBFC,NEUTRAL,57.5,10.34,0.0
+Mining & Mineral Products,ACCELERATING,60.5,-0.88,0.0
+Non Banking Financial Company (NBFC),NEUTRAL,52.0,-0.35,-0.36
+Oil Exploration & Refining,NEUTRAL,53.1,3.04,6.67
+Oil Gas & Consumable Fuels,NEUTRAL,52.9,3.79,0.0
+Packaged Foods & Consumer Staples,NEUTRAL,53.3,0.84,0.0
+Packaged Foods & FMCG Staples,NEUTRAL,55.9,-1.37,5.0
+Packaging & Containers,NEUTRAL,43.9,-8.9,0.0
+Packaging Materials & Containers,NEUTRAL,47.7,1.35,0.0
+Paints,NEUTRAL,49.3,-0.76,0.0
+Paints & Coatings,DECELERATING,30.3,-5.67,0.0
+Paper & Paper Products,WEAKENING,39.8,1.22,-18.18
+Passenger Cars & Utility Vehicles,NEUTRAL,50.9,1.33,0.0
+Pharmaceuticals,NEUTRAL,54.0,0.46,7.69
+Pharmaceuticals & Biotechnology,NEUTRAL,52.1,-0.58,0.0
+Pipes & Tubes,EMERGING LEADER,70.8,3.24,11.11
+Plastic Pipes & Fittings,NEUTRAL,56.5,-5.0,0.0
+Plastic Pipes & Moulded Products,DECELERATING,33.0,-2.84,0.0
+Plywood & Boards,DECELERATING,17.3,-3.93,0.0
+"Plywood, MDF & Laminates",ACCELERATING,65.4,0.66,14.29
+Power,ACCELERATING,59.0,-0.79,0.0
+Power Generation & Distribution,NEUTRAL,46.7,-4.22,0.0
+Power Generation & Utilities,NEUTRAL,46.4,-1.4,-18.18
+Power Sector Financing NBFC,NEUTRAL,47.9,-2.67,0.0
+Project Management & Civil Construction,NEUTRAL,53.4,4.95,0.0
+Pumps & Compressors,NEUTRAL,49.5,1.34,-10.0
+Railway Financing,NEUTRAL,49.8,-0.22,0.0
+Railway Infrastructure,NEUTRAL,50.7,1.44,0.0
+Railway Infrastructure & Consulting,NEUTRAL,50.6,1.33,0.0
+Railway Telecom,ACCELERATING,83.3,4.41,0.0
+Railway Ticketing & Catering,NEUTRAL,50.1,0.66,0.0
+Railway Wagons & Equipment,NEUTRAL,50.4,0.67,0.0
+Railways,ACCELERATING,69.4,-1.09,0.0
+Realty,ACCELERATING,82.9,4.01,0.0
+Renewable Energy,ACCELERATING,71.6,1.01,12.5
+Renewable Energy - Solar & Wind,NEUTRAL,57.2,-0.34,10.0
+Renewable Energy Financing NBFC,NEUTRAL,50.6,0.88,0.0
+Residential & Commercial Real Estate,NEUTRAL,49.7,-0.74,-1.73
+Roads & Highways EPC,NEUTRAL,50.1,0.09,0.0
+Rubber Chemicals,NEUTRAL,52.9,4.36,0.0
+Saw Pipes & Ductile Iron Pipes,EMERGING LEADER,87.4,10.05,0.0
+Semiconductors & Electronic Components,DECELERATING,20.0,0.0,0.0
+Services,NEUTRAL,53.7,0.0,12.5
+Ship Building & Defence,DECELERATING,2.5,-3.37,-33.33
+Software Products & Digital Services,NEUTRAL,51.3,0.61,6.45
+Specialty Chemicals,NEUTRAL,45.6,-1.84,-5.0
+Steel Manufacturing & Mining,NEUTRAL,51.4,1.8,0.0
+Stockbroking & Financial Products,NEUTRAL,55.8,-2.62,0.0
+Structural Steel Tubes & Pipes,NEUTRAL,47.7,-3.34,0.0
+Sugar & Bio-Ethanol,DECELERATING,36.7,8.36,4.23
+Superalloys & Special Metals,NEUTRAL,48.5,-1.47,0.0
+Tea & Coffee,EMERGING LEADER,77.1,0.61,38.46
+Telecom Services & Infrastructure,NEUTRAL,48.4,-2.2,0.0
+Telecommunication,WEAKENING,43.3,-2.5,0.0
+Textiles,NEUTRAL,42.7,3.76,0.0
+Textiles & Apparel,NEUTRAL,44.4,-0.61,-6.9
+"Textiles, Yarns & Apparel",ACCELERATING,70.5,4.46,25.24
+Tractors & Farm Equipment,NEUTRAL,49.3,-0.36,0.0
+Transformers & T&D Equipment,NEUTRAL,53.0,-0.38,-7.69
+Travel Tech SaaS Solutions,EMERGING LEADER,100.0,1.12,100.0
+Tyres & Rubber Products,NEUTRAL,47.1,-1.55,-11.11
+Utilities,NEUTRAL,47.8,-3.64,0.0
+Water & Wastewater Treatment,WEAKENING,44.7,5.09,20.0
+Wealth & Asset Management,NEUTRAL,50.8,1.05,0.0
+Wires & Cables,NEUTRAL,50.1,-2.7,1.98
+Zinc & Silver Mining,EMERGING LEADER,86.9,9.82,0.0

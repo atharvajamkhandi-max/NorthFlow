@@ -1,0 +1,10 @@
+{
+  "tournament_winner": "E. Dynamic Evidence Router (Config G)",
+  "governance_decision": "E. Dynamic Evidence Router selected as NorthFlow Shadow Architecture",
+  "production_status": "MODEL_V3.2_FROZEN remains 100% active in production (ZERO deployment performed)",
+  "shadow_architecture": {
+    "primary_engine": "V3.4 Multi-Task Hybrid (75% Baseline Alpha)",
+    "defensive_fallback": "V3.2 Linear Anchor (15% Regime Stabilization)",
+    "qualitative_layer": "TradingAgents Risk & Event Veto (10% Qualitative Filter)"
+  }
+}

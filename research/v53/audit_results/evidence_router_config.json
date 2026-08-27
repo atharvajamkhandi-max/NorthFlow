@@ -1,0 +1,33 @@
+{
+  "architecture_name": "NorthFlow Evidence Fusion Router (Quant-Primary, Qualitative-Contextual)",
+  "empirical_weights": {
+    "v34_primary_quant_forecast": 70.0,
+    "v32_defensive_linear_base": 15.0,
+    "tradingagents_qualitative_risk": 10.0,
+    "tradingagents_event_filter": 5.0
+  },
+  "minimum_sample_size_requirement": 60,
+  "regime_routing_rules": {
+    "BULL": {
+      "primary_driver": "V3.4_QUANT",
+      "qualitative_role": "Acceleration Confirmation"
+    },
+    "BEAR": {
+      "primary_driver": "V3.4_QUANT",
+      "qualitative_role": "Downside Invalidation Filter"
+    },
+    "SIDEWAYS": {
+      "primary_driver": "V3.2_DEFENSIVE",
+      "qualitative_role": "Catalyst Identification"
+    },
+    "HIGH_VOLATILITY": {
+      "primary_driver": "V3.2_DEFENSIVE",
+      "qualitative_role": "Risk Veto Layer"
+    },
+    "MARKET_SHOCK": {
+      "primary_driver": "TRADINGAGENTS_EVENT",
+      "qualitative_role": "Immediate Capital Preservation Override"
+    }
+  },
+  "governance_verdict": "B. INTEGRATE ONLY AS QUALITATIVE EVIDENCE (Do NOT replace quantitative forecasting models)"
+}

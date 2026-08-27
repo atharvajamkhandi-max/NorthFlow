@@ -1,0 +1,5 @@
+Market_Regime,Sessions_Count,Sample_N,Rank_IC,Decile_Spread_pct,Top_Decile_Return_pct,Bottom_Decile_Return_pct,Stability
+WEAK_BEAR,64,3084,0.085,-0.22,-1.68,-1.46,ROBUST
+WEAK_BULL,203,9744,0.0667,1.52,0.92,-0.6,ROBUST
+SIDEWAYS,52,2535,-0.1417,-3.84,-2.55,1.29,ACCEPTABLE
+STRONG_BEAR,64,3072,-0.3871,-9.72,-8.77,0.96,ACCEPTABLE

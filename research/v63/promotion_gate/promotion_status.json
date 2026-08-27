@@ -1,0 +1,10 @@
+{
+  "promotion_gate_status": "LOCKED (NOT_READY)",
+  "minimum_live_sessions_required": 20,
+  "current_live_sessions_captured": 4,
+  "minimum_20d_matured_obs_required": 2800,
+  "current_20d_matured_obs": 0,
+  "promotion_recommendation": "DO_NOT_PROMOTE",
+  "rationale": "Live forward observations have only matured at 1D for session 2026-08-24. 20D economic spread requires calendar maturation.",
+  "active_production_model": "MODEL_V3.2_FROZEN (100% UNCHANGED)"
+}

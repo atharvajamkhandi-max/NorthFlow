@@ -1,0 +1,47 @@
+[
+  {
+    "model": "A. Baseline V3.2 Linear Core",
+    "mean_directional_accuracy": 53.63,
+    "std_directional_accuracy": 10.02,
+    "mean_mae": 8.82,
+    "mean_rank_ic": -0.0909,
+    "mean_top_bottom_spread_bps": -123.6,
+    "research_decision": "BASELINE"
+  },
+  {
+    "model": "B. Pure HistGradientBoosting (HGB)",
+    "mean_directional_accuracy": 55.36,
+    "std_directional_accuracy": 10.24,
+    "mean_mae": 7.87,
+    "mean_rank_ic": 0.1459,
+    "mean_top_bottom_spread_bps": 392.0,
+    "research_decision": "STRONG CANDIDATE"
+  },
+  {
+    "model": "C. ExtraTrees Regressor (ET)",
+    "mean_directional_accuracy": 54.09,
+    "std_directional_accuracy": 10.9,
+    "mean_mae": 7.83,
+    "mean_rank_ic": 0.1544,
+    "mean_top_bottom_spread_bps": 375.6,
+    "research_decision": "STRONG CANDIDATE"
+  },
+  {
+    "model": "D. Multi-Task Stacking Ensemble",
+    "mean_directional_accuracy": 54.92,
+    "std_directional_accuracy": 10.77,
+    "mean_mae": 7.77,
+    "mean_rank_ic": 0.1549,
+    "mean_top_bottom_spread_bps": 416.6,
+    "research_decision": "STRONG CANDIDATE (Top Spread)"
+  },
+  {
+    "model": "E. Regime-Conditional Hybrid Selector",
+    "mean_directional_accuracy": 54.75,
+    "std_directional_accuracy": 9.78,
+    "mean_mae": 7.9,
+    "mean_rank_ic": 0.1142,
+    "mean_top_bottom_spread_bps": 225.2,
+    "research_decision": "TOP OVERALL (Best Robustness)"
+  }
+]

@@ -1,0 +1,11 @@
+Model_or_Baseline,Precision_At_Top5,Lift_vs_Chance,Top5_Avg_5D_Return,Incremental_Alpha_vs_Random,Statistically_Superior
+A. Random Selection,11.5%,1.15x,+0.41%,+0.05%,NO
+B. V3.2 Current Strength,17.0%,1.70x,+0.32%,-0.03%,YES
+C. 5D Momentum,17.4%,1.74x,+0.36%,+0.00%,YES
+D. 10D Momentum,17.8%,1.78x,+0.26%,-0.10%,YES
+E. 20D Momentum,18.8%,1.88x,+0.51%,+0.15%,YES
+F. Breadth Only,14.8%,1.48x,+0.13%,-0.22%,YES
+G. Volume Ratio Only,15.6%,1.56x,+0.47%,+0.12%,YES
+H. Relative Strength Only,12.6%,1.26x,+0.36%,+0.01%,NO
+I. Simple Breadth + Momentum,16.7%,1.67x,+0.25%,-0.10%,YES
+Phase 20 Lead-Time Engine (Challenger),14.0%,1.40x,+0.36%,+0.01%,YES

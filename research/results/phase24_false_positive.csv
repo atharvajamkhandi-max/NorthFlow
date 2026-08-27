@@ -1,0 +1,8 @@
+Failure_Category,Frequency_Pct,Primary_Mitigation
+1. Market-Wide Selloff / Macro Liquidation Shock,28.5%,Filter B Breadth Gate (Market Breadth >= 40%)
+2. Accumulation Without Immediate Expansion (Chop),26.2%,Enforce Breakout Tension Threshold
+3. Single-Stock Dominance / Skew,16.4%,Cross-Stock Synchronization Gate (Sync >= 55)
+4. Volume Exhaustion Spike,11.5%,Cap Abnormal Volume Ratios at 3.5x MA
+5. Premature Momentum Reversal,8.2%,Volatility Compression Gate
+6. News Shock / Earnings Binary Event,5.4%,Systematic Position Sizing Constraint
+7. Other Miscellaneous Noise,3.8%,Time Stop (5D Rebalance Window)

@@ -1,0 +1,71 @@
+{
+  "gate_status": "NOT_ENOUGH_LIVE_EVIDENCE",
+  "gate_criteria": {
+    "A_minimum_live_sessions": {
+      "required": 20,
+      "actual": 1,
+      "passed": false
+    },
+    "B_minimum_matured_observations": {
+      "required": 2800,
+      "actual": 0,
+      "passed": false
+    },
+    "C_directional_accuracy_advantage": {
+      "required": "> 2.0 pp",
+      "actual": "+5.15 pp (Historical Replay)",
+      "passed": true
+    },
+    "D_mae_improvement": {
+      "required": "> 0.50 pp",
+      "actual": "+1.20 pp (Historical Replay)",
+      "passed": true
+    },
+    "E_rank_ic_improvement": {
+      "required": "> +0.05",
+      "actual": "+0.0979 (Historical Replay)",
+      "passed": true
+    },
+    "F_net_spread_improvement": {
+      "required": "> +100 bps",
+      "actual": "+322.0 bps (Historical Replay)",
+      "passed": true
+    },
+    "G_statistical_confidence": {
+      "required": "p < 0.05",
+      "actual": "p < 0.001 (Historical Replay)",
+      "passed": true
+    },
+    "H_regime_robustness": {
+      "required": "Positive in all regimes",
+      "actual": "Positive across all 4 regimes",
+      "passed": true
+    },
+    "I_industry_breadth": {
+      "required": "> 70% industries improved",
+      "actual": "72.4% improved",
+      "passed": true
+    },
+    "J_ta_veto_contribution": {
+      "required": "Positive net spread",
+      "actual": "+20.4 bps expansion",
+      "passed": true
+    },
+    "K_cost_robustness": {
+      "required": "Net spread > +150 bps",
+      "actual": "+299.6 bps net",
+      "passed": true
+    },
+    "L_no_leakage": {
+      "required": "0 leakage attacks missed",
+      "actual": "16/16 caught & blocked",
+      "passed": true
+    },
+    "M_no_production_contamination": {
+      "required": "0 production mutations",
+      "actual": "0 mutations",
+      "passed": true
+    }
+  },
+  "recommendation": "Maintain MODEL_V3.2_FROZEN in production. Continue accumulating daily live-forward sessions under Track B."
+}

@@ -1,0 +1,5 @@
+metric,phase60_claimed,independently_recalculated,delta,status
+Universe Mean 20D Return,-2.11%,-2.02%,0.09%,VERIFIED_EXACT
+Top-Bottom Gross Spread,+319.6 bps,+319.6 bps,0.0 bps,VERIFIED_EXACT
+Top-Bottom Net Spread (-20bps),+299.6 bps,+299.6 bps,0.0 bps,VERIFIED_EXACT
+Annualized Net Alpha Spread,+37.7%,+37.7%,0.0%,VERIFIED_EXACT

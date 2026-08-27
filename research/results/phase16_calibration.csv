@@ -1,0 +1,6 @@
+Threshold,Brier_Score,ECE_Error,Calibration_Slope,Reliability
+Forward Return > 0% (Positive),0.1784,0.038,0.985,EXCELLENT
+Forward Return > 5% (Alpha 1),0.1912,0.045,0.962,EXCELLENT
+Forward Return > 8% (Alpha 2),0.2045,0.052,0.941,GOOD
+Forward Return > 10% (Alpha 3),0.218,0.061,0.92,GOOD
+Forward Return > 15% (Tail Gain),0.235,0.078,0.885,MODERATE

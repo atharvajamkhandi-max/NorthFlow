@@ -1,0 +1,6 @@
+Failure_Mode,Frequency_Pct,Description
+Accumulation Without Breakout (Chop),38.5%,Broad buying occurs but broad market weakness halts the breakout
+Macro Liquidation Shock,26.2%,Sudden market-wide gap down overwhelms industry-level accumulation
+Single-Stock Skew,16.8%,One heavy constituent moves while smaller constituents lag
+Premature Exhaustion,12.5%,Volume spikes too fast and exhausts buyers before sustained markup
+News/Earnings Reversal,6.0%,Binary exogenous news event breaks the technical accumulation

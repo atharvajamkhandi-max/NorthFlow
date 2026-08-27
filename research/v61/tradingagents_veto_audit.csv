@@ -1,0 +1,2 @@
+sample_size,correct_loss_avoidance_vetoes,false_profitable_vetoes,veto_precision_pct,avoided_loss_gain_bps,missed_opportunity_cost_bps,net_economic_value_bps,bootstrap_95_ci_gain_bps,evidence_strength,recommendation
+22,9,13,40.91,31.6,-11.2,20.4,"[-5.4 bps, +46.2 bps]",MODERATE_TO_WEAK (Small Sample N=22 requires live forward maturation),Maintain V3.4 + TA Veto in shadow; do NOT deploy until N >= 100 live vetoes mature.

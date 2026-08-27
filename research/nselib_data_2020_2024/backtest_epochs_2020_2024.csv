@@ -1,0 +1,6 @@
+Epoch,Trading_Sessions,Rank_IC,Top_Decile_20D_Return,Top_Bottom_20D_Spread,Status
+2020: COVID Crash & Historic Liquidity Rebound,232,0.0205,+3.56%,+2.08%,PASS (Positive Alpha)
+2021: Post-Pandemic Retail Bull Market,248,-0.0757,+2.28%,-0.62%,FAIL
+2022: Global Inflation & Rate Hike Consolidation,248,-0.0445,-0.05%,-0.56%,FAIL
+2023: Broad Market & Smallcap Expansion,246,0.009,+2.41%,+0.42%,PASS (Positive Alpha)
+2024: General Election & Volatility Cycle,229,0.0436,+2.14%,+0.90%,PASS (Positive Alpha)

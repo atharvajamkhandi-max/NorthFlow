@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-08-25T01:15:00",
+  "sample_size": 51793,
+  "n_trading_sessions": 403,
+  "n_folds": 8,
+  "tournament_leader": "E. Regime-Conditional Hybrid Selector",
+  "leader_metrics": {
+    "mean_directional_accuracy": 55.25,
+    "mean_rank_ic": 0.0895,
+    "top_bottom_spread_bps": 412.8
+  },
+  "scientific_recommendation": "Maintain MODEL_V3.2_FROZEN in production. Maintain MODEL_V3.3_SHADOW in live forward logging. Preserve Multi-Task Stacking & Regime-Conditional Hybrid as top candidate architectures for eventual post-shadow review."
+}

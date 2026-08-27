@@ -1,0 +1,6 @@
+architecture,directional_acc_pct,mae_error_pct,spearman_rank_ic,net_spread_bps,max_drawdown_pct,volatility_pct,complexity
+Arch_A_V34_Only,58.87,7.94,0.1126,279.2,-99.82,8.37,LOW
+Arch_B_V34_TA_Veto,58.84,7.92,0.1157,299.6,-99.82,8.3,MEDIUM
+Arch_C_V34_V32_Fallback,58.73,8.06,0.1034,269.4,-99.82,8.4,HIGH
+Arch_D_V34_V32_TA_Fusion,58.96,7.96,0.0955,255.1,-99.81,8.27,HIGH
+Arch_E_Dynamic_Router,58.76,7.97,0.0893,240.0,-99.82,8.33,HIGH

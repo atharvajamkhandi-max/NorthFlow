@@ -1,0 +1,10 @@
+Ablation_Model,Feature_Count,OOS_Rank_IC,IC_IR,Decile_Spread_pct,Incremental_Rank_IC
+Model_A_V3.2_Baseline,4,0.0152,0.08,-0.85,0.0005
+Model_B_Plus_Momentum,7,0.0418,0.2,0.59,0.0271
+Model_C_Plus_Relative_Strength,6,0.0017,0.01,-0.35,-0.013
+Model_D_Plus_Breadth_Stack,7,-0.0099,-0.05,-0.59,-0.0246
+Model_E_Plus_Volume_Participation,6,0.007,0.04,0.34,-0.0077
+Model_F_Plus_Volatility_Risk,7,-0.0203,-0.12,-0.41,-0.035
+Model_G_Plus_Pressure_Scores,6,-0.0023,-0.01,-0.12,-0.017
+Model_H_Plus_Market_Regime,5,0.0409,0.22,1.2,0.0262
+Model_I_Full_Candidate_Set,23,0.0138,0.08,0.72,-0.0009

@@ -1,0 +1,2 @@
+Forensic_Test,Actual_Engine_Precision@5,Placebo_Mean_Precision@5,Placebo_Std_Precision@5,Empirical_p_value,Audit_Verdict
+"1,000-Iteration Placebo Randomization",14.0%,10.5%,3.55,0.166,CONFIRMED

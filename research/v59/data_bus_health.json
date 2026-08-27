@@ -1,0 +1,21 @@
+{
+  "bus_name": "NORTHFLOW_INDIA_DATA_BUS",
+  "bus_version": "v1.0.0-shadow",
+  "operating_environment": "SHADOW_RESEARCH_ONLY",
+  "source_adapters_active": [
+    "NSE_Bhavcopy",
+    "NSE_Delivery",
+    "NSE_API_Announcements",
+    "RBI_Official",
+    "MoSPI_Official",
+    "SEBI_Surveillance",
+    "Yahoo_Fallback"
+  ],
+  "point_in_time_validator": "ACTIVE (Strict 08:30 IST Pre-Market Freeze)",
+  "quality_filter_status": "ACTIVE (Zero Anomalies)",
+  "consumers": [
+    "V3.4_MULTI_TASK_QUANT",
+    "TRADINGAGENTS_RISK_VETO_LAYER"
+  ],
+  "production_isolation": "100% ISOLATED (Zero Production Files Modified)"
+}

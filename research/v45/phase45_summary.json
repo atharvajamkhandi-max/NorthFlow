@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-08-26T22:45:00",
+  "sample_size": 51793,
+  "n_trading_sessions": 403,
+  "untouched_test_sample": 10359,
+  "winning_candidate": "F. Candidate V3.4 Multi-Task Hybrid",
+  "verdict": "A. V3.4 STRONG CANDIDATE \u2014 PROCEED TO SEPARATE LIVE SHADOW MATURATION (Do NOT Deploy)",
+  "gate_results": [
+    {
+      "gate": 1,
+      "name": "20D Directional Accuracy Superiority",
+      "passed": true,
+      "details": "63.85% on held-out vs baseline 52.76% (+11.09 pp)"
+    },
+    {
+      "gate": 2,
+      "name": "20D MAE Error Control",
+      "passed": true,
+      "details": "8.28% vs baseline 9.93% (error reduced by 1.65 pp)"
+    },
+    {
+      "gate": 3,
+      "name": "Rank IC Improvement",
+      "passed": true,
+      "details": "+0.1388 vs baseline +0.0387 (statistically significant gain)"
+    },
+    {
+      "gate": 4,
+      "name": "Top-vs-Bottom Decile Spread",
+      "passed": true,
+      "details": "+349.9 bps gross, +329.9 bps net of transaction costs"
+    },
+    {
+      "gate": 5,
+      "name": "20D Long-Horizon Bias Control",
+      "passed": true,
+      "details": "-0.28% bias on held out partition"
+    },
+    {
+      "gate": 6,
+      "name": "P10-P90 Uncertainty Coverage",
+      "passed": true,
+      "details": "80.28% containment via 1.30 conformal multiplier"
+    },
+    {
+      "gate": 7,
+      "name": "Sharpness / Interval Width",
+      "passed": true,
+      "details": "Average interval width 14.82% (bounded)"
+    },
+    {
+      "gate": 8,
+      "name": "Regime Failure Prevention",
+      "passed": true,
+      "details": "Regime-conditional fallback in Sideways consolidation"
+    },
+    {
+      "gate": 9,
+      "name": "Industry Breadth Robustness",
+      "passed": true,
+      "details": "134/134 test industries evaluated with positive mean IC"
+    },
+    {
+      "gate": 10,
+      "name": "Multi-Year Chronological Consistency",
+      "passed": true,
+      "details": "Consistent alpha across 2024, 2025, and 2026 data"
+    },
+    {
+      "gate": 11,
+      "name": "Hyperparameter Robustness",
+      "passed": true,
+      "details": "+/-20% capacity perturbation variance < 0.31 pp"
+    },
+    {
+      "gate": 12,
+      "name": "Feature Stability across Folds",
+      "passed": true,
+      "details": "Momentum x Breadth interaction stable across all folds"
+    },
+    {
+      "gate": 13,
+      "name": "Point-in-Time Zero Lookahead",
+      "passed": true,
+      "details": "100% strict point-in-time timestamp verified"
+    },
+    {
+      "gate": 14,
+      "name": "Final-Test Partition Isolation",
+      "passed": true,
+      "details": "SHA-256 locked, zero contamination"
+    },
+    {
+      "gate": 15,
+      "name": "Live-Forward Experiment Isolation",
+      "passed": true,
+      "details": "Track A 2026-08-24+ untouched and unpolluted"
+    },
+    {
+      "gate": 16,
+      "name": "Deterministic Reproducibility",
+      "passed": true,
+      "details": "100% bit-exact seed matching"
+    },
+    {
+      "gate": 17,
+      "name": "Minimum Live Forward Maturity",
+      "passed": false,
+      "details": "Track A has 1 session captured, 0 matured 20D/60D (Requires >= 60 live sessions)"
+    }
+  ]
+}

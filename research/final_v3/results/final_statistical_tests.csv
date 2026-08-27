@@ -1,0 +1,4 @@
+Metric,Observed_Value,Bootstrap_Mean,CI_95_Lower,CI_95_Upper,P_Value_Positive
+Rank_IC,0.1143,,,,0.1
+Top_Bottom_Decile_Spread,2.46,3.16,1.05,5.26,1.0
+Sharpe_Ratio,-0.53,0.29,0.1,0.49,1.0

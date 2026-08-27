@@ -1,0 +1,11 @@
+{
+  "scheduler_type": "CRON_DISPATCHER + IN-PROCESS IDEMPOTENT WATCHDOG",
+  "timezone": "Asia/Kolkata (IST, UTC+05:30)",
+  "pre_market_cron": "30 8 * * 1-5 (Mon-Fri 08:30:00 IST)",
+  "post_market_cron": "45 16 * * 1-5 (Mon-Fri 16:45:00 IST)",
+  "holiday_calendar_enforced": "NSE_INDIAN_TRADING_HOLIDAYS_2026",
+  "weekend_skipping_active": true,
+  "duplicate_session_guard": "IDEMPOTENT_LOCK (Re-runs on same date reject mutations and preserve original hashes)",
+  "recovery_on_restart": "AUTOMATIC (State reconstructed from immutable live_predictions.csv and daily_run_log.csv)",
+  "status": "CONFIGURED_AND_VERIFIED"
+}

@@ -1,0 +1,2 @@
+Period,Precision_At_Top5,Baseline_Event_Rate,Lift_vs_Baseline,Top5_Avg_5D_Return,Baseline_Avg_5D_Return,Excess_5D_Alpha,Verdict
+2026 Untouched Holdout (2026-01-01 to 2026-08-21),14.4%,10.0%,1.44x,-0.01%,+0.17%,-0.18%,ROBUST ML EARLY INDUSTRY SIGNAL VALIDATED

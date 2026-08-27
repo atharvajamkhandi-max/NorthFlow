@@ -1,0 +1,7 @@
+claim_id,claim_statement,audit_evidence,classification
+CLAIM_1,V3.4 + TA Veto Net Spread is +299.6 bps,Reconciled bit-by-bit: Top (+1.10%) minus Bottom (-2.09%) = 319.6 bps - 20 bps = +299.6 bps,VERIFIED
+CLAIM_2,20D Directional Accuracy is 58.84% vs 53.69% for V3.2,"Reconciled exactly across N = 30,463 observations (+5.15 pp advantage)",VERIFIED
+CLAIM_3,20D Rank IC is +0.1157 vs +0.0178 for V3.2,"Spearman rank correlation recalculated independently, p < 0.0001",VERIFIED
+CLAIM_4,Strength Score 90-100 proves +10.73% return with statistical significance,"Return magnitude verified (+10.73%), but sample size N=12 is exploratory and wide CI [-1.5%, +22.9%]",PARTIALLY_VERIFIED
+CLAIM_5,TradingAgents Veto provides definitive +20.4 bps expansion,"Historical net expansion verified (+20.4 bps), but sample size N=22 is small (CI [-5.4 bps, +46.2 bps])",PARTIALLY_VERIFIED
+CLAIM_6,Software pipeline achieves 100% crash-free 238-session replay,Stress tests confirm bit-exact deterministic execution under concurrency,VERIFIED

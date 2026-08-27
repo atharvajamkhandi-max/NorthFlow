@@ -1,0 +1,5 @@
+Architecture,Feature_Count,Param_Complexity_Penalty,BIC_Score,WalkForward_IC_Variance,Holdout_IC,Stability_Grade
+Model_M_RegimeAdaptiveEnsemble,8,Low (Transparent Linear),142.5,0.0024,0.0892,GRADE A (HIGH STABILITY)
+Model_L_ResidualMomTrendBreadth,6,Very Low,128.0,0.0028,0.0815,GRADE A (HIGH STABILITY)
+Model_D_ElasticNet_Shrunk,8,Low,145.2,0.0031,0.078,GRADE B (MODERATE)
+Model_E_RandomForest,18,High (Non-Linear Tree),210.4,0.0085,0.041,GRADE C (SPARSE / OVERFIT)

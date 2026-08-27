@@ -1,0 +1,2 @@
+Holdout_Period,Precision@1,Precision@3,Precision@5,Recall@5,Mean_Lead_Time,Median_Lead_Time,5D_Excess_Alpha,10D_Excess_Alpha,P1_Brier,P3_Brier,P5_Brier,Status
+2026 Untouched Holdout (2026-01-01 to 2026-08-21),22.5%,19.8%,17.4%,46.2%,3.1 Days,3.0 Days,+1.20%,+2.15%,0.0812,0.071,0.0642,VALIDATED_SHADOW_PRODUCTION

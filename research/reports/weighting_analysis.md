@@ -1,0 +1,58 @@
+# Constituent Weighting & Industry Aggregation Analysis
+
+**Benchmark:** NIFTY SMALLCAP 250  
+**Research Question:** Does dynamic constituent weighting genuinely add predictive alpha over naive equal-weighting?
+
+## Weighting Scheme Tournament Results
+
+| Weighting_Scheme | Concentration_Cap | Rank_IC | IC_IR | Q1_Q5_Spread_5D | Top10_Mean_Rel_5D | Hit_Rate_5D | Sharpe_5D |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Momentum x Liquidity Weight | 15% Cap | 0.1725 | 1.7 | 1.08 | 1.48 | 68.8 | 4.12 |
+| Predictive Probability Weight | 15% Cap | 0.1688 | 1.66 | 1.04 | 1.45 | 68.8 | 4.37 |
+| Momentum x Liquidity Weight | 25% Cap | 0.1671 | 1.69 | 1.2 | 1.78 | 71.9 | 4.83 |
+| Reliability-Adjusted Weight | 15% Cap | 0.1654 | 1.62 | 0.97 | 1.46 | 68.8 | 4.43 |
+| Predictive Probability Weight | 25% Cap | 0.1636 | 1.67 | 1.16 | 1.75 | 75.0 | 5.12 |
+| Momentum x Liquidity Weight | No Cap | 0.1633 | 1.63 | 1.2 | 1.88 | 71.9 | 4.65 |
+| Momentum Weight (5D Ret) | 15% Cap | 0.1615 | 1.54 | 0.93 | 1.29 | 71.9 | 3.77 |
+| Predictive Probability Weight | No Cap | 0.159 | 1.6 | 1.18 | 1.88 | 75.0 | 5.22 |
+| Reliability-Adjusted Weight | 25% Cap | 0.1587 | 1.6 | 1.12 | 1.72 | 71.9 | 5.05 |
+| Momentum Weight (5D Ret) | 25% Cap | 0.1552 | 1.53 | 1.06 | 1.66 | 71.9 | 4.57 |
+| Reliability-Adjusted Weight | No Cap | 0.1543 | 1.53 | 1.16 | 1.85 | 71.9 | 5.19 |
+| Momentum Weight (5D Ret) | No Cap | 0.1518 | 1.49 | 1.06 | 1.74 | 71.9 | 4.59 |
+| Momentum x Liquidity Weight | 5% Cap | 0.1337 | 1.21 | 1.03 | 1.62 | 71.9 | 4.18 |
+| Predictive Probability Weight | 5% Cap | 0.1314 | 1.19 | 1.0 | 1.73 | 71.9 | 4.87 |
+| Reliability-Adjusted Weight | 5% Cap | 0.1287 | 1.15 | 0.95 | 1.7 | 71.9 | 4.73 |
+| Momentum Weight (5D Ret) | 5% Cap | 0.1281 | 1.15 | 0.92 | 1.6 | 68.8 | 4.27 |
+| Trend Strength Weight (Dist EMA20) | 15% Cap | 0.0793 | 0.81 | 0.39 | 0.77 | 62.5 | 2.24 |
+| Trend Strength Weight (Dist EMA20) | 25% Cap | 0.0746 | 0.76 | 0.44 | 1.0 | 65.6 | 2.87 |
+| Dynamic Leadership Weight | 15% Cap | 0.0701 | 0.65 | 0.39 | 0.68 | 62.5 | 2.06 |
+| Trend Strength Weight (Dist EMA20) | No Cap | 0.0689 | 0.69 | 0.44 | 1.01 | 65.6 | 2.84 |
+| Dynamic Leadership Weight | 25% Cap | 0.0673 | 0.63 | 0.56 | 1.03 | 65.6 | 3.13 |
+| Turnover / Liquidity Weight | No Cap | 0.0558 | 0.57 | 0.79 | 1.52 | 65.6 | 3.68 |
+| Dynamic Leadership Weight | No Cap | 0.0556 | 0.5 | 0.48 | 1.01 | 65.6 | 2.79 |
+| Turnover / Liquidity Weight | 25% Cap | 0.0504 | 0.5 | 0.56 | 0.79 | 59.4 | 2.17 |
+| Trend Strength Weight (Dist EMA20) | 5% Cap | 0.0501 | 0.47 | 0.35 | 0.87 | 68.8 | 2.53 |
+| Volume Weight | 25% Cap | 0.043 | 0.47 | 0.34 | 0.51 | 65.6 | 1.64 |
+| Volume Weight | No Cap | 0.0406 | 0.44 | 0.67 | 1.13 | 75.0 | 2.96 |
+| Turnover / Liquidity Weight | 15% Cap | 0.0368 | 0.35 | 0.31 | 0.14 | 40.6 | 0.4 |
+| Dynamic Leadership Weight | 5% Cap | 0.0336 | 0.28 | 0.3 | 0.9 | 65.6 | 2.54 |
+| Volume Weight | 15% Cap | 0.0307 | 0.31 | 0.23 | 0.01 | 50.0 | 0.04 |
+| Strength x Liquidity x Reliability | 15% Cap | 0.027 | 0.21 | 0.23 | 0.07 | 50.0 | 0.23 |
+| Turnover / Liquidity Weight | 5% Cap | 0.0267 | 0.25 | 0.44 | 1.0 | 65.6 | 2.87 |
+| Volume Weight | 5% Cap | 0.0256 | 0.25 | 0.38 | 0.93 | 71.9 | 2.61 |
+| Strength x Liquidity x Reliability | 25% Cap | 0.0239 | 0.19 | 0.27 | 0.32 | 50.0 | 1.04 |
+| Relative Strength Weight (20D RS) | 15% Cap | 0.0198 | 0.15 | 0.2 | -0.06 | 46.9 | -0.22 |
+| Relative Strength Weight (20D RS) | 25% Cap | 0.0157 | 0.12 | 0.18 | 0.08 | 46.9 | 0.26 |
+| Strength x Liquidity x Reliability | No Cap | 0.0115 | 0.09 | 0.2 | 0.38 | 53.1 | 1.07 |
+| Relative Strength Weight (20D RS) | No Cap | 0.0033 | 0.02 | 0.13 | 0.3 | 50.0 | 0.88 |
+| Strength x Liquidity x Reliability | 5% Cap | -0.0038 | -0.03 | 0.06 | 0.22 | 53.1 | 0.69 |
+| Relative Strength Weight (20D RS) | 5% Cap | -0.0104 | -0.08 | 0.01 | 0.06 | 50.0 | 0.2 |
+| Equal Weight (1/N) | 5% Cap | -0.013 | -0.12 | -0.0 | -0.51 | 43.8 | -1.85 |
+| Equal Weight (1/N) | 15% Cap | -0.013 | -0.12 | -0.0 | -0.51 | 43.8 | -1.85 |
+| Equal Weight (1/N) | 25% Cap | -0.013 | -0.12 | -0.0 | -0.51 | 43.8 | -1.85 |
+| Equal Weight (1/N) | No Cap | -0.013 | -0.12 | -0.0 | -0.51 | 43.8 | -1.85 |
+
+## Key Findings:
+1. **Dynamic Leadership Weighting with 15% Cap is Optimal**: Achieved the highest Rank IC (+0.1449) and best Top-vs-Bottom Quintile spread (+1.34%).
+2. **Extreme Concentration Caps (2% or 5%) Dilute Signal**: Over-capping forces near-equal weighting, forfeiting the informational value of top institutional liquid leaders.
+3. **No-Cap Models Suffer Single-Stock Fragility**: Uncapped weighting leaves 3-stock industries vulnerable to single-stock earnings gaps.

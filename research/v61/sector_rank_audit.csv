@@ -1,0 +1,4 @@
+dimension,value,95_ci,p_value,verdict
+20D Spearman Rank IC,+0.1157,"[+0.1012, +0.1302]",< 0.0001,STATISTICALLY_SIGNIFICANT
+Sector-Neutral Long/Short Spread,+248.5 bps,"[+210.4 bps, +286.6 bps]",< 0.0001,STATISTICALLY_SIGNIFICANT
+Market-Neutral Net Spread (-20bps),+299.6 bps,"[+255.0 bps, +344.2 bps]",< 0.0001,STATISTICALLY_SIGNIFICANT

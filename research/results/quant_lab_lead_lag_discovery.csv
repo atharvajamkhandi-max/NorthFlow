@@ -1,0 +1,12 @@
+Feature,Optimal_Lead_Horizon_Days,Peak_Rank_IC,Granger_F_Stat,Granger_p_Val,Granger_Causes
+ret_20d,1,0.0975,346.59,0.0,True
+vol_compression_ratio,30,0.0915,32.72,0.0,True
+trend_quality_20d,1,0.071,61.29,0.0,True
+ou_half_life_20d,40,0.0688,32.68,0.0,True
+industry_breadth_50,1,0.0665,90.08,0.0,True
+vol_parkinson_20d,1,0.0663,13.21,0.0,True
+breadth_impulse_10d,10,0.0638,69.25,0.0,True
+ret_20d_acc_5d,15,0.0469,228.82,0.0,True
+industry_dispersion,1,0.0462,0.15,0.9789,False
+deliv_directional_intensity,15,0.0273,115.7,0.0,True
+interact_trend_deliv,20,0.015,8.44,0.0,True

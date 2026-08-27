@@ -1,0 +1,12 @@
+{
+  "locked_test_name": "PHASE45_UNTOUCHED_FINAL_TEST_PARTITION",
+  "date_range": [
+    "2025-06-02",
+    "2026-08-13"
+  ],
+  "total_rows": 10359,
+  "unique_sessions": 90,
+  "unique_industries": 134,
+  "sha256_checksum": "825f9bdb3e4f1699a224aac76d2b2d86c8ce8dd91bc688e84e91059b038aa9e4",
+  "zero_live_forward_overlap": true
+}

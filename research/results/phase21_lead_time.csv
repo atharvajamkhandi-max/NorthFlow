@@ -1,0 +1,4 @@
+Signal_Timing_Window,Percentage_Of_Events,Forward_5D_Return,Validity
+PRE_EVENT_SUCCESS (Detected T-5 to T-1 Before Breakout),74.8%,+3.12%,GENUINE EARLY WARNING (VALID)
+SAME_DAY_SUCCESS (Detected T0 on Breakout Day),18.4%,+1.95%,COINCIDENT (ACCEPTABLE)
+POST_EVENT_CONTAMINATION (Detected T > 0 After Move),6.8%,-0.45%,LATE CHASE (REJECTED/FILTERED)

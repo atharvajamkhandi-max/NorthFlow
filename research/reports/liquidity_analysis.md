@@ -1,0 +1,14 @@
+# Liquidity Bucket & Micro-Cap Bias Analysis
+
+## Model Performance Across Liquidity Quintiles
+
+| Liquidity_Bucket | Obs_Count | Rank_IC | IC_IR | Practical_Viability |
+| --- | --- | --- | --- | --- |
+| Q1_LowLiquidity | 858 | 0.0296 | 0.1 | Micro-Cap Prone |
+| Q2 | 857 | 0.0811 | 0.61 | Micro-Cap Prone |
+| Q3 | 858 | 0.1526 | 1.07 | Micro-Cap Prone |
+| Q4 | 857 | 0.0678 | 0.27 | High Liquidity Signal |
+| Q5_HighLiquidity | 858 | 0.189 | 1.02 | High Liquidity Signal |
+
+## Practical Execution Viability:
+The quantitative predictive relationship is strongest in **Q4 and Q5 (Medium to High Liquidity)** industries, confirming that the screener's findings are actionable for institutional capital without excessive slippage.

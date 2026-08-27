@@ -1,0 +1,6 @@
+Filter_Name,Coverage_Pct,Opportunity_Count,Rank_IC,Top_Decile_20D,Bottom_Decile_20D,Top_Bottom_Spread,Win_Rate,Sharpe_Ratio
+Comb_A: Baseline V3.2 Alone,100.0%,220418,-0.0149,+1.81%,-0.15%,+1.97%,49.0%,0.39
+Comb_B: V3.2 + Strong Industry (Ind >= 55),41.7%,158165,-0.0242,+1.91%,+1.28%,+0.63%,49.9%,0.46
+Comb_C: V3.2 + Healthy Breadth (Mkt >= 40%),63.1%,182853,-0.0216,+1.82%,+0.75%,+1.08%,49.3%,0.44
+Comb_D: V3.2 + Strong Industry + Healthy Breadth,39.4%,149454,-0.0093,+1.88%,+1.24%,+0.64%,49.8%,0.47
+Comb_E: V3.2 + Industry + Breadth + Normal Vol,38.9%,146983,-0.0088,+1.89%,+1.25%,+0.64%,49.8%,0.48

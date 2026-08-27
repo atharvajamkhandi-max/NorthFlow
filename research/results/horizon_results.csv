@@ -1,0 +1,7 @@
+Forecast_Horizon,Rank_IC,Signal_Decay_Status
+1D Forward,-0.0198,Moderate
+3D Forward,0.039,Moderate
+5D Forward,0.0465,Peak Signal
+10D Forward,0.0836,Moderate
+15D Forward,0.0177,Decayed
+20D Forward,0.0,Decayed

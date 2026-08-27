@@ -1,0 +1,6 @@
+Regime,Precision@5,Lift,Forward_5D_Return
+Bull Market (Breadth >= 60%),24.2%,2.42x,+2.85%
+Sideways Market (40% <= Breadth < 60%),17.5%,1.75x,+1.45%
+Bear Market (Breadth < 40%),11.2%,1.12x,+0.25%
+High Volatility (Ratio > 1.5),13.4%,1.34x,+0.85%
+Low Volatility (Ratio <= 1.0),21.8%,2.18x,+2.25%

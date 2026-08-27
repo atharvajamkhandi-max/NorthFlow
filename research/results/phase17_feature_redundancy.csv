@@ -1,0 +1,8 @@
+Model,OOS_Rank_IC_2020_2025,IC_IR,t_statistic,Top_Bottom_Spread,Delta_IC_vs_V3_2
+V3.2_Frozen_Control,0.0402,0.25,4.8,+0.25%,0.0
+V3.2_+_Vol_Compression,0.034,0.22,4.26,+0.20%,-0.0062
+V3.2_+_Breadth_Impulse,0.0325,0.21,4.08,+0.20%,-0.0077
+V3.2_+_Momentum_Accel,0.0387,0.25,4.74,+0.23%,-0.0015
+V3.2_+_Delivery_Intensity,0.0409,0.28,5.4,+0.30%,0.0007
+V3.2_+_Early_Warning_Composite,0.0399,0.25,4.85,+0.26%,-0.0003
+Pure_Early_Warning_Score,0.0152,0.11,2.16,+0.03%,-0.025

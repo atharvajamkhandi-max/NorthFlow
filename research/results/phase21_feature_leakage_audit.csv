@@ -1,0 +1,16 @@
+Feature_Name,Info_Timestamp,Future_Dependency,Leakage_Status
+ind_ret_1d,T_Close,False,CLEAN
+ind_ret_3d,T_Close,False,CLEAN
+ind_ret_5d,T_Close,False,CLEAN
+ind_ret_20d,T_Close,False,CLEAN
+breadth_50,T_Close,False,CLEAN
+breadth_acc_5d,T_Close,False,CLEAN
+breadth_impulse_10d,T_Close,False,CLEAN
+ret_accel_5d,T_Close,False,CLEAN
+ret_curvature_5d,T_Close,False,CLEAN
+vol_compression_ratio,T_Close,False,CLEAN
+ind_vol_ratio,T_Close,False,CLEAN
+ind_deliv_intensity,T_Close,False,CLEAN
+accumulation_pressure,T_Close,False,CLEAN
+pre_breakout_score,T_Close,False,CLEAN
+lead_time_score,T_Close,False,CLEAN

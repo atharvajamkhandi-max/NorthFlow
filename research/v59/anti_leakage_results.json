@@ -1,0 +1,70 @@
+{
+  "attack_1_future_price": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_2_future_volume": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_3_future_delivery": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_4_future_news": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_5_future_filings": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_6_future_earnings": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_7_future_macro": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_8_future_regulatory_events": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_9_future_publication_ts": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_10_future_retrieval_ts": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_11_future_source_hash": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_12_future_ta_evidence": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_13_future_ta_decision": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_14_future_v34_output": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_15_future_regime_label": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_16_future_fallback_source": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "clean_baseline_check": {
+    "detected": false,
+    "status": "CLEAN_0_LEAKAGE"
+  }
+}

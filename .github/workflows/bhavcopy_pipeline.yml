@@ -1,0 +1,66 @@
+name: Scheduled NSE Bhavcopy Pipeline
+
+on:
+  schedule:
+    # Runs at 17:00, 18:00, 19:00, 20:00 IST (Asia/Kolkata is UTC+5:30)
+    # 17:00 IST = 11:30 UTC
+    # 18:00 IST = 12:30 UTC
+    # 19:00 IST = 13:30 UTC
+    # 20:00 IST = 14:30 UTC
+    - cron: '30 11 * * 1-5'
+    - cron: '30 12 * * 1-5'
+    - cron: '30 13 * * 1-5'
+    - cron: '30 14 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      trade_date:
+        description: 'Target Trade Date (YYYY-MM-DD)'
+        required: false
+      force:
+        description: 'Force re-ingestion'
+        type: boolean
+        default: false
+
+jobs:
+  ingest-and-validate:
+    name: Candidate Ingestion & Quality Validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run 4-Checkpoint Pipeline
+        run: |
+          python scripts/daily_update.py ${{ github.event.inputs.trade_date && format('--date {0}', github.event.inputs.trade_date) || '' }} ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+
+      - name: Run Integrity & Release Gates on Updated Dataset
+        run: |
+          python -m pytest tests/test_phase76_market_overview_ui.py tests/test_phase77_live_ui_acceptance.py -q
+
+      - name: Atomic Commit & Push Validated Production Data
+        run: |
+          git config --global user.name "NorthFlow Pipeline Bot"
+          git config --global user.email "bot@northflow.internal"
+          git add data/market_flow.db
+          if git diff --staged --quiet; then
+            echo "No database changes to commit (Idempotent / No-op)."
+          else
+            git commit -m "chore(data): automated bhavcopy daily update [skip ci]"
+            git push origin main
+            echo "Successfully promoted validated dataset to production."
+          fi

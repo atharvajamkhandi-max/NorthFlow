@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-08-25T00:39:00",
+  "total_records": 54617,
+  "date_range": {
+    "min": "2024-03-18",
+    "max": "2026-08-21"
+  },
+  "source_checksums": {
+    "final_predictions_csv": "52019b780e8b9d714e8f926063dce725541b27335dec47b7f6e66346520bca6b",
+    "market_flow_db": "4b861cc9a73ac38b9e24a8a7e43d4898427df35612cb7e3770254031aadeaa21",
+    "decision_ledger_db": "2a3f7046e8cf072a959c044ddd879a61720deb049eb7ff5cc16703acdf8f7696"
+  },
+  "database_stats": {
+    "market_flow_db": {
+      "file_size_bytes": 104714240,
+      "tables": {
+        "company_multi_industry_classification": {
+          "row_count": 3508,
+          "min_date": null,
+          "max_date": null
+        },
+        "custom_industry_classification": {
+          "row_count": 21,
+          "min_date": null,
+          "max_date": null
+        },
+        "daily_prices": {
+          "row_count": 182244,
+          "min_date": "2025-07-23",
+          "max_date": "2026-08-24"
+        },
+        "industry_metrics": {
+          "row_count": 9893,
+          "min_date": "2025-07-23",
+          "max_date": "2026-08-21"
+        },
+        "market_benchmark": {
+          "row_count": 458,
+          "min_date": "2024-01-01",
+          "max_date": "2026-08-24"
+        },
+        "pipeline_logs": {
+          "row_count": 57,
+          "min_date": "2026-07-02",
+          "max_date": "2026-08-24"
+        },
+        "sqlite_sequence": {
+          "row_count": 2,
+          "min_date": null,
+          "max_date": null
+        },
+        "stock_classification_master_v2": {
+          "row_count": 3363,
+          "min_date": null,
+          "max_date": null
+        },
+        "stock_classification_master_v3": {
+          "row_count": 3028,
+          "min_date": null,
+          "max_date": null
+        },
+        "stock_industry_exposure_v3": {
+          "row_count": 3064,
+          "min_date": null,
+          "max_date": null
+        },
+        "stock_metrics": {
+          "row_count": 182244,
+          "min_date": "2025-07-23",
+          "max_date": "2026-08-24"
+        },
+        "stocks": {
+          "row_count": 3363,
+          "min_date": null,
+          "max_date": null
+        }
+      }
+    },
+    "decision_ledger_db": {
+      "file_size_bytes": 101507072,
+      "tables": {
+        "dim_entities": {
+          "row_count": 4014,
+          "min_date": null,
+          "max_date": null
+        },
+        "dim_model_versions": {
+          "row_count": 1,
+          "min_date": null,
+          "max_date": null
+        },
+        "fact_historical_decisions": {
+          "row_count": 777946,
+          "min_date": "2024-10-18",
+          "max_date": "2026-08-24"
+        },
+        "sqlite_sequence": {
+          "row_count": 2,
+          "min_date": null,
+          "max_date": null
+        }
+      }
+    }
+  },
+  "horizons": {
+    "1D": {
+      "valid_n": 54477,
+      "directional_accuracy_pct": 57.09,
+      "mae_pct": 1.42,
+      "rmse_pct": 2.43,
+      "mean_signed_error_pct": -0.11,
+      "median_signed_error_pct": -0.08,
+      "target_met_pct": 52.28,
+      "positive_return_rate_pct": 49.77,
+      "rank_ic": 0.2583,
+      "pearson_r": 0.2394
+    },
+    "5D": {
+      "valid_n": 53942,
+      "directional_accuracy_pct": 48.92,
+      "mae_pct": 3.93,
+      "rmse_pct": 5.85,
+      "mean_signed_error_pct": -0.09,
+      "median_signed_error_pct": 0.16,
+      "target_met_pct": 35.67,
+      "positive_return_rate_pct": 45.25,
+      "rank_ic": -0.0275,
+      "pearson_r": -0.0043
+    },
+    "20D": {
+      "valid_n": 51932,
+      "directional_accuracy_pct": 52.29,
+      "mae_pct": 8.83,
+      "rmse_pct": 12.17,
+      "mean_signed_error_pct": -0.01,
+      "median_signed_error_pct": 0.64,
+      "target_met_pct": 30.49,
+      "positive_return_rate_pct": 41.85,
+      "rank_ic": 0.0604,
+      "pearson_r": 0.0677
+    },
+    "60D": {
+      "valid_n": 46641,
+      "directional_accuracy_pct": 48.61,
+      "mae_pct": 19.36,
+      "rmse_pct": 24.81,
+      "mean_signed_error_pct": 4.88,
+      "median_signed_error_pct": 6.11,
+      "target_met_pct": 25.87,
+      "positive_return_rate_pct": 38.58,
+      "rank_ic": -0.0033,
+      "pearson_r": 0.0143
+    }
+  },
+  "quantiles_20d": {
+    "valid_n": 51932,
+    "cov_p10_pct": 15.82,
+    "cov_p25_pct": 32.85,
+    "cov_p50_pct": 52.42,
+    "cov_p75_pct": 70.45,
+    "cov_p90_pct": 84.32,
+    "p10_p90_containment_pct": 68.52,
+    "mean_interval_width_pct": 20.72,
+    "brier_score_win_prob": 0.305
+  },
+  "signals_20d": {
+    "strong_buy_mean_ret_pct": 1.54,
+    "avoid_mean_ret_pct": -1.7,
+    "raw_spread_bps": 324.1,
+    "alpha_spread_bps": 317.1
+  }
+}

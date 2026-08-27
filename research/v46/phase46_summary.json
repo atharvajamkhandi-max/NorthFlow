@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-08-26T22:48:00",
+  "sample_size": 51793,
+  "n_trading_sessions": 403,
+  "gates_passed": 19,
+  "total_gates": 20,
+  "final_decision": "B. V3.4 VALID BUT REQUIRES LIVE MATURATION (DO NOT DEPLOY)",
+  "gates": [
+    {
+      "gate": 1,
+      "name": "Mathematical Correctness",
+      "passed": true,
+      "detail": "100% of 500 deterministic cases verified"
+    },
+    {
+      "gate": 2,
+      "name": "Forecast Unit Consistency",
+      "passed": true,
+      "detail": "Percentages and basis points reconciled"
+    },
+    {
+      "gate": 3,
+      "name": "Price-Target Sanity",
+      "passed": true,
+      "detail": "Zero negative prices, zero impossible extremes"
+    },
+    {
+      "gate": 4,
+      "name": "20D Directional Accuracy",
+      "passed": true,
+      "detail": "63.85% vs 52.76% baseline"
+    },
+    {
+      "gate": 5,
+      "name": "20D MAE Error Control",
+      "passed": true,
+      "detail": "8.28% vs 9.93% baseline"
+    },
+    {
+      "gate": 6,
+      "name": "Rank IC Improvement",
+      "passed": true,
+      "detail": "+0.1388 vs +0.0387 baseline"
+    },
+    {
+      "gate": 7,
+      "name": "Quantile Monotonicity",
+      "passed": true,
+      "detail": "P10 <= P25 <= P50 <= P75 <= P90 strictly verified"
+    },
+    {
+      "gate": 8,
+      "name": "Conformal Coverage",
+      "passed": true,
+      "detail": "80.28% containment (1.30 multiplier applied correctly)"
+    },
+    {
+      "gate": 9,
+      "name": "60D Bias Reduction",
+      "passed": true,
+      "detail": "Reduced from +16.45% to +5.62% via regime offsets"
+    },
+    {
+      "gate": 10,
+      "name": "Economic Backtest Anomaly Reconciled",
+      "passed": true,
+      "detail": "Reconciled -466.89% as string display bug; net spread +468 bps"
+    },
+    {
+      "gate": 11,
+      "name": "Decision Engine Monotonicity",
+      "passed": true,
+      "detail": "1,000 synthetic test cases monotonic"
+    },
+    {
+      "gate": 12,
+      "name": "Confidence Calibration",
+      "passed": true,
+      "detail": "Confidence positively correlated with hit rate"
+    },
+    {
+      "gate": 13,
+      "name": "Cross-Sectional Rank Stability",
+      "passed": true,
+      "detail": "Positive Rank IC in 78.9% of trading sessions"
+    },
+    {
+      "gate": 14,
+      "name": "Industry Robustness",
+      "passed": true,
+      "detail": "134/134 test industries non-inferior"
+    },
+    {
+      "gate": 15,
+      "name": "Tail Failure Bounded",
+      "passed": true,
+      "detail": "Sideways regime fallback bounds tail errors"
+    },
+    {
+      "gate": 16,
+      "name": "Data Quality Intact",
+      "passed": true,
+      "detail": "0 duplicate rows, 0 lookahead violations"
+    },
+    {
+      "gate": 17,
+      "name": "Point-in-Time Anti-Leakage",
+      "passed": true,
+      "detail": "Features computed with lag >= 1D"
+    },
+    {
+      "gate": 18,
+      "name": "Live-Forward Contamination Guard",
+      "passed": true,
+      "detail": "2026-08-24+ completely excluded from research"
+    },
+    {
+      "gate": 19,
+      "name": "Deterministic Reproducibility",
+      "passed": true,
+      "detail": "Bit-exact seed matching"
+    },
+    {
+      "gate": 20,
+      "name": "Live-Forward Maturity Gate",
+      "passed": false,
+      "detail": "0 / 60 matured live sessions (Requires real-world time)"
+    }
+  ]
+}

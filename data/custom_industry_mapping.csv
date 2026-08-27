@@ -1,0 +1,22 @@
+symbol,custom_industry,custom_segment,notes
+INDHOTEL,Hotels,Luxury / Premium,Taj Hotels and Palaces
+EIHOTEL,Hotels,Luxury / Premium,Oberoi and Trident Hotels
+THELEELA,Hotels,Luxury / Premium,The Leela Palaces
+CHALET,Hotels,Upper Upscale,Marriott & Westin franchisee asset owner
+LEMONTree,Hotels,Midscale,Lemon Tree and Red Fox midscale chain
+SAMHI,Hotels,Midscale,Multi-brand hotel asset owner (Courtyard/Hyatt Place)
+ORIENTHOT,Hotels,Midscale,Taj associate business hotels
+DIXON,EMS,Consumer Electronics EMS,Lighting and Home Appliances EMS
+KAYNES,EMS,Industrial & Aerospace EMS,Industrial PCBA and Aerospace Electronics
+SYRMA,EMS,Industrial & Auto EMS,RFID and Automotive Electronics
+AVALON,EMS,Aerospace & High-Rel EMS,Box-build and Cable Assemblies
+CYIENTDLM,EMS,Aerospace & Defence EMS,Defence systems and Avionics
+POLYCAB,Wires & Cables,Power & Building Cables,Cables and FMEG
+KEI,Wires & Cables,Extra High Voltage Cables,EHV & High Tension Cables
+RRKABEL,Wires & Cables,Building Wires & Consumer,Low Voltage Building Wires
+PRAJIND,Water Treatment,Industrial Bio-Process & Wastewater,Zero Liquid Discharge and Ethanol plants
+WABAG,Water Treatment,Municipal & Industrial Desalination,Water infrastructure and desalination EPC
+EMSLIMITED,Water Treatment,Sewerage & Wastewater Treatment,Government wastewater and drainage EPC
+NATIONALUM,Aluminium,Primary Smelting & Alumina,Upstream alumina refining and smelting
+VEDL,Aluminium,Integrated Mining & Smelting,Diversified natural resources and aluminium
+HINDALCO,Aluminium,Downstream Value-Added & Novelis,Aluminium flat rolled products and extrusions

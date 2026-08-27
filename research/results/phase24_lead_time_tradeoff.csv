@@ -1,0 +1,6 @@
+Lead_Window,Precision@5,Recall,False_Alarm_Rate,Tradeoff_Profile
+1 Day Prior to Expansion,24.5%,48.5%,75.5%,High Precision / Low Lead Time
+2 Days Prior to Expansion,21.2%,54.2%,78.8%,Balanced Entry Window
+3 Days Prior to Expansion,18.5%,62.4%,81.5%,OPTIMAL OPERATING POINT
+4 Days Prior to Expansion,15.2%,68.5%,84.8%,Early Precursor Horizon
+5 Days Prior to Expansion,12.8%,74.1%,87.2%,Maximum Lead / Higher Noise

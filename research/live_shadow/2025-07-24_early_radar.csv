@@ -1,0 +1,122 @@
+date,industry,early_radar_score,alert_level,prob_1d,prob_3d,prob_5d,expected_lead_days,accumulation_pressure,cross_stock_synchronization,feature_explanation
+2025-07-24,3PL Logistics & Fleet Haulage,,NONE,,,,,,18.2,Neutral Precursor Structure
+2025-07-24,API & Bulk Drugs,,NONE,,,,,,18.0,Neutral Precursor Structure
+2025-07-24,Advertising & Digital Marketing,,NONE,,,,,,0.0,Neutral Precursor Structure
+2025-07-24,Aerospace & Fighter Aircraft,,NONE,,,,,,8.3,Neutral Precursor Structure
+2025-07-24,Architectural Glass & Windows,,NONE,,,,,,0.0,Neutral Precursor Structure
+2025-07-24,Auto Castings & Heavy Forgings,,NONE,,,,,,21.4,Neutral Precursor Structure
+2025-07-24,Auto Lighting & Electricals,,NONE,,,,,,25.0,Neutral Precursor Structure
+2025-07-24,Auto Transmission & Driveline,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Automotive Radial Tyres,,NONE,,,,,,25.0,Neutral Precursor Structure
+2025-07-24,Ayurvedic & Herbal Care,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Basmati Rice Milling & Global Exports,,NONE,,,,,,21.4,Neutral Precursor Structure
+2025-07-24,Biopharma & Biosimilars,,NONE,,,,,,18.8,Neutral Precursor Structure
+2025-07-24,Building Materials,,NONE,,,,,,11.1,Neutral Precursor Structure
+2025-07-24,Business Process Management (BPM),,NONE,,,,,,14.3,Neutral Precursor Structure
+2025-07-24,CDMO & Sterile Injectables,,NONE,,,,,,30.0,Broad Breadth Expansion
+2025-07-24,Ceramic Tiles & Sanitaryware,,NONE,,,,,,10.7,Neutral Precursor Structure
+2025-07-24,Civil & Commercial Construction,,NONE,,,,,,16.4,Neutral Precursor Structure
+2025-07-24,Commercial & Industrial Electronics EMS,,NONE,,,,,,21.4,Neutral Precursor Structure
+2025-07-24,Commercial Ports & Terminals,,NONE,,,,,,25.0,Neutral Precursor Structure
+2025-07-24,Commodity & Wholesale Trading,,NONE,,,,,,10.0,Neutral Precursor Structure
+2025-07-24,Consumer Internet Platforms & Apps,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Conventional Thermal & Fossil Power,,NONE,,,,,,6.4,Neutral Precursor Structure
+2025-07-24,Corporate & Wholesale Finance,,NONE,,,,,,16.7,Neutral Precursor Structure
+2025-07-24,Cotton Spinning & Yarns,,NONE,,,,,,26.1,Neutral Precursor Structure
+2025-07-24,Crop Protection Agrochemicals,,NONE,,,,,,10.7,Neutral Precursor Structure
+2025-07-24,Crop Protection Formulations,,NONE,,,,,,35.7,Broad Breadth Expansion
+2025-07-24,Decorative Paints,,NONE,,,,,,21.4,Neutral Precursor Structure
+2025-07-24,Defence Electronics & Radars,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Diagnostic & Pathology Labs,,NONE,,,,,,30.0,Broad Breadth Expansion
+2025-07-24,Diversified Consumer & MSME NBFC,,NONE,,,,,,14.4,Neutral Precursor Structure
+2025-07-24,Edible Oils & Vanaspati,,NONE,,,,,,17.9,Neutral Precursor Structure
+2025-07-24,Education Academies & Publishing,,NONE,,,,,,20.8,Neutral Precursor Structure
+2025-07-24,Electric Vehicles (EV),,NONE,,,,,,25.0,Neutral Precursor Structure
+2025-07-24,Engineering R&D (ER&D),,NONE,,,,,,14.3,Neutral Precursor Structure
+2025-07-24,Enterprise Software & SaaS,,NONE,,,,,,6.2,Neutral Precursor Structure
+2025-07-24,Fashion Apparel Retail,,NONE,,,,,,16.7,Neutral Precursor Structure
+2025-07-24,Fast Moving Electrical Goods (FMEG),,NONE,,,,,,25.0,Neutral Precursor Structure
+2025-07-24,Ferro Alloys & Secondary Metals,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Fertilizers & Soil Nutrients,,NONE,,,,,,33.3,Broad Breadth Expansion
+2025-07-24,Film Theatres & Broadcast Media,,NONE,,,,,,8.3,Neutral Precursor Structure
+2025-07-24,Finished Formulations,,NONE,,,,,,21.3,Neutral Precursor Structure
+2025-07-24,Flexible Packaging Films,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Fluorochemicals,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Footwear Retail Chains,,NONE,,,,,,35.7,Broad Breadth Expansion
+2025-07-24,Freight Forwarding & Multi-Modal Cargo,,NONE,,,,,,11.1,Neutral Precursor Structure
+2025-07-24,Furniture & Mattresses,,NONE,,,,,,16.7,Neutral Precursor Structure
+2025-07-24,Garments & Apparel Exports,,NONE,,,,,,18.2,Neutral Precursor Structure
+2025-07-24,General & Health Insurance,,NONE,,,,,,30.0,Broad Breadth Expansion
+2025-07-24,Gold Jewellery & Retail,,NONE,,,,,,13.3,Neutral Precursor Structure
+2025-07-24,Green Energy Generation (IPP),,NONE,,,,,,18.8,Neutral Precursor Structure
+2025-07-24,Grocery & Departmental Stores,,NONE,,,,,,27.8,Neutral Precursor Structure
+2025-07-24,Heavy Infrastructure EPC,,NONE,,,,,,8.3,Neutral Precursor Structure
+2025-07-24,Heavy Process Equipment & Machinery,,NONE,,,,,,20.8,Neutral Precursor Structure
+2025-07-24,Heavy Process Plant Equipment,,NONE,,,,,,16.7,Neutral Precursor Structure
+2025-07-24,Heavy Switchgear & Automation,,NONE,,,,,,15.0,Neutral Precursor Structure
+2025-07-24,Home Textiles,,NONE,,,,,,50.0,Broad Breadth Expansion
+2025-07-24,Hospitals & Healthcare Chains,,NONE,,,,,,7.7,Neutral Precursor Structure
+2025-07-24,Housing Finance (HFC),,NONE,,,,,,17.9,Neutral Precursor Structure
+2025-07-24,Hybrid Seeds & Agri Inputs,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,IMFL Spirits & Distilleries,,NONE,,,,,,19.2,Neutral Precursor Structure
+2025-07-24,Industrial & Basic Chemicals,,NONE,,,,,,22.6,Neutral Precursor Structure
+2025-07-24,Industrial Compressors & Pumps,,NONE,,,,,,14.3,Neutral Precursor Structure
+2025-07-24,"Industrial Effluent, Desalination & ZLD",,NONE,,,,,,18.2,Neutral Precursor Structure
+2025-07-24,Industrial Minerals,,NONE,,,,,,5.0,Neutral Precursor Structure
+2025-07-24,Integrated Grey Cement,,NONE,,,,,,12.5,Neutral Precursor Structure
+2025-07-24,Kitchen Homeware & Cookware,,NONE,,,,,,28.6,Neutral Precursor Structure
+2025-07-24,Life Insurance,,NONE,,,,,,0.0,Neutral Precursor Structure
+2025-07-24,Liquid Milk & Value-Added Dairy,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Lubricants & Specialty Oils,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Luxury Hotels & Resorts,,NONE,,,,,,25.0,Neutral Precursor Structure
+2025-07-24,Marine Offshore Vessels & Tugs,,NONE,,,,,,13.6,Neutral Precursor Structure
+2025-07-24,Material Handling & Cranes,,NONE,,,,,,11.1,Neutral Precursor Structure
+2025-07-24,Medical Clinics & Equipment,,NONE,,,,,,19.2,Neutral Precursor Structure
+2025-07-24,Metals & Fabrication,,NONE,,,,,,8.3,Neutral Precursor Structure
+2025-07-24,Micro-Irrigation & Agri-Plastics,,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Microfinance (MFI),,NONE,,,,,,21.4,Neutral Precursor Structure
+2025-07-24,Mid-Tier IT & Digital Solutions,,NONE,,,,,,15.3,Neutral Precursor Structure
+2025-07-24,Missiles & Military Explosives,,NONE,,,,,,16.7,Neutral Precursor Structure
+2025-07-24,Music Labels & VFX Studios,,NONE,,,,,,23.1,Neutral Precursor Structure
+2025-07-24,Oil & Gas Exploration (E&P),,NONE,,,,,,10.0,Neutral Precursor Structure
+2025-07-24,Online Travel Agency (OTA) & Flight Booking,,NONE,,,,,,10.0,Neutral Precursor Structure
+2025-07-24,Optical Fiber & Telecom Infrastructure,,NONE,,,,,,17.9,Neutral Precursor Structure
+2025-07-24,Packaged Foods & Snacks,,NONE,,,,,,12.5,Neutral Precursor Structure
+2025-07-24,Paperboard & Packaging Cartons,,NONE,,,,,,16.7,Neutral Precursor Structure
+2025-07-24,Passenger Vehicles (Cars & SUVs),,NONE,,,,,,20.0,Neutral Precursor Structure
+2025-07-24,Personal Care & Soaps,,NONE,,,,,,8.3,Neutral Precursor Structure
+2025-07-24,Pigments & Dyes,,NONE,,,,,,27.3,Neutral Precursor Structure
+2025-07-24,Plywood & Laminates,,NONE,,,,,,21.4,Neutral Precursor Structure
+2025-07-24,Power & Distribution Transformers,,NONE,,,,,,22.2,Neutral Precursor Structure
+2025-07-24,Precision Auto Engine Components,,NONE,,,,,,15.5,Neutral Precursor Structure
+2025-07-24,Precision Bearings & Motion Controls,,NONE,,,,,,11.1,Neutral Precursor Structure
+2025-07-24,Precision Machine Tools & Fasteners,,NONE,,,,,,27.8,Neutral Precursor Structure
+2025-07-24,Precision Metal Fabrication,,NONE,,,,,,7.1,Neutral Precursor Structure
+2025-07-24,Precision Powertrain Engine Components,,NONE,,,,,,18.2,Neutral Precursor Structure
+2025-07-24,Primary Aluminium,,NONE,,,,,,27.8,Neutral Precursor Structure
+2025-07-24,Print Media & Publishing,,NONE,,,,,,10.0,Neutral Precursor Structure
+2025-07-24,Printed Circuit Boards (PCBA) & Components,,NONE,,,,,,0.0,Neutral Precursor Structure
+2025-07-24,Private Sector Banks,,NONE,,,,,,14.6,Neutral Precursor Structure
+2025-07-24,Public Sector Banks (PSU),,NONE,,,,,,27.3,Neutral Precursor Structure
+2025-07-24,Pumps & Compressors,,NONE,,,,,,22.7,Neutral Precursor Structure
+2025-07-24,Refining & Petrochemicals,,NONE,,,,,,13.9,Neutral Precursor Structure
+2025-07-24,Regional Cement & RMC,,NONE,,,,,,8.3,Neutral Precursor Structure
+2025-07-24,Residential Real Estate,,NONE,,,,,,21.2,Neutral Precursor Structure
+2025-07-24,Residential Townships & Commercial REITs,,NONE,,,,,,14.6,Neutral Precursor Structure
+2025-07-24,Roads & Highways EPC,,NONE,,,,,,18.2,Neutral Precursor Structure
+2025-07-24,"Rolling Stock, Wagons & Vande Bharat Trainsets",,NONE,,,,,,14.3,Neutral Precursor Structure
+2025-07-24,Secondary Steel & TMT Rebars,,NONE,,,,,,20.5,Neutral Precursor Structure
+2025-07-24,Solar PV & Green Hydrogen,,NONE,,,,,,31.0,Broad Breadth Expansion
+2025-07-24,Specialty Chemicals,,NONE,,,,,,19.8,Neutral Precursor Structure
+2025-07-24,Specialty Retail Boutiques,,NONE,,,,,,18.8,Neutral Precursor Structure
+2025-07-24,Staffing & Security Services,,NONE,,,,,,12.5,Neutral Precursor Structure
+2025-07-24,Staffing & Workforce Security,,NONE,,,,,,26.9,Neutral Precursor Structure
+2025-07-24,Steel Pipes & Tubes,,NONE,,,,,,19.0,Neutral Precursor Structure
+2025-07-24,Stockbroking & Wealth Management,,NONE,,,,,,15.9,Neutral Precursor Structure
+2025-07-24,Sugar Refining & Bio-Ethanol,,NONE,,,,,,15.3,Neutral Precursor Structure
+2025-07-24,Tea & Coffee Plantations,,NONE,,,,,,8.3,Neutral Precursor Structure
+2025-07-24,Tea Plantations & Packaging,,NONE,,,,,,18.4,Neutral Precursor Structure
+2025-07-24,Television Broadcasting & OTT,,NONE,,,,,,18.2,Neutral Precursor Structure
+2025-07-24,Tier-1 IT Services,,NONE,,,,,,10.0,Neutral Precursor Structure
+2025-07-24,Wealth Broking & Advisory,,NONE,,,,,,40.0,Broad Breadth Expansion
+2025-07-24,Wires & Cables,,NONE,,,,,,7.7,Neutral Precursor Structure

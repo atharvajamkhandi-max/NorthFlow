@@ -1,0 +1,5 @@
+Market_Regime,Sessions_Count,Existing_Model_Rank_IC,Quant_Ensemble_Rank_IC,Top_Bottom_Spread,Hit_Rate_Pct
+WEAK_BULL,26094,0.0922,0.0922,3.1,29.7
+WEAK_BEAR,18660,,,0.76,34.7
+SIDEWAYS,7083,,,0.85,29.8
+HIGH_VOLATILITY,2780,,,2.15,22.5

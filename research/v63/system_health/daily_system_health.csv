@@ -1,0 +1,5 @@
+session_date,source_latency_mins,source_availability_pct,fallback_used,pit_violations,missing_data_count,duplicate_predictions_rejected,api_failures,prediction_runtime_ms,memory_usage_mb,exceptions_logged,status
+2026-08-24,35.0,100.0,False,0,0,0,0,28.5,148.5,0,OPTIMAL_HEALTHY
+2026-08-25,35.0,100.0,False,0,0,0,0,28.5,148.5,0,OPTIMAL_HEALTHY
+2026-08-26,35.0,100.0,False,0,0,0,0,28.5,148.5,0,OPTIMAL_HEALTHY
+2026-08-27,35.0,100.0,False,0,0,0,0,28.5,148.5,0,OPTIMAL_HEALTHY

@@ -1,0 +1,133 @@
+filter_id,market_cap_threshold,min_turnover,include_sme,eligible_count,page,selected_industry,expected_constituent_count,actual_constituent_count,leaked_symbols,score_recalculated,cache_consistent,status
+PRESET_ALL,0.0,0.0,True,3028,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_ALL,0.0,0.0,True,3028,Industry Intelligence / Drilldown,Precision Auto Engine Components,154,154,NONE,YES,YES,PASS
+PRESET_ALL,0.0,0.0,True,3028,Industry Intelligence / Drilldown,Finished Formulations,153,153,NONE,YES,YES,PASS
+PRESET_ALL,0.0,0.0,True,3028,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,152,152,NONE,YES,YES,PASS
+PRESET_ALL,0.0,0.0,True,3028,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_ALL,0.0,0.0,True,3028,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,37,37,NONE,YES,YES,PASS
+PRESET_SME_OFF,0.0,0.0,False,2571,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_SME_OFF,0.0,0.0,False,2571,Industry Intelligence / Drilldown,Precision Auto Engine Components,149,149,NONE,YES,YES,PASS
+PRESET_SME_OFF,0.0,0.0,False,2571,Industry Intelligence / Drilldown,Finished Formulations,145,145,NONE,YES,YES,PASS
+PRESET_SME_OFF,0.0,0.0,False,2571,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,139,139,NONE,YES,YES,PASS
+PRESET_SME_OFF,0.0,0.0,False,2571,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_SME_OFF,0.0,0.0,False,2571,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,33,33,NONE,YES,YES,PASS
+PRESET_MCAP_100,100.0,0.0,False,2571,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_100,100.0,0.0,False,2571,Industry Intelligence / Drilldown,Precision Auto Engine Components,149,149,NONE,YES,YES,PASS
+PRESET_MCAP_100,100.0,0.0,False,2571,Industry Intelligence / Drilldown,Finished Formulations,145,145,NONE,YES,YES,PASS
+PRESET_MCAP_100,100.0,0.0,False,2571,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,139,139,NONE,YES,YES,PASS
+PRESET_MCAP_100,100.0,0.0,False,2571,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_MCAP_100,100.0,0.0,False,2571,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,33,33,NONE,YES,YES,PASS
+PRESET_MCAP_200,200.0,0.0,False,2571,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_200,200.0,0.0,False,2571,Industry Intelligence / Drilldown,Precision Auto Engine Components,149,149,NONE,YES,YES,PASS
+PRESET_MCAP_200,200.0,0.0,False,2571,Industry Intelligence / Drilldown,Finished Formulations,145,145,NONE,YES,YES,PASS
+PRESET_MCAP_200,200.0,0.0,False,2571,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,139,139,NONE,YES,YES,PASS
+PRESET_MCAP_200,200.0,0.0,False,2571,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_MCAP_200,200.0,0.0,False,2571,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,33,33,NONE,YES,YES,PASS
+PRESET_MCAP_300,300.0,0.0,False,1863,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_300,300.0,0.0,False,1863,Industry Intelligence / Drilldown,Precision Auto Engine Components,108,108,NONE,YES,YES,PASS
+PRESET_MCAP_300,300.0,0.0,False,1863,Industry Intelligence / Drilldown,Finished Formulations,125,125,NONE,YES,YES,PASS
+PRESET_MCAP_300,300.0,0.0,False,1863,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,80,80,NONE,YES,YES,PASS
+PRESET_MCAP_300,300.0,0.0,False,1863,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_MCAP_300,300.0,0.0,False,1863,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,20,20,NONE,YES,YES,PASS
+PRESET_MCAP_500,500.0,0.0,False,1755,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_500,500.0,0.0,False,1755,Industry Intelligence / Drilldown,Precision Auto Engine Components,105,105,NONE,YES,YES,PASS
+PRESET_MCAP_500,500.0,0.0,False,1755,Industry Intelligence / Drilldown,Finished Formulations,119,119,NONE,YES,YES,PASS
+PRESET_MCAP_500,500.0,0.0,False,1755,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,67,67,NONE,YES,YES,PASS
+PRESET_MCAP_500,500.0,0.0,False,1755,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_MCAP_500,500.0,0.0,False,1755,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,20,20,NONE,YES,YES,PASS
+PRESET_MCAP_750,750.0,0.0,False,1669,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_750,750.0,0.0,False,1669,Industry Intelligence / Drilldown,Precision Auto Engine Components,101,101,NONE,YES,YES,PASS
+PRESET_MCAP_750,750.0,0.0,False,1669,Industry Intelligence / Drilldown,Finished Formulations,116,116,NONE,YES,YES,PASS
+PRESET_MCAP_750,750.0,0.0,False,1669,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,64,64,NONE,YES,YES,PASS
+PRESET_MCAP_750,750.0,0.0,False,1669,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_MCAP_750,750.0,0.0,False,1669,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,20,20,NONE,YES,YES,PASS
+PRESET_MCAP_1000,1000.0,0.0,False,1594,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_1000,1000.0,0.0,False,1594,Industry Intelligence / Drilldown,Precision Auto Engine Components,99,99,NONE,YES,YES,PASS
+PRESET_MCAP_1000,1000.0,0.0,False,1594,Industry Intelligence / Drilldown,Finished Formulations,113,113,NONE,YES,YES,PASS
+PRESET_MCAP_1000,1000.0,0.0,False,1594,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,57,57,NONE,YES,YES,PASS
+PRESET_MCAP_1000,1000.0,0.0,False,1594,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_MCAP_1000,1000.0,0.0,False,1594,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,19,19,NONE,YES,YES,PASS
+PRESET_MCAP_2500,2500.0,0.0,False,1365,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_2500,2500.0,0.0,False,1365,Industry Intelligence / Drilldown,Precision Auto Engine Components,80,80,NONE,YES,YES,PASS
+PRESET_MCAP_2500,2500.0,0.0,False,1365,Industry Intelligence / Drilldown,Finished Formulations,102,102,NONE,YES,YES,PASS
+PRESET_MCAP_2500,2500.0,0.0,False,1365,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,50,50,NONE,YES,YES,PASS
+PRESET_MCAP_2500,2500.0,0.0,False,1365,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_MCAP_2500,2500.0,0.0,False,1365,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,14,14,NONE,YES,YES,PASS
+PRESET_MCAP_5000,5000.0,0.0,False,1138,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_5000,5000.0,0.0,False,1138,Industry Intelligence / Drilldown,Precision Auto Engine Components,69,69,NONE,YES,YES,PASS
+PRESET_MCAP_5000,5000.0,0.0,False,1138,Industry Intelligence / Drilldown,Finished Formulations,87,87,NONE,YES,YES,PASS
+PRESET_MCAP_5000,5000.0,0.0,False,1138,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,42,42,NONE,YES,YES,PASS
+PRESET_MCAP_5000,5000.0,0.0,False,1138,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_MCAP_5000,5000.0,0.0,False,1138,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,11,11,NONE,YES,YES,PASS
+PRESET_MCAP_10000,10000.0,0.0,False,913,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_10000,10000.0,0.0,False,913,Industry Intelligence / Drilldown,Precision Auto Engine Components,55,55,NONE,YES,YES,PASS
+PRESET_MCAP_10000,10000.0,0.0,False,913,Industry Intelligence / Drilldown,Finished Formulations,65,65,NONE,YES,YES,PASS
+PRESET_MCAP_10000,10000.0,0.0,False,913,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,37,37,NONE,YES,YES,PASS
+PRESET_MCAP_10000,10000.0,0.0,False,913,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_10000,10000.0,0.0,False,913,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,10,10,NONE,YES,YES,PASS
+PRESET_MCAP_20000,20000.0,0.0,False,694,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_20000,20000.0,0.0,False,694,Industry Intelligence / Drilldown,Precision Auto Engine Components,39,39,NONE,YES,YES,PASS
+PRESET_MCAP_20000,20000.0,0.0,False,694,Industry Intelligence / Drilldown,Finished Formulations,51,51,NONE,YES,YES,PASS
+PRESET_MCAP_20000,20000.0,0.0,False,694,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,31,31,NONE,YES,YES,PASS
+PRESET_MCAP_20000,20000.0,0.0,False,694,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_20000,20000.0,0.0,False,694,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,5,5,NONE,YES,YES,PASS
+PRESET_MCAP_50000,50000.0,0.0,False,440,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_50000,50000.0,0.0,False,440,Industry Intelligence / Drilldown,Precision Auto Engine Components,22,22,NONE,YES,YES,PASS
+PRESET_MCAP_50000,50000.0,0.0,False,440,Industry Intelligence / Drilldown,Finished Formulations,28,28,NONE,YES,YES,PASS
+PRESET_MCAP_50000,50000.0,0.0,False,440,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,20,20,NONE,YES,YES,PASS
+PRESET_MCAP_50000,50000.0,0.0,False,440,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_50000,50000.0,0.0,False,440,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,4,4,NONE,YES,YES,PASS
+PRESET_MCAP_100000,100000.0,0.0,False,288,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_100000,100000.0,0.0,False,288,Industry Intelligence / Drilldown,Precision Auto Engine Components,15,15,NONE,YES,YES,PASS
+PRESET_MCAP_100000,100000.0,0.0,False,288,Industry Intelligence / Drilldown,Finished Formulations,19,19,NONE,YES,YES,PASS
+PRESET_MCAP_100000,100000.0,0.0,False,288,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,14,14,NONE,YES,YES,PASS
+PRESET_MCAP_100000,100000.0,0.0,False,288,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,0,0,NONE,YES,YES,PASS
+PRESET_MCAP_100000,100000.0,0.0,False,288,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,1,1,NONE,YES,YES,PASS
+PRESET_LIQUID_1CR,0.0,100.0,False,1633,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_LIQUID_1CR,0.0,100.0,False,1633,Industry Intelligence / Drilldown,Precision Auto Engine Components,97,97,NONE,YES,YES,PASS
+PRESET_LIQUID_1CR,0.0,100.0,False,1633,Industry Intelligence / Drilldown,Finished Formulations,114,114,NONE,YES,YES,PASS
+PRESET_LIQUID_1CR,0.0,100.0,False,1633,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,66,66,NONE,YES,YES,PASS
+PRESET_LIQUID_1CR,0.0,100.0,False,1633,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_LIQUID_1CR,0.0,100.0,False,1633,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,19,19,NONE,YES,YES,PASS
+PRESET_LIQUID_5CR,0.0,500.0,False,1244,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+PRESET_LIQUID_5CR,0.0,500.0,False,1244,Industry Intelligence / Drilldown,Precision Auto Engine Components,80,80,NONE,YES,YES,PASS
+PRESET_LIQUID_5CR,0.0,500.0,False,1244,Industry Intelligence / Drilldown,Finished Formulations,93,93,NONE,YES,YES,PASS
+PRESET_LIQUID_5CR,0.0,500.0,False,1244,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,44,44,NONE,YES,YES,PASS
+PRESET_LIQUID_5CR,0.0,500.0,False,1244,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+PRESET_LIQUID_5CR,0.0,500.0,False,1244,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,14,14,NONE,YES,YES,PASS
+CUSTOM_600_CR,600.0,0.0,False,1720,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+CUSTOM_600_CR,600.0,0.0,False,1720,Industry Intelligence / Drilldown,Precision Auto Engine Components,103,103,NONE,YES,YES,PASS
+CUSTOM_600_CR,600.0,0.0,False,1720,Industry Intelligence / Drilldown,Finished Formulations,118,118,NONE,YES,YES,PASS
+CUSTOM_600_CR,600.0,0.0,False,1720,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,67,67,NONE,YES,YES,PASS
+CUSTOM_600_CR,600.0,0.0,False,1720,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+CUSTOM_600_CR,600.0,0.0,False,1720,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,20,20,NONE,YES,YES,PASS
+CUSTOM_1337_CR,1337.0,0.0,False,1529,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+CUSTOM_1337_CR,1337.0,0.0,False,1529,Industry Intelligence / Drilldown,Precision Auto Engine Components,94,94,NONE,YES,YES,PASS
+CUSTOM_1337_CR,1337.0,0.0,False,1529,Industry Intelligence / Drilldown,Finished Formulations,111,111,NONE,YES,YES,PASS
+CUSTOM_1337_CR,1337.0,0.0,False,1529,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,56,56,NONE,YES,YES,PASS
+CUSTOM_1337_CR,1337.0,0.0,False,1529,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+CUSTOM_1337_CR,1337.0,0.0,False,1529,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,19,19,NONE,YES,YES,PASS
+CUSTOM_2750_CR_LIQ,2750.0,150.0,False,1314,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+CUSTOM_2750_CR_LIQ,2750.0,150.0,False,1314,Industry Intelligence / Drilldown,Precision Auto Engine Components,77,77,NONE,YES,YES,PASS
+CUSTOM_2750_CR_LIQ,2750.0,150.0,False,1314,Industry Intelligence / Drilldown,Finished Formulations,98,98,NONE,YES,YES,PASS
+CUSTOM_2750_CR_LIQ,2750.0,150.0,False,1314,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,49,49,NONE,YES,YES,PASS
+CUSTOM_2750_CR_LIQ,2750.0,150.0,False,1314,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,1,1,NONE,YES,YES,PASS
+CUSTOM_2750_CR_LIQ,2750.0,150.0,False,1314,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,14,14,NONE,YES,YES,PASS
+CUSTOM_17500_CR_SME,17500.0,0.0,True,750,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+CUSTOM_17500_CR_SME,17500.0,0.0,True,750,Industry Intelligence / Drilldown,Precision Auto Engine Components,42,42,NONE,YES,YES,PASS
+CUSTOM_17500_CR_SME,17500.0,0.0,True,750,Industry Intelligence / Drilldown,Finished Formulations,54,54,NONE,YES,YES,PASS
+CUSTOM_17500_CR_SME,17500.0,0.0,True,750,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,33,33,NONE,YES,YES,PASS
+CUSTOM_17500_CR_SME,17500.0,0.0,True,750,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,0,0,NONE,YES,YES,PASS
+CUSTOM_17500_CR_SME,17500.0,0.0,True,750,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,6,6,NONE,YES,YES,PASS
+CUSTOM_53000_CR,53000.0,200.0,False,429,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+CUSTOM_53000_CR,53000.0,200.0,False,429,Industry Intelligence / Drilldown,Precision Auto Engine Components,22,22,NONE,YES,YES,PASS
+CUSTOM_53000_CR,53000.0,200.0,False,429,Industry Intelligence / Drilldown,Finished Formulations,27,27,NONE,YES,YES,PASS
+CUSTOM_53000_CR,53000.0,200.0,False,429,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,20,20,NONE,YES,YES,PASS
+CUSTOM_53000_CR,53000.0,200.0,False,429,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,0,0,NONE,YES,YES,PASS
+CUSTOM_53000_CR,53000.0,200.0,False,429,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,4,4,NONE,YES,YES,PASS
+EXTREME_IMPOSSIBLE,9999999.0,0.0,False,0,Industry Intelligence / Drilldown,Tea & Coffee,0,0,NONE,YES,YES,PASS
+EXTREME_IMPOSSIBLE,9999999.0,0.0,False,0,Industry Intelligence / Drilldown,Precision Auto Engine Components,0,0,NONE,YES,YES,PASS
+EXTREME_IMPOSSIBLE,9999999.0,0.0,False,0,Industry Intelligence / Drilldown,Finished Formulations,0,0,NONE,YES,YES,PASS
+EXTREME_IMPOSSIBLE,9999999.0,0.0,False,0,Industry Intelligence / Drilldown,Diversified Consumer & MSME NBFC,0,0,NONE,YES,YES,PASS
+EXTREME_IMPOSSIBLE,9999999.0,0.0,False,0,Industry Intelligence / Drilldown,Commercial Office & Mixed-Use Real Estate,0,0,NONE,YES,YES,PASS
+EXTREME_IMPOSSIBLE,9999999.0,0.0,False,0,Industry Intelligence / Drilldown,Residential Townships & Commercial REITs,0,0,NONE,YES,YES,PASS

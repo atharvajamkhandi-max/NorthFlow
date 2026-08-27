@@ -1,0 +1,6 @@
+source_name,sessions_tested,missing_sessions,corrupted_sessions,pit_violations,status
+NSE Bhavcopy OHLCV,238,0,0,0,HEALTHY
+NSE Delivery Volume %,238,0,0,0,HEALTHY
+FII / DII Daily Flows,238,0,0,0,HEALTHY
+India VIX Data,238,0,0,0,HEALTHY
+Corporate Actions / Adjustments,238,0,0,0,HEALTHY

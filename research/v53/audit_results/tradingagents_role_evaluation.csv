@@ -1,0 +1,13 @@
+role,suitability,score,verdict
+A. Return Forecasting,UNSUITABLE,25,DO NOT USE for numerical return predictions (low Rank IC)
+B. Cross-Sectional Ranking,UNSUITABLE,30,DO NOT USE for industry sorting (V3.4 is far superior)
+C. News Interpretation,HIGHLY SUITABLE,90,"USE for summarizing earnings calls, corporate filings, management guidance"
+D. Fundamental Analysis,SUITABLE,80,"USE for balance sheet health, debt-to-equity, margin expansion commentary"
+E. Event Interpretation,HIGHLY SUITABLE,92,"USE for interpreting RBI policy, budget announcements, geopolitical shocks"
+F. Sentiment Detection,MODERATE,65,USE with caution; only on liquid large-cap equities (high noise on mid/small)
+G. Risk Identification,HIGHLY SUITABLE,95,"USE as defensive qualitative filter (auditing corporate governance, regulatory scrutiny)"
+H. Regime Interpretation,SUITABLE,85,USE for generating natural-language macro state summaries
+I. Explaining Quant Signals,HIGHLY SUITABLE,98,EXCELLENT: Synthesizes quantitative rankings into plain-English thesis
+J. Invalidation Detection,HIGHLY SUITABLE,92,"USE for identifying structural thesis breakdown (promoter selling, regulatory ban)"
+K. Portfolio Construction,UNSUITABLE,40,DO NOT USE for position sizing (defer to risk parity / quant bounds)
+L. Timing,UNSUITABLE,35,DO NOT USE for market entry/exit timing (lagging narrative bias)

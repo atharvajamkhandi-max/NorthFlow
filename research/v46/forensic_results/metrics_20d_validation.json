@@ -1,0 +1,13 @@
+{
+  "directional_accuracy_pct": 63.85,
+  "mae_pct": 8.28,
+  "rmse_pct": 14.26,
+  "bias_pct": 1.44,
+  "median_absolute_error_pct": 5.01,
+  "median_signed_error_pct": 1.5,
+  "spearman_rank_ic": 0.1388,
+  "pearson_correlation": 0.0819,
+  "calibration_slope": 0.5451,
+  "calibration_intercept": -2.0416,
+  "r_squared": 0.0067
+}

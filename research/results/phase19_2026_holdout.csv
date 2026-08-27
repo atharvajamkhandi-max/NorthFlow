@@ -1,0 +1,3 @@
+Filter_Name,Coverage_Pct,Opportunity_Count,Rank_IC,Top_Decile_20D,Bottom_Decile_20D,Top_Bottom_Spread,Win_Rate,Sharpe_Ratio
+2026 Holdout - Baseline V3.2,100.0%,11552,0.0657,+2.30%,+1.09%,+1.21%,53.1%,0.63
+2026 Holdout - Filtered V3.2 (Comb_D),8.4%,1945,0.0947,+2.80%,+0.86%,+1.95%,55.9%,0.72

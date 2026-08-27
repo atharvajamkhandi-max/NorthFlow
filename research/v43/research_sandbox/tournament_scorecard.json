@@ -1,0 +1,58 @@
+[
+  {
+    "model": "A. Baseline V3.2 Linear Core",
+    "mean_directional_accuracy": 53.78,
+    "std_directional_accuracy": 6.88,
+    "mean_mae": 8.84,
+    "mean_rank_ic": -0.056,
+    "classification": "BASELINE BENCHMARK"
+  },
+  {
+    "model": "B. Pure HistGradientBoosting (HGB)",
+    "mean_directional_accuracy": 54.78,
+    "std_directional_accuracy": 9.9,
+    "mean_mae": 7.95,
+    "mean_rank_ic": 0.1107,
+    "classification": "PROMISING (Proven Candidate)"
+  },
+  {
+    "model": "C. ExtraTrees Regressor (ET)",
+    "mean_directional_accuracy": 55.36,
+    "std_directional_accuracy": 10.62,
+    "mean_mae": 7.89,
+    "mean_rank_ic": 0.1244,
+    "classification": "PROMISING (Strong Ensembler)"
+  },
+  {
+    "model": "D. Random Forest Regressor (RF)",
+    "mean_directional_accuracy": 54.91,
+    "std_directional_accuracy": 9.84,
+    "mean_mae": 7.94,
+    "mean_rank_ic": 0.1157,
+    "classification": "INCONCLUSIVE (Slower, Higher Error)"
+  },
+  {
+    "model": "E. ElasticNet Regressor (EN)",
+    "mean_directional_accuracy": 50.12,
+    "std_directional_accuracy": 11.91,
+    "mean_mae": 8.02,
+    "mean_rank_ic": 0.0699,
+    "classification": "REJECTED (Linear Underperformance)"
+  },
+  {
+    "model": "F. Next-Gen Ensemble (HGB + ET)",
+    "mean_directional_accuracy": 54.89,
+    "std_directional_accuracy": 10.4,
+    "mean_mae": 7.91,
+    "mean_rank_ic": 0.1168,
+    "classification": "PROMISING (Top Generalization)"
+  },
+  {
+    "model": "G. Regime-Conditional Hybrid",
+    "mean_directional_accuracy": 55.25,
+    "std_directional_accuracy": 8.15,
+    "mean_mae": 7.96,
+    "mean_rank_ic": 0.0895,
+    "classification": "PROMISING (Best Regime Stability)"
+  }
+]

@@ -1,0 +1,8 @@
+Event_Option,Total_Occurrences,Base_Rate,Lead_Sensitivity
+A. Future 3D Excess Return >= 3%,2452,5.2%,HIGH
+B. Future 5D Excess Return >= 3%,4221,8.9%,VERY HIGH
+C. Future 5D Excess Return >= 5%,1463,3.1%,HIGH (Extreme)
+D. Future 10D Excess Return >= 5%,3422,7.2%,MODERATE
+E. Future 10D Excess Return >= 10%,734,1.6%,TAIL ONLY
+F. Top 10% Future 5D Return (P90),5680,12.0%,OPTIMAL BENCHMARK
+G. Top 10% Future 10D Return (P90),5608,11.8%,STRONG

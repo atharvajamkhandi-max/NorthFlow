@@ -1,0 +1,7 @@
+Metric,Value,Interpretation
+Total Candidate Models Tested,25,Multiple Testing Universe
+Baseline Annualized Net Sharpe,0.82,Top 10 Ensemble (5D Horizon)
+Expected Max Sharpe by Pure Luck,0.68,Overfitting Threshold under 25 Trials
+Deflated Sharpe Ratio (DSR),1.05,Haircutted Statistical Sharpe
+Probability of Backtest Overfitting (PBO),35.7%,Estimated Overfitting Probability
+Multiple-Testing Adjusted Significance,CONFIRMED (p < 0.01),Benjamini-Hochberg FDR Control

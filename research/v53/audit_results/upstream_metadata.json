@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/TauricResearch/TradingAgents.git",
+  "commit_sha": "f8a92b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a (main branch)",
+  "upstream_version": "0.1.0-alpha",
+  "supported_data_providers": [
+    "yfinance",
+    "alpha_vantage",
+    "fred",
+    "reddit",
+    "stocktwits",
+    "polymarket"
+  ],
+  "supported_llm_providers": [
+    "openai",
+    "anthropic",
+    "google_gemini",
+    "groq",
+    "ollama"
+  ],
+  "default_market_assumption": "US Equities & Macro (NYSE/NASDAQ, FRED, Polymarket)",
+  "indian_ticker_support": "Partial (Requires .NS or .BO suffix on Yahoo Finance)",
+  "python_dependencies": [
+    "pydantic>=2.0",
+    "yfinance",
+    "requests",
+    "pandas",
+    "numpy"
+  ]
+}

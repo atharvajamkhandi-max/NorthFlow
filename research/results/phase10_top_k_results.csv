@@ -1,0 +1,5 @@
+Top_K,5D_Mean (%),10D_Mean (%),20D_Mean (%),Hit_Rate (%),P(>8%)
+Top 1 Industry,1.65,2.8,4.15,66.7,24.5
+Top 3 Industries,1.52,2.55,3.9,65.2,22.1
+Top 5 Industries,1.48,2.4,3.75,63.8,20.4
+Top 10 Industries,1.45,2.35,3.65,62.5,19.2

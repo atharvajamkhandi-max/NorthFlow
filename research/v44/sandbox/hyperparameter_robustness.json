@@ -1,0 +1,17 @@
+[
+  {
+    "config": "-20% Capacity",
+    "directional_accuracy": 64.29,
+    "rank_ic": 0.1303
+  },
+  {
+    "config": "Baseline Locked (80 iters, depth 4)",
+    "directional_accuracy": 63.99,
+    "rank_ic": 0.1314
+  },
+  {
+    "config": "+20% Capacity",
+    "directional_accuracy": 63.98,
+    "rank_ic": 0.1315
+  }
+]

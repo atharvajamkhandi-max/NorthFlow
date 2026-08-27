@@ -1,0 +1,8 @@
+Cost_Scenario,Round_Trip_Cost_bps,Net_CAGR,Net_Sharpe,Max_Drawdown,Viability
+Frictionless (0 bps),0,+32.1%,1.28,-13.5%,THEORETICAL
+Institutional Low (10 bps),10,+30.8%,1.23,-13.9%,VIABLE
+Retail Discount (20 bps),20,+29.6%,1.18,-14.3%,VIABLE
+Standard Base (30 bps),30,+28.4%,1.14,-14.8%,VIABLE (BENCHMARK)
+Slippage Stress (50 bps),50,+24.1%,0.98,-16.5%,VIABLE
+Illiquid Stress (75 bps),75,+19.2%,0.81,-18.2%,MARGINAL
+Extreme Friction (100 bps),100,+14.5%,0.65,-20.4%,DILUTED

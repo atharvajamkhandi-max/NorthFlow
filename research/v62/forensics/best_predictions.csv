@@ -1,0 +1,101 @@
+prediction_id,prediction_date,industry,maturation_status,forecast_return_1D,actual_return_1D,forecast_error_1D,direction_correct_1D,actual_return_5D,actual_return_20D,actual_return_60D,abs_err_1D,success_rationale
+LIVE_SHADOW_bcacfdd8ff5647,2026-08-24,Industrial & Basic Chemicals,1D_MATURED_PENDING_5D_20D_60D,0.19,0.19,0.0,1.0,,,,0.0,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_42a06b4ff9854e,2026-08-24,Solar PV & Green Hydrogen,1D_MATURED_PENDING_5D_20D_60D,-0.11,-0.1,-0.01,1.0,,,,0.01,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_63b9d33bfa63f0,2026-08-24,Renewable Energy & Solar,1D_MATURED_PENDING_5D_20D_60D,0.25,0.26,-0.01,1.0,,,,0.01,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_ed59f2b5f48471,2026-08-24,Integrated Supply Chain & 3PL,1D_MATURED_PENDING_5D_20D_60D,-0.12,-0.11,-0.01,1.0,,,,0.01,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_e592063efa15aa,2026-08-24,Oil & LPG Tank Terminals,1D_MATURED_PENDING_5D_20D_60D,0.33,0.31,0.02,1.0,,,,0.02,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_cce92aa517b004,2026-08-24,PropTech & Real Estate Technology,1D_MATURED_PENDING_5D_20D_60D,1.41,1.38,0.03,1.0,,,,0.03,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_4d6770c3a12e71,2026-08-24,Film Theatres & Broadcast Media,1D_MATURED_PENDING_5D_20D_60D,-0.06,-0.02,-0.04,1.0,,,,0.04,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_4912669e4e1683,2026-08-24,Gold Jewellery & Retail,1D_MATURED_PENDING_5D_20D_60D,0.45,0.4,0.05,1.0,,,,0.05,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_18b0d69a8e057f,2026-08-24,Gas Transmission Pipelines,1D_MATURED_PENDING_5D_20D_60D,-0.09,-0.14,0.05,1.0,,,,0.05,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_c50d608d9c992e,2026-08-24,Coal Mining,1D_MATURED_PENDING_5D_20D_60D,0.7,0.78,-0.08,1.0,,,,0.08,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_52b7ac6b433b0b,2026-08-24,Specialty Electrochemical Chemicals,1D_MATURED_PENDING_5D_20D_60D,-0.21,-0.29,0.08,1.0,,,,0.08,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_28968cc98453ca,2026-08-24,Industrial Parks & Special Economic Zones,1D_MATURED_PENDING_5D_20D_60D,0.14,0.06,0.08,1.0,,,,0.08,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_b034ee7630fbdc,2026-08-24,Tertiary Hospitals & Clinics,1D_MATURED_PENDING_5D_20D_60D,0.16,0.25,-0.09,1.0,,,,0.09,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_e3ae3e0c269fff,2026-08-24,Heavy Process Plant Equipment,1D_MATURED_PENDING_5D_20D_60D,1.18,1.27,-0.09,1.0,,,,0.09,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_fd5d4e35c68b68,2026-08-24,Electric Vehicles (EV),1D_MATURED_PENDING_5D_20D_60D,-0.12,-0.03,-0.09,1.0,,,,0.09,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_c60fb28c49827e,2026-08-24,Leather & Industrial Footwear,1D_MATURED_PENDING_5D_20D_60D,0.38,0.48,-0.1,1.0,,,,0.1,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_16a4d5969045bd,2026-08-24,Film Multiplex Theatres,1D_MATURED_PENDING_5D_20D_60D,0.1,-0.01,0.11,0.0,,,,0.11,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_a4ecde11bfdec8,2026-08-24,Flexible Packaging Films,1D_MATURED_PENDING_5D_20D_60D,-0.49,-0.38,-0.11,1.0,,,,0.11,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_3388c25c64a1c6,2026-08-24,General & Health Insurance,1D_MATURED_PENDING_5D_20D_60D,-0.04,-0.16,0.12,1.0,,,,0.12,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_1507ad28844b05,2026-08-24,Power & Distribution Transformers,1D_MATURED_PENDING_5D_20D_60D,0.49,0.36,0.13,1.0,,,,0.13,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_ca0ea39084c504,2026-08-24,Registrar & Transfer Agents (RTA),1D_MATURED_PENDING_5D_20D_60D,0.99,1.13,-0.14,1.0,,,,0.14,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_94671a5afe53ac,2026-08-24,Plastics Processing Machinery,1D_MATURED_PENDING_5D_20D_60D,-0.09,0.06,-0.15,0.0,,,,0.15,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_2de5d6a76b1d1f,2026-08-24,Specialty Ingredients & Flavours,1D_MATURED_PENDING_5D_20D_60D,-1.03,-1.18,0.15,1.0,,,,0.15,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_99331d3233fd3e,2026-08-24,Government Securities & Bond Dealing,1D_MATURED_PENDING_5D_20D_60D,0.04,0.19,-0.15,1.0,,,,0.15,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_f5ecf76ea6b9b1,2026-08-24,Engineering R&D (ER&D),1D_MATURED_PENDING_5D_20D_60D,0.47,0.66,-0.19,1.0,,,,0.19,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_aaed3f89e9ebaf,2026-08-24,Ceramic Tiles & Sanitaryware,1D_MATURED_PENDING_5D_20D_60D,-0.74,-0.54,-0.2,1.0,,,,0.2,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_acf5e01fef68d3,2026-08-24,Power Transmission Line EPC,1D_MATURED_PENDING_5D_20D_60D,0.02,0.23,-0.21,1.0,,,,0.21,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_adaa030b978336,2026-08-24,Auto Castings & Heavy Forgings,1D_MATURED_PENDING_5D_20D_60D,0.4,0.61,-0.21,1.0,,,,0.21,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_a5dab62c59c822,2026-08-24,Wires & Cables,1D_MATURED_PENDING_5D_20D_60D,-0.23,-0.02,-0.21,1.0,,,,0.21,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_489afa5bba8b3b,2026-08-24,Medical Clinics & Equipment,1D_MATURED_PENDING_5D_20D_60D,0.55,0.33,0.22,1.0,,,,0.22,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_e72273da0ca666,2026-08-24,IMFL Spirits & Distilleries,1D_MATURED_PENDING_5D_20D_60D,0.05,0.27,-0.22,1.0,,,,0.22,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_3f1249a2bdaa5c,2026-08-24,Electricity & Power Exchanges,1D_MATURED_PENDING_5D_20D_60D,0.93,1.16,-0.23,1.0,,,,0.23,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_bb87e8b6decce3,2026-08-24,Cotton Spinning & Yarns,1D_MATURED_PENDING_5D_20D_60D,0.16,-0.08,0.24,0.0,,,,0.24,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_1b0cfb6e3c753f,2026-08-24,Mining Consultancy & Geological Services,1D_MATURED_PENDING_5D_20D_60D,0.4,0.16,0.24,1.0,,,,0.24,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_5a522408d0fa35,2026-08-24,Commodity & Wholesale Trading,1D_MATURED_PENDING_5D_20D_60D,-0.07,0.19,-0.26,0.0,,,,0.26,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_2f5264f47e8f57,2026-08-24,Domestic & Consumer Appliances EMS,1D_MATURED_PENDING_5D_20D_60D,-0.25,0.01,-0.26,0.0,,,,0.26,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_37da6336e7d58e,2026-08-24,Railway Signalling & Technology Systems,1D_MATURED_PENDING_5D_20D_60D,0.28,0.02,0.26,1.0,,,,0.26,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_ee516441383134,2026-08-24,Automotive Radial Tyres,1D_MATURED_PENDING_5D_20D_60D,0.1,-0.17,0.27,0.0,,,,0.27,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_520278e12d9bf9,2026-08-24,Optical Fiber & Telecom Gear,1D_MATURED_PENDING_5D_20D_60D,-0.08,0.19,-0.27,0.0,,,,0.27,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_379d1d12da6129,2026-08-24,Power Transmission Grid,1D_MATURED_PENDING_5D_20D_60D,-0.02,0.25,-0.27,0.0,,,,0.27,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_ecc35568cbdbe4,2026-08-24,Architectural Hardware & Fittings,1D_MATURED_PENDING_5D_20D_60D,-0.23,0.04,-0.27,0.0,,,,0.27,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_bef70044bc9c9e,2026-08-24,Integrated Grey Cement,1D_MATURED_PENDING_5D_20D_60D,-0.24,-0.52,0.28,1.0,,,,0.28,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_cc04cb6dcd723a,2026-08-24,LED Lighting & Fixtures,1D_MATURED_PENDING_5D_20D_60D,-0.31,-0.6,0.29,1.0,,,,0.29,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_b76092c33a12f2,2026-08-24,Wealth Broking & Advisory,1D_MATURED_PENDING_5D_20D_60D,-0.15,-0.45,0.3,1.0,,,,0.3,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_c0fcda9d889dee,2026-08-24,Optical Fibre Cables & Telecom Infra,1D_MATURED_PENDING_5D_20D_60D,0.4,0.1,0.3,1.0,,,,0.3,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_5ac81837fa0378,2026-08-24,Public Sector Banks (PSU),1D_MATURED_PENDING_5D_20D_60D,0.75,0.45,0.3,1.0,,,,0.3,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_5556139bae6b99,2026-08-24,Commercial Ports & Terminals,1D_MATURED_PENDING_5D_20D_60D,0.33,0.65,-0.32,1.0,,,,0.32,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_8cafb3082da358,2026-08-24,Auto Transmission & Driveline,1D_MATURED_PENDING_5D_20D_60D,0.31,0.63,-0.32,1.0,,,,0.32,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_c4623c4fe70357,2026-08-24,Marine Offshore Vessels & Tugs,1D_MATURED_PENDING_5D_20D_60D,0.27,-0.06,0.33,0.0,,,,0.33,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_0935784cd4b08f,2026-08-24,Industrial Minerals,1D_MATURED_PENDING_5D_20D_60D,-0.01,0.34,-0.35,0.0,,,,0.35,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_c6ab8a66df40a9,2026-08-24,Commercial Vehicles (Trucks & Buses),1D_MATURED_PENDING_5D_20D_60D,0.0,0.35,-0.35,0.0,,,,0.35,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_0ceb52f1e7ba1c,2026-08-24,Power Transformers & Electrical Equipment,1D_MATURED_PENDING_5D_20D_60D,0.15,0.5,-0.35,1.0,,,,0.35,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_57625e59280ecd,2026-08-24,Aerospace & Fighter Aircraft,1D_MATURED_PENDING_5D_20D_60D,0.37,0.01,0.36,1.0,,,,0.36,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_858396d053e382,2026-08-24,IT Distribution & Enterprise Infra,1D_MATURED_PENDING_5D_20D_60D,-0.4,-0.76,0.36,1.0,,,,0.36,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_4d6770c3a12e71,2026-08-24,Film Theatres & Broadcast Media,1D_MATURED_PENDING_5D_20D_60D,0.2,0.57,-0.37,1.0,,,,0.37,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_bf7a3f07080eb8,2026-08-24,Pumps & Compressors,1D_MATURED_PENDING_5D_20D_60D,0.41,0.79,-0.38,1.0,,,,0.38,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_db74134602ed98,2026-08-24,Heavy Infrastructure EPC,1D_MATURED_PENDING_5D_20D_60D,-0.16,-0.54,0.38,1.0,,,,0.38,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_7a8adb566b1453,2026-08-24,Liquid Milk & Value-Added Dairy,1D_MATURED_PENDING_5D_20D_60D,0.27,-0.12,0.39,0.0,,,,0.39,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_5c344e693dcd53,2026-08-24,Financial Software & SaaS,1D_MATURED_PENDING_5D_20D_60D,0.53,0.92,-0.39,1.0,,,,0.39,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_ea98f4ed12a519,2026-08-24,Synthetic Fiber & Polyester Weaving,1D_MATURED_PENDING_5D_20D_60D,-0.45,-0.05,-0.4,1.0,,,,0.4,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_d632957910b126,2026-08-24,State Commodity & Metals Trading,1D_MATURED_PENDING_5D_20D_60D,-0.07,0.33,-0.4,0.0,,,,0.4,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_2e8c50576843a3,2026-08-24,IT Supply Chain & Technology Distribution,1D_MATURED_PENDING_5D_20D_60D,0.4,0.82,-0.42,1.0,,,,0.42,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_2668e9bffb3d57,2026-08-24,Fertilizers & Soil Nutrients,1D_MATURED_PENDING_5D_20D_60D,0.29,0.71,-0.42,1.0,,,,0.42,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_2c07de45d5d8bb,2026-08-24,Aerospace Parts & Precision Engineering,1D_MATURED_PENDING_5D_20D_60D,-0.16,0.26,-0.42,0.0,,,,0.42,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_d6cfc5b7897842,2026-08-24,AI Servers & Supercomputing Hardware,1D_MATURED_PENDING_5D_20D_60D,1.09,0.67,0.42,1.0,,,,0.42,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_b1d60dba19503f,2026-08-24,Iron Ore & Manganese Mining,1D_MATURED_PENDING_5D_20D_60D,0.39,-0.04,0.43,0.0,,,,0.43,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_9d6e1bcbc94ace,2026-08-24,Consumer Internet & Super Apps,1D_MATURED_PENDING_5D_20D_60D,-0.44,-0.87,0.43,1.0,,,,0.43,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_eb152d45c2d37e,2026-08-24,Commercial & Industrial Electronics EMS,1D_MATURED_PENDING_5D_20D_60D,0.99,1.42,-0.43,1.0,,,,0.43,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_87b2faa9f152bf,2026-08-24,Defence Electronics & Radars,1D_MATURED_PENDING_5D_20D_60D,0.18,0.61,-0.43,1.0,,,,0.43,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_fe73ce3ddfb7ef,2026-08-24,Vehicle Finance,1D_MATURED_PENDING_5D_20D_60D,0.27,-0.16,0.43,0.0,,,,0.43,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_dd4e9b0e76ad57,2026-08-24,Pigments & Dyes,1D_MATURED_PENDING_5D_20D_60D,-0.44,-0.88,0.44,1.0,,,,0.44,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_6c33444f881c7f,2026-08-24,Fleet Tech & Logistics SaaS,1D_MATURED_PENDING_5D_20D_60D,-0.81,-0.37,-0.44,1.0,,,,0.44,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_9a1ec448cb20a5,2026-08-24,Innerwear & Athleisure,1D_MATURED_PENDING_5D_20D_60D,0.12,-0.33,0.45,0.0,,,,0.45,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_71b07a0406569a,2026-08-24,Airport Lounge & Transit Tech,1D_MATURED_PENDING_5D_20D_60D,-0.3,0.15,-0.45,0.0,,,,0.45,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_9e0b6c3f8b1001,2026-08-24,Conventional Thermal & Fossil Power,1D_MATURED_PENDING_5D_20D_60D,-0.68,-1.13,0.45,1.0,,,,0.45,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_1e58afcc55a7f5,2026-08-24,Overseas Education Consulting,1D_MATURED_PENDING_5D_20D_60D,0.12,-0.33,0.45,0.0,,,,0.45,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_720fb3927691db,2026-08-24,Hospitals & Healthcare Chains,1D_MATURED_PENDING_5D_20D_60D,0.23,0.7,-0.47,1.0,,,,0.47,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_947001cda5a678,2026-08-24,Basmati Rice Milling & Global Exports,1D_MATURED_PENDING_5D_20D_60D,-0.47,0.0,-0.47,0.0,,,,0.47,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_acde05f8d3047b,2026-08-24,Auto Emission & Exhaust Systems,1D_MATURED_PENDING_5D_20D_60D,0.08,-0.4,0.48,0.0,,,,0.48,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_8da62d1a78187f,2026-08-24,Regional Cement & RMC,1D_MATURED_PENDING_5D_20D_60D,-0.13,-0.61,0.48,1.0,,,,0.48,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_15c8ecfd52f511,2026-08-24,Seafood & Aquafeed,1D_MATURED_PENDING_5D_20D_60D,0.25,-0.24,0.49,0.0,,,,0.49,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_3890bb0fca4b79,2026-08-24,Two & Three Wheelers,1D_MATURED_PENDING_5D_20D_60D,0.11,0.6,-0.49,1.0,,,,0.49,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_bb7c5f6fd8dac0,2026-08-24,E-Waste Recycling & Sustainability,1D_MATURED_PENDING_5D_20D_60D,0.21,0.7,-0.49,1.0,,,,0.49,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_c4ede569fca2ed,2026-08-24,Staffing & Workforce Security,1D_MATURED_PENDING_5D_20D_60D,0.65,0.16,0.49,1.0,,,,0.49,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_c8182f713254ab,2026-08-24,"Rolling Stock, Wagons & Vande Bharat Trainsets",1D_MATURED_PENDING_5D_20D_60D,-0.25,0.27,-0.52,0.0,,,,0.52,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_64128c990f13c6,2026-08-24,Forex & Currency Exchange,1D_MATURED_PENDING_5D_20D_60D,0.38,0.9,-0.52,1.0,,,,0.52,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_d8b3b31f0c211b,2026-08-24,Business Process Management (BPM),1D_MATURED_PENDING_5D_20D_60D,-0.04,0.49,-0.53,0.0,,,,0.53,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_cece10e30852f3,2026-08-24,Hybrid Seeds & Agri Inputs,1D_MATURED_PENDING_5D_20D_60D,-0.41,0.12,-0.53,0.0,,,,0.53,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_fb032777eac0f5,2026-08-24,3PL Logistics & Fleet Haulage,1D_MATURED_PENDING_5D_20D_60D,0.0,-0.53,0.53,0.0,,,,0.53,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_bd12c2a2429afc,2026-08-24,Defence Electronics & Avionics,1D_MATURED_PENDING_5D_20D_60D,0.38,0.92,-0.54,1.0,,,,0.54,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_d4ccf0a5bf68ef,2026-08-24,Enterprise Software & SaaS,1D_MATURED_PENDING_5D_20D_60D,0.3,-0.24,0.54,0.0,,,,0.54,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_aa6b666b5440f3,2026-08-24,Freight Forwarding & Multi-Modal Cargo,1D_MATURED_PENDING_5D_20D_60D,0.94,1.48,-0.54,1.0,,,,0.54,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_e55181275bc912,2026-08-24,Higher Education & Online Learning,1D_MATURED_PENDING_5D_20D_60D,-0.0,-0.54,0.54,0.0,,,,0.54,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_d8929802cbec1e,2026-08-24,Mid-Tier IT & Digital Solutions,1D_MATURED_PENDING_5D_20D_60D,-0.13,0.41,-0.54,0.0,,,,0.54,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_0b962fd9d840fd,2026-08-24,Missiles & Military Explosives,1D_MATURED_PENDING_5D_20D_60D,0.38,-0.19,0.57,0.0,,,,0.57,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_b01c64696eb4ce,2026-08-24,Private Sector Banks,1D_MATURED_PENDING_5D_20D_60D,0.15,0.73,-0.58,1.0,,,,0.58,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_b8acf610c97235,2026-08-24,Breweries & Beer,1D_MATURED_PENDING_5D_20D_60D,-0.18,-0.76,0.58,1.0,,,,0.58,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_439f152e2dc9b7,2026-08-24,Steel Pipes & Tubes,1D_MATURED_PENDING_5D_20D_60D,0.62,1.2,-0.58,1.0,,,,0.58,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_489b5df9df4024,2026-08-24,Crop Protection Agrochemicals,1D_MATURED_PENDING_5D_20D_60D,-0.47,-1.06,0.59,1.0,,,,0.59,High Breadth Concordance & Institutional Inflow Alignment
+LIVE_SHADOW_78c7a60404bd69,2026-08-24,Personal Care & Soaps,1D_MATURED_PENDING_5D_20D_60D,-0.92,-1.51,0.59,1.0,,,,0.59,High Breadth Concordance & Institutional Inflow Alignment

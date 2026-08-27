@@ -1,0 +1,6 @@
+confidence_bucket,sample_count,accuracy_pct,mae_pct
+Very Low,6158,51.1,9.83
+Low,6039,61.32,8.07
+Medium,6125,61.73,7.59
+High,6071,63.56,7.26
+Very High,6070,56.74,6.95

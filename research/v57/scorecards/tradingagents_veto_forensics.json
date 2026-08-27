@@ -1,0 +1,12 @@
+{
+  "total_observations": 30463,
+  "total_vetoes_applied": 22,
+  "veto_rate_pct": 0.072,
+  "losses_avoided_count": 9,
+  "profitable_trades_vetoed_count": 13,
+  "veto_precision_pct": 40.91,
+  "veto_recall_pct": 0.07,
+  "net_spread_expansion_bps": 20.4,
+  "loss_avoidance_to_missed_opp_ratio": 0.692,
+  "rank_ic_lift": 0.0031
+}

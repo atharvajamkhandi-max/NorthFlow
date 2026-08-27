@@ -1,0 +1,4 @@
+model_architecture,directional_accuracy_pct,mae_pct,rmse_pct,spearman_rank_ic,pearson_corr,gross_spread_bps,net_spread_bps,max_drawdown_pct,volatility_pct
+A_MODEL_V32_FROZEN,53.69,9.12,12.83,0.0178,0.0266,-2.4,-22.4,-99.8,7.85
+B_MODEL_V34_CANDIDATE,58.87,7.94,11.79,0.1126,0.0822,299.2,279.2,-99.82,8.37
+C_MODEL_V34_TA_VETO_SHADOW,58.84,7.92,11.74,0.1157,0.1019,319.6,299.6,-99.82,8.3

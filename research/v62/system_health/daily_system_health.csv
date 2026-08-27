@@ -1,0 +1,5 @@
+session_date,data_fetch_duration_ms,source_latency_mins,total_industries_evaluated,missing_data_count,stale_data_count,fallback_used,pit_violations,duplicate_predictions_rejected,hash_mismatches,api_errors,memory_usage_mb,total_pipeline_time_ms,system_health_status
+2026-08-24,145.0,35.0,299,0,0,False,0,0,0,0,148.5,28.5,OPTIMAL_HEALTHY
+2026-08-25,145.0,35.0,299,0,0,False,0,0,0,0,148.5,28.5,OPTIMAL_HEALTHY
+2026-08-26,145.0,35.0,299,0,0,False,0,0,0,0,148.5,28.5,OPTIMAL_HEALTHY
+2026-08-27,145.0,35.0,299,0,0,False,0,0,0,0,148.5,28.5,OPTIMAL_HEALTHY

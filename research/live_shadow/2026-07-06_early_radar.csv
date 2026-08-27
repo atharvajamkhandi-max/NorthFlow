@@ -1,0 +1,134 @@
+date,industry,early_radar_score,alert_level,prob_1d,prob_3d,prob_5d,expected_lead_days,accumulation_pressure,cross_stock_synchronization,feature_explanation
+2026-07-06,3PL Logistics & Fleet Haulage,55.8,WATCH,0.132,0.273,0.498,3.4,53.6,33.3,Neutral Precursor Structure
+2026-07-06,API & Bulk Drugs,38.2,NONE,0.096,0.203,0.367,3.7,37.4,29.3,Neutral Precursor Structure
+2026-07-06,Advertising & Digital Marketing,48.9,NONE,0.118,0.246,0.447,3.5,50.2,41.7,Neutral Precursor Structure
+2026-07-06,Aerospace & Fighter Aircraft,50.6,NONE,0.121,0.252,0.46,3.5,54.1,27.8,Neutral Precursor Structure
+2026-07-06,Architectural Glass & Windows,39.4,NONE,0.099,0.208,0.376,3.7,43.9,41.7,Broad Breadth Expansion
+2026-07-06,Auto Castings & Heavy Forgings,53.1,NONE,0.126,0.262,0.478,3.4,60.0,42.9,Neutral Precursor Structure
+2026-07-06,Auto Lighting & Electricals,29.6,NONE,0.079,0.168,0.302,3.9,33.1,52.9,Neutral Precursor Structure
+2026-07-06,Auto Transmission & Driveline,48.5,NONE,0.117,0.244,0.444,3.5,60.0,58.3,Neutral Precursor Structure
+2026-07-06,Automotive Radial Tyres,69.9,EARLY,0.16,0.33,0.604,3.1,72.9,56.2,Strong Accumulation Pressure | Broad Breadth Expansion
+2026-07-06,Ayurvedic & Herbal Care,27.8,NONE,0.076,0.161,0.288,3.9,29.5,33.3,Neutral Precursor Structure
+2026-07-06,Basmati Rice Milling & Global Exports,12.2,NONE,0.05,0.1,0.172,4.3,13.8,14.3,Neutral Precursor Structure
+2026-07-06,Biopharma & Biosimilars,42.4,NONE,0.105,0.22,0.398,3.7,48.9,16.7,Neutral Precursor Structure
+2026-07-06,Building Materials,62.1,WATCH,0.144,0.298,0.546,3.3,72.5,27.8,Strong Accumulation Pressure
+2026-07-06,Business Process Management (BPM),16.3,NONE,0.053,0.115,0.202,4.2,20.5,16.7,Neutral Precursor Structure
+2026-07-06,CDMO & Sterile Injectables,47.1,NONE,0.114,0.238,0.433,3.6,43.3,33.3,Neutral Precursor Structure
+2026-07-06,Ceramic Tiles & Sanitaryware,17.4,NONE,0.055,0.12,0.21,4.2,22.5,18.8,Neutral Precursor Structure
+2026-07-06,Civil & Commercial Construction,27.2,NONE,0.074,0.159,0.284,4.0,30.3,21.4,Neutral Precursor Structure
+2026-07-06,Commercial & Industrial Electronics EMS,33.6,NONE,0.087,0.184,0.332,3.8,46.7,54.5,Broad Breadth Expansion
+2026-07-06,Commercial Ports & Terminals,57.9,WATCH,0.136,0.282,0.514,3.3,64.0,42.1,Neutral Precursor Structure
+2026-07-06,Commodity & Wholesale Trading,46.6,NONE,0.113,0.236,0.43,3.6,45.6,46.4,Neutral Precursor Structure
+2026-07-06,Consumer Internet Platforms & Apps,69.8,EARLY,0.16,0.329,0.603,3.1,85.5,28.6,Strong Accumulation Pressure
+2026-07-06,Container Rail & Dry Ports,35.4,NONE,0.091,0.192,0.346,3.8,32.2,30.0,Neutral Precursor Structure
+2026-07-06,Conventional Thermal & Fossil Power,37.6,NONE,0.095,0.2,0.362,3.7,44.2,34.9,Neutral Precursor Structure
+2026-07-06,Copper Mining & Smelting,31.8,NONE,0.084,0.177,0.318,3.9,51.3,90.0,High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Corporate & Wholesale Finance,45.4,NONE,0.111,0.232,0.42,3.6,48.4,33.3,Neutral Precursor Structure
+2026-07-06,Cotton Spinning & Yarns,42.0,NONE,0.104,0.218,0.395,3.7,42.2,30.6,Neutral Precursor Structure
+2026-07-06,Crop Protection Agrochemicals,22.4,NONE,0.065,0.14,0.248,4.1,27.7,6.2,Neutral Precursor Structure
+2026-07-06,Crop Protection Formulations,34.5,NONE,0.089,0.188,0.339,3.8,44.4,13.6,Neutral Precursor Structure
+2026-07-06,Decorative Paints,25.4,NONE,0.071,0.152,0.27,4.0,36.1,12.5,Neutral Precursor Structure
+2026-07-06,Defence Electronics & Radars,59.3,WATCH,0.139,0.287,0.525,3.3,80.8,80.0,Strong Accumulation Pressure | High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Diagnostic & Pathology Labs,41.6,NONE,0.103,0.216,0.392,3.7,49.9,21.4,Neutral Precursor Structure
+2026-07-06,Diamond & Studded Jewellery,14.1,NONE,0.05,0.106,0.186,4.2,28.0,40.0,Neutral Precursor Structure
+2026-07-06,Diversified Consumer & MSME NBFC,55.0,WATCH,0.13,0.27,0.492,3.4,56.4,41.0,Neutral Precursor Structure
+2026-07-06,Domestic & Consumer Appliances EMS,41.0,NONE,0.102,0.214,0.388,3.7,40.8,30.0,Neutral Precursor Structure
+2026-07-06,Edible Oils & Vanaspati,75.2,PRE-BREAKOUT,0.17,0.351,0.644,3.0,76.7,40.6,Strong Accumulation Pressure
+2026-07-06,Education Academies & Publishing,49.2,NONE,0.118,0.247,0.449,3.5,55.5,39.3,Neutral Precursor Structure
+2026-07-06,Electric Vehicles (EV),28.3,NONE,0.077,0.163,0.292,3.9,25.9,35.7,Neutral Precursor Structure
+2026-07-06,Engineering R&D (ER&D),75.7,PRE-BREAKOUT,0.171,0.353,0.648,3.0,89.0,56.2,Strong Accumulation Pressure | Broad Breadth Expansion
+2026-07-06,Enterprise Software & SaaS,23.5,NONE,0.067,0.144,0.256,4.0,26.1,13.0,Neutral Precursor Structure
+2026-07-06,Fashion Apparel Retail,24.2,NONE,0.068,0.147,0.262,4.0,37.3,0.0,Neutral Precursor Structure
+2026-07-06,Fast Moving Electrical Goods (FMEG),38.0,NONE,0.096,0.202,0.365,3.7,39.5,35.7,Neutral Precursor Structure
+2026-07-06,Ferro Alloys & Secondary Metals,15.9,NONE,0.052,0.114,0.199,4.2,23.6,28.6,Neutral Precursor Structure
+2026-07-06,Fertilizers & Soil Nutrients,14.4,NONE,0.05,0.108,0.188,4.2,15.3,10.0,Neutral Precursor Structure
+2026-07-06,Film Theatres & Broadcast Media,26.7,NONE,0.073,0.157,0.28,4.0,24.0,35.7,Neutral Precursor Structure
+2026-07-06,Finished Formulations,57.9,WATCH,0.136,0.282,0.514,3.3,55.2,44.1,Neutral Precursor Structure
+2026-07-06,Flexible Packaging Films,49.4,NONE,0.119,0.248,0.45,3.5,53.8,40.0,Neutral Precursor Structure
+2026-07-06,Fluorochemicals,42.2,NONE,0.104,0.219,0.396,3.7,52.1,60.0,Broad Breadth Expansion
+2026-07-06,Footwear Retail Chains,43.4,NONE,0.107,0.224,0.406,3.6,50.8,6.2,Neutral Precursor Structure
+2026-07-06,Freight Forwarding & Multi-Modal Cargo,40.4,NONE,0.101,0.212,0.383,3.7,39.1,33.3,Neutral Precursor Structure
+2026-07-06,Furniture & Mattresses,40.0,NONE,0.1,0.21,0.38,3.7,41.4,28.6,Neutral Precursor Structure
+2026-07-06,Garments & Apparel Exports,34.8,NONE,0.09,0.189,0.341,3.8,37.1,18.6,Neutral Precursor Structure
+2026-07-06,General & Health Insurance,12.2,NONE,0.05,0.1,0.172,4.3,15.5,10.0,Neutral Precursor Structure
+2026-07-06,Gold Jewellery & Retail,47.3,NONE,0.115,0.239,0.435,3.6,56.8,26.5,Neutral Precursor Structure
+2026-07-06,Green Energy Generation (IPP),45.3,NONE,0.111,0.231,0.42,3.6,47.7,20.0,Neutral Precursor Structure
+2026-07-06,Grocery & Departmental Stores,27.6,NONE,0.075,0.16,0.287,3.9,22.1,35.0,Neutral Precursor Structure
+2026-07-06,Heavy Infrastructure EPC,53.5,NONE,0.127,0.264,0.481,3.4,62.1,23.1,Neutral Precursor Structure
+2026-07-06,Heavy Process Equipment & Machinery,50.3,NONE,0.121,0.251,0.457,3.5,47.6,50.0,Neutral Precursor Structure
+2026-07-06,Heavy Process Plant Equipment,53.0,NONE,0.126,0.262,0.478,3.4,68.9,28.6,Neutral Precursor Structure
+2026-07-06,Heavy Switchgear & Automation,43.2,NONE,0.106,0.223,0.404,3.6,46.3,38.5,Neutral Precursor Structure
+2026-07-06,Home Appliances (White Goods),43.2,NONE,0.106,0.223,0.404,3.6,43.5,33.3,Neutral Precursor Structure
+2026-07-06,Home Textiles,52.5,NONE,0.125,0.26,0.474,3.4,40.0,50.0,Neutral Precursor Structure
+2026-07-06,Hospitals & Healthcare Chains,44.7,NONE,0.109,0.229,0.415,3.6,45.7,36.7,Neutral Precursor Structure
+2026-07-06,Housing Finance (HFC),41.7,NONE,0.103,0.217,0.393,3.7,42.0,32.1,Neutral Precursor Structure
+2026-07-06,IMFL Spirits & Distilleries,40.7,NONE,0.101,0.213,0.385,3.7,44.2,35.7,Neutral Precursor Structure
+2026-07-06,IT Distribution & Enterprise Infra,28.3,NONE,0.077,0.163,0.292,3.9,59.7,30.0,Neutral Precursor Structure
+2026-07-06,Industrial & Basic Chemicals,45.2,NONE,0.11,0.231,0.419,3.6,48.2,30.2,Neutral Precursor Structure
+2026-07-06,Industrial Compressors & Pumps,47.4,NONE,0.115,0.24,0.436,3.6,54.7,33.3,Neutral Precursor Structure
+2026-07-06,"Industrial Effluent, Desalination & ZLD",44.5,NONE,0.109,0.228,0.414,3.6,38.8,45.5,Neutral Precursor Structure
+2026-07-06,Industrial Minerals,34.6,NONE,0.089,0.188,0.34,3.8,33.7,33.3,Neutral Precursor Structure
+2026-07-06,Integrated Grey Cement,25.4,NONE,0.071,0.152,0.27,4.0,26.6,23.1,Neutral Precursor Structure
+2026-07-06,Kitchen Homeware & Cookware,24.2,NONE,0.068,0.147,0.262,4.0,20.9,25.0,Neutral Precursor Structure
+2026-07-06,Life Insurance,13.0,NONE,0.05,0.102,0.178,4.2,19.9,0.0,Neutral Precursor Structure
+2026-07-06,Liquid Milk & Value-Added Dairy,27.6,NONE,0.075,0.16,0.287,3.9,25.6,20.0,Neutral Precursor Structure
+2026-07-06,Luxury Hotels & Resorts,31.0,NONE,0.082,0.174,0.312,3.9,32.8,18.2,Neutral Precursor Structure
+2026-07-06,Marine Offshore Vessels & Tugs,32.8,NONE,0.086,0.181,0.326,3.8,43.8,62.5,Broad Breadth Expansion
+2026-07-06,Material Handling & Cranes,43.6,NONE,0.107,0.224,0.407,3.6,56.9,11.1,Neutral Precursor Structure
+2026-07-06,Medical Clinics & Equipment,40.7,NONE,0.101,0.213,0.385,3.7,52.6,18.8,Neutral Precursor Structure
+2026-07-06,Metals & Fabrication,69.1,EARLY,0.158,0.326,0.598,3.1,85.6,66.7,Strong Accumulation Pressure | High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Micro-Irrigation & Agri-Plastics,21.8,NONE,0.064,0.137,0.244,4.1,32.1,0.0,Neutral Precursor Structure
+2026-07-06,Microfinance (MFI),65.6,EARLY,0.151,0.312,0.572,3.2,85.5,100.0,Strong Accumulation Pressure | High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Mid-Tier IT & Digital Solutions,37.2,NONE,0.094,0.199,0.359,3.8,41.3,24.0,Neutral Precursor Structure
+2026-07-06,Missiles & Military Explosives,52.4,NONE,0.125,0.26,0.473,3.5,69.1,83.3,High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Music Labels & VFX Studios,46.6,NONE,0.113,0.236,0.43,3.6,49.6,28.6,Neutral Precursor Structure
+2026-07-06,Mutual Fund Asset Managers (AMC),45.7,NONE,0.111,0.233,0.423,3.6,50.3,33.3,Neutral Precursor Structure
+2026-07-06,Oil & Gas Exploration (E&P),35.8,NONE,0.092,0.193,0.348,3.8,31.3,42.9,Neutral Precursor Structure
+2026-07-06,Online Travel Agency (OTA) & Flight Booking,25.7,NONE,0.071,0.153,0.273,4.0,34.7,10.0,Neutral Precursor Structure
+2026-07-06,Optical Fiber & Telecom Infrastructure,63.1,WATCH,0.146,0.302,0.553,3.2,62.2,40.6,Neutral Precursor Structure
+2026-07-06,Packaged Foods & Snacks,41.7,NONE,0.103,0.217,0.393,3.7,41.4,32.1,Neutral Precursor Structure
+2026-07-06,Paperboard & Packaging Cartons,17.4,NONE,0.055,0.12,0.21,4.2,23.0,16.7,Neutral Precursor Structure
+2026-07-06,Passenger Vehicles (Cars & SUVs),14.3,NONE,0.05,0.107,0.187,4.2,28.6,66.7,High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Personal Care & Soaps,37.7,NONE,0.095,0.201,0.363,3.7,45.0,20.0,Neutral Precursor Structure
+2026-07-06,Pigments & Dyes,22.2,NONE,0.064,0.139,0.246,4.1,26.3,14.3,Neutral Precursor Structure
+2026-07-06,Plywood & Laminates,67.4,EARLY,0.155,0.32,0.586,3.2,70.4,41.2,Strong Accumulation Pressure
+2026-07-06,Power & Distribution Transformers,53.8,NONE,0.128,0.265,0.484,3.4,52.8,44.4,Neutral Precursor Structure
+2026-07-06,Precision Auto Engine Components,41.6,NONE,0.103,0.216,0.392,3.7,42.6,36.5,Neutral Precursor Structure
+2026-07-06,Precision Bearings & Motion Controls,44.1,NONE,0.108,0.226,0.411,3.6,43.1,75.0,High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Precision Defence Machining,46.2,NONE,0.112,0.235,0.427,3.6,75.0,83.3,Strong Accumulation Pressure | High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Precision Machine Tools & Fasteners,44.6,NONE,0.109,0.228,0.415,3.6,47.9,28.6,Neutral Precursor Structure
+2026-07-06,Precision Metal Fabrication,18.4,NONE,0.057,0.124,0.218,4.1,20.7,0.0,Neutral Precursor Structure
+2026-07-06,Precision Powertrain Engine Components,35.8,NONE,0.092,0.193,0.348,3.8,36.5,36.4,Neutral Precursor Structure
+2026-07-06,Primary Aluminium,41.3,NONE,0.103,0.215,0.39,3.7,56.2,65.0,High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Print Media & Publishing,15.2,NONE,0.05,0.111,0.194,4.2,14.0,10.0,Neutral Precursor Structure
+2026-07-06,Printed Circuit Boards (PCBA) & Components,39.6,NONE,0.099,0.208,0.377,3.7,46.9,60.0,Broad Breadth Expansion
+2026-07-06,Private Sector Banks,58.2,WATCH,0.136,0.283,0.516,3.3,68.9,69.6,High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-07-06,Public Sector Banks (PSU),41.9,NONE,0.104,0.218,0.394,3.7,42.4,63.6,Broad Breadth Expansion
+2026-07-06,Pumps & Compressors,59.9,WATCH,0.14,0.29,0.529,3.3,68.4,36.4,Neutral Precursor Structure
+2026-07-06,Railway Signaling & Track EPC,29.3,NONE,0.079,0.167,0.3,3.9,27.8,8.3,Neutral Precursor Structure
+2026-07-06,Refining & Petrochemicals,73.9,EARLY,0.168,0.346,0.634,3.0,80.9,44.7,Strong Accumulation Pressure
+2026-07-06,Regional Cement & RMC,15.4,NONE,0.051,0.112,0.196,4.2,18.4,13.2,Neutral Precursor Structure
+2026-07-06,Residential Real Estate,46.4,NONE,0.113,0.236,0.428,3.6,53.0,26.8,Neutral Precursor Structure
+2026-07-06,Residential Townships & Commercial REITs,34.2,NONE,0.088,0.187,0.336,3.8,42.4,20.0,Neutral Precursor Structure
+2026-07-06,Roads & Highways EPC,32.6,NONE,0.085,0.18,0.324,3.8,39.1,25.0,Neutral Precursor Structure
+2026-07-06,"Rolling Stock, Wagons & Vande Bharat Trainsets",38.1,NONE,0.096,0.202,0.366,3.7,48.1,18.8,Neutral Precursor Structure
+2026-07-06,Secondary Steel & TMT Rebars,60.2,WATCH,0.14,0.291,0.532,3.3,59.1,46.5,Neutral Precursor Structure
+2026-07-06,Solar PV & Green Hydrogen,25.4,NONE,0.071,0.152,0.27,4.0,24.7,20.8,Neutral Precursor Structure
+2026-07-06,Specialty Chemicals,44.6,NONE,0.109,0.228,0.415,3.6,47.2,27.0,Neutral Precursor Structure
+2026-07-06,Specialty Retail Boutiques,46.2,NONE,0.112,0.235,0.427,3.6,46.0,41.7,Neutral Precursor Structure
+2026-07-06,Sports & Athleisure Footwear,35.5,NONE,0.091,0.192,0.346,3.8,32.3,30.0,Neutral Precursor Structure
+2026-07-06,Staffing & Security Services,42.2,NONE,0.104,0.219,0.396,3.7,41.8,44.4,Neutral Precursor Structure
+2026-07-06,Staffing & Workforce Security,40.5,NONE,0.101,0.212,0.384,3.7,38.7,35.7,Neutral Precursor Structure
+2026-07-06,Steel Pipes & Tubes,67.2,EARLY,0.154,0.319,0.584,3.2,70.4,41.9,Strong Accumulation Pressure
+2026-07-06,Stockbroking & Wealth Management,41.7,NONE,0.103,0.217,0.393,3.7,47.8,25.0,Neutral Precursor Structure
+2026-07-06,Sugar Refining & Bio-Ethanol,69.8,EARLY,0.16,0.329,0.603,3.1,85.1,30.3,Strong Accumulation Pressure
+2026-07-06,Tea & Coffee Plantations,16.1,NONE,0.052,0.114,0.201,4.2,23.1,6.2,Neutral Precursor Structure
+2026-07-06,Tea Plantations & Packaging,35.7,NONE,0.091,0.193,0.348,3.8,42.3,42.5,Neutral Precursor Structure
+2026-07-06,Telecom Cellular Operators,29.3,NONE,0.079,0.167,0.3,3.9,36.1,30.0,Neutral Precursor Structure
+2026-07-06,Television Broadcasting & OTT,27.3,NONE,0.075,0.159,0.285,4.0,33.3,15.4,Neutral Precursor Structure
+2026-07-06,Tertiary Hospitals & Clinics,15.6,NONE,0.051,0.112,0.197,4.2,35.1,28.6,Neutral Precursor Structure
+2026-07-06,Tier-1 IT Services,26.9,NONE,0.074,0.158,0.282,4.0,24.1,8.3,Neutral Precursor Structure
+2026-07-06,Wealth Broking & Advisory,30.9,NONE,0.082,0.174,0.312,3.9,33.3,35.7,Neutral Precursor Structure
+2026-07-06,Wind Turbines & Wind Energy,48.4,NONE,0.117,0.244,0.443,3.5,64.5,10.0,Neutral Precursor Structure
+2026-07-06,Wires & Cables,60.4,WATCH,0.141,0.292,0.533,3.3,82.0,55.4,Strong Accumulation Pressure | Broad Breadth Expansion
+2026-07-06,Zinc & Non-Ferrous Alloys,60.0,WATCH,0.14,0.29,0.53,3.3,65.4,50.0,Broad Breadth Expansion

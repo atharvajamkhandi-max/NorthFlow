@@ -1,0 +1,7 @@
+test_name,iterations,success_rate_pct,avg_time_ms,status,max_heap_mb,crashes_logged,bit_exact_matches
+Full Market Universe Loading (289 Industries),238,100.0,14.2,PASSED,,,
+Consecutive Day Replay Execution,238,100.0,28.5,PASSED,,,
+Concurrent Forecast Query Simulation,500,100.0,11.0,PASSED,,,
+Memory Leak & Heap Stability,238,100.0,,PASSED,148.5,,
+Crash & Exception Free Guarantee,238,100.0,,PASSED,,0.0,
+Deterministic Output Checksum Match,238,100.0,,PASSED,,,238.0

@@ -1,0 +1,4 @@
+recommendation,count,pct_of_total,avg_actual_return_pct,median_actual_return_pct,success_hit_rate_pct
+BUY,2901,9.52,0.77,-0.2,49.22
+SELL,5005,16.43,-3.24,-3.02,68.31
+HOLD,22557,74.05,-2.11,-2.02,37.51

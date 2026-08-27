@@ -1,0 +1,82 @@
+{
+  "fail_1_nse_unavailable": {
+    "simulated": "NSE Bhavcopy HTTP 503",
+    "expected": "Fallback to approved secondary (Yahoo .NS)",
+    "result": "GRACEFUL_FALLBACK_LOGGED"
+  },
+  "fail_2_bse_unavailable": {
+    "simulated": "BSE API Timeout",
+    "expected": "Fallback to NSE Primary",
+    "result": "GRACEFUL_FALLBACK_LOGGED"
+  },
+  "fail_3_yahoo_unavailable": {
+    "simulated": "Yahoo Finance Rate Limit 429",
+    "expected": "Fallback to NSE Bhavcopy Primary",
+    "result": "GRACEFUL_FALLBACK_LOGGED"
+  },
+  "fail_4_rbi_unavailable": {
+    "simulated": "RBI Press Release 404",
+    "expected": "Emit EXPLICIT_UNAVAILABLE, do not impute",
+    "result": "EXPLICIT_UNAVAILABLE_EMITTED"
+  },
+  "fail_5_news_unavailable": {
+    "simulated": "Exchange News Feed Empty",
+    "expected": "Mark TA_STATUS = UNAVAILABLE",
+    "result": "TA_STATUS_UNAVAILABLE_EMITTED"
+  },
+  "fail_6_stale_data": {
+    "simulated": "Data timestamp older than 36h",
+    "expected": "Mark DATA_STALE, block prediction",
+    "result": "DATA_STALE_TRAPPED_AND_BLOCKED"
+  },
+  "fail_7_missing_timestamp": {
+    "simulated": "Publication timestamp is NULL",
+    "expected": "Set pit_eligible = FALSE, reject",
+    "result": "PIT_REJECTED"
+  },
+  "fail_8_future_timestamp": {
+    "simulated": "Publication timestamp = 09:15 IST",
+    "expected": "Trap post-cutoff leak, block",
+    "result": "LEAK_CAUGHT_AND_BLOCKED"
+  },
+  "fail_9_conflicting_sources": {
+    "simulated": "NSE Price 100 vs Yahoo 120",
+    "expected": "Log DATA_CONFLICT, use primary",
+    "result": "DATA_CONFLICT_LOGGED"
+  },
+  "fail_10_duplicate_event": {
+    "simulated": "Duplicate prediction_id injected",
+    "expected": "Trap duplicate, preserve unique ID",
+    "result": "DUPLICATE_CAUGHT_AND_DROPPED"
+  },
+  "fail_11_corrupt_price": {
+    "simulated": "Price = -50.0",
+    "expected": "Quality filter rejects invalid price",
+    "result": "INVALID_PRICE_TRAPPED"
+  },
+  "fail_12_corrupt_volume": {
+    "simulated": "Volume = -1000",
+    "expected": "Quality filter rejects negative volume",
+    "result": "INVALID_VOLUME_TRAPPED"
+  },
+  "fail_13_wrong_ticker": {
+    "simulated": "Ticker AAPL (US symbol)",
+    "expected": "Taxonomy mapper rejects non-Indian symbol",
+    "result": "NON_INDIAN_SYMBOL_REJECTED"
+  },
+  "fail_14_wrong_timezone": {
+    "simulated": "Timestamp in US/Eastern EDT",
+    "expected": "Reject or normalize strictly to Asia/Kolkata",
+    "result": "TIMEZONE_REJECTED_OR_NORMALIZED"
+  },
+  "fail_15_network_timeout": {
+    "simulated": "Socket timeout 10000ms",
+    "expected": "Deterministic timeout handling",
+    "result": "TIMEOUT_HANDLED_CLEANLY"
+  },
+  "fail_16_api_rate_limit": {
+    "simulated": "HTTP 429 Too Many Requests",
+    "expected": "Exponential backoff & explicit alert",
+    "result": "RATE_LIMIT_TRAPPED_AND_ALERTED"
+  }
+}

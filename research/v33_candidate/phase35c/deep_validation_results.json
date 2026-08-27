@@ -1,0 +1,20 @@
+{
+  "baseline_v32": {
+    "20D_directional_accuracy": 52.28760687052299,
+    "20D_bias": -0.007494993452976944,
+    "20D_p10_p90_coverage": 68.52229839020258,
+    "60D_bias": 4.882178126541026,
+    "60D_mae": 19.359614716665597,
+    "strong_buy_vs_avoid_spread_bps": 324.083997125323
+  },
+  "deep_validation_test_set": {
+    "test_sample_size": 10970,
+    "test_raw_p10_p90_coverage": 67.0556061987238,
+    "test_calibrated_p10_p90_coverage": 77.87602552415679,
+    "test_raw_60D_bias": 7.076500300145786,
+    "test_regime_calibrated_60D_bias": -1.2316161383464843,
+    "high_conviction_20D_directional_accuracy": 42.61173387683797,
+    "high_conviction_sb_spread_bps": 324.083997125323,
+    "industry_improvement_rate": 100.0
+  }
+}

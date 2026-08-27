@@ -1,0 +1,6 @@
+Breadth_Threshold,Eligible_Industries_Count,Total_Observations,Rank_IC,Top_Decile_Return,Bottom_Decile_Return,Decile_Spread,Status
+N >= 3,85,32430,0.0687,-3.61,-6.02,2.41,RESEARCH_COMPARISON
+N >= 5,73,26815,0.0456,-4.35,-6.06,1.71,PRIMARY_DEFAULT
+N >= 7,68,23591,0.0508,-4.35,-6.03,1.68,RESEARCH_COMPARISON
+N >= 10,54,17656,0.0388,-4.79,-6.36,1.57,RESEARCH_COMPARISON
+N >= 15,33,10714,0.0418,-4.8,-6.45,1.65,RESEARCH_COMPARISON

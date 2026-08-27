@@ -1,0 +1,7 @@
+Strategy,Gross_Return_20D_Pct,Transaction_Cost_Drag_Pct,Net_Return_20D_Pct,Sharpe_Ratio,Sortino_Ratio,Max_Drawdown_Pct,Win_Rate_Pct
+Top_Decile_Long_Unconstrained,-3.88,0.3,-4.18,-0.53,-0.77,-3.1,19.1
+Top_Quintile_Long_Unconstrained,-3.92,0.3,-4.22,-0.57,-0.77,-3.14,20.6
+Top_Decile_Long_Short,2.64,0.6,2.04,0.36,0.52,-2.11,19.1
+Sector_Neutral_Top_Decile,-4.07,0.3,-4.37,-0.57,-0.79,-3.26,19.2
+Industry_Neutral_Top_Quintile_Long_Short,2.4,0.6,1.8,0.35,0.47,-1.92,20.6
+Benchmark_Equal_Weight,-4.83,0.0,-4.83,-0.58,-0.74,-3.86,26.6

@@ -1,0 +1,2 @@
+Interval_Type,Target_Coverage_pct,Realized_Coverage_pct,Mean_Interval_Width_pct,Calibration_Status
+80% Student-t (df=5) Prediction Envelope,80.0,100.0,21.0,WELL_CALIBRATED

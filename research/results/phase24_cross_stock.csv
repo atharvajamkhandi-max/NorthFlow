@@ -1,0 +1,5 @@
+Constituent_Participation,Sample_Count,Precision@5,Avg_5D_Return,Signal_Validity
+1-Stock Dominated (< 20% Breadth),2450,10.4%,+0.25%,FALSE_ALARM (REJECTED)
+2-Stock Participation (20% - 35%),4120,13.8%,+0.85%,WEAK_COINCIDENCE
+>= 40% Constituents Moving,8450,18.5%,+1.85%,VALIDATED_SECTOR_ACCUMULATION
+>= 60% Constituents Synchronized,3820,24.2%,+2.75%,HIGH_CONVICTION_SYNC

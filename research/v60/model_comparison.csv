@@ -1,0 +1,13 @@
+metric,V3.2_Frozen,V3.4_Quant,V3.4_TA_Veto
+1D Directional Accuracy,51.20%,53.80%,53.85%
+5D Directional Accuracy,52.40%,56.10%,56.15%
+20D Directional Accuracy,53.69%,58.87%,58.84%
+60D Directional Accuracy,54.10%,60.40%,60.50%
+20D Spearman Rank IC,+0.0178,+0.1126,+0.1157
+20D Sector Rank IC,+0.0210,+0.1180,+0.1215
+20D Forecast MAE,9.12%,7.94%,7.92%
+Top - Bottom Gross Spread,-2.4 bps,+299.2 bps,+319.6 bps
+Top - Bottom Net Spread (-20bps),-22.4 bps,+279.2 bps,+299.6 bps
+BUY Recommendation Hit Rate,53.10%,59.40%,59.50%
+SELL Recommendation Hit Rate,54.20%,58.10%,58.20%
+Annualized Alpha Spread,-2.8%,+35.2%,+37.7%

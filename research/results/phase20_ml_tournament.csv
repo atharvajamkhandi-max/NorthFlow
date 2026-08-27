@@ -1,0 +1,4 @@
+Model,ROC_AUC_2025,PR_AUC_2025,Brier_Score,Precision_At_Top5,Lift_vs_Baseline
+Logistic_Regression,0.512,0.11,0.0947,13.2%,1.32x
+Random_Forest,0.552,0.12,0.0943,15.1%,1.51x
+Gradient_Boosting,0.569,0.122,0.0947,13.6%,1.36x

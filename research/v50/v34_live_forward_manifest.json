@@ -1,0 +1,59 @@
+{
+  "model_version": "MODEL_V3.4_RESEARCH_CANDIDATE",
+  "spec_version": "5.0.0-FROZEN-V34-CANDIDATE",
+  "manifest_timestamp": "2026-08-26T23:10:00",
+  "feature_set": [
+    "feat_mom_1d",
+    "feat_breadth",
+    "feat_risk",
+    "feat_conf",
+    "feat_mom_x_breadth",
+    "feat_mom_x_risk",
+    "feat_breadth_x_risk",
+    "feat_accel_proxy"
+  ],
+  "sub_models": {
+    "regressor_hgb": {
+      "type": "HistGradientBoostingRegressor",
+      "weight": 0.5,
+      "params": {
+        "max_iter": 80,
+        "max_depth": 4,
+        "l2_regularization": 2.0,
+        "learning_rate": 0.1,
+        "random_state": 42
+      }
+    },
+    "regressor_extratrees": {
+      "type": "ExtraTreesRegressor",
+      "weight": 0.3,
+      "params": {
+        "n_estimators": 80,
+        "max_depth": 6,
+        "min_samples_leaf": 5,
+        "random_state": 42
+      }
+    },
+    "classifier_hgb": {
+      "type": "HistGradientBoostingClassifier",
+      "weight": 0.2,
+      "params": {
+        "max_iter": 80,
+        "max_depth": 4,
+        "l2_regularization": 2.0,
+        "learning_rate": 0.1,
+        "random_state": 42
+      }
+    }
+  },
+  "conformal_multiplier": 1.3,
+  "regime_conditional_routing": {
+    "BULL": "MULTI_TASK_STACK",
+    "BEAR": "MULTI_TASK_STACK",
+    "HIGH_VOLATILITY": "MULTI_TASK_STACK",
+    "SIDEWAYS": "V32_BASE"
+  },
+  "online_learning_prohibited": true,
+  "historical_source_hash": "52019b780e8b9d714e8f926063dce725541b27335dec47b7f6e66346520bca6b",
+  "manifest_hash": "abadd726ba035e29b010efb654308ebcd184e9fc5e39d7f73789feafb7431919"
+}

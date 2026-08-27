@@ -1,0 +1,16 @@
+category,source_name,provider,endpoint,frequency,timestamp_avail,current_usage,status
+OHLCV / Prices,Yahoo Finance (yfinance),Yahoo Finance / NSE,yfinance.download(),Daily EOD,Market Close (15:30 IST),Production & Shadow Baseline,VERIFIED
+Trading Volume,Yahoo Finance (yfinance),Yahoo Finance / NSE,yfinance.download(),Daily EOD,Market Close (15:30 IST),Production & Shadow Baseline,VERIFIED
+Delivery Volume %,NSE Daily Bhavcopy / Security-wise Delivery,NSE India,nseindia.com/reports/bhavcopy,Daily EOD (18:30 IST),Official Filing Time,Research Feature V3.4,VERIFIED
+Market Indices (NIFTY/BANKNIFTY),"NSE Index Data (^NSEI, ^NSEBANK)",NSE / Yahoo,yfinance.download('^NSEI'),Daily EOD,Market Close (15:30 IST),Regime Detection & Benchmark,VERIFIED
+India VIX,NSE India VIX (^INDIAVIX),NSE / Yahoo,yfinance.download('^INDIAVIX'),Daily EOD,Market Close (15:30 IST),Volatility Regime Detection,VERIFIED
+FII / DII Daily Flows,NSE / NSDL / CDSL Daily Flow Reports,NSE / NSDL,nseindia.com/reports/fii-dii,Daily EOD (19:00 IST),Official Filing Time,Research Feature V3.4,VERIFIED
+Industry Classification,NorthFlow Master Classification V3,NSE / BSE Taxonomy,SQLite market_flow.db,Quarterly / Static,Curated Point-in-Time,Production & Shadow Universe (289 Industries),VERIFIED
+Market Breadth (Advance/Decline),Aggregated Industry Breadth Engine,Internal Market Flow DB,breadth_calculator.py,Daily Pre-Market,08:30 IST Pre-Market Freeze,Production & Shadow Alpha Feature,VERIFIED
+Corporate Announcements & Filings,NSE Corporate Announcements API,NSE India,nseindia.com/api/corporate-announcements,Real-Time / Continuous,Exchange Ingestion Timestamp,TradingAgents Risk Audit,PARTIALLY_VERIFIED
+Corporate Actions (Dividends/Splits),NSE Corporate Actions Data,NSE / yfinance,yfinance.Ticker.actions,Daily / Ex-Date,Ex-Date 09:00 IST,Price Adjustment & Veto Layer,VERIFIED
+Macroeconomic (RBI Repo Rate),RBI Monetary Policy Committee Releases,Reserve Bank of India,rbi.org.in/pressreleases,Bi-Monthly MPC Schedule,Official 10:00 IST Press Release,Macro Regime Indicator,VERIFIED
+Macroeconomic (CPI / WPI / IIP),MoSPI Economic Releases,Ministry of Statistics (MoSPI),mospi.gov.in/press-release,Monthly (12th / 14th of month),Official 17:30 IST Release Time,Macro Regime Indicator,VERIFIED
+SEBI Surveillance (ASM / GSM Lists),NSE / BSE Surveillance Lists,SEBI / NSE,nseindia.com/reports/surveillance,Daily / Weekly Circulars,Circular Publication Timestamp,TradingAgents Governance Veto,VERIFIED
+Indian Financial News,Yahoo Finance India / Economic Times RSS,Yahoo / ET / Moneycontrol,news_scraper / RSS,Continuous,Article Publication Timestamp,TradingAgents Qualitative Audit,PARTIALLY_VERIFIED
+Social Sentiment (Reddit/Twitter),Reddit / Stocktwits (Upstream TA Default),Reddit API / US Platforms,"r/wallstreetbets, r/stocks",Continuous,Post Timestamp,Upstream Default (REJECTED FOR INDIA),REJECTED

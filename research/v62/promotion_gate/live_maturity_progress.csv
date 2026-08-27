@@ -1,0 +1,4 @@
+criterion,required_minimum,current_accumulated,progress_pct,status
+Live Forward Sessions,20,4,20.0,IN_PROGRESS
+20D Matured Live Observations,2800,0,0.0,AWAITING_HORIZON
+TradingAgents Live Veto Sample,100,8,8.0,INSUFFICIENT_SAMPLE

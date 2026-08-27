@@ -1,0 +1,46 @@
+{
+  "evaluation_timestamp": "2026-08-25T01:09:00",
+  "live_sessions_captured": 1,
+  "matured_20d_sessions": 0,
+  "matured_60d_sessions": 0,
+  "gates": {
+    "gate_1_min_60_live_sessions": {
+      "required": 60,
+      "observed": 1,
+      "passed": false,
+      "comment": "1 live session captured; pending 59 additional forward trading sessions."
+    },
+    "gate_2_min_40_matured_20d_sessions": {
+      "required": 40,
+      "observed": 0,
+      "passed": false,
+      "comment": "0 matured 20D sessions; outcomes mature at T+20."
+    },
+    "gate_3_min_60_matured_60d_sessions": {
+      "required": 60,
+      "observed": 0,
+      "passed": false,
+      "comment": "0 matured 60D sessions; outcomes mature at T+60."
+    },
+    "gate_4_zero_lookahead_violations": {
+      "required": 0,
+      "observed": 0,
+      "passed": true,
+      "comment": "Zero lookahead violations confirmed."
+    },
+    "gate_5_zero_production_mutations": {
+      "required": 0,
+      "observed": 0,
+      "passed": true,
+      "comment": "Production DBs, models, and scoring 100% intact."
+    },
+    "gate_6_zero_online_learning": {
+      "required": true,
+      "observed": true,
+      "passed": true,
+      "comment": "Candidate model parameters remain 100% frozen."
+    }
+  },
+  "mandatory_final_decision": "B. CONTINUE TRUE LIVE-FORWARD SHADOW",
+  "action_required": "Continue daily immutable shadow logging on each live trading day. Do NOT deploy."
+}

@@ -1,0 +1,136 @@
+as_of_date,industry,current_strength,forward_opportunity,best_horizon,exp_20d,p_gt_8pct,p_gt_15pct,p10,p50,p90,opportunity_class,is_frozen
+2026-08-21,API & CDMO / CRAMS,30.4,35.7,90D (Sparse),-1.07,2.9,0.5,-6.38,-1.07,4.24,AVOID,1
+2026-08-21,Aerospace & Defence,23.0,33.9,90D (Sparse),-1.28,2.8,0.5,-6.59,-1.28,4.04,AVOID,1
+2026-08-21,Affordable Housing Finance Company,1.2,22.5,90D (Sparse),-3.77,1.5,0.5,-9.09,-3.77,1.54,INSUFFICIENT DATA,1
+2026-08-21,Agrochemicals & Pesticides,-0.5,21.9,90D (Sparse),-3.64,1.5,0.5,-8.95,-3.64,1.67,AVOID,1
+2026-08-21,Air Conditioners & AC Components,6.7,24.8,90D (Sparse),-2.96,1.7,0.5,-8.28,-2.96,2.35,AVOID,1
+2026-08-21,Air Conditioners & Appliances,7.0,26.4,90D (Sparse),-2.79,1.8,0.5,-8.1,-2.79,2.52,AVOID,1
+2026-08-21,Aluminium & Mining,19.0,31.9,90D (Sparse),-1.83,2.4,0.5,-7.14,-1.83,3.48,AVOID,1
+2026-08-21,Asset Management & Wealth,42.3,53.6,5D,1.22,6.1,0.8,-4.09,1.22,6.54,STRONG OPPORTUNITY,1
+2026-08-21,Asset Management Company (AMC),18.1,36.2,90D (Sparse),-1.54,2.6,0.5,-6.85,-1.54,3.78,AVOID,1
+2026-08-21,Auto Glass,38.9,39.0,90D (Sparse),-0.08,4.0,0.6,-5.39,-0.08,5.23,INSUFFICIENT DATA,1
+2026-08-21,Auto Lighting,-1.2,23.0,90D (Sparse),-3.91,1.5,0.5,-9.22,-3.91,1.4,INSUFFICIENT DATA,1
+2026-08-21,Auto Parts & Equipment,23.2,31.9,90D (Sparse),-1.67,2.5,0.5,-6.98,-1.67,3.65,AVOID,1
+2026-08-21,Automobile OEMs,27.0,35.9,90D (Sparse),-1.19,2.8,0.5,-6.5,-1.19,4.12,AVOID,1
+2026-08-21,Automobile and Auto Components,22.1,32.2,90D (Sparse),-1.7,2.4,0.5,-7.02,-1.7,3.61,AVOID,1
+2026-08-21,Banks,19.9,33.7,90D (Sparse),-1.65,2.5,0.5,-6.97,-1.65,3.66,AVOID,1
+2026-08-21,Batteries,14.4,30.4,90D (Sparse),-2.03,2.2,0.5,-7.34,-2.03,3.28,AVOID,1
+2026-08-21,Batteries & Energy Storage,27.8,41.0,90D (Sparse),-0.3,3.7,0.6,-5.61,-0.3,5.01,INSUFFICIENT DATA,1
+2026-08-21,Bearings & Friction Solutions,18.0,31.3,90D (Sparse),-1.89,2.3,0.5,-7.2,-1.89,3.43,AVOID,1
+2026-08-21,Breweries & Distilleries,21.8,34.8,90D (Sparse),-1.49,2.6,0.5,-6.81,-1.49,3.82,AVOID,1
+2026-08-21,Capital Goods,25.8,36.1,90D (Sparse),-1.07,2.9,0.5,-6.38,-1.07,4.24,AVOID,1
+2026-08-21,Capital Markets & Asset Management,26.2,39.6,90D (Sparse),-0.78,3.2,0.5,-6.09,-0.78,4.53,AVOID,1
+2026-08-21,Cement,5.8,23.4,90D (Sparse),-3.17,1.6,0.5,-8.48,-3.17,2.14,AVOID,1
+2026-08-21,Cement & Clinker,8.2,26.0,90D (Sparse),-2.91,1.7,0.5,-8.23,-2.91,2.4,AVOID,1
+2026-08-21,Ceramics & Tiles,10.3,26.6,90D (Sparse),-2.66,1.9,0.5,-7.97,-2.66,2.66,AVOID,1
+2026-08-21,Chemicals,15.2,31.1,90D (Sparse),-1.97,2.3,0.5,-7.28,-1.97,3.34,AVOID,1
+2026-08-21,Civil Buildings & Commercial EPC,-3.8,24.5,90D (Sparse),-4.32,1.5,0.5,-9.63,-4.32,0.99,INSUFFICIENT DATA,1
+2026-08-21,Civil Construction & Infrastructure,10.6,26.1,90D (Sparse),-2.76,1.8,0.5,-8.08,-2.76,2.55,AVOID,1
+2026-08-21,Civil Construction & Infrastructure EPC,16.5,30.9,90D (Sparse),-2.01,2.2,0.5,-7.32,-2.01,3.3,AVOID,1
+2026-08-21,Commodity Chemicals,26.8,36.3,90D (Sparse),-1.08,2.9,0.5,-6.39,-1.08,4.23,AVOID,1
+2026-08-21,Construction,24.6,38.1,90D (Sparse),-0.95,3.1,0.5,-6.26,-0.95,4.37,AVOID,1
+2026-08-21,Construction Materials,58.7,53.8,5D,2.36,8.9,1.1,-2.95,2.36,7.67,INSUFFICIENT DATA,1
+2026-08-21,Consumer Durables,25.1,35.7,90D (Sparse),-1.21,2.8,0.5,-6.52,-1.21,4.1,AVOID,1
+2026-08-21,Consumer Services,24.1,35.1,90D (Sparse),-1.41,2.7,0.5,-6.72,-1.41,3.9,AVOID,1
+2026-08-21,Copper & Non-Ferrous Metals,39.2,45.0,90D (Sparse),-0.12,4.0,0.6,-5.43,-0.12,5.19,INSUFFICIENT DATA,1
+2026-08-21,Copper Mining,60.7,59.8,5D,2.61,9.7,1.2,-2.7,2.61,7.92,INSUFFICIENT DATA,1
+2026-08-21,Dairy Products,46.4,52.2,5D,1.46,6.6,0.9,-3.85,1.46,6.77,STRONG OPPORTUNITY,1
+2026-08-21,Data Centers & Real Estate,37.9,41.1,90D (Sparse),-0.22,3.8,0.6,-5.53,-0.22,5.09,INSUFFICIENT DATA,1
+2026-08-21,Diagnostic & Healthcare Laboratories,38.3,41.4,90D (Sparse),-0.24,3.8,0.6,-5.55,-0.24,5.08,INSUFFICIENT DATA,1
+2026-08-21,Diversified & Fashion Retail,18.5,31.6,90D (Sparse),-1.99,2.2,0.5,-7.3,-1.99,3.33,AVOID,1
+2026-08-21,Diversified Commercial,20.7,32.7,90D (Sparse),-1.71,2.4,0.5,-7.02,-1.71,3.6,AVOID,1
+2026-08-21,Diversified Retail,9.2,25.6,90D (Sparse),-2.87,1.7,0.5,-8.18,-2.87,2.44,AVOID,1
+2026-08-21,Edible Oils,20.7,31.5,90D (Sparse),-1.85,2.3,0.5,-7.16,-1.85,3.46,AVOID,1
+2026-08-21,Electronic Manufacturing Services (EMS),22.2,30.9,90D (Sparse),-1.66,2.5,0.5,-6.97,-1.66,3.66,AVOID,1
+2026-08-21,Explosives & Defence Chemicals,19.4,29.5,90D (Sparse),-1.89,2.3,0.5,-7.2,-1.89,3.42,AVOID,1
+2026-08-21,Fast Moving Consumer Goods,19.0,30.8,90D (Sparse),-1.9,2.3,0.5,-7.21,-1.9,3.41,AVOID,1
+2026-08-21,Fertilizers,0.9,24.2,90D (Sparse),-3.75,1.5,0.5,-9.06,-3.75,1.56,AVOID,1
+2026-08-21,Fertilizers & Agrochemicals,8.2,25.0,90D (Sparse),-2.89,1.7,0.5,-8.21,-2.89,2.42,AVOID,1
+2026-08-21,Financial Services,18.8,33.4,90D (Sparse),-1.63,2.5,0.5,-6.94,-1.63,3.68,AVOID,1
+2026-08-21,Footwear,10.5,29.2,90D (Sparse),-2.46,2.0,0.5,-7.77,-2.46,2.85,AVOID,1
+2026-08-21,Gas Distribution,2.4,22.8,90D (Sparse),-3.72,1.5,0.5,-9.03,-3.72,1.59,INSUFFICIENT DATA,1
+2026-08-21,Gas Transmission & Distribution,5.7,22.0,90D (Sparse),-3.43,1.5,0.5,-8.74,-3.43,1.88,AVOID,1
+2026-08-21,Healthcare,22.6,32.7,90D (Sparse),-1.58,2.5,0.5,-6.89,-1.58,3.73,AVOID,1
+2026-08-21,Heavy Electrical Equipment,47.2,40.9,90D (Sparse),-0.06,4.0,0.6,-5.37,-0.06,5.26,INSUFFICIENT DATA,1
+2026-08-21,Hospitals & Diagnostic Centres,21.6,33.4,90D (Sparse),-1.57,2.5,0.5,-6.89,-1.57,3.74,AVOID,1
+2026-08-21,Hospitals & Healthcare Services,0.1,17.6,90D (Sparse),-3.95,1.5,0.5,-9.26,-3.95,1.37,INSUFFICIENT DATA,1
+2026-08-21,Hotels & Restaurants,10.2,27.8,90D (Sparse),-2.64,1.9,0.5,-7.95,-2.64,2.67,AVOID,1
+2026-08-21,"Hotels, Resorts & QSR",31.0,38.7,90D (Sparse),-0.9,3.1,0.5,-6.21,-0.9,4.41,AVOID,1
+2026-08-21,Housing & Urban Infrastructure Financing,-0.4,22.9,90D (Sparse),-3.74,1.5,0.5,-9.05,-3.74,1.58,INSUFFICIENT DATA,1
+2026-08-21,IT Consulting & Software,22.3,35.2,90D (Sparse),-1.37,2.7,0.5,-6.68,-1.37,3.94,AVOID,1
+2026-08-21,Information Technology,14.0,28.4,90D (Sparse),-2.3,2.1,0.5,-7.61,-2.3,3.01,AVOID,1
+2026-08-21,Insurance,14.0,30.4,90D (Sparse),-2.11,2.2,0.5,-7.43,-2.11,3.2,AVOID,1
+2026-08-21,Internet & Digital Platforms,29.3,39.8,90D (Sparse),-0.67,3.3,0.5,-5.98,-0.67,4.65,AVOID,1
+2026-08-21,Iron & Steel,11.5,26.1,90D (Sparse),-2.71,1.8,0.5,-8.03,-2.71,2.6,AVOID,1
+2026-08-21,Logistics & Transportation,18.2,32.3,90D (Sparse),-1.84,2.3,0.5,-7.15,-1.84,3.47,AVOID,1
+2026-08-21,"Logistics, Ports & Supply Chain",23.2,34.0,90D (Sparse),-1.35,2.7,0.5,-6.67,-1.35,3.96,AVOID,1
+2026-08-21,Lubricants & Specialty Oils,31.2,35.6,90D (Sparse),-0.89,3.1,0.5,-6.2,-0.89,4.42,AVOID,1
+2026-08-21,Media & Entertainment,14.0,30.2,90D (Sparse),-2.21,2.1,0.5,-7.52,-2.21,3.11,AVOID,1
+2026-08-21,Media Entertainment & Publication,28.8,37.5,90D (Sparse),-0.54,3.5,0.5,-5.85,-0.54,4.78,AVOID,1
+2026-08-21,Metals & Mining,7.8,24.2,90D (Sparse),-2.87,1.7,0.5,-8.18,-2.87,2.44,AVOID,1
+2026-08-21,Microfinance NBFC,-1.0,23.8,90D (Sparse),-3.62,1.5,0.5,-8.94,-3.62,1.69,INSUFFICIENT DATA,1
+2026-08-21,Mining & Mineral Products,17.5,32.1,90D (Sparse),-1.94,2.3,0.5,-7.25,-1.94,3.38,AVOID,1
+2026-08-21,Non Banking Financial Company (NBFC),18.9,31.6,90D (Sparse),-1.88,2.3,0.5,-7.19,-1.88,3.44,AVOID,1
+2026-08-21,Oil Exploration & Refining,13.9,29.2,90D (Sparse),-2.32,2.0,0.5,-7.63,-2.32,2.99,AVOID,1
+2026-08-21,Oil Gas & Consumable Fuels,23.7,42.6,90D (Sparse),-0.08,4.0,0.6,-5.4,-0.08,5.23,INSUFFICIENT DATA,1
+2026-08-21,Packaged Foods & Consumer Staples,22.6,33.6,90D (Sparse),-1.56,2.5,0.5,-6.87,-1.56,3.75,AVOID,1
+2026-08-21,Packaged Foods & FMCG Staples,8.9,27.6,90D (Sparse),-2.66,1.9,0.5,-7.97,-2.66,2.66,AVOID,1
+2026-08-21,Packaging & Containers,40.5,40.8,90D (Sparse),-0.24,3.8,0.6,-5.55,-0.24,5.07,NEUTRAL,1
+2026-08-21,Packaging Materials & Containers,25.9,37.1,90D (Sparse),-0.9,3.1,0.5,-6.21,-0.9,4.42,AVOID,1
+2026-08-21,Paints,18.1,30.8,90D (Sparse),-1.97,2.3,0.5,-7.28,-1.97,3.34,AVOID,1
+2026-08-21,Paints & Coatings,40.2,39.0,90D (Sparse),-0.3,3.7,0.6,-5.62,-0.3,5.01,NEUTRAL,1
+2026-08-21,Paper & Paper Products,11.0,26.3,90D (Sparse),-2.6,1.9,0.5,-7.91,-2.6,2.71,AVOID,1
+2026-08-21,Passenger Cars & Utility Vehicles,10.2,30.9,90D (Sparse),-1.98,2.2,0.5,-7.3,-1.98,3.33,AVOID,1
+2026-08-21,Pharmaceuticals,27.6,37.0,90D (Sparse),-1.01,3.0,0.5,-6.32,-1.01,4.3,AVOID,1
+2026-08-21,Pharmaceuticals & Biotechnology,16.4,30.3,90D (Sparse),-2.11,2.2,0.5,-7.42,-2.11,3.2,AVOID,1
+2026-08-21,Pipes & Tubes,28.3,40.8,90D (Sparse),-0.67,3.3,0.5,-5.98,-0.67,4.64,NEUTRAL,1
+2026-08-21,Plastic Pipes & Fittings,28.9,40.2,90D (Sparse),-0.54,3.5,0.5,-5.85,-0.54,4.78,NEUTRAL,1
+2026-08-21,Plastic Pipes & Moulded Products,6.6,22.2,90D (Sparse),-3.24,1.6,0.5,-8.55,-3.24,2.07,AVOID,1
+2026-08-21,Plywood & Boards,20.1,23.1,90D (Sparse),-2.76,1.8,0.5,-8.08,-2.76,2.55,INSUFFICIENT DATA,1
+2026-08-21,"Plywood, MDF & Laminates",17.4,33.5,90D (Sparse),-1.78,2.4,0.5,-7.09,-1.78,3.53,AVOID,1
+2026-08-21,Power,3.1,24.5,90D (Sparse),-3.38,1.5,0.5,-8.69,-3.38,1.94,AVOID,1
+2026-08-21,Power Generation & Distribution,0.5,22.3,90D (Sparse),-3.81,1.5,0.5,-9.13,-3.81,1.5,INSUFFICIENT DATA,1
+2026-08-21,Power Generation & Utilities,1.6,23.0,90D (Sparse),-3.47,1.5,0.5,-8.79,-3.47,1.84,AVOID,1
+2026-08-21,Power Sector Financing NBFC,-1.5,22.5,90D (Sparse),-3.79,1.5,0.5,-9.1,-3.79,1.52,INSUFFICIENT DATA,1
+2026-08-21,Project Management & Civil Construction,-1.2,23.3,90D (Sparse),-3.67,1.5,0.5,-8.98,-3.67,1.65,INSUFFICIENT DATA,1
+2026-08-21,Pumps & Compressors,8.2,25.8,90D (Sparse),-2.86,1.8,0.5,-8.17,-2.86,2.45,AVOID,1
+2026-08-21,Railway Financing,0.2,22.9,90D (Sparse),-3.71,1.5,0.5,-9.02,-3.71,1.6,INSUFFICIENT DATA,1
+2026-08-21,Railway Infrastructure,0.4,23.0,90D (Sparse),-3.67,1.5,0.5,-8.99,-3.67,1.64,AVOID,1
+2026-08-21,Railway Infrastructure & Consulting,1.7,22.9,90D (Sparse),-3.71,1.5,0.5,-9.02,-3.71,1.6,INSUFFICIENT DATA,1
+2026-08-21,Railway Telecom,19.6,39.4,90D (Sparse),-1.11,2.9,0.5,-6.42,-1.11,4.2,INSUFFICIENT DATA,1
+2026-08-21,Railway Ticketing & Catering,0.5,22.8,90D (Sparse),-3.76,1.5,0.5,-9.07,-3.76,1.55,INSUFFICIENT DATA,1
+2026-08-21,Railway Wagons & Equipment,0.7,23.0,90D (Sparse),-3.69,1.5,0.5,-9.0,-3.69,1.62,AVOID,1
+2026-08-21,Railways,19.6,34.2,90D (Sparse),-1.74,2.4,0.5,-7.05,-1.74,3.58,AVOID,1
+2026-08-21,Realty,22.9,40.8,90D (Sparse),-0.86,3.1,0.5,-6.17,-0.86,4.45,NEUTRAL,1
+2026-08-21,Renewable Energy,4.6,27.8,90D (Sparse),-2.9,1.7,0.5,-8.21,-2.9,2.42,AVOID,1
+2026-08-21,Renewable Energy - Solar & Wind,3.6,25.2,90D (Sparse),-3.11,1.6,0.5,-8.43,-3.11,2.2,AVOID,1
+2026-08-21,Renewable Energy Financing NBFC,-0.9,23.0,90D (Sparse),-3.7,1.5,0.5,-9.01,-3.7,1.62,INSUFFICIENT DATA,1
+2026-08-21,Residential & Commercial Real Estate,13.3,28.4,90D (Sparse),-2.39,2.0,0.5,-7.71,-2.39,2.92,AVOID,1
+2026-08-21,Roads & Highways EPC,1.3,23.0,90D (Sparse),-3.67,1.5,0.5,-8.98,-3.67,1.65,INSUFFICIENT DATA,1
+2026-08-21,Rubber Chemicals,2.4,23.6,90D (Sparse),-3.52,1.5,0.5,-8.83,-3.52,1.8,INSUFFICIENT DATA,1
+2026-08-21,Saw Pipes & Ductile Iron Pipes,68.7,58.7,5D,2.65,9.9,1.2,-2.66,2.65,7.96,INSUFFICIENT DATA,1
+2026-08-21,Semiconductors & Electronic Components,-2.0,17.7,90D (Sparse),-4.12,1.5,0.5,-5.89,-1.82,2.32,INSUFFICIENT DATA,1
+2026-08-21,Services,18.1,31.8,90D (Sparse),-1.88,2.3,0.5,-7.19,-1.88,3.43,AVOID,1
+2026-08-21,Ship Building & Defence,18.7,29.6,90D (Sparse),-1.38,2.7,0.5,-6.69,-1.38,3.93,AVOID,1
+2026-08-21,Software Products & Digital Services,18.2,30.7,90D (Sparse),-2.02,2.2,0.5,-7.33,-2.02,3.3,AVOID,1
+2026-08-21,Specialty Chemicals,19.9,31.3,90D (Sparse),-1.83,2.4,0.5,-7.14,-1.83,3.49,AVOID,1
+2026-08-21,Steel Manufacturing & Mining,38.5,42.6,90D (Sparse),-0.06,4.0,0.6,-5.37,-0.06,5.25,INSUFFICIENT DATA,1
+2026-08-21,Stockbroking & Financial Products,21.3,33.5,90D (Sparse),-1.62,2.5,0.5,-6.93,-1.62,3.69,AVOID,1
+2026-08-21,Structural Steel Tubes & Pipes,41.6,42.1,90D (Sparse),-0.08,4.0,0.6,-5.4,-0.08,5.23,INSUFFICIENT DATA,1
+2026-08-21,Sugar & Bio-Ethanol,30.1,34.5,90D (Sparse),-1.1,2.9,0.5,-6.42,-1.1,4.21,AVOID,1
+2026-08-21,Superalloys & Special Metals,27.9,41.9,90D (Sparse),-0.12,4.0,0.6,-5.43,-0.12,5.19,INSUFFICIENT DATA,1
+2026-08-21,Tea & Coffee,26.6,40.2,90D (Sparse),-0.86,3.1,0.5,-6.17,-0.86,4.45,NEUTRAL,1
+2026-08-21,Telecom Services & Infrastructure,8.7,25.2,90D (Sparse),-2.94,1.7,0.5,-8.25,-2.94,2.37,AVOID,1
+2026-08-21,Telecommunication,12.0,27.0,90D (Sparse),-2.53,1.9,0.5,-7.85,-2.53,2.78,AVOID,1
+2026-08-21,Textiles,32.4,42.2,90D (Sparse),0.03,4.2,0.6,-5.28,0.03,5.35,WATCHLIST,1
+2026-08-21,Textiles & Apparel,15.1,29.3,90D (Sparse),-2.15,2.1,0.5,-7.46,-2.15,3.16,AVOID,1
+2026-08-21,"Textiles, Yarns & Apparel",23.3,37.4,90D (Sparse),-1.21,2.8,0.5,-6.53,-1.21,4.1,AVOID,1
+2026-08-21,Tractors & Farm Equipment,24.5,31.5,90D (Sparse),-1.86,2.3,0.5,-7.17,-1.86,3.45,AVOID,1
+2026-08-21,Transformers & T&D Equipment,20.4,33.4,90D (Sparse),-1.6,2.5,0.5,-6.91,-1.6,3.72,AVOID,1
+2026-08-21,Travel Tech SaaS Solutions,48.6,59.3,5D,2.48,9.3,1.1,-2.83,2.48,7.8,INSUFFICIENT DATA,1
+2026-08-21,Tyres & Rubber Products,10.4,26.8,90D (Sparse),-2.62,1.9,0.5,-7.94,-2.62,2.69,AVOID,1
+2026-08-21,Utilities,-0.6,22.7,90D (Sparse),-3.7,1.5,0.5,-9.01,-3.7,1.61,INSUFFICIENT DATA,1
+2026-08-21,Water & Wastewater Treatment,0.3,23.1,90D (Sparse),-3.36,1.5,0.5,-8.67,-3.36,1.95,AVOID,1
+2026-08-21,Wealth & Asset Management,39.3,42.1,90D (Sparse),-0.13,3.9,0.6,-5.44,-0.13,5.19,INSUFFICIENT DATA,1
+2026-08-21,Wires & Cables,24.1,33.1,90D (Sparse),-1.6,2.5,0.5,-6.92,-1.6,3.71,AVOID,1
+2026-08-21,Zinc & Silver Mining,58.7,59.0,5D,2.52,9.4,1.1,-2.79,2.52,7.83,INSUFFICIENT DATA,1

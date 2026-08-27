@@ -1,0 +1,2 @@
+Metric,Actual_Challenger_IC,Placebo_Mean_IC,Placebo_Std_IC,Empirical_p_value,Statistical_Status
+1000-Iteration Placebo Test,0.0399,0.1095,0.1591,0.667,REJECTED

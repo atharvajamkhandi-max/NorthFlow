@@ -1,0 +1,6 @@
+Event_Code,Definition,Total_Events,Event_Rate
+EVENT_A,Future 5D Return >= Cross-Sectional P90,5680,12.0%
+EVENT_B,Future 5D Excess Return >= 3.0%,4221,8.9%
+EVENT_C,Future 5D Excess Return >= 5.0%,1463,3.1%
+EVENT_D,Future 10D Return >= 7.0%,5496,11.6%
+EVENT_E,Future 10D Return >= 10.0%,2430,5.1%

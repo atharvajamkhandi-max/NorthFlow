@@ -1,0 +1,70 @@
+{
+  "attack_1_future_price": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_2_future_volume": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_3_future_news": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_4_future_filing": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_5_future_earnings": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_6_future_macro_release": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_7_future_index_value": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_8_future_corporate_action": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_9_future_regulatory_event": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_10_future_source_timestamp": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_11_future_v34_outcome": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_12_future_ta_decision": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_13_future_veto_profitability": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_14_future_regime_state": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_15_future_bhavcopy_delivery": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_16_future_evidence_hash": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "clean_baseline_check": {
+    "detected": false,
+    "status": "CLEAN_0_LEAKAGE"
+  }
+}

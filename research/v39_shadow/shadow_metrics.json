@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-08-25T00:58:00",
+  "matured_observations": 8239,
+  "v32_accuracy": 56.69,
+  "v33_accuracy": 67.48,
+  "accuracy_gain_pp": 10.79,
+  "v32_mae": 10.54,
+  "v33_mae": 9.28,
+  "p10_p90_coverage": 80.28,
+  "disagreements": {
+    "total_count": 6420,
+    "v33_wins": 3855,
+    "v33_win_rate_pct": 60.0
+  },
+  "gates": {
+    "1_acc_gain_gt_5pp": true,
+    "2_ci_lower_gt_0": true,
+    "3_mae_improved": true,
+    "4_rank_ic_improved": true,
+    "5_rating_spread_preserved": true,
+    "6_p10_p90_cov_70_90": true,
+    "7_60d_bias_improved": true,
+    "8_time_stability_pass": true,
+    "9_regime_robustness_pass": true,
+    "10_industry_robustness_pass": true,
+    "11_zero_lookahead": true,
+    "12_zero_prod_mutation": true,
+    "13_reproducibility": true
+  },
+  "mandatory_final_status": "B. CONTINUE SHADOW (All quantitative cutover gates passed with flying colors; maintain live shadow logging alongside production V3.2 before final cutover deployment review)"
+}

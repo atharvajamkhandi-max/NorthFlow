@@ -1,0 +1,11 @@
+Model,Type,Rank_IC_Overlapping,Rank_IC_NonOverlapping,IC_IR,Hit_Rate (%),Max_DD (%),Verdict
+M25_RegimeAdaptiveEnsemble,Multi-Factor Composite,0.1128,0.1012,1.11,34.4,12.68,RESEARCH LEADER
+M24_IC_WeightedEnsemble,Multi-Factor Composite,0.1085,0.0985,1.05,40.6,12.68,RESEARCH LEADER
+M14_DynamicBottomUp_15Cap,Constituent Weighting,0.1725,0.1215,1.7,68.8,11.57,RESEARCH LEADER
+M13_V2_Composite,Current Strength (6-Factor),0.0946,0.0842,1.07,31.2,12.68,BEST CURRENT STRENGTH
+M05_ResidualMom,Beta-Isolated Alpha,0.0341,0.0312,0.32,46.9,2.62,BEST RISK STABILIZER
+M09_TrendModel,Trend Stack Breadth,0.0545,0.0489,0.51,43.8,6.2,BEST LONG-HORIZON (20D)
+ML_ElasticNet,Regularized Linear ML,0.0903,0.0782,1.08,34.4,12.68,PROMISING ML
+ML_RandomForest,Non-Linear Tree Ensemble,0.0906,0.0512,1.07,37.5,12.68,OVERFIT PRONE
+M01_SimpleMom_5D,Naive Momentum,-0.0124,-0.021,-0.12,37.5,9.02,REJECTED
+M07_VolumeModel,Raw Unconfirmed Volume,-0.0195,-0.0245,-0.2,25.0,14.92,REJECTED

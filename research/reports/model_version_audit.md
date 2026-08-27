@@ -1,0 +1,7 @@
+# Model Version Audit
+
+Model: MODEL_V10.1_FROZEN
+Feature: FEATURE_V10.1
+Universe: NSE_135_BASIC_INDUSTRIES_V1
+Benchmark: NIFTY_SMALLCAP_250_V1
+Status: IMMUTABLE

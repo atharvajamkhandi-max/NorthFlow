@@ -1,0 +1,5 @@
+Constituent_Size_Tier,Observations,Top5_Precision,Avg_5D_Return,Bias_Impact
+N < 10 Stocks (Small Industry),12450,28.5%,+1.45%,LOW (Normalized)
+10 <= N < 20 Stocks (Medium Industry),18230,32.4%,+1.85%,OPTIMAL
+20 <= N < 50 Stocks (Large Industry),11450,34.2%,+1.92%,OPTIMAL
+N >= 50 Stocks (Mega Sector Cluster),5120,31.8%,+1.65%,LOW

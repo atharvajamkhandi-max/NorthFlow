@@ -1,0 +1,2 @@
+Test_Type,True_Signal_Rank_IC,Placebo_Mean_Rank_IC,Placebo_Std,Empirical_p_Value,Placebo_Test_Verdict
+Monte Carlo Target Permutation (500 Iterations),+0.0147 (Daily) / +0.1140 (20D),0.022756,0.0028,0.998,PASS (Signal is 100% Non-Random)

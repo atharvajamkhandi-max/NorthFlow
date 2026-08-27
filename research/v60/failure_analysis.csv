@@ -1,0 +1,4 @@
+failure_category,case_count,pct_of_large_failures
+momentum failure,3666,58.18
+forecast calibration failure,1789,28.39
+market-regime failure,846,13.43

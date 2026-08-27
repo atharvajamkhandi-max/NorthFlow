@@ -1,0 +1,4 @@
+Strategy,Round_Trip_Cost_bps,Gross_CAGR,Cost_Drag_Annual,Net_CAGR,Net_Sharpe,Max_Drawdown,Viability
+Top 10% Leaders (20D Rebalance),15,+29.4%,-1.89%,+27.5%,1.25,-15.2%,ROBUST & VIABLE
+Top 10% Leaders (20D Rebalance),30,+29.4%,-3.78%,+25.6%,1.16,-15.2%,ROBUST & VIABLE
+Top 10% Leaders (20D Rebalance),50,+29.4%,-6.30%,+23.1%,1.05,-15.2%,ROBUST & VIABLE

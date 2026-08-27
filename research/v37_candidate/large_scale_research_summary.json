@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-08-25T00:53:00",
+  "data_scale": [
+    {
+      "Horizon": "5D",
+      "Total N": 54617,
+      "Valid N": 53942,
+      "Unique Dates": 402,
+      "Unique Entities": 134,
+      "Date Range": "2024-03-18 to 2026-08-20",
+      "Min Date": "2024-03-18",
+      "Max Date": "2026-08-20"
+    },
+    {
+      "Horizon": "20D",
+      "Total N": 54617,
+      "Valid N": 51932,
+      "Unique Dates": 397,
+      "Unique Entities": 134,
+      "Date Range": "2024-03-18 to 2026-08-13",
+      "Min Date": "2024-03-18",
+      "Max Date": "2026-08-13"
+    },
+    {
+      "Horizon": "60D",
+      "Total N": 54617,
+      "Valid N": 46641,
+      "Unique Dates": 383,
+      "Unique Entities": 131,
+      "Date Range": "2024-03-18 to 2026-07-24",
+      "Min Date": "2024-03-18",
+      "Max Date": "2026-07-24"
+    }
+  ],
+  "model_tournament": {
+    "MODEL_V3.2_FROZEN": {
+      "dir_acc": 56.68,
+      "mae": 10.54,
+      "rmse": 16.57,
+      "rank_ic": 0.0372
+    },
+    "HistGradientBoosting": {
+      "dir_acc": 67.35,
+      "mae": 9.29,
+      "rmse": 15.63,
+      "rank_ic": 0.1291
+    },
+    "ExtraTrees": {
+      "dir_acc": 67.36,
+      "mae": 9.33,
+      "rmse": 15.63,
+      "rank_ic": 0.1277
+    },
+    "ElasticNet": {
+      "dir_acc": 64.67,
+      "mae": 9.52,
+      "rmse": 15.81,
+      "rank_ic": 0.0556
+    },
+    "Ensemble (HGB + V3.2)": {
+      "dir_acc": 60.9,
+      "mae": 9.6,
+      "rmse": 15.86,
+      "rank_ic": 0.0667
+    }
+  },
+  "regime_scorecard": [
+    {
+      "Regime": "WEAK_BEAR",
+      "N": 2330,
+      "Pct_Sample": 28.3,
+      "V32_Acc": 65.45,
+      "HGB_Acc": 69.66,
+      "V32_MAE": 17.09,
+      "HGB_MAE": 17.36
+    },
+    {
+      "Regime": "WEAK_BULL",
+      "N": 3056,
+      "Pct_Sample": 37.1,
+      "V32_Acc": 45.06,
+      "HGB_Acc": 70.98,
+      "V32_MAE": 8.3,
+      "HGB_MAE": 5.78
+    },
+    {
+      "Regime": "SIDEWAYS",
+      "N": 463,
+      "Pct_Sample": 5.6,
+      "V32_Acc": 64.36,
+      "HGB_Acc": 61.56,
+      "V32_MAE": 16.31,
+      "HGB_MAE": 16.6
+    },
+    {
+      "Regime": "HIGH_VOLATILITY",
+      "N": 2387,
+      "Pct_Sample": 29.0,
+      "V32_Acc": 61.5,
+      "HGB_Acc": 61.58,
+      "V32_MAE": 5.9,
+      "HGB_MAE": 4.51
+    }
+  ],
+  "temporal_scorecard": [
+    {
+      "Year": 2025,
+      "N": 5776,
+      "V32_Acc": 54.67,
+      "HGB_Acc": 69.94
+    },
+    {
+      "Year": 2026,
+      "N": 2460,
+      "V32_Acc": 61.38,
+      "HGB_Acc": 61.26
+    }
+  ],
+  "industry_robustness": {
+    "qualifying_industries": 131,
+    "pct_improved": 67.2,
+    "median_improvement_pp": 11.86,
+    "p10_improvement_pp": -11.86,
+    "p90_improvement_pp": 30.0
+  },
+  "conformal_calibration_s130": {
+    "raw_v32_p10_p90_coverage": 64.61,
+    "calibrated_p10_p90_coverage": 75.36,
+    "mean_interval_width": 26.94
+  },
+  "regime_60d_calibration": {
+    "raw_60d_bias": 16.45,
+    "calibrated_60d_bias": 5.62,
+    "bias_reduction_pp": -10.83
+  },
+  "final_recommendation": "B. V3.2 + CALIBRATION (Retain V3.2 Alpha Engine in production; overlay Conformal Quantile Scaling & Regime 60D Calibration layers; stage HGB for next version release)"
+}

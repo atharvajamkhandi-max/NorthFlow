@@ -1,0 +1,12 @@
+{
+  "audit_timestamp": "2026-08-26T23:11:39.172381",
+  "live_shadow_true_identity": "MODEL_V3.3_LIVE_FORWARD_FROZEN",
+  "live_shadow_manifest_hash": "e23427b873cb9240954af927b21969564bb7da0e2c2b18649950cbe3bf2f87fc",
+  "v34_candidate_true_identity": "MODEL_V3.4_RESEARCH_CANDIDATE",
+  "v34_candidate_manifest_hash": "abadd726ba035e29b010efb654308ebcd184e9fc5e39d7f73789feafb7431919",
+  "is_exact_match": false,
+  "governance_action": "B. LIVE SHADOW IS NOT V3.4 \u2014 PRESERVE EXISTING EVIDENCE AND INITIALIZE CLEAN V3.4 LIVE-FORWARD SHADOW",
+  "existing_evidence_preserved": true,
+  "v34_clean_shadow_initialized": true,
+  "v34_manifest_path": "research/v50/v34_live_forward_manifest.json"
+}

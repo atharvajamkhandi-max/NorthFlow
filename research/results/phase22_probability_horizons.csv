@@ -1,0 +1,6 @@
+Horizon,Avg_Predicted_Probability,Realized_Event_Rate,Brier_Score
+1-Day Expansion P(1D),17.7%,14.0%,0.1157
+2-Day Expansion P(2D),17.9%,12.2%,0.1051
+3-Day Expansion P(3D),18.2%,12.2%,0.1055
+4-Day Expansion P(4D),18.3%,12.2%,0.1056
+5-Day Expansion P(5D),18.6%,12.2%,0.1063

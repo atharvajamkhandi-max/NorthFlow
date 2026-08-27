@@ -1,0 +1,4 @@
+Component,Research_Value,Live_Shadow_Value,Max_Absolute_Diff,Reconciliation_Status
+Early Radar Score (0-100),53.7,53.7,0.0,EXACT_MATCH (<= 0.0001)
+P(5D) Expansion Probability,0.483,0.483,0.0,EXACT_MATCH (<= 0.0001)
+Accumulation Pressure,61.9,61.9,0.0,EXACT_MATCH (<= 0.0001)

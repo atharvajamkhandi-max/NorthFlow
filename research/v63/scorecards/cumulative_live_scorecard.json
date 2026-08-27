@@ -1,0 +1,19 @@
+{
+  "sessions_captured": 4,
+  "sessions_matured_1D": 1,
+  "sessions_matured_5D": 0,
+  "sessions_matured_20D": 0,
+  "sessions_matured_60D": 0,
+  "observations_1D": 299,
+  "observations_5D": 0,
+  "observations_20D": 0,
+  "observations_60D": 0,
+  "v32_accuracy_1D": "48.16%",
+  "v34_accuracy_1D": "45.82%",
+  "v34_ta_accuracy_1D": "45.48%",
+  "v34_ta_mae_1D": "1.15%",
+  "ta_vetoes_total": 32,
+  "ta_active_veto_pct": "2.68%",
+  "data_bus_pipeline_status": "100% HEALTHY",
+  "live_evidence_level": "INSUFFICIENT_SAMPLE (N = 4 sessions, N = 299 1D obs, N = 0 20D obs)"
+}

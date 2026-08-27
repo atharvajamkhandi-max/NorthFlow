@@ -1,0 +1,15 @@
+{
+  "tier": "TIER 3: Historical Untouched Holdout",
+  "sample_size_matured": 8239,
+  "date_range": "2025-06-24 to 2026-08-21",
+  "v32_accuracy": 56.69,
+  "v33_accuracy": 67.48,
+  "accuracy_gain_pp": 10.79,
+  "v32_mae": 10.54,
+  "v33_mae": 9.28,
+  "v32_rank_ic": 0.0372,
+  "v33_rank_ic": 0.133,
+  "p10_p90_coverage": 80.28,
+  "rating_spread_sb_vs_avoid_bps": 434.7,
+  "conclusion": "Exceptional historical out-of-sample evidence supporting continued prospective shadow operation."
+}

@@ -1,0 +1,23 @@
+dimension,status,classification,notes
+NSE Ticker Suffix (.NS),A,VERIFIED AND USABLE,"Yahoo Finance resolves RELIANCE.NS, TCS.NS"
+BSE Ticker Suffix (.BO),A,VERIFIED AND USABLE,Yahoo Finance resolves BSE instruments
+Daily OHLCV End-of-Day,A,VERIFIED AND USABLE,Price history available on Yahoo Finance
+NSE Bare Ticker Auto-Resolution,B,USABLE BUT REQUIRES INDIA ADAPTER,Must append .NS for bare symbols
+NIFTY 50 Index Benchmark,B,USABLE BUT REQUIRES INDIA ADAPTER,Mapped to ^NSEI (not in default aliases)
+NIFTY Smallcap 250 Index,B,USABLE BUT REQUIRES INDIA ADAPTER,Requires NorthFlow Indian data provider
+Indian Sector/Basic Industry Mapping,B,USABLE BUT REQUIRES INDIA ADAPTER,US GICS sectors do not match 289 NSE industries
+Indian Trading Hours (09:15-15:30 IST),B,USABLE BUT REQUIRES INDIA ADAPTER,Calendar must align with IST timezone
+Indian Corporate Actions (Splits/Bonuses),B,USABLE BUT REQUIRES INDIA ADAPTER,"Adjusted close available, ex-dates need adapter"
+Indian Financial Statements (INR/Crores),B,USABLE BUT REQUIRES INDIA ADAPTER,Standalone vs Consolidated GAAP differences
+Indian News Coverage on Yahoo,C,WEAK / UNRELIABLE,Mainly syndicated wires; mid/small-caps have 0 news
+Reddit/Stocktwits for Indian Equities,C,WEAK / UNRELIABLE,Zero signal on Reddit/Stocktwits for 95% of NSE stocks
+Social Sentiment on Indian Mid-Caps,C,WEAK / UNRELIABLE,"High noise-to-signal ratio, lack of retail coverage"
+FII / DII Daily Net Flow Breakdown,D,NOT AVAILABLE,Not in TradingAgents dataflows; available in NorthFlow
+Delivery Volume Percentage (%),D,NOT AVAILABLE,NSE Bhavcopy delivery data missing in upstream
+RBI Monetary Policy & Repo Rate,D,NOT AVAILABLE,"FRED has US Fed Funds rate, no RBI repo series"
+Indian CPI / WPI Inflation,D,NOT AVAILABLE,FRED lacks granular MoSPI Indian inflation data
+India VIX Volatility Surface,D,NOT AVAILABLE,Requires NSE India VIX adapter
+NSE Holiday Calendar,D,NOT AVAILABLE,US holidays in upstream; Diwali/Holi not handled
+SEBI Circuit Filter Bounds,D,NOT AVAILABLE,5%/10%/20% daily price bands missing in upstream
+ASM / GSM Surveillance Framework,D,NOT AVAILABLE,Indian regulatory surveillance flags missing
+Promoter Pledging / Shareholding,D,NOT AVAILABLE,NSE quarterly shareholding filing missing

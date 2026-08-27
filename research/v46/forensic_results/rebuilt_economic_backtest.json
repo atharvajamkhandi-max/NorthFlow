@@ -1,0 +1,59 @@
+{
+  "top_decile_mean_pct": 0.211,
+  "bottom_decile_mean_pct": -4.6689,
+  "gross_spread_bps": 488.0,
+  "friction_bps": 20.0,
+  "net_spread_bps": 468.0,
+  "decile_ladder": [
+    {
+      "decile": 0,
+      "mean_return_pct": -4.6689,
+      "mean_return_bps": -466.9
+    },
+    {
+      "decile": 1,
+      "mean_return_pct": -4.1452,
+      "mean_return_bps": -414.5
+    },
+    {
+      "decile": 2,
+      "mean_return_pct": -4.1051,
+      "mean_return_bps": -410.5
+    },
+    {
+      "decile": 3,
+      "mean_return_pct": -4.1721,
+      "mean_return_bps": -417.2
+    },
+    {
+      "decile": 4,
+      "mean_return_pct": -3.5321,
+      "mean_return_bps": -353.2
+    },
+    {
+      "decile": 5,
+      "mean_return_pct": -2.7849,
+      "mean_return_bps": -278.5
+    },
+    {
+      "decile": 6,
+      "mean_return_pct": -1.6998,
+      "mean_return_bps": -170.0
+    },
+    {
+      "decile": 7,
+      "mean_return_pct": -0.7684,
+      "mean_return_bps": -76.8
+    },
+    {
+      "decile": 8,
+      "mean_return_pct": -1.7648,
+      "mean_return_bps": -176.5
+    },
+    {
+      "decile": 9,
+      "mean_return_pct": 0.211,
+      "mean_return_bps": 21.1
+    }
+  ]
+}

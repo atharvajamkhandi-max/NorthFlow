@@ -1,0 +1,50 @@
+[
+  {
+    "candidate": "A. Baseline V3.2 Frozen Core",
+    "directional_accuracy": 52.76,
+    "mae": 9.93,
+    "rank_ic": 0.0387,
+    "top_bottom_spread_bps": 117.3,
+    "classification": "BASELINE BENCHMARK"
+  },
+  {
+    "candidate": "B. Pure HistGradientBoosting (HGB)",
+    "directional_accuracy": 63.61,
+    "mae": 8.31,
+    "rank_ic": 0.1288,
+    "top_bottom_spread_bps": 356.1,
+    "classification": "STRONG CANDIDATE"
+  },
+  {
+    "candidate": "C. ExtraTrees Regressor (ET)",
+    "directional_accuracy": 63.25,
+    "mae": 8.32,
+    "rank_ic": 0.1294,
+    "top_bottom_spread_bps": 423.2,
+    "classification": "STRONG CANDIDATE"
+  },
+  {
+    "candidate": "D. Multi-Task Stacking Ensemble",
+    "directional_accuracy": 63.85,
+    "mae": 8.29,
+    "rank_ic": 0.1326,
+    "top_bottom_spread_bps": 544.9,
+    "classification": "STRONG CANDIDATE"
+  },
+  {
+    "candidate": "E. Regime-Conditional Hybrid",
+    "directional_accuracy": 63.79,
+    "mae": 8.29,
+    "rank_ic": 0.1374,
+    "top_bottom_spread_bps": 462.1,
+    "classification": "STRONG CANDIDATE"
+  },
+  {
+    "candidate": "F. Candidate V3.4 Multi-Task Hybrid",
+    "directional_accuracy": 63.85,
+    "mae": 8.28,
+    "rank_ic": 0.1388,
+    "top_bottom_spread_bps": 488.0,
+    "classification": "STRONG CANDIDATE (V3.4 Leader)"
+  }
+]

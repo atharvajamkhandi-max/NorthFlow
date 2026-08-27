@@ -1,0 +1,160 @@
+symbol,industry,basic_industry,action
+# Air Conditioners & AC Components (RAC OEM/ODM & Cooling Equipment)
+PGEL,Consumer Durables,Air Conditioners & AC Components,SET
+AMBER,Consumer Durables,Air Conditioners & AC Components,SET
+VOLTAS,Consumer Durables,Air Conditioners & AC Components,SET
+BLUESTARCO,Consumer Durables,Air Conditioners & AC Components,SET
+EPACK,Consumer Durables,Air Conditioners & AC Components,SET
+JOHNSON,Consumer Durables,Air Conditioners & AC Components,SET
+SUBROS,Automobile and Auto Components,Air Conditioners & AC Components,SET
+SYMPHONY,Consumer Durables,Air Conditioners & AC Components,SET
+
+# High-Tech Electronics Manufacturing Services (EMS) & Components
+DIXON,Consumer Durables,Electronic Manufacturing Services (EMS),SET
+KAYNES,Information Technology,Electronic Manufacturing Services (EMS),SET
+SYRMA,Information Technology,Electronic Manufacturing Services (EMS),SET
+AVALON,Information Technology,Electronic Manufacturing Services (EMS),SET
+CYIENTDLM,Information Technology,Electronic Manufacturing Services (EMS),SET
+IKIO,Consumer Durables,Electronic Manufacturing Services (EMS),SET
+CENTRUM,Consumer Durables,Electronic Manufacturing Services (EMS),SET
+VINDHYATEL,Information Technology,Electronic Manufacturing Services (EMS),SET
+DCXINDIA,Capital Goods,Electronic Manufacturing Services (EMS),SET
+
+# Water & Wastewater Treatment EPC & Equipment
+WABAG,Construction,Water & Wastewater Treatment,SET
+VA_TECH_WABAG,Construction,Water & Wastewater Treatment,SET
+IONEXCHANG,Construction,Water & Wastewater Treatment,SET
+DENTA,Construction,Water & Wastewater Treatment,SET
+EMSLIMITED,Construction,Water & Wastewater Treatment,SET
+PRAJIND,Capital Goods,Water & Wastewater Treatment,SET
+
+# Aluminium, Bauxite Mining & Metal Extrusions
+NATIONALUM,Metals & Mining,Aluminium & Mining,SET
+HINDALCO,Metals & Mining,Aluminium & Mining,SET
+VEDL,Metals & Mining,Aluminium & Mining,SET
+MANAKSIA,Metals & Mining,Aluminium & Mining,SET
+MAANALU,Metals & Mining,Aluminium & Mining,SET
+VAML,Metals & Mining,Aluminium & Mining,SET
+MANAKALUCO,Metals & Mining,Aluminium & Mining,SET
+HINDALUMI,Metals & Mining,Aluminium & Mining,SET
+
+# Wires & Cables
+POLYCAB,Capital Goods,Wires & Cables,SET
+KEI,Capital Goods,Wires & Cables,SET
+RRKABEL,Capital Goods,Wires & Cables,SET
+FINCABLES,Capital Goods,Wires & Cables,SET
+APARINDS,Capital Goods,Wires & Cables,SET
+UNIVCABLES,Capital Goods,Wires & Cables,SET
+RAMRAT,Capital Goods,Wires & Cables,SET
+CORDSCABLE,Capital Goods,Wires & Cables,SET
+PRECWIRE,Capital Goods,Wires & Cables,SET
+BHARATWIRE,Capital Goods,Wires & Cables,SET
+BANSALWIRE,Capital Goods,Wires & Cables,SET
+DYCL,Capital Goods,Wires & Cables,SET
+PLAZACABLE,Capital Goods,Wires & Cables,SET
+DPWIRES,Capital Goods,Wires & Cables,SET
+BIRLACABLE,Capital Goods,Wires & Cables,SET
+KRITIKA,Capital Goods,Wires & Cables,SET
+VETO,Capital Goods,Wires & Cables,SET
+GEEKAYWIRE,Capital Goods,Wires & Cables,SET
+VIDYAWIRES,Capital Goods,Wires & Cables,SET
+RAJRATAN,Capital Goods,Wires & Cables,SET
+HATHWAY,Capital Goods,Wires & Cables,SET
+DIAMINESQ,Capital Goods,Wires & Cables,SET
+
+# Industrial & Automotive Lubricants & Specialty Oils
+CASTROLIND,Oil Gas & Consumable Fuels,Lubricants & Specialty Oils,SET
+GULFOILLUB,Oil Gas & Consumable Fuels,Lubricants & Specialty Oils,SET
+SOTL,Oil Gas & Consumable Fuels,Lubricants & Specialty Oils,SET
+TIDEWATER,Oil Gas & Consumable Fuels,Lubricants & Specialty Oils,SET
+GPIL,Oil Gas & Consumable Fuels,Lubricants & Specialty Oils,SET
+
+# Bearings & Friction Solutions
+SKFINDIA,Capital Goods,Bearings & Friction Solutions,SET
+TIMKEN,Capital Goods,Bearings & Friction Solutions,SET
+SCHAEFFLER,Capital Goods,Bearings & Friction Solutions,SET
+NRBBEARING,Capital Goods,Bearings & Friction Solutions,SET
+MENONBE,Capital Goods,Bearings & Friction Solutions,SET
+BIMETAL,Capital Goods,Bearings & Friction Solutions,SET
+NIBL,Capital Goods,Bearings & Friction Solutions,SET
+SKFINDUS,Capital Goods,Bearings & Friction Solutions,SET
+GOKUL,Capital Goods,Bearings & Friction Solutions,SET
+
+# Pumps & Compressors
+WPIL,Capital Goods,Pumps & Compressors,SET
+ELGIEQUIP,Capital Goods,Pumps & Compressors,SET
+KSB,Capital Goods,Pumps & Compressors,SET
+KIRLOSBROS,Capital Goods,Pumps & Compressors,SET
+KIRLOSENG,Capital Goods,Pumps & Compressors,SET
+ROTO,Capital Goods,Pumps & Compressors,SET
+SHAKTIPUMP,Capital Goods,Pumps & Compressors,SET
+OSWALPUMPS,Capital Goods,Pumps & Compressors,SET
+KIRLPNU,Capital Goods,Pumps & Compressors,SET
+
+# Steel Pipes, Tubes & Ductile Iron
+MANINDS,Metals & Mining,Pipes & Tubes,SET
+INDIANHUME,Metals & Mining,Pipes & Tubes,SET
+JTLIND,Metals & Mining,Pipes & Tubes,SET
+MAHSEAMLES,Metals & Mining,Pipes & Tubes,SET
+SAMBHV,Metals & Mining,Pipes & Tubes,SET
+APOLLOPIPE,Metals & Mining,Pipes & Tubes,SET
+HITECH,Metals & Mining,Pipes & Tubes,SET
+VENUSPIPES,Metals & Mining,Pipes & Tubes,SET
+PPL,Metals & Mining,Pipes & Tubes,SET
+GANDHITUBE,Metals & Mining,Pipes & Tubes,SET
+RAMASTEEL,Metals & Mining,Pipes & Tubes,SET
+SURYAROSNI,Metals & Mining,Pipes & Tubes,SET
+HARIOMPIPE,Metals & Mining,Pipes & Tubes,SET
+TEXMOPIPES,Metals & Mining,Pipes & Tubes,SET
+WELSPUNCORP,Metals & Mining,Pipes & Tubes,SET
+RATNAMANI,Metals & Mining,Pipes & Tubes,SET
+
+# Transformers & Power T&D Equipment
+TRIL,Capital Goods,Transformers & T&D Equipment,SET
+VOLTAMP,Capital Goods,Transformers & T&D Equipment,SET
+BHEL,Capital Goods,Transformers & T&D Equipment,SET
+SIEMENS,Capital Goods,Transformers & T&D Equipment,SET
+ABB,Capital Goods,Transformers & T&D Equipment,SET
+CGPOWER,Capital Goods,Transformers & T&D Equipment,SET
+SCHNEIDER,Capital Goods,Transformers & T&D Equipment,SET
+GEPIL,Capital Goods,Transformers & T&D Equipment,SET
+JYOTISTRUC,Capital Goods,Transformers & T&D Equipment,SET
+
+# Aerospace, Defense & Shipyards
+BEL,Capital Goods,Aerospace & Defence,SET
+HAL,Capital Goods,Aerospace & Defence,SET
+BDL,Capital Goods,Aerospace & Defence,SET
+MAZDOCK,Capital Goods,Ship Building & Defence,SET
+COCHINSHIP,Capital Goods,Ship Building & Defence,SET
+GRSE,Capital Goods,Ship Building & Defence,SET
+DATAPATTNS,Capital Goods,Aerospace & Defence,SET
+ASTRAMICRO,Capital Goods,Aerospace & Defence,SET
+PARAS,Capital Goods,Aerospace & Defence,SET
+MTARTECH,Capital Goods,Aerospace & Defence,SET
+ZENITH,Capital Goods,Aerospace & Defence,SET
+SOLARINDS,Chemicals,Explosives & Defence Chemicals,SET
+PREMEXPLN,Chemicals,Explosives & Defence Chemicals,SET
+
+# Railways
+TITAGARH,Capital Goods,Railway Wagons & Equipment,SET
+JWL,Capital Goods,Railway Wagons & Equipment,SET
+TEXRAIL,Capital Goods,Railway Wagons & Equipment,SET
+RITES,Services,Railway Infrastructure & Consulting,SET
+RVNL,Construction,Railway Infrastructure,SET
+IRFC,Financial Services,Railway Financing,SET
+IRCTC,Consumer Services,Railway Ticketing & Catering,SET
+IRCON,Construction,Railway Infrastructure,SET
+RAILTEL,Telecommunication,Railway Telecom,SET
+
+# Batteries
+EXIDEIND,Automobile and Auto Components,Batteries,SET
+AMARAJABAT,Automobile and Auto Components,Batteries,SET
+HBLPOWER,Automobile and Auto Components,Batteries & Power Systems,SET
+EVEREADY,Fast Moving Consumer Goods,Batteries,SET
+
+# Paints
+ASIANPAINT,Consumer Durables,Paints,SET
+BERGEPAINT,Consumer Durables,Paints,SET
+KANSAINER,Consumer Durables,Paints,SET
+INDIGOPNTS,Consumer Durables,Paints,SET
+AKZOINDIA,Consumer Durables,Paints,SET

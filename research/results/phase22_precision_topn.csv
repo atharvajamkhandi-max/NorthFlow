@@ -1,0 +1,5 @@
+Metric,Average_Precision,Worst_Year,Best_Year,Lift_vs_Chance
+Precision@1 (Top Pick),5.6%,0.0%,16.9%,1.85x
+Precision@3 (Top Tier),6.0%,0.0%,16.9%,1.74x
+Precision@5 (Recommended Basket),5.9%,0.0%,15.4%,1.68x
+Precision@10 (Broad Radar),5.9%,0.0%,14.4%,1.45x

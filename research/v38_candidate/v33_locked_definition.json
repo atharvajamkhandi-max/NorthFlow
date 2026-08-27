@@ -1,0 +1,31 @@
+{
+  "model_version": "MODEL_V3.3_CANDIDATE",
+  "lock_timestamp": "2026-08-25T00:55:00",
+  "feature_cols": [
+    "industry_return_1d",
+    "breadth_50",
+    "RISK_SCORE",
+    "CONFIDENCE_SCORE"
+  ],
+  "target_col": "future_return_20D",
+  "hgb_hyperparameters": {
+    "max_iter": 80,
+    "max_depth": 4,
+    "l2_regularization": 2.0,
+    "learning_rate": 0.1,
+    "random_state": 42
+  },
+  "conformal_quantile_scale": 1.3,
+  "regime_60d_offsets": {
+    "WEAK_BULL": 12.22,
+    "WEAK_BEAR": -5.67,
+    "SIDEWAYS": 4.01,
+    "HIGH_VOLATILITY": 0.0
+  },
+  "regime_conditional_rules": {
+    "WEAK_BULL": "USE_HGB",
+    "WEAK_BEAR": "USE_HGB",
+    "HIGH_VOLATILITY": "USE_HGB",
+    "SIDEWAYS": "USE_V32_BASE"
+  }
+}

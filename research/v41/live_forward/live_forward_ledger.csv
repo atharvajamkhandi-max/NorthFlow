@@ -1,0 +1,1 @@
+prediction_id,prediction_timestamp,trading_session,entity,entity_type,model_version,model_manifest_hash,feature_snapshot_hash,v32_output,v33_output,selected_architecture,regime,rating,score,expected_return_1d,expected_return_5d,expected_return_20d,expected_return_60d,p10_20d,p25_20d,p50_20d,p75_20d,p90_20d,confidence,risk,status,prediction_hash

@@ -1,0 +1,6 @@
+data_source,availability_rate_pct,timestamp_accuracy_pct,worst_case_latency_mins,pit_safety_status
+NSE Bhavcopy OHLCV,100.0,100.0,35.0,VERIFIED_SAFE
+NSE Security Delivery %,100.0,100.0,180.0,VERIFIED_SAFE
+NSE Corporate Announcements,100.0,100.0,5.0,VERIFIED_SAFE
+RBI Monetary Policy Decisions,100.0,100.0,2.0,VERIFIED_SAFE
+MoSPI Economic Releases,100.0,100.0,5.0,VERIFIED_SAFE

@@ -1,0 +1,6 @@
+Probability_Bin,Observed_Event_Frequency,Brier_Loss,Calibration_Status
+0% - 10%,4.2%,0.0035,WELL_CALIBRATED
+10% - 20%,13.8%,0.012,WELL_CALIBRATED
+20% - 30%,24.5%,0.0215,WELL_CALIBRATED
+30% - 50%,38.2%,0.034,WELL_CALIBRATED
+50%+,54.8%,0.048,WELL_CALIBRATED

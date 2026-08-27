@@ -1,0 +1,28 @@
+{
+  "evaluation_timestamp": "2026-08-26T22:52:00",
+  "windows": {
+    "last_10_live_sessions": {
+      "matured_count": 0,
+      "status": "PENDING_MATURITY"
+    },
+    "last_20_live_sessions": {
+      "matured_count": 0,
+      "status": "PENDING_MATURITY"
+    },
+    "last_40_live_sessions": {
+      "matured_count": 0,
+      "status": "PENDING_MATURITY"
+    },
+    "all_matured_live_sessions": {
+      "matured_count": 0,
+      "status": "PENDING_MATURITY"
+    }
+  },
+  "flags": {
+    "directional_collapse_detected": false,
+    "rank_ic_collapse_detected": false,
+    "mae_deterioration_detected": false,
+    "regime_failure_detected": false
+  },
+  "overall_decay_status": "STABLE_PENDING_LIVE_MATURATION"
+}

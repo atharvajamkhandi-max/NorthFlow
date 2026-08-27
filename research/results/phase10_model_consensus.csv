@@ -1,0 +1,136 @@
+Industry,Consensus_Score,Consensus_Label,Factor_Model_20D,Ridge_20D,ElasticNet_20D,Analog_Median_20D
+API & CDMO / CRAMS,89.8,HIGH MODEL CONSENSUS,-1.07,-0.92,-0.84,0.0
+Aerospace & Defence,88.0,HIGH MODEL CONSENSUS,-1.28,-1.11,-1.02,0.0
+Affordable Housing Finance Company,65.4,MODERATE CONSENSUS,-3.77,-3.49,-3.32,0.0
+Agrochemicals & Pesticides,66.7,MODERATE CONSENSUS,-3.64,-3.36,-3.2,0.0
+Air Conditioners & AC Components,72.8,MODERATE CONSENSUS,-2.96,-2.72,-2.58,0.0
+Air Conditioners & Appliances,74.4,MODERATE CONSENSUS,-2.79,-2.55,-2.42,0.0
+Aluminium & Mining,83.0,HIGH MODEL CONSENSUS,-1.83,-1.64,-1.53,0.0
+Asset Management & Wealth,88.6,HIGH MODEL CONSENSUS,1.22,1.26,1.28,0.0
+Asset Management Company (AMC),85.7,HIGH MODEL CONSENSUS,-1.54,-1.36,-1.26,0.0
+Auto Glass,97.1,HIGH MODEL CONSENSUS,-0.08,0.03,0.08,0.0
+Auto Lighting,64.2,MODERATE CONSENSUS,-3.91,-3.61,-3.45,0.0
+Auto Parts & Equipment,84.5,HIGH MODEL CONSENSUS,-1.67,-1.48,-1.38,0.0
+Automobile OEMs,88.7,HIGH MODEL CONSENSUS,-1.19,-1.03,-0.95,0.0
+Automobile and Auto Components,84.2,HIGH MODEL CONSENSUS,-1.7,-1.52,-1.42,0.0
+Banks,84.6,HIGH MODEL CONSENSUS,-1.65,-1.47,-1.37,0.0
+Batteries,81.2,HIGH MODEL CONSENSUS,-2.03,-1.83,-1.72,0.0
+Batteries & Energy Storage,96.1,HIGH MODEL CONSENSUS,-0.3,-0.18,-0.13,0.0
+Bearings & Friction Solutions,82.5,HIGH MODEL CONSENSUS,-1.89,-1.69,-1.58,0.0
+Breweries & Distilleries,86.0,HIGH MODEL CONSENSUS,-1.49,-1.32,-1.22,0.0
+Capital Goods,89.8,HIGH MODEL CONSENSUS,-1.07,-0.92,-0.83,0.0
+Capital Markets & Asset Management,92.3,HIGH MODEL CONSENSUS,-0.78,-0.64,-0.57,0.0
+Cement,70.9,MODERATE CONSENSUS,-3.17,-2.91,-2.77,0.0
+Cement & Clinker,73.3,MODERATE CONSENSUS,-2.91,-2.67,-2.53,0.0
+Ceramics & Tiles,75.6,MODERATE CONSENSUS,-2.66,-2.42,-2.29,0.0
+Chemicals,81.8,HIGH MODEL CONSENSUS,-1.97,-1.77,-1.66,0.0
+Civil Buildings & Commercial EPC,60.5,MODERATE CONSENSUS,-4.32,-4.01,-3.83,0.0
+Civil Construction & Infrastructure,74.6,MODERATE CONSENSUS,-2.76,-2.53,-2.39,0.0
+Civil Construction & Infrastructure EPC,81.4,HIGH MODEL CONSENSUS,-2.01,-1.81,-1.7,0.0
+Commodity Chemicals,89.7,HIGH MODEL CONSENSUS,-1.08,-0.93,-0.84,0.0
+Construction,90.9,HIGH MODEL CONSENSUS,-0.95,-0.8,-0.72,0.0
+Construction Materials,78.4,MODERATE CONSENSUS,2.36,2.34,2.32,0.0
+Consumer Durables,88.6,HIGH MODEL CONSENSUS,-1.21,-1.05,-0.96,0.0
+Consumer Services,86.8,HIGH MODEL CONSENSUS,-1.41,-1.24,-1.15,0.0
+Copper & Non-Ferrous Metals,97.0,HIGH MODEL CONSENSUS,-0.12,-0.01,0.04,0.0
+Copper Mining,76.1,MODERATE CONSENSUS,2.61,2.58,2.55,0.0
+Dairy Products,86.5,HIGH MODEL CONSENSUS,1.46,1.48,1.49,0.0
+Data Centers & Real Estate,96.6,HIGH MODEL CONSENSUS,-0.22,-0.11,-0.05,0.0
+Diagnostic & Healthcare Laboratories,96.5,HIGH MODEL CONSENSUS,-0.24,-0.12,-0.07,0.0
+Diversified & Fashion Retail,81.6,HIGH MODEL CONSENSUS,-1.99,-1.79,-1.68,0.0
+Diversified Commercial,84.1,HIGH MODEL CONSENSUS,-1.71,-1.53,-1.42,0.0
+Diversified Retail,73.7,MODERATE CONSENSUS,-2.87,-2.62,-2.49,0.0
+Edible Oils,82.9,HIGH MODEL CONSENSUS,-1.85,-1.66,-1.55,0.0
+Electronic Manufacturing Services (EMS),84.6,HIGH MODEL CONSENSUS,-1.66,-1.47,-1.37,0.0
+Explosives & Defence Chemicals,82.5,HIGH MODEL CONSENSUS,-1.89,-1.69,-1.59,0.0
+Fast Moving Consumer Goods,82.4,HIGH MODEL CONSENSUS,-1.9,-1.71,-1.6,0.0
+Fertilizers,65.7,MODERATE CONSENSUS,-3.75,-3.46,-3.3,0.0
+Fertilizers & Agrochemicals,73.4,MODERATE CONSENSUS,-2.89,-2.65,-2.51,0.0
+Financial Services,84.8,HIGH MODEL CONSENSUS,-1.63,-1.45,-1.35,0.0
+Footwear,77.3,MODERATE CONSENSUS,-2.46,-2.24,-2.11,0.0
+Gas Distribution,65.9,MODERATE CONSENSUS,-3.72,-3.43,-3.27,0.0
+Gas Transmission & Distribution,68.6,MODERATE CONSENSUS,-3.43,-3.16,-3.0,0.0
+Healthcare,85.3,HIGH MODEL CONSENSUS,-1.58,-1.4,-1.3,0.0
+Heavy Electrical Equipment,97.2,HIGH MODEL CONSENSUS,-0.06,0.05,0.1,0.0
+Hospitals & Diagnostic Centres,85.3,HIGH MODEL CONSENSUS,-1.57,-1.4,-1.3,0.0
+Hospitals & Healthcare Services,63.9,MODERATE CONSENSUS,-3.95,-3.65,-3.48,0.0
+Hotels & Restaurants,75.7,MODERATE CONSENSUS,-2.64,-2.41,-2.28,0.0
+"Hotels, Resorts & QSR",91.3,HIGH MODEL CONSENSUS,-0.9,-0.76,-0.68,0.0
+Housing & Urban Infrastructure Financing,65.8,MODERATE CONSENSUS,-3.74,-3.45,-3.29,0.0
+IT Consulting & Software,87.1,HIGH MODEL CONSENSUS,-1.37,-1.2,-1.11,0.0
+Information Technology,78.8,MODERATE CONSENSUS,-2.3,-2.09,-1.97,0.0
+Insurance,80.5,HIGH MODEL CONSENSUS,-2.11,-1.91,-1.79,0.0
+Internet & Digital Platforms,93.3,HIGH MODEL CONSENSUS,-0.67,-0.53,-0.46,0.0
+Iron & Steel,75.1,MODERATE CONSENSUS,-2.71,-2.48,-2.35,0.0
+Logistics & Transportation,82.9,HIGH MODEL CONSENSUS,-1.84,-1.65,-1.54,0.0
+"Logistics, Ports & Supply Chain",87.3,HIGH MODEL CONSENSUS,-1.35,-1.19,-1.1,0.0
+Lubricants & Specialty Oils,91.4,HIGH MODEL CONSENSUS,-0.89,-0.74,-0.67,0.0
+Media & Entertainment,79.6,MODERATE CONSENSUS,-2.21,-2.0,-1.88,0.0
+Media Entertainment & Publication,94.3,HIGH MODEL CONSENSUS,-0.54,-0.41,-0.34,0.0
+Metals & Mining,73.6,MODERATE CONSENSUS,-2.87,-2.63,-2.49,0.0
+Microfinance NBFC,66.8,MODERATE CONSENSUS,-3.62,-3.34,-3.18,0.0
+Mining & Mineral Products,82.1,HIGH MODEL CONSENSUS,-1.94,-1.74,-1.63,0.0
+Non Banking Financial Company (NBFC),82.6,HIGH MODEL CONSENSUS,-1.88,-1.68,-1.58,0.0
+Oil Exploration & Refining,78.6,MODERATE CONSENSUS,-2.32,-2.11,-1.99,0.0
+Oil Gas & Consumable Fuels,97.1,HIGH MODEL CONSENSUS,-0.08,0.02,0.07,0.0
+Packaged Foods & Consumer Staples,85.4,HIGH MODEL CONSENSUS,-1.56,-1.38,-1.29,0.0
+Packaged Foods & FMCG Staples,75.6,MODERATE CONSENSUS,-2.66,-2.42,-2.29,0.0
+Packaging & Containers,96.4,HIGH MODEL CONSENSUS,-0.24,-0.13,-0.07,0.0
+Packaging Materials & Containers,91.3,HIGH MODEL CONSENSUS,-0.9,-0.75,-0.68,0.0
+Paints,81.8,HIGH MODEL CONSENSUS,-1.97,-1.77,-1.66,0.0
+Paints & Coatings,96.0,HIGH MODEL CONSENSUS,-0.3,-0.19,-0.13,0.0
+Paper & Paper Products,76.1,MODERATE CONSENSUS,-2.6,-2.37,-2.24,0.0
+Passenger Cars & Utility Vehicles,81.7,HIGH MODEL CONSENSUS,-1.98,-1.78,-1.68,0.0
+Pharmaceuticals,90.3,HIGH MODEL CONSENSUS,-1.01,-0.86,-0.78,0.0
+Pharmaceuticals & Biotechnology,80.5,HIGH MODEL CONSENSUS,-2.11,-1.9,-1.79,0.0
+Pipes & Tubes,93.2,HIGH MODEL CONSENSUS,-0.67,-0.54,-0.47,0.0
+Plastic Pipes & Fittings,94.3,HIGH MODEL CONSENSUS,-0.54,-0.41,-0.34,0.0
+Plastic Pipes & Moulded Products,70.3,MODERATE CONSENSUS,-3.24,-2.98,-2.83,0.0
+Plywood & Boards,74.6,MODERATE CONSENSUS,-2.76,-2.52,-2.39,0.0
+"Plywood, MDF & Laminates",83.5,HIGH MODEL CONSENSUS,-1.78,-1.59,-1.49,0.0
+Power,69.0,MODERATE CONSENSUS,-3.38,-3.11,-2.96,0.0
+Power Generation & Distribution,65.1,MODERATE CONSENSUS,-3.81,-3.52,-3.36,0.0
+Power Generation & Utilities,68.2,MODERATE CONSENSUS,-3.47,-3.2,-3.05,0.0
+Power Sector Financing NBFC,65.3,MODERATE CONSENSUS,-3.79,-3.5,-3.34,0.0
+Project Management & Civil Construction,66.4,MODERATE CONSENSUS,-3.67,-3.38,-3.22,0.0
+Pumps & Compressors,73.7,MODERATE CONSENSUS,-2.86,-2.61,-2.48,0.0
+Railway Financing,66.0,MODERATE CONSENSUS,-3.71,-3.42,-3.26,0.0
+Railway Infrastructure,66.4,MODERATE CONSENSUS,-3.67,-3.39,-3.23,0.0
+Railway Infrastructure & Consulting,66.0,MODERATE CONSENSUS,-3.71,-3.42,-3.26,0.0
+Railway Telecom,89.5,HIGH MODEL CONSENSUS,-1.11,-0.95,-0.87,0.0
+Railway Ticketing & Catering,65.6,MODERATE CONSENSUS,-3.76,-3.47,-3.31,0.0
+Railway Wagons & Equipment,66.2,MODERATE CONSENSUS,-3.69,-3.4,-3.24,0.0
+Railways,83.9,HIGH MODEL CONSENSUS,-1.74,-1.55,-1.45,0.0
+Realty,91.6,HIGH MODEL CONSENSUS,-0.86,-0.72,-0.64,0.0
+Renewable Energy,73.4,MODERATE CONSENSUS,-2.9,-2.65,-2.51,0.0
+Renewable Energy - Solar & Wind,71.4,MODERATE CONSENSUS,-3.11,-2.86,-2.71,0.0
+Renewable Energy Financing NBFC,66.1,MODERATE CONSENSUS,-3.7,-3.41,-3.25,0.0
+Residential & Commercial Real Estate,77.9,MODERATE CONSENSUS,-2.39,-2.17,-2.05,0.0
+Roads & Highways EPC,66.4,MODERATE CONSENSUS,-3.67,-3.38,-3.22,0.0
+Rubber Chemicals,67.8,MODERATE CONSENSUS,-3.52,-3.24,-3.09,0.0
+Saw Pipes & Ductile Iron Pipes,75.8,MODERATE CONSENSUS,2.65,2.62,2.59,0.0
+Semiconductors & Electronic Components,47.7,MODEL DIVERGENCE / DISAGREEMENT,-4.12,-3.81,-3.64,1.63
+Services,82.6,HIGH MODEL CONSENSUS,-1.88,-1.68,-1.58,0.0
+Ship Building & Defence,87.0,HIGH MODEL CONSENSUS,-1.38,-1.21,-1.12,0.0
+Software Products & Digital Services,81.3,HIGH MODEL CONSENSUS,-2.02,-1.82,-1.71,0.0
+Specialty Chemicals,83.1,HIGH MODEL CONSENSUS,-1.83,-1.63,-1.53,0.0
+Steel Manufacturing & Mining,97.2,HIGH MODEL CONSENSUS,-0.06,0.05,0.1,0.0
+Stockbroking & Financial Products,84.9,HIGH MODEL CONSENSUS,-1.62,-1.44,-1.34,0.0
+Structural Steel Tubes & Pipes,97.1,HIGH MODEL CONSENSUS,-0.08,0.02,0.07,0.0
+Sugar & Bio-Ethanol,86.9,HIGH MODEL CONSENSUS,-1.1,-0.95,-0.87,-2.42
+Superalloys & Special Metals,97.0,HIGH MODEL CONSENSUS,-0.12,-0.01,0.04,0.0
+Tea & Coffee,91.6,HIGH MODEL CONSENSUS,-0.86,-0.72,-0.64,0.0
+Telecom Services & Infrastructure,73.0,MODERATE CONSENSUS,-2.94,-2.69,-2.55,0.0
+Telecommunication,76.7,MODERATE CONSENSUS,-2.53,-2.31,-2.18,0.0
+Textiles,97.3,HIGH MODEL CONSENSUS,0.03,0.13,0.18,0.0
+Textiles & Apparel,80.2,HIGH MODEL CONSENSUS,-2.15,-1.94,-1.83,0.0
+"Textiles, Yarns & Apparel",88.5,HIGH MODEL CONSENSUS,-1.21,-1.05,-0.97,0.0
+Tractors & Farm Equipment,82.8,HIGH MODEL CONSENSUS,-1.86,-1.67,-1.56,0.0
+Transformers & T&D Equipment,85.1,HIGH MODEL CONSENSUS,-1.6,-1.42,-1.32,0.0
+Travel Tech SaaS Solutions,77.3,MODERATE CONSENSUS,2.48,2.46,2.44,0.0
+Tyres & Rubber Products,75.9,MODERATE CONSENSUS,-2.62,-2.39,-2.26,0.0
+Utilities,66.1,MODERATE CONSENSUS,-3.7,-3.41,-3.25,0.0
+Water & Wastewater Treatment,69.2,MODERATE CONSENSUS,-3.36,-3.09,-2.94,0.0
+Wealth & Asset Management,97.0,HIGH MODEL CONSENSUS,-0.13,-0.02,0.03,0.0
+Wires & Cables,85.1,HIGH MODEL CONSENSUS,-1.6,-1.42,-1.32,0.0
+Zinc & Silver Mining,86.4,HIGH MODEL CONSENSUS,2.52,2.49,2.47,1.02

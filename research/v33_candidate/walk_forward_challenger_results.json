@@ -1,0 +1,24 @@
+{
+  "baseline_v32": {
+    "20D_directional_accuracy": 52.28760687052299,
+    "20D_mae": 8.825926018639759,
+    "20D_rmse": 12.168296900507803,
+    "20D_bias": -0.007494993452976944,
+    "20D_p10_p90_coverage": 68.52229839020258,
+    "60D_bias": 4.882178126541026,
+    "60D_directional_accuracy": 48.613880491413134,
+    "strong_buy_vs_avoid_spread_bps": 324.083997125323
+  },
+  "candidate_v33_combined": {
+    "20D_directional_accuracy": 52.28760687052299,
+    "20D_mae": 8.825926018639759,
+    "20D_rmse": 12.168296900507803,
+    "20D_bias": -0.007494993452976944,
+    "20D_p10_p90_coverage": 80.16059462373873,
+    "60D_bias": 4.2734733521485975,
+    "60D_directional_accuracy": 48.613880491413134,
+    "strong_buy_vs_avoid_spread_bps": 324.083997125323,
+    "consensus_decay_lambda": 25.0,
+    "consensus_quantile_scale": 1.3
+  }
+}

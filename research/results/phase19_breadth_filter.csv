@@ -1,0 +1,6 @@
+Filter_Name,Coverage_Pct,Opportunity_Count,Rank_IC,Top_Decile_20D,Bottom_Decile_20D,Top_Bottom_Spread,Win_Rate,Sharpe_Ratio
+B1: Baseline V3.2 (All Regimes),100.0%,220418,-0.0149,+1.81%,-0.15%,+1.97%,49.0%,0.39
+B2: Market Breadth >= 40% (Exclude Panic),63.1%,182853,-0.0216,+1.82%,+0.75%,+1.08%,49.3%,0.44
+B3: Market Breadth >= 50% (Healthy Expansion),50.6%,159650,-0.0242,+1.63%,+0.67%,+0.96%,48.9%,0.43
+B4: Market Breadth >= 60% (Strong Bull),38.7%,131066,-0.024,+1.87%,+1.10%,+0.77%,49.9%,0.5
+B5: Market Breadth < 40% (Bear / Liquidation),36.9%,37565,0.0051,+1.76%,-0.69%,+2.45%,47.6%,0.27

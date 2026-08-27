@@ -1,0 +1,4 @@
+Alert_Tier,Avg_Alerts_Day,Median_Alerts_Day,P90_Alerts_Day,Max_Alerts_Day,Usability_Status
+WATCH (Score 55 - 64),4.2,4.0,7.0,12.0,OPTIMAL_BROAD_RADAR
+EARLY (Score 65 - 74),2.1,2.0,4.0,6.0,FOCUSED_ACTIVE_WATCH
+PRE-BREAKOUT (Score >= 75),0.8,1.0,2.0,4.0,HIGH_CONVICTION_SELECT

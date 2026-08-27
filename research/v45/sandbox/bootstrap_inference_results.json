@@ -1,0 +1,17 @@
+{
+  "n_bootstraps": 1000,
+  "cluster_unit": "trading_session",
+  "acc_delta_95_ci": [
+    8.8,
+    13.16
+  ],
+  "mae_delta_95_ci": [
+    1.37,
+    1.93
+  ],
+  "ric_delta_95_ci": [
+    0.0757,
+    0.1205
+  ],
+  "statistically_significant_ic_gain": true
+}

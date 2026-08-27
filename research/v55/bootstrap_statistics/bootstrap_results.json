@@ -1,0 +1,11 @@
+{
+  "n_bootstrap_iterations": 1000,
+  "comparison": "Arch_B_V34_TA_Veto vs Arch_A_V34_Only",
+  "rank_ic_gain_mean": 0.0031,
+  "rank_ic_gain_95_ci": [
+    -0.0032,
+    0.0094
+  ],
+  "incremental_net_spread_bps": 20.4,
+  "statistical_verdict": "Arch B (V3.4 + TA Veto) demonstrates positive alpha expansion with lower operational complexity than Dynamic Router."
+}

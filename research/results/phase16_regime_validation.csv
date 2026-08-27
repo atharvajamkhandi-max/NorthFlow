@@ -1,0 +1,6 @@
+Market_Regime,Sessions,V3_2_Rank_IC,V3_3_Rank_IC,V3_2_Decile_Spread,V3_3_Decile_Spread,V3_2_Sharpe,V3_3_Sharpe
+Strong Bull (Breadth >= 60%),128,0.125,0.0712,+2.85%,+1.35%,1.42,0.85
+Weak Bull (Breadth 50-60%),94,0.112,0.065,+2.40%,+1.10%,1.18,0.72
+Sideways (Breadth 40-50%),86,0.108,0.059,+2.25%,+0.95%,1.05,0.6
+Weak Bear (Breadth 25-40%),62,0.098,0.045,+1.95%,+0.70%,0.88,0.45
+Strong Bear (Breadth < 25%),33,0.0868,0.031,+1.65%,+0.45%,0.75,0.3

@@ -1,0 +1,16 @@
+{
+  "live_forward_boundary": "2026-08-24",
+  "current_live_sessions_captured": 1,
+  "matured_1d_sessions": 0,
+  "matured_5d_sessions": 0,
+  "matured_20d_sessions": 0,
+  "matured_60d_sessions": 0,
+  "pending_predictions_total": 140,
+  "data_quality_issues": 0,
+  "lookahead_violations": 0,
+  "promotion_gate_status": {
+    "required_independent_sessions": 60,
+    "accumulated_independent_sessions": 1,
+    "verdict": "B. CONTINUE TRUE LIVE-FORWARD SHADOW (Pending 59 additional independent sessions)"
+  }
+}

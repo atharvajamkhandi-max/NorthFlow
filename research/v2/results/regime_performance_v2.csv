@@ -1,0 +1,4 @@
+Market_Regime,Sessions_Count,Existing_Model_Rank_IC,Quant_Ensemble_Rank_IC,Top_Bottom_Spread,Hit_Rate_Pct
+WEAK_BEAR,7008,0.1094,-0.0383,-0.73,25.4
+WEAK_BULL,3898,-0.1468,-0.1981,-3.41,27.0
+SIDEWAYS,806,-0.1268,-0.3898,-10.26,35.4

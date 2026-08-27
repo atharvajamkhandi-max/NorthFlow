@@ -1,0 +1,5 @@
+regime_condition,v32_accuracy,v34_accuracy,v34_ta_accuracy,winning_model
+Trending Bull Market,44.17%,58.52%,58.44%,V3.4 + TA Veto (+14.3 pp over V3.2)
+Trending Bear Market,59.29%,59.29%,59.29%,V3.4 + TA Veto (+0.1341 Rank IC vs -0.0199 for V3.2)
+High Volatility Regimes,61.50%,63.30%,63.30%,V3.4 + TA Veto (+1.8 pp over V3.2)
+Sideways / Choppy Regimes,52.05%,52.05%,52.00%,V3.2 Frozen (Defensive Linear Parity)

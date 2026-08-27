@@ -1,0 +1,22 @@
+symbol,custom_industry,custom_segment,classification_source,confidence,notes,updated_at
+INDHOTEL,Hotels,Luxury / Premium,MANUAL_MAP,1.0,Taj Hotels and Palaces,2026-08-22 16:21:10
+EIHOTEL,Hotels,Luxury / Premium,MANUAL_MAP,1.0,Oberoi and Trident Hotels,2026-08-22 16:21:10
+THELEELA,Hotels,Luxury / Premium,MANUAL_MAP,1.0,The Leela Palaces,2026-08-22 16:21:10
+CHALET,Hotels,Upper Upscale,MANUAL_MAP,1.0,Marriott & Westin franchisee asset owner,2026-08-22 16:21:10
+LEMONTREE,Hotels,Midscale,MANUAL_MAP,1.0,Lemon Tree and Red Fox midscale chain,2026-08-22 16:21:10
+SAMHI,Hotels,Midscale,MANUAL_MAP,1.0,Multi-brand hotel asset owner (Courtyard/Hyatt Place),2026-08-22 16:21:10
+ORIENTHOT,Hotels,Midscale,MANUAL_MAP,1.0,Taj associate business hotels,2026-08-22 16:21:10
+DIXON,EMS,Consumer Electronics EMS,MANUAL_MAP,1.0,Lighting and Home Appliances EMS,2026-08-22 16:21:10
+KAYNES,EMS,Industrial & Aerospace EMS,MANUAL_MAP,1.0,Industrial PCBA and Aerospace Electronics,2026-08-22 16:21:10
+SYRMA,EMS,Industrial & Auto EMS,MANUAL_MAP,1.0,RFID and Automotive Electronics,2026-08-22 16:21:10
+AVALON,EMS,Aerospace & High-Rel EMS,MANUAL_MAP,1.0,Box-build and Cable Assemblies,2026-08-22 16:21:10
+CYIENTDLM,EMS,Aerospace & Defence EMS,MANUAL_MAP,1.0,Defence systems and Avionics,2026-08-22 16:21:10
+POLYCAB,Wires & Cables,Power & Building Cables,MANUAL_MAP,1.0,Cables and FMEG,2026-08-22 16:21:10
+KEI,Wires & Cables,Extra High Voltage Cables,MANUAL_MAP,1.0,EHV & High Tension Cables,2026-08-22 16:21:10
+RRKABEL,Wires & Cables,Building Wires & Consumer,MANUAL_MAP,1.0,Low Voltage Building Wires,2026-08-22 16:21:10
+PRAJIND,Water Treatment,Industrial Bio-Process & Wastewater,MANUAL_MAP,1.0,Zero Liquid Discharge and Ethanol plants,2026-08-22 16:21:10
+WABAG,Water Treatment,Municipal & Industrial Desalination,MANUAL_MAP,1.0,Water infrastructure and desalination EPC,2026-08-22 16:21:10
+EMSLIMITED,Water Treatment,Sewerage & Wastewater Treatment,MANUAL_MAP,1.0,Government wastewater and drainage EPC,2026-08-22 16:21:10
+NATIONALUM,Aluminium,Primary Smelting & Alumina,MANUAL_MAP,1.0,Upstream alumina refining and smelting,2026-08-22 16:21:10
+VEDL,Aluminium,Integrated Mining & Smelting,MANUAL_MAP,1.0,Diversified natural resources and aluminium,2026-08-22 16:21:10
+HINDALCO,Aluminium,Downstream Value-Added & Novelis,MANUAL_MAP,1.0,Aluminium flat rolled products and extrusions,2026-08-22 16:21:10

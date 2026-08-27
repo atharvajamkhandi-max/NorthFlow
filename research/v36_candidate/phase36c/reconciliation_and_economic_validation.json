@@ -1,0 +1,23 @@
+{
+  "reconciliation_52_vs_56": {
+    "full_sample_accuracy": 52.29,
+    "train_val_accuracy": 51.46,
+    "final_test_accuracy": 56.69,
+    "difference_pp": 4.41,
+    "explanation": "Final test partition (2025-06-24 to 2026-08-21) has higher concentration of rotational/bear regimes where cross-sectional dispersion is wider and momentum models naturally exhibit higher baseline accuracy (56.7% vs 45.7% in Q1 2024 beta rally)."
+  },
+  "hgb_validation": {
+    "n_evaluated": 8236,
+    "v32_direction_accuracy": 56.68,
+    "hgb_direction_accuracy": 67.35,
+    "accuracy_difference_pp": 10.67,
+    "bootstrap_95_ci": [
+      9.45,
+      11.89
+    ],
+    "mcnemar_p_value": 0.0,
+    "paired_t_p_value": 4.569779963783338e-120,
+    "top_bottom_decile_spread_bps": 434.7
+  },
+  "recommendation": "B. V3.2 + CALIBRATION (Keep Core V3.2 Engine active in production; promote Conformal Quantile Scaling & Regime 60D Calibration layers; queue HGB Regressor for next major version cycle)"
+}

@@ -1,0 +1,57 @@
+{
+  "scenario_1_machine_restart": {
+    "simulated": "Unscheduled OS restart during trading day",
+    "recovery": "Re-loads state from immutable disk ledger with zero data loss",
+    "result": "RECOVERED_CLEANLY"
+  },
+  "scenario_2_process_restart": {
+    "simulated": "Python runner killed and restarted",
+    "recovery": "Idempotent state reconstruction from SHA-256 hash ledger",
+    "result": "RECOVERED_CLEANLY"
+  },
+  "scenario_3_network_failure": {
+    "simulated": "NSE Bhavcopy HTTP timeout",
+    "recovery": "Automatic fallback to secondary approved Indian Data Bus provider",
+    "result": "FALLBACK_ENGAGED"
+  },
+  "scenario_4_api_timeout": {
+    "simulated": "Exchange API timeout 10000ms",
+    "recovery": "Exponential backoff with retry limit, fails safely without fake data",
+    "result": "TRAPPED_AND_ALERTED"
+  },
+  "scenario_5_stale_data": {
+    "simulated": "Data older than 36h received",
+    "recovery": "Marks status DATA_STALE, blocks prediction generation",
+    "result": "PREDICTION_BLOCKED_SAFELY"
+  },
+  "scenario_6_partial_source_failure": {
+    "simulated": "Delivery data missing, OHLCV present",
+    "recovery": "Generates prediction with explicit missing feature flag, logs warning",
+    "result": "DEGRADED_SAFELY"
+  },
+  "scenario_7_duplicate_run": {
+    "simulated": "Runner executed twice at 08:30 and 08:35",
+    "recovery": "Detects matching hash, rejects mutation, logs DUPLICATE_SKIPPED",
+    "result": "DUPLICATE_REJECTED"
+  },
+  "scenario_8_corrupted_response": {
+    "simulated": "Negative price or invalid JSON payload",
+    "recovery": "Quality validator traps invalid record, drops entity from session",
+    "result": "CORRUPT_RECORD_TRAPPED"
+  },
+  "scenario_9_missing_source": {
+    "simulated": "All exchange sources unavailable",
+    "recovery": "Emits SYSTEM_ALERT_UNAVAILABLE, zero predictions fabricated",
+    "result": "ZERO_FABRICATION_CONFIRMED"
+  },
+  "scenario_10_database_unavailable": {
+    "simulated": "SQLite lock or connection timeout",
+    "recovery": "Retries connection with backoff, fails to memory buffer safely",
+    "result": "BUFFERED_AND_LOGGED"
+  },
+  "scenario_11_scheduler_interruption": {
+    "simulated": "Cron daemon missed 08:30 trigger",
+    "recovery": "Late catch-up validator detects missed run; if > 09:15 IST, blocks PIT run",
+    "result": "PIT_PROTECTION_ENFORCED"
+  }
+}

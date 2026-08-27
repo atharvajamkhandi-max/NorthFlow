@@ -1,0 +1,136 @@
+Industry,20D_P_gt_2pct,20D_P_gt_5pct,20D_P_gt_8pct,20D_P_gt_10pct,20D_P_gt_15pct,20D_P_gt_20pct
+API & CDMO / CRAMS,21.3,7.7,2.9,1.7,0.5,0.2
+Aerospace & Defence,19.9,7.2,2.8,1.6,0.5,0.2
+Affordable Housing Finance Company,8.5,3.2,1.5,1.0,0.5,0.2
+Agrochemicals & Pesticides,8.9,3.4,1.5,1.0,0.5,0.2
+Air Conditioners & AC Components,11.3,4.2,1.7,1.0,0.5,0.2
+Air Conditioners & Appliances,12.0,4.4,1.8,1.0,0.5,0.2
+Aluminium & Mining,16.6,6.0,2.4,1.3,0.5,0.2
+Asset Management & Wealth,41.7,16.9,6.1,3.2,0.8,0.3
+Asset Management Company (AMC),18.3,6.6,2.6,1.5,0.5,0.2
+Auto Glass,29.1,10.8,4.0,2.2,0.6,0.2
+Auto Lighting,8.2,3.1,1.5,1.0,0.5,0.2
+Auto Parts & Equipment,17.5,6.3,2.5,1.4,0.5,0.2
+Automobile OEMs,20.5,7.4,2.8,1.6,0.5,0.2
+Automobile and Auto Components,17.3,6.3,2.4,1.4,0.5,0.2
+Banks,17.6,6.4,2.5,1.4,0.5,0.2
+Batteries,15.5,5.6,2.2,1.3,0.5,0.2
+Batteries & Energy Storage,27.2,10.0,3.7,2.1,0.6,0.2
+Bearings & Friction Solutions,16.2,5.9,2.3,1.3,0.5,0.2
+Breweries & Distilleries,18.5,6.7,2.6,1.5,0.5,0.2
+Capital Goods,21.3,7.7,2.9,1.7,0.5,0.2
+Capital Markets & Asset Management,23.4,8.5,3.2,1.8,0.5,0.2
+Cement,10.5,3.9,1.6,1.0,0.5,0.2
+Cement & Clinker,11.5,4.2,1.7,1.0,0.5,0.2
+Ceramics & Tiles,12.5,4.6,1.9,1.1,0.5,0.2
+Chemicals,15.8,5.7,2.3,1.3,0.5,0.2
+Civil Buildings & Commercial EPC,7.1,2.7,1.5,1.0,0.5,0.2
+Civil Construction & Infrastructure,12.1,4.4,1.8,1.1,0.5,0.2
+Civil Construction & Infrastructure EPC,15.6,5.7,2.2,1.3,0.5,0.2
+Commodity Chemicals,21.2,7.7,2.9,1.6,0.5,0.2
+Construction,22.2,8.1,3.1,1.7,0.5,0.2
+Construction Materials,53.9,24.4,8.9,4.6,1.1,0.4
+Consumer Durables,20.3,7.4,2.8,1.6,0.5,0.2
+Consumer Services,19.0,6.9,2.7,1.5,0.5,0.2
+Copper & Non-Ferrous Metals,28.7,10.7,4.0,2.2,0.6,0.2
+Copper Mining,56.6,26.4,9.7,5.0,1.2,0.4
+Dairy Products,44.2,18.2,6.6,3.5,0.9,0.3
+Data Centers & Real Estate,27.8,10.3,3.8,2.1,0.6,0.2
+Diagnostic & Healthcare Laboratories,27.7,10.3,3.8,2.1,0.6,0.2
+Diversified & Fashion Retail,15.7,5.7,2.2,1.3,0.5,0.2
+Diversified Commercial,17.2,6.2,2.4,1.4,0.5,0.2
+Diversified Retail,11.6,4.3,1.7,1.0,0.5,0.2
+Edible Oils,16.4,6.0,2.3,1.3,0.5,0.2
+Electronic Manufacturing Services (EMS),17.5,6.4,2.5,1.4,0.5,0.2
+Explosives & Defence Chemicals,16.2,5.9,2.3,1.3,0.5,0.2
+Fast Moving Consumer Goods,16.2,5.9,2.3,1.3,0.5,0.2
+Fertilizers,8.6,3.3,1.5,1.0,0.5,0.2
+Fertilizers & Agrochemicals,11.5,4.2,1.7,1.0,0.5,0.2
+Financial Services,17.7,6.4,2.5,1.4,0.5,0.2
+Footwear,13.4,4.9,2.0,1.1,0.5,0.2
+Gas Distribution,8.7,3.3,1.5,1.0,0.5,0.2
+Gas Transmission & Distribution,9.6,3.6,1.5,1.0,0.5,0.2
+Healthcare,18.0,6.5,2.5,1.4,0.5,0.2
+Heavy Electrical Equipment,29.2,10.9,4.0,2.2,0.6,0.2
+Hospitals & Diagnostic Centres,18.0,6.5,2.5,1.4,0.5,0.2
+Hospitals & Healthcare Services,8.1,3.1,1.5,1.0,0.5,0.2
+Hotels & Restaurants,12.6,4.6,1.9,1.1,0.5,0.2
+"Hotels, Resorts & QSR",22.5,8.2,3.1,1.7,0.5,0.2
+Housing & Urban Infrastructure Financing,8.7,3.3,1.5,1.0,0.5,0.2
+IT Consulting & Software,19.3,7.0,2.7,1.5,0.5,0.2
+Information Technology,14.1,5.1,2.1,1.2,0.5,0.2
+Insurance,15.0,5.5,2.2,1.2,0.5,0.2
+Internet & Digital Platforms,24.2,8.9,3.3,1.8,0.5,0.2
+Iron & Steel,12.3,4.5,1.8,1.1,0.5,0.2
+Logistics & Transportation,16.5,6.0,2.3,1.3,0.5,0.2
+"Logistics, Ports & Supply Chain",19.4,7.0,2.7,1.5,0.5,0.2
+Lubricants & Specialty Oils,22.6,8.2,3.1,1.7,0.5,0.2
+Media & Entertainment,14.6,5.3,2.1,1.2,0.5,0.2
+Media Entertainment & Publication,25.2,9.3,3.5,1.9,0.5,0.2
+Metals & Mining,11.6,4.3,1.7,1.0,0.5,0.2
+Microfinance NBFC,9.0,3.4,1.5,1.0,0.5,0.2
+Mining & Mineral Products,16.0,5.8,2.3,1.3,0.5,0.2
+Non Banking Financial Company (NBFC),16.3,5.9,2.3,1.3,0.5,0.2
+Oil Exploration & Refining,14.0,5.1,2.0,1.2,0.5,0.2
+Oil Gas & Consumable Fuels,29.0,10.8,4.0,2.2,0.6,0.2
+Packaged Foods & Consumer Staples,18.1,6.6,2.5,1.4,0.5,0.2
+Packaged Foods & FMCG Staples,12.5,4.6,1.9,1.1,0.5,0.2
+Packaging & Containers,27.7,10.3,3.8,2.1,0.6,0.2
+Packaging Materials & Containers,22.5,8.2,3.1,1.7,0.5,0.2
+Paints,15.8,5.7,2.3,1.3,0.5,0.2
+Paints & Coatings,27.1,10.0,3.7,2.0,0.6,0.2
+Paper & Paper Products,12.8,4.7,1.9,1.1,0.5,0.2
+Passenger Cars & Utility Vehicles,15.7,5.7,2.2,1.3,0.5,0.2
+Pharmaceuticals,21.7,7.9,3.0,1.7,0.5,0.2
+Pharmaceuticals & Biotechnology,15.1,5.5,2.2,1.3,0.5,0.2
+Pipes & Tubes,24.2,8.9,3.3,1.8,0.5,0.2
+Plastic Pipes & Fittings,25.2,9.3,3.5,1.9,0.5,0.2
+Plastic Pipes & Moulded Products,10.2,3.8,1.6,1.0,0.5,0.2
+Plywood & Boards,12.1,4.4,1.8,1.1,0.5,0.2
+"Plywood, MDF & Laminates",16.8,6.1,2.4,1.4,0.5,0.2
+Power,9.8,3.6,1.5,1.0,0.5,0.2
+Power Generation & Distribution,8.4,3.2,1.5,1.0,0.5,0.2
+Power Generation & Utilities,9.5,3.5,1.5,1.0,0.5,0.2
+Power Sector Financing NBFC,8.5,3.2,1.5,1.0,0.5,0.2
+Project Management & Civil Construction,8.9,3.3,1.5,1.0,0.5,0.2
+Pumps & Compressors,11.7,4.3,1.8,1.0,0.5,0.2
+Railway Financing,8.7,3.3,1.5,1.0,0.5,0.2
+Railway Infrastructure,8.8,3.3,1.5,1.0,0.5,0.2
+Railway Infrastructure & Consulting,8.7,3.3,1.5,1.0,0.5,0.2
+Railway Telecom,21.0,7.6,2.9,1.6,0.5,0.2
+Railway Ticketing & Catering,8.6,3.2,1.5,1.0,0.5,0.2
+Railway Wagons & Equipment,8.8,3.3,1.5,1.0,0.5,0.2
+Railways,17.1,6.2,2.4,1.4,0.5,0.2
+Realty,22.8,8.3,3.1,1.8,0.5,0.2
+Renewable Energy,11.5,4.2,1.7,1.0,0.5,0.2
+Renewable Energy - Solar & Wind,10.7,4.0,1.6,1.0,0.5,0.2
+Renewable Energy Financing NBFC,8.8,3.3,1.5,1.0,0.5,0.2
+Residential & Commercial Real Estate,13.7,5.0,2.0,1.2,0.5,0.2
+Roads & Highways EPC,8.9,3.3,1.5,1.0,0.5,0.2
+Rubber Chemicals,9.3,3.5,1.5,1.0,0.5,0.2
+Saw Pipes & Ductile Iron Pipes,57.0,26.7,9.9,5.1,1.2,0.4
+Semiconductors & Electronic Components,7.6,2.9,1.5,1.0,0.5,0.2
+Services,16.3,5.9,2.3,1.3,0.5,0.2
+Ship Building & Defence,19.2,7.0,2.7,1.5,0.5,0.2
+Software Products & Digital Services,15.5,5.6,2.2,1.3,0.5,0.2
+Specialty Chemicals,16.6,6.0,2.4,1.3,0.5,0.2
+Steel Manufacturing & Mining,29.2,10.9,4.0,2.2,0.6,0.2
+Stockbroking & Financial Products,17.7,6.4,2.5,1.4,0.5,0.2
+Structural Steel Tubes & Pipes,29.0,10.8,4.0,2.2,0.6,0.2
+Sugar & Bio-Ethanol,21.0,7.6,2.9,1.6,0.5,0.2
+Superalloys & Special Metals,28.7,10.7,4.0,2.2,0.6,0.2
+Tea & Coffee,22.8,8.3,3.1,1.8,0.5,0.2
+Telecom Services & Infrastructure,11.4,4.2,1.7,1.0,0.5,0.2
+Telecommunication,13.0,4.8,1.9,1.1,0.5,0.2
+Textiles,30.0,11.3,4.2,2.3,0.6,0.2
+Textiles & Apparel,14.9,5.4,2.1,1.2,0.5,0.2
+"Textiles, Yarns & Apparel",20.3,7.4,2.8,1.6,0.5,0.2
+Tractors & Farm Equipment,16.4,5.9,2.3,1.3,0.5,0.2
+Transformers & T&D Equipment,17.9,6.5,2.5,1.4,0.5,0.2
+Travel Tech SaaS Solutions,55.2,25.4,9.3,4.8,1.1,0.4
+Tyres & Rubber Products,12.6,4.6,1.9,1.1,0.5,0.2
+Utilities,8.8,3.3,1.5,1.0,0.5,0.2
+Water & Wastewater Treatment,9.8,3.7,1.5,1.0,0.5,0.2
+Wealth & Asset Management,28.6,10.7,3.9,2.2,0.6,0.2
+Wires & Cables,17.9,6.5,2.5,1.4,0.5,0.2
+Zinc & Silver Mining,55.6,25.7,9.4,4.8,1.1,0.4

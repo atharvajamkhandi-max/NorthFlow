@@ -1,0 +1,46 @@
+{
+  "attack_1_future_returns": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_2_future_prices": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_3_future_news": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_4_future_earnings": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_5_future_sentiment": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_6_future_risk_flags": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_7_future_sector_rankings": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_8_future_regime_labels": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_9_future_derived_features": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "attack_10_future_corporate_events": {
+    "detected": true,
+    "status": "CAUGHT_AND_BLOCKED"
+  },
+  "clean_baseline_check": {
+    "detected": false,
+    "status": "CLEAN_0_LEAKAGE"
+  }
+}

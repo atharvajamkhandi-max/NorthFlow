@@ -1,0 +1,35 @@
+{
+  "model_version": "MODEL_V3.3_TRUE_FORWARD_SHADOW",
+  "specification_version": "4.0.0-FROZEN-SHADOW",
+  "creation_timestamp": "2026-08-25T01:01:00",
+  "historical_cutoff_date": "2025-06-24",
+  "feature_definitions": [
+    "industry_return_1d",
+    "breadth_50",
+    "RISK_SCORE",
+    "CONFIDENCE_SCORE"
+  ],
+  "hgb_parameters": {
+    "max_iter": 80,
+    "max_depth": 4,
+    "l2_regularization": 2.0,
+    "learning_rate": 0.1,
+    "random_state": 42
+  },
+  "conformal_multiplier": 1.3,
+  "regime_offsets_60d": {
+    "WEAK_BULL": 12.22,
+    "WEAK_BEAR": -5.67,
+    "SIDEWAYS": 4.01,
+    "HIGH_VOLATILITY": 0.0
+  },
+  "regime_conditional_routing": {
+    "WEAK_BULL": "HGB",
+    "WEAK_BEAR": "HGB",
+    "HIGH_VOLATILITY": "HGB",
+    "SIDEWAYS": "V32_BASE"
+  },
+  "stock_projection_mode": "PARENT_INDUSTRY_IMPLIED",
+  "source_data_checksum": "52019b780e8b9d714e8f926063dce725541b27335dec47b7f6e66346520bca6b",
+  "immutability_rule": "STRICT_FROZEN_NO_RECALIBRATION_NO_ONLINE_LEARNING"
+}

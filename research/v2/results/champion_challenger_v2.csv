@@ -1,0 +1,4 @@
+Metric,Champion_Existing_V1,Challenger_V2_Ensemble,Delta,Verdict
+Rank_IC,0.1143,0.092,-0.0223,CHAMPION_WINS
+Decile_Spread,2.46,2.22,-0.24,CHAMPION_WINS
+Model_Complexity,10.0,60.0,50.0,CHAMPION_WINS

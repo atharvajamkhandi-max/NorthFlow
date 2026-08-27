@@ -1,0 +1,15 @@
+test_id,component,mode,criterion,actual,status
+P76_UI_01_HEADER,Market Overview Header,Global,"Institutional styling, session date, current chip",Verified compact header with session chip & badge,PASSED
+P76_UI_02_SEGMENTED_CONTROL,Mode Switcher,Global,[ INDUSTRY POSITION ] vs [ STOCK RECOMMENDER ],Clean radio/tab switcher preserving active universe,PASSED
+P76_UI_03_IND_GRID_2COL,Industry Position Grid,Industry Position,2-column responsive layout with circular ranks,"Rank pills (#01, #02), KPIs, badges, sparklines",PASSED
+P76_UI_04_IND_CARD_CLICK,Industry Card Selection,Industry Position,Click card selects industry & triggers drilldown,Button sets overview_selected_industry & reruns,PASSED
+P76_UI_05_IND_DROPDOWN,Industry Dropdown Menu,Industry Position,Dropdown preserved and synchronized with card click,Dropdown & card click update same canonical state,PASSED
+P76_UI_06_IND_CONSTITUENTS,Constituent Table,Industry Position,ALL constituents shown without truncation,"Zero head() truncation, filtered by active universe",PASSED
+P76_UI_07_IND_SHOWN_LIMIT,Industries Shown Control,Industry Position,"10, 20, 30, 50, ALL controls display only",Display slicing only; active universe untouched,PASSED
+P76_UI_08_STOCK_RECOMMENDER,Stock Recommender Mode,Stock Recommender,Ranked stocks bounded by active universe BEFORE ranking,100% recommended stocks ⊆ ACTIVE_UNIVERSE,PASSED
+P76_UI_09_STOCK_RANK_CTRL,Stock Ranking Control,Stock Recommender,"Order by Quant Score, 20D Return, RS, Momentum",Sorts active stock subset deterministically,PASSED
+P76_UI_10_EMPTY_UNIVERSE,Empty Universe Handling,Both Modes,"MCAP >= 9,999,999 Cr -> 0 records, 0 fallback","Clean informational alert, 0 rows, 0 crashes",PASSED
+P76_UI_11_50K_UNIVERSE,Mega-Cap >= 50k Cr Test,Both Modes,100% displayed entities satisfy >= 50k Cr,0 stocks below 50k Cr appear in cards or drilldowns,PASSED
+P76_UI_12_THEMES,Dark & Light Themes,Both Modes,Pitch-Black Dark & Institutional Light Design Systems,Canvas (#000000 / #F6F8FB) & tokens verified,PASSED
+P76_UI_13_REGRESSION,Full Automated Regression,Full Engine,360 / 360 unit & integration tests pass,"360 passed, 0 failures, 8 warnings in 15.25s",PASSED
+P76_UI_14_PROD_HASHES,Production Immutability,Protected Artifacts,6 core production files byte-for-byte unchanged,All 6 SHA-256 hashes match baseline exactly,PASSED

@@ -1,0 +1,17 @@
+{
+  "sessions_completed": 4,
+  "sessions_required_for_gate": 20,
+  "predictions_generated_total": 1196,
+  "matured_1D_observations": 299,
+  "matured_20D_observations": 0,
+  "matured_20D_required": 2800,
+  "ta_sample_count": 12,
+  "ta_sample_required": 100,
+  "v32_performance_1D_acc": "48.16%",
+  "v34_performance_1D_acc": "45.82%",
+  "v34_ta_performance_1D_acc": "45.48%",
+  "integrity_status": "100% VERIFIED (0 Lookahead, 0 Mutations, 100% PIT 08:30 IST Clean)",
+  "promotion_gate_status": "LOCKED (NOT_READY)",
+  "mandatory_policy": "NO_AUTOMATIC_PROMOTION_ALLOWED",
+  "active_production_model": "MODEL_V3.2_FROZEN (100% UNCHANGED)"
+}

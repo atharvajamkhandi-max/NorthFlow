@@ -1,0 +1,11 @@
+data_stream,provider,endpoint,verified_observed_latency_mins,historical_reproducible,pit_safe_0830_ist,status
+NSE Bhavcopy OHLCV,NSE India,nseindia.com/reports/bhavcopy,35.0,True,True,VERIFIED
+NSE Delivery % Volume,NSE India,nseindia.com/reports/delivery,180.0,True,True,VERIFIED
+NSE Corporate Announcements,NSE API,nseindia.com/api/corporate-announcements,5.0,True,True,VERIFIED
+BSE Corporate Announcements,BSE India,bseindia.com/corporates/ann.html,6.0,True,True,VERIFIED
+RBI Monetary Policy Decisions,RBI Official,rbi.org.in/pressreleases,2.0,True,True,VERIFIED
+MoSPI CPI / IIP Releases,MoSPI,mospi.gov.in/press-release,5.0,True,True,VERIFIED
+SEBI Regulatory Actions,SEBI,sebi.gov.in/orders,15.0,True,True,VERIFIED
+FII / DII Daily Flows,NSE / NSDL,nseindia.com/reports/fii-dii,210.0,True,True,VERIFIED
+Yahoo Finance (.NS),Yahoo / Refinitiv,yfinance.download(),30.0,True,True,VERIFIED
+India VIX (^INDIAVIX),NSE / Yahoo,yfinance.download('^INDIAVIX'),30.0,True,True,VERIFIED

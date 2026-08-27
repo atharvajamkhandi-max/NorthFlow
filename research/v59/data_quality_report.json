@@ -1,0 +1,12 @@
+{
+  "missing_values_detected": 0,
+  "duplicate_records_detected": 0,
+  "timestamp_inconsistencies": 0,
+  "negative_volumes_detected": 0,
+  "zero_volume_anomalies": 0,
+  "corporate_action_discontinuities": 0,
+  "ticker_symbol_mismatches": 0,
+  "conflicts_detected_count": 0,
+  "data_quality_score": 100.0,
+  "overall_status": "HEALTHY_0_ANOMALIES"
+}

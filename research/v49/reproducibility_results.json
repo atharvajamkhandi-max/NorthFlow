@@ -1,0 +1,8 @@
+{
+  "pass_1_rows": 30463,
+  "pass_2_rows": 30463,
+  "pass_1_hash": "e8d2add17d632599afe347ca1b1fa99be7c6df18fcb69a704fe32ce08b79c7dc",
+  "pass_2_hash": "e8d2add17d632599afe347ca1b1fa99be7c6df18fcb69a704fe32ce08b79c7dc",
+  "bit_exact_match": true,
+  "status": "REPRODUCIBLE_100_PERCENT"
+}

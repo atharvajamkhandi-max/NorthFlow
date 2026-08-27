@@ -1,0 +1,4 @@
+universe_type,total_entities,delisted_suspended_count,annualized_return_pct,net_spread_bps,status
+Point-in-Time Active Universe (289 Industries / ~3028 Stocks),3028,0,-2.11,299.6,VERIFIED
+Survivorship-Biased Large-Cap Subset (NIFTY 50 Only),50,0,3.84,182.4,BIASED_ESTIMATE
+Survivorship Delta Impact,2978,0,-5.95,117.2,DELTA_QUANTIFIED

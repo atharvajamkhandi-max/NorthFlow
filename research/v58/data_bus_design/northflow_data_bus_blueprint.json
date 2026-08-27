@@ -1,0 +1,50 @@
+{
+  "system_name": "NORTHFLOW_INDIA_DATA_BUS",
+  "architecture_layers": [
+    {
+      "layer_1": "AUTHORITATIVE_INGESTION",
+      "components": [
+        "NSE_Bhavcopy_Adapter",
+        "NSE_API_Announcements",
+        "RBI_MoSPI_Feed",
+        "Yahoo_Finance_Fallback"
+      ]
+    },
+    {
+      "layer_2": "NORMALIZATION_AND_MAPPING",
+      "components": [
+        "Ticker_NS_BO_Resolver",
+        "Taxonomy_289_Mapper",
+        "Corporate_Action_Adjuster"
+      ]
+    },
+    {
+      "layer_3": "POINT_IN_TIME_VALIDATOR",
+      "components": [
+        "IST_0830_Cutoff_Enforcer",
+        "Publication_Timestamp_Verifier",
+        "Provenance_Hasher"
+      ]
+    },
+    {
+      "layer_4": "QUALITY_AND_INTEGRITY_CHECK",
+      "components": [
+        "Spike_Outlier_Filter",
+        "Missing_Data_Trap",
+        "Zero_Volume_Detector"
+      ]
+    },
+    {
+      "layer_5": "IMMUTABLE_BUS_DISTRIBUTION",
+      "consumers": [
+        "V3.4_QUANT_HYBRID_ENGINE",
+        "TRADINGAGENTS_RISK_VETO_LAYER"
+      ]
+    }
+  ],
+  "design_rules": {
+    "NO_OVERRIDE": "TradingAgents must consume verified bus evidence; it cannot alter raw market data.",
+    "NO_SILENT_FAILURES": "Missing sources must emit EXPLICIT_UNAVAILABLE flags, never imputed dummy values.",
+    "ISOLATION": "Data bus resides strictly outside production scoring until formal governance authorization."
+  }
+}

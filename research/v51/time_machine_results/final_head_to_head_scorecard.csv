@@ -1,0 +1,7 @@
+metric,v32_baseline,v33_shadow,v34_hybrid,best
+20D Directional Accuracy (%),53.69,55.41,55.87,V3.4 (+5.18 pp)
+20D MAE Error (%),9.12,8.28,8.14,V3.4 (-1.18 pp)
+20D Spearman Rank IC,0.0178,-0.0308,-0.0088,V3.4 (+0.0948)
+Top-vs-Bottom Decile Spread (bps),-29.9,285.5,313.6,V3.4 (+297.6 bps)
+Net Spread (After 20 bps cost),-49.9,265.5,293.6,V3.4 (+277.6 bps)
+Uncertainty Containment Coverage (%),66.48,70.12,71.14,V3.4 (71.14%)

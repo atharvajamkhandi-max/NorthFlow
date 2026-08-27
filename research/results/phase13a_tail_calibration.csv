@@ -1,0 +1,5 @@
+Threshold,Mean_Predicted (%),Realized_Frequency (%),Brier_Score,ECE,Calibration_Slope,Grade
+P(Return > 5%),28.5,29.1,0.185,0.024,0.98,EXCELLENT
+P(Return > 8%),14.2,14.6,0.112,0.018,0.99,EXCELLENT
+P(Return > 10%),9.5,9.8,0.082,0.015,0.97,EXCELLENT
+P(Return > 15%),4.1,4.3,0.038,0.01,0.96,EXCELLENT

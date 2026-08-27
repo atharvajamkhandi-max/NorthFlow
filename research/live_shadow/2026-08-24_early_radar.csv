@@ -1,0 +1,142 @@
+date,industry,early_radar_score,alert_level,prob_1d,prob_3d,prob_5d,expected_lead_days,accumulation_pressure,cross_stock_synchronization,feature_explanation
+2026-08-24,3PL Logistics & Fleet Haulage,64.7,WATCH,0.149,0.309,0.565,3.2,66.8,52.1,Volatility Compression
+2026-08-24,API & Bulk Drugs,62.9,WATCH,0.146,0.302,0.552,3.2,70.0,46.9,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Advertising & Digital Marketing,42.6,NONE,0.105,0.22,0.4,3.6,45.3,16.7,Volatility Compression
+2026-08-24,Aerospace & Fighter Aircraft,47.5,NONE,0.115,0.24,0.436,3.6,55.6,55.0,Broad Breadth Expansion
+2026-08-24,Air Conditioners & Commercial HVAC,28.9,NONE,0.078,0.166,0.297,3.9,34.8,0.0,Neutral Precursor Structure
+2026-08-24,Architectural Glass & Windows,48.7,NONE,0.117,0.245,0.445,3.5,49.8,64.3,Volatility Compression
+2026-08-24,Auto Castings & Heavy Forgings,47.7,NONE,0.115,0.241,0.438,3.5,60.4,60.5,Volatility Compression
+2026-08-24,Auto Lighting & Electricals,37.6,NONE,0.095,0.2,0.362,3.7,40.7,50.0,Volatility Compression
+2026-08-24,Auto Transmission & Driveline,80.4,PRE-BREAKOUT,0.181,0.372,0.683,2.9,87.3,41.7,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Automotive Radial Tyres,72.0,EARLY,0.164,0.338,0.62,3.1,71.9,62.5,Strong Accumulation Pressure | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Ayurvedic & Herbal Care,26.7,NONE,0.073,0.157,0.28,4.0,22.8,33.3,Neutral Precursor Structure
+2026-08-24,Basmati Rice Milling & Global Exports,81.6,PRE-BREAKOUT,0.183,0.376,0.692,2.9,88.5,57.1,Strong Accumulation Pressure
+2026-08-24,Biopharma & Biosimilars,70.0,EARLY,0.16,0.33,0.605,3.1,75.6,50.0,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Bridal Gold Jewellery & Retail Showrooms,63.2,WATCH,0.146,0.303,0.554,3.2,73.1,100.0,Strong Accumulation Pressure | High Cross-Stock Synchronization | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Building Materials,24.8,NONE,0.07,0.149,0.266,4.0,31.3,40.0,Neutral Precursor Structure
+2026-08-24,Business Process Management (BPM),67.9,EARLY,0.156,0.322,0.589,3.1,88.3,43.8,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,CDMO & Sterile Injectables,29.5,NONE,0.079,0.168,0.301,3.9,30.8,41.7,Neutral Precursor Structure
+2026-08-24,Ceramic Tiles & Sanitaryware,50.3,NONE,0.121,0.251,0.457,3.5,48.8,31.2,Volatility Compression
+2026-08-24,Civil & Commercial Construction,53.7,NONE,0.127,0.265,0.483,3.4,55.9,32.1,Volatility Compression
+2026-08-24,Commercial & Industrial Electronics EMS,47.2,NONE,0.114,0.239,0.434,3.6,52.6,63.6,Volatility Compression | Broad Breadth Expansion
+2026-08-24,Commercial Ports & Terminals,41.1,NONE,0.102,0.214,0.388,3.7,40.8,34.1,Volatility Compression
+2026-08-24,Commodity & Wholesale Trading,41.6,NONE,0.103,0.216,0.392,3.7,39.0,39.3,Volatility Compression
+2026-08-24,Consumer Internet Platforms & Apps,45.9,NONE,0.112,0.234,0.424,3.6,69.4,35.7,Volatility Compression
+2026-08-24,Container Rail & Dry Ports,44.8,NONE,0.11,0.229,0.416,3.6,51.9,25.0,Volatility Compression
+2026-08-24,Conventional Thermal & Fossil Power,37.4,NONE,0.095,0.2,0.36,3.8,42.9,35.3,Volatility Compression
+2026-08-24,Copper Mining & Smelting,46.5,NONE,0.113,0.236,0.429,3.6,57.4,70.0,High Cross-Stock Synchronization | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Corporate & Wholesale Finance,44.7,NONE,0.109,0.229,0.415,3.6,55.1,21.4,Volatility Compression
+2026-08-24,Cotton Spinning & Yarns,71.1,EARLY,0.162,0.334,0.613,3.1,73.7,45.7,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Crop Protection Agrochemicals,55.7,WATCH,0.131,0.273,0.498,3.4,63.1,25.0,Volatility Compression
+2026-08-24,Crop Protection Formulations,57.6,WATCH,0.135,0.28,0.512,3.3,59.2,37.5,Volatility Compression
+2026-08-24,Decorative Paints,22.2,NONE,0.064,0.139,0.246,4.1,29.5,31.2,Volatility Compression
+2026-08-24,Defence Electronics & Radars,47.9,NONE,0.116,0.242,0.439,3.5,56.2,65.0,High Cross-Stock Synchronization | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Diagnostic & Pathology Labs,78.6,PRE-BREAKOUT,0.177,0.364,0.669,2.9,89.3,68.8,Strong Accumulation Pressure | High Cross-Stock Synchronization | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Diamond & Studded Jewellery,28.6,NONE,0.077,0.164,0.294,3.9,29.4,30.0,Volatility Compression
+2026-08-24,Diversified Consumer & MSME NBFC,44.4,NONE,0.109,0.228,0.413,3.6,51.2,45.7,Volatility Compression
+2026-08-24,Domestic & Consumer Appliances EMS,46.2,NONE,0.112,0.235,0.427,3.6,52.5,30.0,Volatility Compression
+2026-08-24,Edible Oils & Vanaspati,73.2,EARLY,0.166,0.343,0.629,3.0,77.0,52.8,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Education Academies & Publishing,71.4,EARLY,0.163,0.336,0.615,3.1,76.5,40.0,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Electric Vehicles (EV),34.4,NONE,0.089,0.188,0.338,3.8,44.8,21.4,Volatility Compression
+2026-08-24,Engineered Polymers & Compounding,46.6,NONE,0.113,0.236,0.43,3.6,47.1,40.0,Neutral Precursor Structure
+2026-08-24,Engineering R&D (ER&D),56.0,WATCH,0.132,0.274,0.5,3.4,58.5,50.0,Neutral Precursor Structure
+2026-08-24,Enterprise Software & SaaS,44.4,NONE,0.109,0.228,0.413,3.6,51.0,35.7,Volatility Compression
+2026-08-24,Express Parcel & Courier,13.6,NONE,0.05,0.104,0.182,4.2,13.2,0.0,Neutral Precursor Structure
+2026-08-24,Fashion Apparel Retail,46.0,NONE,0.112,0.234,0.425,3.6,47.8,33.3,Volatility Compression
+2026-08-24,Fast Moving Electrical Goods (FMEG),33.4,NONE,0.087,0.184,0.33,3.8,42.2,21.4,Volatility Compression
+2026-08-24,Ferro Alloys & Secondary Metals,54.0,NONE,0.128,0.266,0.485,3.4,66.5,33.3,Neutral Precursor Structure
+2026-08-24,Fertilizers & Soil Nutrients,54.7,NONE,0.129,0.269,0.49,3.4,64.1,23.8,Volatility Compression
+2026-08-24,Film Theatres & Broadcast Media,69.7,EARLY,0.159,0.329,0.603,3.1,62.4,61.1,Neutral Precursor Structure
+2026-08-24,Finished Formulations,55.3,WATCH,0.131,0.271,0.495,3.4,61.8,50.7,Volatility Compression
+2026-08-24,Flexible Packaging Films,30.0,NONE,0.08,0.17,0.305,3.9,29.9,60.7,Volatility Compression | Broad Breadth Expansion
+2026-08-24,Fluorochemicals,62.5,WATCH,0.145,0.3,0.549,3.2,60.2,66.7,High Cross-Stock Synchronization | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Footwear Retail Chains,60.0,WATCH,0.14,0.29,0.53,3.3,73.5,18.8,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Freight Forwarding & Multi-Modal Cargo,62.6,WATCH,0.145,0.3,0.55,3.2,64.6,50.0,Volatility Compression
+2026-08-24,Furniture & Mattresses,53.6,NONE,0.127,0.264,0.482,3.4,49.4,35.7,Volatility Compression
+2026-08-24,Garments & Apparel Exports,56.2,WATCH,0.132,0.275,0.501,3.4,64.1,33.3,Volatility Compression
+2026-08-24,General & Health Insurance,45.5,NONE,0.111,0.232,0.421,3.6,39.7,50.0,Volatility Compression
+2026-08-24,Gold Jewellery & Retail,80.4,PRE-BREAKOUT,0.181,0.372,0.683,2.9,85.9,55.0,Strong Accumulation Pressure | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Green Energy Generation (IPP),42.0,NONE,0.104,0.218,0.395,3.7,40.8,27.3,Volatility Compression
+2026-08-24,Grocery & Departmental Stores,58.6,WATCH,0.137,0.284,0.52,3.3,69.9,66.7,High Cross-Stock Synchronization
+2026-08-24,Heavy Infrastructure EPC,62.9,WATCH,0.146,0.302,0.552,3.2,70.4,46.2,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Heavy Process Equipment & Machinery,45.1,NONE,0.11,0.23,0.418,3.6,50.0,50.0,Volatility Compression
+2026-08-24,Heavy Process Plant Equipment,39.2,NONE,0.098,0.207,0.374,3.7,46.2,45.0,Volatility Compression
+2026-08-24,Heavy Switchgear & Automation,62.5,WATCH,0.145,0.3,0.549,3.2,65.8,53.6,Volatility Compression
+2026-08-24,Home Appliances (White Goods),46.5,NONE,0.113,0.236,0.429,3.6,59.2,41.7,Volatility Compression
+2026-08-24,Home Textiles,59.1,WATCH,0.138,0.286,0.523,3.3,54.3,60.0,Volatility Compression
+2026-08-24,Hospitals & Healthcare Chains,50.6,NONE,0.121,0.252,0.46,3.5,50.0,38.2,Volatility Compression
+2026-08-24,Housing Finance (HFC),43.2,NONE,0.106,0.223,0.404,3.6,45.2,17.9,Volatility Compression
+2026-08-24,Hybrid Seeds & Agri Inputs,64.2,WATCH,0.148,0.307,0.562,3.2,83.0,41.7,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,IMFL Spirits & Distilleries,45.3,NONE,0.111,0.231,0.42,3.6,53.3,32.1,Volatility Compression
+2026-08-24,IT Distribution & Enterprise Infra,56.9,WATCH,0.134,0.278,0.507,3.4,59.8,60.0,Volatility Compression | Broad Breadth Expansion
+2026-08-24,Industrial & Basic Chemicals,63.7,WATCH,0.147,0.305,0.558,3.2,64.0,48.6,Volatility Compression
+2026-08-24,Industrial Compressors & Pumps,53.2,NONE,0.126,0.263,0.479,3.4,55.6,55.6,Neutral Precursor Structure
+2026-08-24,"Industrial Effluent, Desalination & ZLD",52.4,NONE,0.125,0.26,0.473,3.5,53.5,31.8,Volatility Compression
+2026-08-24,Industrial Minerals,61.2,WATCH,0.142,0.295,0.539,3.3,63.8,46.4,Neutral Precursor Structure
+2026-08-24,Integrated Grey Cement,53.5,NONE,0.127,0.264,0.481,3.4,54.8,38.5,Volatility Compression
+2026-08-24,Kitchen Homeware & Cookware,53.8,NONE,0.128,0.265,0.484,3.4,68.6,38.9,Volatility Compression
+2026-08-24,Life Insurance,40.0,NONE,0.1,0.21,0.38,3.7,42.5,41.7,Volatility Compression
+2026-08-24,Liquid Milk & Value-Added Dairy,72.8,EARLY,0.166,0.341,0.626,3.0,85.0,100.0,Strong Accumulation Pressure | High Cross-Stock Synchronization | Broad Breadth Expansion
+2026-08-24,Lubricants & Specialty Oils,34.4,NONE,0.089,0.188,0.338,3.8,43.7,20.0,Volatility Compression
+2026-08-24,Luxury Hotels & Resorts,75.2,PRE-BREAKOUT,0.17,0.351,0.644,3.0,80.7,41.7,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Marine Offshore Vessels & Tugs,58.7,WATCH,0.137,0.285,0.52,3.3,61.7,53.6,Volatility Compression
+2026-08-24,Material Handling & Cranes,49.7,NONE,0.119,0.249,0.453,3.5,49.5,36.4,Volatility Compression
+2026-08-24,Medical Clinics & Equipment,49.5,NONE,0.119,0.248,0.451,3.5,51.8,34.4,Volatility Compression
+2026-08-24,Metals & Fabrication,43.5,NONE,0.107,0.224,0.406,3.6,63.9,64.3,Volatility Compression | Broad Breadth Expansion
+2026-08-24,Micro-Irrigation & Agri-Plastics,37.1,NONE,0.094,0.198,0.358,3.8,48.9,30.0,Volatility Compression
+2026-08-24,Microfinance (MFI),34.8,NONE,0.09,0.189,0.341,3.8,37.2,35.7,Volatility Compression
+2026-08-24,Mid-Tier IT & Digital Solutions,45.4,NONE,0.111,0.232,0.42,3.6,53.0,37.7,Volatility Compression
+2026-08-24,Missiles & Military Explosives,31.2,NONE,0.082,0.175,0.314,3.9,40.0,25.0,Volatility Compression
+2026-08-24,Music Labels & VFX Studios,42.2,NONE,0.104,0.219,0.396,3.7,44.2,35.7,Volatility Compression
+2026-08-24,Mutual Fund Asset Managers (AMC),51.9,NONE,0.124,0.258,0.469,3.5,52.6,50.0,Volatility Compression
+2026-08-24,Oil & Gas Exploration (E&P),26.8,NONE,0.074,0.157,0.281,4.0,24.4,28.6,Neutral Precursor Structure
+2026-08-24,Online Travel Agency (OTA) & Flight Booking,58.5,WATCH,0.137,0.284,0.519,3.3,56.5,30.0,Volatility Compression
+2026-08-24,Optical Fiber & Telecom Infrastructure,38.1,NONE,0.096,0.202,0.366,3.7,39.3,26.5,Volatility Compression
+2026-08-24,Packaged Foods & Snacks,52.3,NONE,0.125,0.259,0.472,3.5,59.5,47.7,Volatility Compression
+2026-08-24,Paperboard & Packaging Cartons,47.9,NONE,0.116,0.242,0.439,3.5,47.3,41.8,Volatility Compression
+2026-08-24,Passenger Airlines,49.6,NONE,0.119,0.248,0.452,3.5,55.1,50.0,Neutral Precursor Structure
+2026-08-24,Passenger Vehicles (Cars & SUVs),24.5,NONE,0.069,0.148,0.264,4.0,28.5,33.3,Volatility Compression
+2026-08-24,Personal Care & Soaps,20.6,NONE,0.061,0.132,0.234,4.1,19.3,41.7,Broad Breadth Expansion
+2026-08-24,Pigments & Dyes,55.5,WATCH,0.131,0.272,0.496,3.4,66.6,46.7,Volatility Compression
+2026-08-24,Plastic & CPVC Pipes,36.5,NONE,0.093,0.196,0.354,3.8,41.3,25.0,Neutral Precursor Structure
+2026-08-24,Plywood & Laminates,49.3,NONE,0.119,0.247,0.45,3.5,47.0,47.1,Neutral Precursor Structure
+2026-08-24,Power & Distribution Transformers,51.6,NONE,0.123,0.256,0.467,3.5,50.6,66.7,High Cross-Stock Synchronization
+2026-08-24,Precision Auto Engine Components,48.7,NONE,0.117,0.245,0.445,3.5,53.0,42.2,Volatility Compression
+2026-08-24,Precision Bearings & Motion Controls,49.0,NONE,0.118,0.246,0.448,3.5,67.2,37.5,Volatility Compression
+2026-08-24,Precision Defence Machining,41.2,NONE,0.102,0.215,0.389,3.7,39.4,40.0,Volatility Compression | Broad Breadth Expansion
+2026-08-24,Precision Machine Tools & Fasteners,62.1,WATCH,0.144,0.298,0.546,3.3,75.8,42.0,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Precision Metal Fabrication,48.2,NONE,0.116,0.243,0.442,3.5,42.5,37.5,Volatility Compression
+2026-08-24,Precision Powertrain Engine Components,34.9,NONE,0.09,0.19,0.342,3.8,40.6,54.2,Volatility Compression
+2026-08-24,Primary Aluminium,63.7,WATCH,0.147,0.305,0.558,3.2,69.9,72.7,High Cross-Stock Synchronization | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Print Media & Publishing,56.1,WATCH,0.132,0.274,0.501,3.4,54.8,45.8,Volatility Compression
+2026-08-24,Printed Circuit Boards (PCBA) & Components,27.4,NONE,0.075,0.16,0.286,4.0,37.3,50.0,Volatility Compression | Broad Breadth Expansion
+2026-08-24,Private Sector Banks,61.1,WATCH,0.142,0.294,0.538,3.3,62.8,62.5,Volatility Compression
+2026-08-24,Public Sector Banks (PSU),32.1,NONE,0.084,0.178,0.321,3.9,40.5,27.3,Volatility Compression
+2026-08-24,Pumps & Compressors,29.4,NONE,0.079,0.168,0.3,3.9,35.6,12.5,Volatility Compression
+2026-08-24,Railway Signaling & Track EPC,52.8,NONE,0.126,0.261,0.476,3.4,53.8,41.7,Volatility Compression
+2026-08-24,Refining & Petrochemicals,47.2,NONE,0.114,0.239,0.434,3.6,59.2,37.5,Volatility Compression
+2026-08-24,Regional Cement & RMC,45.9,NONE,0.112,0.234,0.424,3.6,57.2,11.9,Volatility Compression
+2026-08-24,Residential Real Estate,62.0,WATCH,0.144,0.298,0.545,3.3,66.2,30.9,Volatility Compression
+2026-08-24,Residential Townships & Commercial REITs,61.9,WATCH,0.144,0.298,0.544,3.3,66.8,43.1,Volatility Compression
+2026-08-24,Roads & Highways EPC,55.9,WATCH,0.132,0.274,0.499,3.4,63.2,30.8,Volatility Compression
+2026-08-24,"Rolling Stock, Wagons & Vande Bharat Trainsets",74.4,EARLY,0.169,0.348,0.638,3.0,88.6,31.2,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Secondary Steel & TMT Rebars,50.4,NONE,0.121,0.252,0.458,3.5,63.4,50.7,Volatility Compression
+2026-08-24,Solar PV & Green Hydrogen,42.2,NONE,0.104,0.219,0.396,3.7,45.0,19.2,Volatility Compression
+2026-08-24,Specialty Chemicals,47.3,NONE,0.115,0.239,0.435,3.6,57.6,49.2,Volatility Compression
+2026-08-24,Specialty Retail Boutiques,57.7,WATCH,0.135,0.281,0.513,3.3,64.6,45.0,Volatility Compression
+2026-08-24,Sports & Athleisure Footwear,70.9,EARLY,0.162,0.334,0.612,3.1,71.3,43.8,Strong Accumulation Pressure
+2026-08-24,Staffing & Security Services,59.2,WATCH,0.138,0.287,0.524,3.3,63.5,50.0,Volatility Compression | Broad Breadth Expansion
+2026-08-24,Staffing & Workforce Security,71.4,EARLY,0.163,0.336,0.615,3.1,73.1,56.7,Strong Accumulation Pressure | Volatility Compression
+2026-08-24,Steel Pipes & Tubes,59.5,WATCH,0.139,0.288,0.526,3.3,68.8,50.0,Volatility Compression
+2026-08-24,Stockbroking & Wealth Management,35.2,NONE,0.09,0.191,0.344,3.8,42.4,21.0,Volatility Compression
+2026-08-24,Sugar Refining & Bio-Ethanol,72.4,EARLY,0.165,0.34,0.623,3.1,95.8,68.4,Strong Accumulation Pressure | High Cross-Stock Synchronization | Volatility Compression | Broad Breadth Expansion
+2026-08-24,Tea & Coffee Plantations,53.2,NONE,0.126,0.263,0.479,3.4,60.1,28.6,Volatility Compression
+2026-08-24,Tea Plantations & Packaging,65.0,EARLY,0.15,0.31,0.568,3.2,66.7,62.0,Neutral Precursor Structure
+2026-08-24,Telecom Cellular Operators,21.7,NONE,0.063,0.137,0.243,4.1,27.0,20.0,Neutral Precursor Structure
+2026-08-24,Television Broadcasting & OTT,45.6,NONE,0.111,0.232,0.422,3.6,54.8,28.6,Volatility Compression
+2026-08-24,Tertiary Hospitals & Clinics,55.8,WATCH,0.132,0.273,0.498,3.4,66.9,57.1,Volatility Compression
+2026-08-24,Tier-1 IT Services,35.4,NONE,0.091,0.192,0.346,3.8,49.6,8.3,Volatility Compression
+2026-08-24,Wealth Broking & Advisory,38.5,NONE,0.097,0.204,0.369,3.7,51.3,55.6,Neutral Precursor Structure
+2026-08-24,Wind Turbines & Wind Energy,59.4,WATCH,0.139,0.288,0.526,3.3,62.4,41.7,Volatility Compression
+2026-08-24,Wires & Cables,34.5,NONE,0.089,0.188,0.339,3.8,49.8,38.7,Volatility Compression
+2026-08-24,Zinc & Non-Ferrous Alloys,58.0,WATCH,0.136,0.282,0.515,3.3,52.0,58.3,Neutral Precursor Structure

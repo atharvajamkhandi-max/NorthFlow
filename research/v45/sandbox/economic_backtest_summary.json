@@ -1,0 +1,7 @@
+{
+  "top_decile_mean_return_pct": 21.1,
+  "bottom_decile_mean_return_pct": -466.89,
+  "gross_spread_bps": 488.0,
+  "net_spread_bps_after_costs": 468.0,
+  "transaction_cost_per_trade_bps": 20.0
+}

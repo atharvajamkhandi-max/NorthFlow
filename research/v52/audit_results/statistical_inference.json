@@ -1,0 +1,21 @@
+{
+  "n_bootstrap_iterations": 1000,
+  "n_trading_sessions_clustered": 238,
+  "directional_acc_gain_mean_pp": 5.18,
+  "directional_acc_95_ci_pp": [
+    3.03,
+    7.32
+  ],
+  "mae_reduction_mean_pp": 1.18,
+  "mae_reduction_95_ci_pp": [
+    0.88,
+    1.49
+  ],
+  "rank_ic_gain_mean": 0.0943,
+  "rank_ic_gain_95_ci": [
+    0.0321,
+    0.1626
+  ],
+  "mae_reduction_statistically_significant": true,
+  "directional_acc_gain_statistically_significant": true
+}

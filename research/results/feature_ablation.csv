@@ -1,0 +1,6 @@
+Ablation_Group,Feature_Count,Rank_IC,Decile_Spread_pct,MAE,Incremental_Rank_IC
+Model_A_Price_Only,2,0.024,-0.31,6.0,0.0
+Model_B_Price_Volume,3,0.0853,1.83,6.0,0.0613
+Model_C_Price_Vol_RS,4,0.1067,5.58,5.97,0.0827
+Model_D_Price_Vol_RS_Breadth,6,0.129,5.32,5.95,0.105
+Model_E_Full_MultiFactor,17,0.2993,8.23,5.76,0.2753

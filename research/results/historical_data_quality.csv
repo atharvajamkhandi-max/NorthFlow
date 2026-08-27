@@ -1,0 +1,2 @@
+requested_sessions,downloaded_sessions,valid_sessions,missing_sessions,first_date,latest_date,total_price_records,stocks_covered,industries_covered,duplicate_records,zero_or_negative_prices,high_low_violations,delivery_completeness_pct,overall_data_completeness_pct,benchmark_records,audit_status
+365,403,403,0,2024-03-18,2026-08-21,1076032,3764,135,0,0,0,88.67,100.0,177,PASSED

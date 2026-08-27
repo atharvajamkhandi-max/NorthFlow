@@ -1,0 +1,101 @@
+prediction_id,prediction_date,industry,sector,forecast_return_1D,actual_return_1D,actual_price_1D,forecast_error_1D,absolute_error_1D,squared_error_1D,direction_correct_1D,recommendation,recommendation_success_1D,actual_return_5D,actual_return_20D,actual_return_60D,maturation_horizon,failure_category
+LIVE_SHADOW_3f6484ad9087ac,2026-08-24,Stainless Steel & Special Alloys,STEEL,-1.39,3.11,1189.92,-4.5,4.5,20.25,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_d8b3b31f0c211b,2026-08-24,Business Process Management (BPM),SERVICES & MEDIA,-1.03,2.7,1521.96,-3.73,3.73,13.9129,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_7196275054503a,2026-08-24,Diamond Studded & Solitaires,JEWELLERY,-0.73,2.86,1089.28,-3.59,3.59,12.8881,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_c5821136bfda8b,2026-08-24,Liquid Storage Terminals & Logistics,LOGISTICS & SUPPLY CHAIN,1.38,-2.1,991.76,3.48,3.48,12.1104,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_ad4d5e46f8ebe7,2026-08-24,Auto Lighting & Electricals,AUTO ANCILLARIES,0.55,-2.89,1302.29,3.44,3.44,11.8336,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_44a7d936b564c6,2026-08-24,Tea Plantations & Packaging,TEA & COFFEE,-0.52,2.83,1403.69,-3.35,3.35,11.2225,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_ceef3e91830fe9,2026-08-24,Home Appliances (White Goods),CONSUMER DURABLES,-0.18,-3.42,1231.41,3.24,3.24,10.4976,1.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_558dc70fc4ab7d,2026-08-24,Television Content & OTT Production,MEDIA & ENTERTAINMENT,-0.01,-3.02,1030.87,3.01,3.01,9.0601,1.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_5ba039cd4ed079,2026-08-24,"Industrial Effluent, Desalination & ZLD",WATER TREATMENT,0.06,-2.94,1421.0,3.0,3.0,9.0,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_6e327f088d00e1,2026-08-24,Life Insurance,INSURANCE,-0.53,2.38,1518.25,-2.91,2.91,8.4681,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_258607c937b030,2026-08-24,Edible Oils & Vanaspati,FOOD PROCESSING,-0.31,2.58,1036.04,-2.89,2.89,8.3521,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_d8b3b31f0c211b,2026-08-24,Business Process Management (BPM),PROFESSIONAL & CONSUMER SERVICES,-0.19,2.7,1522.05,-2.89,2.89,8.3521,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_e55296407b5565,2026-08-24,Corporate & Wholesale Finance,FINANCE & NBFC,0.9,-1.92,1115.16,2.82,2.82,7.9524,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_a198ead8f83893,2026-08-24,Home Textiles,TEXTILES,0.24,-2.56,981.25,2.8,2.8,7.84,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_8cedef9bc67e50,2026-08-24,Auto Glass & Safety Systems,AUTO ANCILLARIES,1.73,-1.07,1291.09,2.8,2.8,7.84,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_47637ac1d5066e,2026-08-24,Automotive Radials & Off-Highway Tyres,TYRES & RUBBER,-0.46,2.33,1481.8,-2.79,2.79,7.7841,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_d8b3b31f0c211b,2026-08-24,Business Process Management (BPM),IT SERVICES,-0.04,2.7,1521.93,-2.74,2.74,7.5076,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_258607c937b030,2026-08-24,Edible Oils & Vanaspati,EDIBLE OILS,-0.13,2.58,1036.1,-2.71,2.71,7.3441,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_be737aaac37e1d,2026-08-24,Garments & Apparel Exports,TEXTILES,-0.69,2.01,1454.6,-2.7,2.7,7.29,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_39f4f1aa743f02,2026-08-24,Advertising & Digital Marketing,SERVICES & MEDIA,-0.5,2.15,1144.12,-2.65,2.65,7.0225,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_eaceb498573ec6,2026-08-24,Passenger Airlines,AVIATION,-0.58,2.05,1050.13,-2.63,2.63,6.9169,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_65745719f02e5d,2026-08-24,Data Center Cooling & Liquid Systems,DATA CENTERS & CLOUD,0.03,-2.53,1305.12,2.56,2.56,6.5536,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_f680ac9aae2bc2,2026-08-24,Industrial Abrasives & Ceramics,CAPITAL GOODS & MACHINERY,-1.13,1.42,1103.43,-2.55,2.55,6.5025,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_4064b64d07e2db,2026-08-24,Small Finance & Payment Banks,BANKING,0.49,-2.03,1029.68,2.52,2.52,6.3504,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_e96ca5806d91fb,2026-08-24,Naval Warships & Submarines,DEFENCE & AEROSPACE,1.05,-1.44,1356.23,2.49,2.49,6.2001,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_e54d638ce34a6b,2026-08-24,Tobacco Products & Cigarettes,BEVERAGES & DISTILLERIES,-0.56,1.9,1397.06,-2.46,2.46,6.0516,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_96155dc3a9b50a,2026-08-24,PCB Assembly & Fabrication,EMS & ELECTRONICS,-1.38,1.08,1145.29,-2.46,2.46,6.0516,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_d5c4028a25bbd6,2026-08-24,Mutual Fund Registrar & Transfer Agent,CAPITAL MARKETS,-0.3,2.13,1502.28,-2.43,2.43,5.9049,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_46fd0f21e60481,2026-08-24,Auto Body & Closure Systems,AUTO ANCILLARIES,-0.81,1.61,1362.57,-2.42,2.42,5.8564,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_f6edf36a39ae8f,2026-08-24,Oral Hygiene,FMCG & PERSONAL CARE,-0.05,-2.43,1054.75,2.38,2.38,5.6644,1.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_7b7afa44c110ae,2026-08-24,"AI Solutions, Analytics & Cloud Data",DATA CENTERS & CLOUD,1.07,-1.31,1121.13,2.38,2.38,5.6644,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_7369c4bbcc46b6,2026-08-24,Green Energy Generation (IPP),RENEWABLE ENERGY,-0.11,-2.45,1002.85,2.34,2.34,5.4756,1.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_10fb3b85cffb7f,2026-08-24,Staffing & Security Services,PROFESSIONAL & CONSUMER SERVICES,0.74,-1.54,1338.08,2.28,2.28,5.1984,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_436e05c49b3e1c,2026-08-24,Online Travel Agency (OTA) & Flight Booking,ONLINE TICKETING & TRAVEL,0.71,-1.55,1082.01,2.26,2.26,5.1076,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_f0cf2b5162b3f4,2026-08-24,EV Charging Infrastructure,EMS & ELECTRONICS,-1.65,0.61,1022.18,-2.26,2.26,5.1076,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_46c734c29cb297,2026-08-24,Pre-Engineered Steel Buildings,BUILDING MATERIALS,0.25,-2.0,1229.87,2.25,2.25,5.0625,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_5bbca462de85b1,2026-08-24,Zinc & Non-Ferrous Alloys,METALS & FABRICATION,0.4,2.62,1464.35,-2.22,2.22,4.9284,1.0,BUY,1.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_8c42ad9c4eb73f,2026-08-24,Biopharma & Biosimilars,PHARMACEUTICALS,-0.69,1.53,1211.23,-2.22,2.22,4.9284,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_ee808e32b14c14,2026-08-24,Aluminium Recycling & Secondary Metals,METALS & FABRICATION,1.05,-1.17,1196.78,2.22,2.22,4.9284,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_e22296799cbf3d,2026-08-24,Domestic Consumer Appliance EMS (AC/TV/Washing Machines),EMS & ELECTRONICS,0.22,2.42,1191.15,-2.2,2.2,4.84,1.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_1f83f42669c509,2026-08-24,Stampings & Pressed Metal Auto Parts,AUTO ANCILLARIES,0.41,-1.78,1029.29,2.19,2.19,4.7961,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_66c67dd66afcac,2026-08-24,Plywood & Laminates,BUILDING MATERIALS,0.13,-2.05,1037.32,2.18,2.18,4.7524,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_9f37e14379cdbb,2026-08-24,Engineered Polymers & Compounding,PLASTICS & POLYMERS,0.38,-1.79,1244.32,2.17,2.17,4.7089,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_4ab9c62487771d,2026-08-24,Ayurvedic & Herbal Care,FMCG & PERSONAL CARE,0.32,2.47,1035.95,-2.15,2.15,4.6225,1.0,BUY,1.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_7a43f36d149328,2026-08-24,Railway Lease Financing,RAILWAYS,0.92,-1.23,1118.1,2.15,2.15,4.6225,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_1fc6d83578e26c,2026-08-24,Travel Tech & Revenue Management SaaS,ONLINE TICKETING & TRAVEL,-0.54,1.59,1140.84,-2.13,2.13,4.5369,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_e3297145ad83f1,2026-08-24,Auto Batteries & Storage,AUTO ANCILLARIES,-0.49,1.64,1409.67,-2.13,2.13,4.5369,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_38a44382862bf7,2026-08-24,Industrial Compressors & Pumps,CAPITAL GOODS & MACHINERY,-0.27,1.84,1075.4,-2.11,2.11,4.4521,0.0,HOLD,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_e7b21bf63bbe5f,2026-08-24,Co-Working & Managed Office Spaces,REAL ESTATE,-0.37,1.72,1046.68,-2.09,2.09,4.3681,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_07a2954e072ddf,2026-08-24,Excipients & Pharma Binders,PHARMACEUTICALS,1.19,-0.89,1385.57,2.08,2.08,4.3264,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_af38068c6f14bd,2026-08-24,Refining & Marketing (OMC),OIL & GAS,0.33,2.4,1309.65,-2.07,2.07,4.2849,1.0,BUY,1.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_83044145ebe8ba,2026-08-24,Music Labels & VFX Studios,MEDIA & ENTERTAINMENT,0.77,2.83,1049.86,-2.06,2.06,4.2436,1.0,BUY,1.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_7f2e20cd80b8ed,2026-08-24,Baby & Infant Nutrition,DAIRY & MILK PRODUCTS,-0.38,1.67,1197.63,-2.05,2.05,4.2025,0.0,SELL,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_e1c617e1b5c5e8,2026-08-24,Stationery & Writing Instruments,PAPER & PACKAGING,0.98,-1.06,1432.69,2.04,2.04,4.1616,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_1dad0a5d1524dc,2026-08-24,Diagnostic & Pathology Labs,HEALTHCARE SERVICES,0.28,-1.76,994.18,2.04,2.04,4.1616,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_9ba6e84ea66d9f,2026-08-24,Print Media & Publishing,MEDIA & ENTERTAINMENT,0.96,-1.08,1029.75,2.04,2.04,4.1616,0.0,BUY,0.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_5bbca462de85b1,2026-08-24,Zinc & Non-Ferrous Alloys,ALUMINIUM & COPPER,0.6,2.62,1464.34,-2.02,2.02,4.0804,1.0,BUY,1.0,,,,1D_MATURED,momentum_reversal
+LIVE_SHADOW_24f7600a3675e6,2026-08-24,Worsted Fabric & Suiting,TEXTILES,0.69,-1.31,987.89,2.0,2.0,4.0,0.0,BUY,0.0,,,,1D_MATURED,market_regime_change
+LIVE_SHADOW_14ac802ace0eef,2026-08-24,Architectural Glass & Windows,BUILDING MATERIALS,-0.13,1.84,1081.57,-1.97,1.97,3.8809,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_4bf61b79214000,2026-08-24,API & Bulk Drugs,PHARMACEUTICALS,-0.64,1.33,1272.73,-1.97,1.97,3.8809,0.0,SELL,0.0,,,,1D_MATURED,sector_rotation
+LIVE_SHADOW_4609c5307d241e,2026-08-24,Beauty & Fashion E-Commerce,E-COMMERCE & QUICK COMMERCE,-0.27,1.7,1141.09,-1.97,1.97,3.8809,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_87169c22ff0a09,2026-08-24,Iron Ore Mining,MINING & MINERALS,-0.48,1.48,1093.94,-1.96,1.96,3.8416,0.0,SELL,0.0,,,,1D_MATURED,sector_rotation
+LIVE_SHADOW_f7b7ac5d22791e,2026-08-24,Consumer Electronics,CONSUMER ELECTRONICS,0.5,-1.45,1203.27,1.95,1.95,3.8025,0.0,BUY,0.0,,,,1D_MATURED,market_regime_change
+LIVE_SHADOW_436e05c49b3e1c,2026-08-24,Online Travel Agency (OTA) & Flight Booking,HOTELS & HOSPITALITY,0.36,-1.55,1081.92,1.91,1.91,3.6481,0.0,BUY,0.0,,,,1D_MATURED,market_regime_change
+LIVE_SHADOW_9e97234426eb1f,2026-08-24,Luggage & Travel Gear,CONSUMER DURABLES,0.2,-1.68,1191.63,1.88,1.88,3.5344,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_2e07f63b300379,2026-08-24,Semiconductor Assembly & Packaging (OSAT),EMS & ELECTRONICS,0.69,2.56,1326.06,-1.87,1.87,3.4969,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_1e8acaaa3e797d,2026-08-24,Precision Powertrain Engine Components,AUTO ANCILLARIES,0.69,2.56,1333.34,-1.87,1.87,3.4969,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_2ac83018ec1fa9,2026-08-24,Education Academies & Publishing,EDUCATION & EDTECH,0.62,2.49,1412.33,-1.87,1.87,3.4969,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_3a5a9a91fe6566,2026-08-24,Consumer Lending & BNPL FinTech,FINANCE & NBFC,0.4,-1.46,1012.01,1.86,1.86,3.4596,0.0,BUY,0.0,,,,1D_MATURED,market_regime_change
+LIVE_SHADOW_90cfa063a2a31d,2026-08-24,AdTech & Marketing Analytics,IT SERVICES,0.43,2.27,1301.84,-1.84,1.84,3.3856,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_d30e884cfda6a2,2026-08-24,Cruise Ships & Water Tourism,HOTELS & HOSPITALITY,-0.07,1.76,1199.75,-1.83,1.83,3.3489,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_1728f150c34cf4,2026-08-24,Geospatial AI & Digital Mapping,IT SERVICES,0.67,-1.16,1355.12,1.83,1.83,3.3489,0.0,BUY,0.0,,,,1D_MATURED,market_regime_change
+LIVE_SHADOW_7c5a57cf4201b7,2026-08-24,Finished Formulations,PHARMACEUTICALS,0.07,-1.75,1031.65,1.82,1.82,3.3124,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_e6c398e1b6e3c9,2026-08-24,Sports & Athleisure Footwear,FOOTWEAR,-0.41,1.41,1504.89,-1.82,1.82,3.3124,0.0,SELL,0.0,,,,1D_MATURED,sector_rotation
+LIVE_SHADOW_d597ce7f8ff525,2026-08-24,Secondary Steel & TMT Rebars,STEEL,2.5,0.69,1499.3,1.81,1.81,3.2761,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_96ffb6327000b7,2026-08-24,Passenger Vehicles (Cars & SUVs),AUTOMOBILE,-0.23,1.56,1403.51,-1.79,1.79,3.2041,0.0,SELL,0.0,,,,1D_MATURED,sector_rotation
+LIVE_SHADOW_ed1bd0b6cd677b,2026-08-24,Coated & Galvanised Steel,STEEL,-1.6,0.16,1413.25,-1.76,1.76,3.0976,0.0,SELL,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_52dad0ce3b2d6f,2026-08-24,Civil & Commercial Construction,CONSTRUCTION & INFRASTRUCTURE,0.29,2.05,1272.54,-1.76,1.76,3.0976,1.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_d09a205afd0dc5,2026-08-24,Silver & Fashion Gemstones,JEWELLERY,0.31,-1.43,1125.62,1.74,1.74,3.0276,0.0,BUY,0.0,,,,1D_MATURED,market_regime_change
+LIVE_SHADOW_965b771e981728,2026-08-24,Telecom Cellular Operators,TELECOM,0.46,-1.27,1019.93,1.73,1.73,2.9929,0.0,BUY,0.0,,,,1D_MATURED,market_regime_change
+LIVE_SHADOW_23040da14315e8,2026-08-24,Packaged Foods & Snacks,FOOD PROCESSING,-0.2,-1.92,1040.65,1.72,1.72,2.9584,1.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_a2e098d5668332,2026-08-24,Industrial Rubber Products,TYRES & RUBBER,-1.1,0.62,1233.59,-1.72,1.72,2.9584,0.0,SELL,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_e1cf4cb06e5db9,2026-08-24,Cable & Broadband Distribution,MEDIA & ENTERTAINMENT,-0.11,-1.82,1429.46,1.71,1.71,2.9241,1.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_93ada57e9366a7,2026-08-24,Gold Mining & Precious Metals Exploration,MINING & MINERALS,0.25,1.94,1062.2,-1.69,1.69,2.8561,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_6afacce924a0e0,2026-08-24,"Gaming, Casinos & Entertainment",HOTELS & HOSPITALITY,0.68,-1.01,1210.6,1.69,1.69,2.8561,0.0,BUY,0.0,,,,1D_MATURED,market_regime_change
+LIVE_SHADOW_d95cb19f271af2,2026-08-24,Specialty Chemicals,CHEMICALS,0.09,1.78,1104.33,-1.69,1.69,2.8561,1.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_5353eabc5bfdfb,2026-08-24,Railway Ticketing & Catering,ONLINE TICKETING & TRAVEL,0.18,1.86,1447.39,-1.68,1.68,2.8224,1.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_a34689e9208c93,2026-08-24,Refining & Petrochemicals,OIL & GAS,0.63,2.26,1186.27,-1.63,1.63,2.6569,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_98cbd6d50c76fd,2026-08-24,Mining Equipment & Mill Liners,MINING & MINERALS,0.1,-1.52,1192.63,1.62,1.62,2.6244,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_3d3284d4d64b20,2026-08-24,Furniture & Mattresses,CONSUMER DURABLES,0.74,-0.88,1077.4,1.62,1.62,2.6244,0.0,BUY,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_f759b4e76bd686,2026-08-24,Fuel Retailing (OMC),OIL & GAS,0.76,-0.84,1053.04,1.6,1.6,2.56,0.0,BUY,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_d37aa839cd85f2,2026-08-24,Crop Protection Formulations,AGRICULTURE & AGROCHEMICALS,0.07,-1.53,1390.41,1.6,1.6,2.56,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_c35f0dee6834fb,2026-08-24,Precision Machine Tools & Fasteners,CAPITAL GOODS & MACHINERY,0.21,1.76,1134.57,-1.55,1.55,2.4025,1.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_547c37d0e4d34b,2026-08-24,Plastic & CPVC Pipes,BUILDING MATERIALS,1.55,0.01,1333.18,1.54,1.54,2.3716,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_cfb20ae55e3f4e,2026-08-24,Metals & Fabrication,METALS & FABRICATION,0.14,-1.39,1441.6,1.53,1.53,2.3409,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_9b66579c3fa12a,2026-08-24,Branded Innerwear,TEXTILES,-0.27,1.25,1220.1,-1.52,1.52,2.3104,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_01b6b27ccb8c74,2026-08-24,Residential Townships & Commercial REITs,SERVICES & MEDIA,-0.06,-1.56,1463.8,1.5,1.5,2.25,1.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_3a57685fbad0c0,2026-08-24,Specialty Enzymes & Biologicals,PHARMACEUTICALS,0.95,2.44,1119.64,-1.49,1.49,2.2201,1.0,BUY,1.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_a7c6aa8fec1415,2026-08-24,Complex Fertilizers & Soil Nutrients,CHEMICALS,-0.09,1.39,1486.45,-1.48,1.48,2.1904,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence
+LIVE_SHADOW_28b88ee79fc1cc,2026-08-24,Air Conditioners & Commercial HVAC,CONSUMER DURABLES,0.07,-1.41,1178.17,1.48,1.48,2.1904,0.0,HOLD,0.0,,,,1D_MATURED,forecast_overconfidence

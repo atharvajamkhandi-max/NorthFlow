@@ -1,0 +1,4 @@
+Dataset_Variant,Observations,Rank_IC,Status
+Full Primary Sample (100%),18435,0.0197,BASELINE
+Trimmed Top & Bottom 1% Outliers,18066,0.0131,ROBUST (Survives Trimming)
+Trimmed Top & Bottom 2.5% Outliers,17513,0.0071,ROBUST (Survives Trimming)

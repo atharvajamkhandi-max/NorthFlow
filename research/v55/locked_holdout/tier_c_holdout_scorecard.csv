@@ -1,0 +1,6 @@
+architecture,holdout_directional_acc,holdout_mae,holdout_rank_ic,holdout_net_spread_bps
+Arch_A_V34_Only,64.3,8.92,0.1101,475.8
+Arch_B_V34_TA_Veto,64.28,8.92,0.1148,496.0
+Arch_C_V34_V32_Fallback,63.83,9.32,0.0563,445.1
+Arch_D_V34_V32_TA_Fusion,63.93,8.94,0.0842,468.1
+Arch_E_Dynamic_Router,63.48,9.04,0.0541,431.0

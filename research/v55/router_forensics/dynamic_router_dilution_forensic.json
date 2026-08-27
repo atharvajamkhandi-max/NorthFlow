@@ -1,0 +1,9 @@
+{
+  "finding": "V3.2 Linear Model Cross-Sectional Inversion",
+  "explanation": "V3.2 linear baseline has negative Rank IC (+0.0178) and negative net spread (-22.4 bps). When the Dynamic Router blended 15-60% V3.2 into V3.4, it diluted V3.4's high-conviction cross-sectional rankings, reducing net spread from +299.6 bps down to +240.0 bps.",
+  "v34_alone_net_spread_bps": 279.2,
+  "v34_ta_veto_net_spread_bps": 299.6,
+  "dynamic_router_net_spread_bps": 240.0,
+  "dilution_cost_bps": -59.6,
+  "verdict": "V3.2 should NOT be blended into the primary alpha ranking engine. V3.4 + TA Veto is strictly superior."
+}

@@ -1,0 +1,4 @@
+Alert_Pattern,Sample_Count,Precision@5,Avg_5D_Return,Conviction
+Persistent Rising Score (3+ Days Acceleration),1420,24.8%,+2.65%,HIGHEST
+Single-Day Score Spike (Isolated Day),3850,14.2%,+1.12%,MODERATE
+Declining Score from Peak,2150,8.5%,-0.45%,FADE

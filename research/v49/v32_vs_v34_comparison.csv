@@ -1,0 +1,5 @@
+horizon,metric,v32_baseline,v34_candidate,delta
+20D,Directional Accuracy (%),53.69,58.87,5.18
+20D,MAE Error (%),9.12,7.94,-1.18
+20D,Spearman Rank IC,0.0178,0.1126,0.0948
+20D,P10-P90 Coverage (%),66.48,71.14,4.66

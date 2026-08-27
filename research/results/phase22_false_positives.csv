@@ -1,0 +1,6 @@
+Failure_Mode,Frequency_Pct,Remedy
+Chop Without Expansion,38.2%,Enforce Breakout Tension threshold
+Macro Liquidation Shock,26.5%,Regime gate pauses entries when Breadth < 40%
+Single-Stock Distortion,16.5%,Enforce Cross-Stock Synchronization >= 55
+Volume Exhaustion Trap,12.8%,Penalize abnormal volume > 3.5x MA
+Binary News Reversal,6.0%,Position sizing constraint

@@ -1,0 +1,37 @@
+[
+  {
+    "feature_set": "Base 1D Return Only",
+    "feature_count": 1,
+    "directional_accuracy": 66.7,
+    "mae": 8.35,
+    "rank_ic": 0.0405
+  },
+  {
+    "feature_set": "+ Breadth Level",
+    "feature_count": 2,
+    "directional_accuracy": 61.81,
+    "mae": 8.35,
+    "rank_ic": 0.1203
+  },
+  {
+    "feature_set": "+ Risk & Confidence Scores",
+    "feature_count": 4,
+    "directional_accuracy": 63.67,
+    "mae": 8.34,
+    "rank_ic": 0.1266
+  },
+  {
+    "feature_set": "+ Momentum x Breadth & Risk",
+    "feature_count": 6,
+    "directional_accuracy": 63.5,
+    "mae": 8.32,
+    "rank_ic": 0.1334
+  },
+  {
+    "feature_set": "+ Full Nonlinear Interactions",
+    "feature_count": 8,
+    "directional_accuracy": 63.61,
+    "mae": 8.31,
+    "rank_ic": 0.1288
+  }
+]

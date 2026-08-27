@@ -1,0 +1,10 @@
+{
+  "promotion_gate_decision": "NOT_READY",
+  "live_evidence_classification": "INSUFFICIENT_SAMPLE (N = 4 live sessions, N = 134 1D matured observations)",
+  "minimum_live_sessions_required": 20,
+  "current_live_sessions": 4,
+  "minimum_20d_matured_obs_required": 2800,
+  "current_20d_matured_obs": 0,
+  "mandatory_policy": "NO_AUTOMATIC_PROMOTION_ALLOWED",
+  "active_production_model": "MODEL_V3.2_FROZEN (100% UNCHANGED)"
+}

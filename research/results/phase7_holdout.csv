@@ -1,0 +1,7 @@
+Model_Name,Holdout_Dates_Count,Holdout_Observations,Holdout_Rank_IC,Holdout_MAE (%),Holdout_Top10_Return (%),Holdout_Status
+Model_M_RegimeAdaptiveEnsemble,2,268,0.0165,6.2,-1.09,NOISY HOLDOUT
+Model_D_ElasticNet,2,268,0.0592,6.12,-1.9,VALIDATED OUT-OF-SAMPLE
+Model_C_Ridge,2,268,0.0688,6.17,-1.12,VALIDATED OUT-OF-SAMPLE
+Model_K_DynamicBottomUp,2,268,0.0082,6.21,-0.4,NOISY HOLDOUT
+Model_E_RandomForest,2,268,-0.1031,6.39,-1.01,NOISY HOLDOUT
+Model_A_ConditionalMean,2,268,-0.0887,6.2,-0.12,NOISY HOLDOUT

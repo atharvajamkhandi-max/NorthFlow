@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-25T00:47:00",
+  "total_dataset_rows": 54617,
+  "train_val_rows": 43693,
+  "train_val_date_range": [
+    "2024-03-18",
+    "2025-06-24"
+  ],
+  "final_test_rows": 10924,
+  "final_test_date_range": [
+    "2025-06-24",
+    "2026-08-21"
+  ],
+  "source_checksum": "52019b780e8b9d714e8f926063dce725541b27335dec47b7f6e66346520bca6b",
+  "lock_status": "LOCKED_UNTOUCHED"
+}

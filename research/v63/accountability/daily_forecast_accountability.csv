@@ -1,0 +1,5 @@
+session_date,total_predictions,matured_predictions,pending_predictions,buy_count,sell_count,hold_count,directional_accuracy_1D,mae_1D,rmse_1D,buy_avg_return_1D,buy_hit_rate_pct,sell_avg_return_1D,sell_defensive_hit_rate_pct,hold_avg_return_1D,status
+2026-08-24,299,299,0,116,60,123,44.82,1.1865,1.465,0.2,52.59,0.63,28.33,-0.09,MATURED_EVALUATION_COMPLETE
+2026-08-25,299,0,299,106,70,123,,,,,,,,,PENDING_CALENDAR_MATURATION
+2026-08-26,299,0,299,98,73,128,,,,,,,,,PENDING_CALENDAR_MATURATION
+2026-08-27,299,0,299,107,79,113,,,,,,,,,PENDING_CALENDAR_MATURATION

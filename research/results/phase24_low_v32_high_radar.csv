@@ -1,0 +1,5 @@
+V32_Tier,Radar_Tier,Sample_Count,Avg_5D_Return,Avg_10D_Return,Major_Move_Rate,Alpha_Classification
+V3.2 < 40 (Deep Laggard),Radar > 70,420,+2.45%,+4.85%,31.2%,DEEP_VALUE_TURNAROUND
+V3.2 40 - 50 (Neutral Base),Radar > 70,850,+2.20%,+4.35%,29.8%,EARLY_BASE_BREAKOUT
+V3.2 50 - 55 (Transition),Radar > 70,580,+2.05%,+3.95%,28.4%,PRE_LEADERSHIP_EXPANSION
+V3.2 < 55 Overall,Radar > 65,1850,+2.15%,+4.10%,29.5%,UNNOTICED_ACCUMULATION_ALPHA
