@@ -186,11 +186,8 @@ CREATE TABLE IF NOT EXISTS pipeline_logs (
 );
 """
 
-INDEX_DAILY_PRICES_DATE = "CREATE INDEX IF NOT EXISTS idx_dp_date ON daily_prices (date);"
 INDEX_DAILY_PRICES_SYMBOL = "CREATE INDEX IF NOT EXISTS idx_dp_symbol ON daily_prices (symbol);"
-INDEX_STOCK_METRICS_DATE = "CREATE INDEX IF NOT EXISTS idx_sm_date ON stock_metrics (date);"
 INDEX_STOCK_METRICS_SYMBOL = "CREATE INDEX IF NOT EXISTS idx_sm_symbol ON stock_metrics (symbol);"
-INDEX_INDUSTRY_METRICS_DATE = "CREATE INDEX IF NOT EXISTS idx_im_date ON industry_metrics (date);"
 INDEX_INDUSTRY_METRICS_BASIC = "CREATE INDEX IF NOT EXISTS idx_im_basic ON industry_metrics (basic_industry);"
 INDEX_STOCKS_BASIC_IND = "CREATE INDEX IF NOT EXISTS idx_stocks_basic ON stocks (basic_industry);"
 INDEX_CIC_INDUSTRY = "CREATE INDEX IF NOT EXISTS idx_cic_ind ON custom_industry_classification (custom_industry);"
@@ -212,11 +209,8 @@ ALL_TABLE_DDLS = [
 ]
 
 INDEXES = [
-    INDEX_DAILY_PRICES_DATE,
     INDEX_DAILY_PRICES_SYMBOL,
-    INDEX_STOCK_METRICS_DATE,
     INDEX_STOCK_METRICS_SYMBOL,
-    INDEX_INDUSTRY_METRICS_DATE,
     INDEX_INDUSTRY_METRICS_BASIC,
     INDEX_STOCKS_BASIC_IND,
     INDEX_CIC_INDUSTRY,

@@ -145,8 +145,11 @@ class DailyPipelineRunner:
         market_updater = MarketDataUpdater(db=self.db, provider=self.provider)
         inserted_prices = market_updater.ingest_single_date(iso_date, force=force)
 
-        # 4. If data is unavailable
-        if inserted_prices == 0:
+        with self.db.get_connection() as conn:
+            total_prices_today = conn.execute("SELECT COUNT(*) FROM daily_prices WHERE date = ?;", [iso_date]).fetchone()[0]
+
+        # 4. If data is completely unavailable (neither newly inserted nor existing in DB)
+        if total_prices_today == 0:
             is_final_checkpoint = (checkpoint_time_str == "20:00" or checkpoint_time_str == DAILY_UPDATE_TIMES[-1])
             if is_final_checkpoint:
                 fail_msg = f"PIPELINE FAILED / DATA STALE: NSE market data unavailable after final {checkpoint_time_str} IST attempt for {iso_date}."
@@ -182,7 +185,7 @@ class DailyPipelineRunner:
                 }
 
         # 5. Data is available -> Process complete pipeline immediately
-        logger.info(f"NSE data available ({inserted_prices} records). Processing full analytical pipeline...")
+        logger.info(f"NSE data available ({total_prices_today} records). Processing full analytical pipeline...")
         start_lookback = target_date - datetime.timedelta(days=7)
         market_updater.sync_benchmark_data(start_lookback, target_date)
 
@@ -203,13 +206,13 @@ class DailyPipelineRunner:
         rot = RotationDetector(db=self.db)
         rot.calculate_rotation_states()
 
-        success_msg = f"Daily pipeline completed successfully at {checkpoint_time_str} IST for {iso_date} ({inserted_prices} equities processed)."
+        success_msg = f"Daily pipeline completed successfully at {checkpoint_time_str} IST for {iso_date} ({total_prices_today} equities processed)."
         logger.info(success_msg)
         self.db.log_pipeline_event(
             stage="DAILY_PIPELINE_COMPLETE",
             status="SUCCESS",
             trade_date=iso_date,
-            records_processed=inserted_prices,
+            records_processed=total_prices_today,
             message=success_msg
         )
 
