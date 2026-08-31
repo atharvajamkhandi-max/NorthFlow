@@ -206,6 +206,19 @@ class DailyPipelineRunner:
         rot = RotationDetector(db=self.db)
         rot.calculate_rotation_states()
 
+        # Auto-classify any new IPOs / newly listed symbols
+        try:
+            from pipeline.ipo_classifier import classify_new_ipos
+            with self.db.get_connection() as conn:
+                ipo_result = classify_new_ipos(conn)
+            if ipo_result["classified"] > 0:
+                logger.info(
+                    f"IPO Auto-Classifier: {ipo_result['classified']} new symbols classified, "
+                    f"{ipo_result['unclassified']} flagged for manual review."
+                )
+        except Exception as e:
+            logger.warning(f"IPO auto-classifier encountered an error (non-fatal): {e}")
+
         success_msg = f"Daily pipeline completed successfully at {checkpoint_time_str} IST for {iso_date} ({total_prices_today} equities processed)."
         logger.info(success_msg)
         self.db.log_pipeline_event(

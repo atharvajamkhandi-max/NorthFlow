@@ -40,31 +40,60 @@ def get_canonical_hierarchy_quant_scores(selected_date: str, hierarchy_level_key
     
     db = Database()
     conn = db.get_connection()
-    
-    sql = f"""
-    SELECT 
-        s.symbol,
-        s.company_name,
-        s.macro_sector,
-        s.industry,
-        s.basic_industry,
-        s.{col_name} as entity_name,
-        COALESCE(m.close, 100.0) as close_price,
-        COALESCE(m.return_1d, 0.0) as return_1d,
-        COALESCE(m.return_5d, 0.0) as return_5d,
-        COALESCE(m.return_20d, 0.0) as return_20d,
-        COALESCE(m.rs_5d, 0.0) as rs_5d,
-        COALESCE(m.rs_20d, 0.0) as rs_20d,
-        COALESCE(m.volume_ratio, 1.0) as volume_ratio,
-        COALESCE(m.above_20ema, 0) as above_20ema,
-        COALESCE(m.above_50ema, 0) as above_50ema,
-        COALESCE(m.above_200ema, 0) as above_200ema,
-        COALESCE(m.is_breakout_20d, 0) as is_breakout_20d
-    FROM stocks s
-    LEFT JOIN stock_metrics m ON s.symbol = m.symbol AND m.date = ?
-    WHERE s.active = 1 AND s.{col_name} IS NOT NULL;
-    """
+
+    # For macro_sector hierarchy level, source from stock_classification_master_v3
+    # to ensure canonical and explorer use identical classification data
+    if col_name == "macro_sector":
+        sql = f"""
+        SELECT
+            v.symbol,
+            v.company_name,
+            v.sector AS macro_sector,
+            v.industry,
+            v.industry AS basic_industry,
+            v.sector AS entity_name,
+            COALESCE(m.close, 100.0) as close_price,
+            COALESCE(m.return_1d, 0.0) as return_1d,
+            COALESCE(m.return_5d, 0.0) as return_5d,
+            COALESCE(m.return_20d, 0.0) as return_20d,
+            COALESCE(m.rs_5d, 0.0) as rs_5d,
+            COALESCE(m.rs_20d, 0.0) as rs_20d,
+            COALESCE(m.volume_ratio, 1.0) as volume_ratio,
+            COALESCE(m.above_20ema, 0) as above_20ema,
+            COALESCE(m.above_50ema, 0) as above_50ema,
+            COALESCE(m.above_200ema, 0) as above_200ema,
+            COALESCE(m.is_breakout_20d, 0) as is_breakout_20d
+        FROM stock_classification_master_v3 v
+        LEFT JOIN stock_metrics m ON v.symbol = m.symbol AND m.date = ?
+        WHERE v.sector IS NOT NULL
+          AND v.sector NOT IN ('EXCHANGE TRADED FUNDS', 'UNCLASSIFIED', 'NEEDS_CLASSIFICATION');
+        """
+    else:
+        sql = f"""
+        SELECT
+            s.symbol,
+            s.company_name,
+            s.macro_sector,
+            s.industry,
+            s.basic_industry,
+            s.{col_name} as entity_name,
+            COALESCE(m.close, 100.0) as close_price,
+            COALESCE(m.return_1d, 0.0) as return_1d,
+            COALESCE(m.return_5d, 0.0) as return_5d,
+            COALESCE(m.return_20d, 0.0) as return_20d,
+            COALESCE(m.rs_5d, 0.0) as rs_5d,
+            COALESCE(m.rs_20d, 0.0) as rs_20d,
+            COALESCE(m.volume_ratio, 1.0) as volume_ratio,
+            COALESCE(m.above_20ema, 0) as above_20ema,
+            COALESCE(m.above_50ema, 0) as above_50ema,
+            COALESCE(m.above_200ema, 0) as above_200ema,
+            COALESCE(m.is_breakout_20d, 0) as is_breakout_20d
+        FROM stocks s
+        LEFT JOIN stock_metrics m ON s.symbol = m.symbol AND m.date = ?
+        WHERE s.active = 1 AND s.{col_name} IS NOT NULL;
+        """
     df_raw = pd.read_sql(sql, conn, params=[selected_date])
+
     
     if df_raw.empty or df_raw['return_1d'].isna().all():
         latest_date = pd.read_sql("SELECT MAX(date) as max_d FROM stock_metrics", conn)['max_d'].iloc[0]
@@ -74,7 +103,14 @@ def get_canonical_hierarchy_quant_scores(selected_date: str, hierarchy_level_key
             
     if df_raw.empty:
         return pd.DataFrame(), {}
-        
+
+    # For non-macro_sector paths, also exclude pseudo-sectors
+    if col_name != "macro_sector":
+        EXCLUDE_SECTORS = {'EXCHANGE TRADED FUNDS', 'UNCLASSIFIED', 'NEEDS_CLASSIFICATION'}
+        df_raw = df_raw[~df_raw['macro_sector'].isin(EXCLUDE_SECTORS)].copy()
+        if df_raw.empty:
+            return pd.DataFrame(), {}
+
     df_agg = df_raw.groupby('entity_name').agg(
         constituent_count=('symbol', 'count'),
         avg_return_1d=('return_1d', 'mean'),

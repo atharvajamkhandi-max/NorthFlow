@@ -62,6 +62,10 @@ def load_sector_overview_data(selected_date: str, eligible_symbols: tuple = None
         if df.empty:
             return pd.DataFrame(), pd.DataFrame()
 
+    # Exclude non-market pseudo-sectors from analytics (ETFs, Unclassified, etc.)
+    EXCLUDE_SECTORS = {'EXCHANGE TRADED FUNDS', 'UNCLASSIFIED', 'NEEDS_CLASSIFICATION'}
+    df = df[~df['sector'].isin(EXCLUDE_SECTORS)].copy()
+
     sector_summary = df.groupby('sector').agg(
         stock_count=('symbol', 'count'),
         industry_count=('industry', 'nunique'),
