@@ -48,5 +48,3 @@ scratch/
 # Cold Parquet Archives (>100MB)
 archive/
 
-# Production DB (too large for GitHub - use git-lfs or separate storage)
-data/market_flow.db
