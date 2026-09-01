@@ -186,9 +186,9 @@ CREATE TABLE IF NOT EXISTS pipeline_logs (
 );
 """
 
-INDEX_DAILY_PRICES_SYMBOL = "CREATE INDEX IF NOT EXISTS idx_dp_symbol ON daily_prices (symbol);"
+INDEX_DAILY_PRICES_SYMBOL_DATE = "CREATE INDEX IF NOT EXISTS idx_daily_prices_symbol_date ON daily_prices (symbol, date);"
 INDEX_STOCK_METRICS_SYMBOL = "CREATE INDEX IF NOT EXISTS idx_sm_symbol ON stock_metrics (symbol);"
-INDEX_INDUSTRY_METRICS_BASIC = "CREATE INDEX IF NOT EXISTS idx_im_basic ON industry_metrics (basic_industry);"
+INDEX_INDUSTRY_METRICS_BASIC = "CREATE INDEX IF NOT EXISTS idx_industry_metrics_industry ON industry_metrics (basic_industry);"
 INDEX_STOCKS_BASIC_IND = "CREATE INDEX IF NOT EXISTS idx_stocks_basic ON stocks (basic_industry);"
 INDEX_CIC_INDUSTRY = "CREATE INDEX IF NOT EXISTS idx_cic_ind ON custom_industry_classification (custom_industry);"
 INDEX_CIC_SEGMENT = "CREATE INDEX IF NOT EXISTS idx_cic_seg ON custom_industry_classification (custom_industry, custom_segment);"
@@ -209,7 +209,7 @@ ALL_TABLE_DDLS = [
 ]
 
 INDEXES = [
-    INDEX_DAILY_PRICES_SYMBOL,
+    INDEX_DAILY_PRICES_SYMBOL_DATE,
     INDEX_STOCK_METRICS_SYMBOL,
     INDEX_INDUSTRY_METRICS_BASIC,
     INDEX_STOCKS_BASIC_IND,
@@ -220,3 +220,4 @@ INDEXES = [
     INDEX_MULTI_SUB,
     INDEX_MULTI_TAG
 ]
+

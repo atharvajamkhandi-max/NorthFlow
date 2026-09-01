@@ -47,9 +47,37 @@ def main():
     print(f"Message:        {result.get('message')}")
     print("=" * 60 + "\n")
 
+    if result.get("status") == "SUCCESS":
+        # Vacuum database to keep file compact
+        try:
+            with db.get_connection() as conn:
+                conn.execute("VACUUM;")
+            logger.info("Database vacuum completed successfully.")
+        except Exception as e:
+            logger.warning(f"Database vacuum warning: {e}")
+
+        # If run locally with git available, automatically commit and push
+        import subprocess, shutil
+        git_cmd = shutil.which("git") or r"C:\Users\athar\AppData\Local\Programs\Git\cmd\git.exe"
+        if Path(git_cmd).exists() or shutil.which("git"):
+            try:
+                base_dir = Path(__file__).resolve().parent.parent
+                trade_d = result.get('trade_date', 'today')
+                logger.info(f"Auto-syncing updated database ({trade_d}) to GitHub...")
+                subprocess.run([git_cmd, "add", "data/market_flow.db"], cwd=str(base_dir), check=False)
+                subprocess.run([git_cmd, "commit", "-m", f"chore(data): automated bhavcopy daily update for {trade_d} [skip ci]"], cwd=str(base_dir), check=False)
+                push_res = subprocess.run([git_cmd, "push", "origin", "main"], cwd=str(base_dir), capture_output=True, text=True)
+                if push_res.returncode == 0:
+                    logger.info("Successfully pushed updated market data to GitHub!")
+                else:
+                    logger.info(f"Git push note: {push_res.stderr.strip() or push_res.stdout.strip()}")
+            except Exception as e:
+                logger.warning(f"Git auto-sync skipped / encountered: {e}")
+
     if result.get("status") == "FAILED":
         sys.exit(1)
 
 
 if __name__ == "__main__":
     main()
+

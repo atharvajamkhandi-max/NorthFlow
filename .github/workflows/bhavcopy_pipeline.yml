@@ -21,6 +21,9 @@ on:
         type: boolean
         default: false
 
+permissions:
+  contents: write
+
 jobs:
   ingest-and-validate:
     name: Candidate Ingestion & Quality Validation
@@ -31,7 +34,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
@@ -48,14 +51,18 @@ jobs:
         run: |
           python scripts/daily_update.py ${{ github.event.inputs.trade_date && format('--date {0}', github.event.inputs.trade_date) || '' }} ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
+      - name: Optimize & Vacuum Database
+        run: |
+          python -c "import sqlite3; conn = sqlite3.connect('data/market_flow.db'); conn.execute('VACUUM;'); conn.close()"
+
       - name: Run Integrity & Release Gates on Updated Dataset
         run: |
-          python -m pytest tests/test_phase76_market_overview_ui.py tests/test_phase77_live_ui_acceptance.py -q
+          python -m pytest tests/test_phase76_market_overview_ui.py tests/test_phase77_live_ui_acceptance.py tests/test_canonical_v3_2_unification.py -q
 
       - name: Atomic Commit & Push Validated Production Data
         run: |
-          git config --global user.name "NorthFlow Pipeline Bot"
-          git config --global user.email "bot@northflow.internal"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/market_flow.db
           if git diff --staged --quiet; then
             echo "No database changes to commit (Idempotent / No-op)."
@@ -64,3 +71,4 @@ jobs:
             git push origin main
             echo "Successfully promoted validated dataset to production."
           fi
+
