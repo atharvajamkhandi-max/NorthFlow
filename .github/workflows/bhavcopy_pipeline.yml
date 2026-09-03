@@ -2,14 +2,8 @@ name: Scheduled NSE Bhavcopy Pipeline
 
 on:
   schedule:
-    # Runs at 17:00, 18:00, 19:00, 20:00 IST (Asia/Kolkata is UTC+5:30)
-    # 17:00 IST = 11:30 UTC
-    # 18:00 IST = 12:30 UTC
-    # 19:00 IST = 13:30 UTC
-    # 20:00 IST = 14:30 UTC
-    - cron: '30 11 * * 1-5'
-    - cron: '30 12 * * 1-5'
-    - cron: '30 13 * * 1-5'
+    # Runs once daily at 20:00 IST (8:00 PM IST) on weekdays (Monday to Friday)
+    # 20:00 IST = 14:30 UTC (Asia/Kolkata is UTC+5:30)
     - cron: '30 14 * * 1-5'
   workflow_dispatch:
     inputs:

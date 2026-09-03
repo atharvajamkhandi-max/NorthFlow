@@ -84,9 +84,6 @@ ROTATION_THRESHOLDS = {
 
 # Daily Pipeline Schedule (Checkpoints in Asia/Kolkata)
 DAILY_UPDATE_TIMES = [
-    "17:00",
-    "18:00",
-    "19:00",
     "20:00"
 ]
 TIMEZONE = "Asia/Kolkata"
