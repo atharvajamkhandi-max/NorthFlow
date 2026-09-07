@@ -64,12 +64,21 @@ class DailyPipelineRunner:
             ).fetchone()
             return log_row is not None
 
+    @staticmethod
+    def get_ist_now() -> datetime.datetime:
+        """Returns current datetime in Indian Standard Time (UTC+5:30)."""
+        try:
+            import zoneinfo
+            return datetime.datetime.now(zoneinfo.ZoneInfo("Asia/Kolkata"))
+        except Exception:
+            return datetime.datetime.utcnow() + datetime.timedelta(hours=5, minutes=30)
+
     def determine_current_checkpoint(self, now_time: Optional[datetime.time] = None) -> str:
         """
         Determines the current checkpoint label (e.g. '17:00', '18:00', '19:00', '20:00') based on time.
         """
         if now_time is None:
-            now_time = datetime.datetime.now().time()
+            now_time = self.get_ist_now().time()
 
         t_str = now_time.strftime("%H:%M")
         if t_str < "17:30":
@@ -91,7 +100,7 @@ class DailyPipelineRunner:
         Executes a checkpoint run for target_date.
         """
         self.db.initialize_schema()
-        now_dt = datetime.datetime.now()
+        now_dt = self.get_ist_now()
 
         if target_date is None:
             target_date = now_dt.date()

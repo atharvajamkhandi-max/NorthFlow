@@ -2,9 +2,13 @@ name: Scheduled NSE Bhavcopy Pipeline
 
 on:
   schedule:
-    # Runs once daily at 20:00 IST (8:00 PM IST) on weekdays (Monday to Friday)
-    # 20:00 IST = 14:30 UTC (Asia/Kolkata is UTC+5:30)
+    # Checkpoints at 20:00, 21:00, 22:00 IST on weekdays (Monday to Friday)
+    # 20:00 IST = 14:30 UTC (Primary scheduled run)
+    # 21:00 IST = 15:30 UTC (Catchup run if NSE publishes late)
+    # 22:00 IST = 16:30 UTC (Final catchup run)
     - cron: '30 14 * * 1-5'
+    - cron: '30 15 * * 1-5'
+    - cron: '30 16 * * 1-5'
   workflow_dispatch:
     inputs:
       trade_date:
@@ -17,6 +21,10 @@ on:
 
 permissions:
   contents: write
+
+env:
+  TZ: "Asia/Kolkata"
+
 
 jobs:
   ingest-and-validate:
