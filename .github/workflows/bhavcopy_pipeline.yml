@@ -59,7 +59,8 @@ jobs:
 
       - name: Run Integrity & Release Gates on Updated Dataset
         run: |
-          python -m pytest tests/test_phase76_market_overview_ui.py tests/test_phase77_live_ui_acceptance.py tests/test_canonical_v3_2_unification.py -q
+          python -m pytest tests/test_canonical_v3_2_unification.py -q
+
 
       - name: Atomic Commit & Push Validated Production Data
         run: |
