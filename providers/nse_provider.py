@@ -115,53 +115,108 @@ class NSEProvider:
 
         return trading_days
 
-    def get_daily_equity_data(self, trade_date: Union[str, datetime.date]) -> pd.DataFrame:
+    def _fetch_bhavcopy_direct_cdn(self, trade_date) -> pd.DataFrame:
+        """
+        Fetches bhavcopy directly from NSE archives CDN — no session cookies needed.
+        Works from any IP including GitHub Actions cloud runners.
+        URL: https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_{DDMMYYYY}.csv
+        """
+        import requests
+        from io import StringIO
+
+        if isinstance(trade_date, datetime.date):
+            ddmmyyyy = trade_date.strftime('%d%m%Y')
+            iso_date = trade_date.strftime('%Y-%m-%d')
+        else:
+            # Parse from ISO or DMY
+            for fmt in ('%Y-%m-%d', '%d-%m-%Y'):
+                try:
+                    dt = datetime.datetime.strptime(str(trade_date), fmt)
+                    ddmmyyyy = dt.strftime('%d%m%Y')
+                    iso_date = dt.strftime('%Y-%m-%d')
+                    break
+                except ValueError:
+                    continue
+            else:
+                return pd.DataFrame()
+
+        url = f'https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_{ddmmyyyy}.csv'
+        headers = {
+            'User-Agent': (
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                'AppleWebKit/537.36 (KHTML, like Gecko) '
+                'Chrome/130.0.0.0 Safari/537.36'
+            ),
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Referer': 'https://www.nseindia.com/',
+        }
+
+        logger.info(f"CDN fetch: {url}")
+        try:
+            r = requests.get(url, headers=headers, timeout=30)
+            if r.status_code == 200 and len(r.content) > 1000:
+                content = r.content.decode('utf-8', errors='ignore')
+                df_raw = pd.read_csv(StringIO(content))
+                # Normalize column names (strip spaces)
+                df_raw.columns = [c.strip() for c in df_raw.columns]
+                logger.info(f"CDN fetch succeeded: {len(df_raw)} rows")
+                return df_raw, iso_date
+            else:
+                logger.warning(f"CDN fetch returned status {r.status_code} for {ddmmyyyy}")
+                return None, iso_date
+        except Exception as e:
+            logger.warning(f"CDN fetch failed: {e}")
+            return None, iso_date
+
+    def get_daily_equity_data(self, trade_date) -> pd.DataFrame:
         """
         Fetches daily market data (OHLC, volume, turnover, delivery) for all NSE stocks for a given date.
-        Uses nselib.capital_market.bhav_copy_with_delivery as primary source.
-        
+
+        Strategy:
+        1. Try direct NSE Archives CDN (no session required — works from cloud IPs)
+        2. Fall back to nselib.bhav_copy_with_delivery (requires IP not blocked by NSE)
+        3. Fall back to nselib.bhav_copy_equities
+
         Returns DataFrame with standard schema:
         ['date', 'symbol', 'series', 'open', 'high', 'low', 'close', 'previous_close',
          'volume', 'turnover', 'delivery_quantity', 'delivery_percentage']
         """
         dmy_date = self._format_to_dmy(trade_date)
         iso_date = self._format_to_iso(trade_date)
-        
-        logger.info(f"Fetching bhavcopy with delivery for trade date: {dmy_date} ({iso_date})")
-        df_raw = None
-        
+
+        logger.info(f"Fetching bhavcopy for trade date: {dmy_date} ({iso_date})")
+
+        # ── Strategy 1: Direct CDN (works from any IP) ──────────────────────
+        df_raw, iso_date = self._fetch_bhavcopy_direct_cdn(trade_date)
+        if df_raw is not None and not df_raw.empty:
+            return self._parse_delivery_bhavcopy(df_raw, iso_date)
+
+        # ── Strategy 2: nselib with delivery (requires non-blocked IP) ───────
+        logger.warning("CDN fetch failed — trying nselib bhav_copy_with_delivery...")
         try:
             df_raw = capital_market.bhav_copy_with_delivery(dmy_date)
+            if df_raw is not None and not df_raw.empty:
+                df_raw.columns = [str(c).strip() for c in df_raw.columns]
+                return self._parse_delivery_bhavcopy(df_raw, iso_date)
         except Exception as e:
-            logger.warning(f"bhav_copy_with_delivery failed for {dmy_date}: {e}. Attempting fallback...")
-            try:
-                # Fallback to standard bhavcopy if delivery fails
-                df_raw = capital_market.bhav_copy_equities(dmy_date)
-            except Exception as e2:
-                logger.error(f"Failed to fetch market data for {dmy_date}: {e2}")
-                return pd.DataFrame()
+            logger.warning(f"bhav_copy_with_delivery failed: {e}")
 
-        if df_raw is None or df_raw.empty:
-            logger.warning(f"No market data returned for date {dmy_date}")
-            return pd.DataFrame()
+        # ── Strategy 3: nselib standard bhavcopy fallback ────────────────────
+        logger.warning("Trying nselib bhav_copy_equities fallback...")
+        try:
+            df_raw = capital_market.bhav_copy_equities(dmy_date)
+            if df_raw is not None and not df_raw.empty:
+                df_raw.columns = [str(c).strip() for c in df_raw.columns]
+                if 'TckrSymb' in df_raw.columns:
+                    return self._parse_old_bhavcopy(df_raw, iso_date)
+                return self._parse_standard_bhavcopy(df_raw, iso_date)
+        except Exception as e:
+            logger.error(f"All bhavcopy fetch strategies failed for {dmy_date}: {e}")
 
-        # Clean columns
-        df_clean = df_raw.copy()
-        df_clean.columns = [str(c).strip() for c in df_clean.columns]
-
-        # Case 1: Delivery bhavcopy columns
-        if 'SYMBOL' in df_clean.columns and 'CLOSE_PRICE' in df_clean.columns:
-            return self._parse_delivery_bhavcopy(df_clean, iso_date)
-        
-        # Case 2: New NSE bhavcopy columns (e.g. TckrSymb / ClsPric or SYMBOL / CLOSE)
-        if 'TckrSymb' in df_clean.columns:
-            return self._parse_old_bhavcopy(df_clean, iso_date)
-            
-        if 'SYMBOL' in df_clean.columns and 'CLOSE' in df_clean.columns:
-            return self._parse_standard_bhavcopy(df_clean, iso_date)
-
-        logger.error(f"Unrecognized bhavcopy column format: {df_clean.columns.tolist()}")
+        logger.error(f"No market data available for {dmy_date}")
         return pd.DataFrame()
+
 
     def _parse_delivery_bhavcopy(self, df: pd.DataFrame, iso_date: str) -> pd.DataFrame:
         """Parses output from bhav_copy_with_delivery."""
