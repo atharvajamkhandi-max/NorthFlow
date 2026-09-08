@@ -2,42 +2,43 @@ name: Scheduled NSE Bhavcopy Pipeline
 
 on:
   schedule:
-    # Checkpoints at 20:00, 21:00, 22:00 IST on weekdays (Monday to Friday)
-    # 20:00 IST = 14:30 UTC (Primary scheduled run)
-    # 21:00 IST = 15:30 UTC (Catchup run if NSE publishes late)
-    # 22:00 IST = 16:30 UTC (Final catchup run)
+    # Single daily run at 20:00 IST = 14:30 UTC, weekdays only
     - cron: '30 14 * * 1-5'
-    - cron: '30 15 * * 1-5'
-    - cron: '30 16 * * 1-5'
+
   workflow_dispatch:
     inputs:
       trade_date:
-        description: 'Target Trade Date (YYYY-MM-DD)'
+        description: 'Target Trade Date (YYYY-MM-DD, leave blank for today)'
         required: false
+        default: ''
       force:
-        description: 'Force re-ingestion'
+        description: 'Force re-ingestion even if date already processed'
         type: boolean
         default: false
 
 permissions:
-  contents: write
+  contents: write   # Required for git push
 
 env:
   TZ: "Asia/Kolkata"
+  PYTHONUNBUFFERED: "1"
 
 
 jobs:
-  ingest-and-validate:
-    name: Candidate Ingestion & Quality Validation
+  bhavcopy-pipeline:
+    name: NSE Bhavcopy Ingestion & Analytics
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
+      # ── 3. Python setup ───────────────────────────────────────────────────
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
@@ -49,29 +50,112 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run 4-Checkpoint Pipeline
+      # ── 4. Show DB state before pipeline ─────────────────────────────────
+      - name: Pre-run Database State
         run: |
-          python scripts/daily_update.py ${{ github.event.inputs.trade_date && format('--date {0}', github.event.inputs.trade_date) || '' }} ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+          if [ -f "data/market_flow.db" ]; then
+            SIZE=$(du -sh data/market_flow.db | cut -f1)
+            echo "✅ market_flow.db found — size: $SIZE"
+            python -c "
+          import sqlite3, datetime
+          conn = sqlite3.connect('data/market_flow.db')
+          dates = [r[0] for r in conn.execute('SELECT DISTINCT date FROM daily_prices ORDER BY date DESC LIMIT 5').fetchall()]
+          print('  Latest 5 dates in DB:', dates)
+          conn.close()
+          "
+          else
+            echo "⚠️  market_flow.db not found — will be created fresh by pipeline"
+          fi
 
-      - name: Optimize & Vacuum Database
+      # ── 5. Run the 4-Checkpoint Pipeline ─────────────────────────────────
+      - name: Run NSE Bhavcopy Pipeline
+        id: pipeline
         run: |
-          python -c "import sqlite3; conn = sqlite3.connect('data/market_flow.db'); conn.execute('VACUUM;'); conn.close()"
+          python scripts/daily_update.py \
+            ${{ github.event.inputs.trade_date != '' && format('--date {0}', github.event.inputs.trade_date) || '' }} \
+            ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
-      - name: Run Integrity & Release Gates on Updated Dataset
+      # ── 6. Auto-trim old data & Optimize database ────────────────────────
+      # Keeps only the most recent 35 trading sessions (~7 weeks).
+      # This ensures market_flow.db stays well under GitHub's 100 MB file limit.
+      - name: Trim Old Data & Vacuum Database
         run: |
-          python -m pytest tests/test_canonical_v3_2_unification.py -q
+          python - <<'PYEOF'
+          import sqlite3, os
+          conn = sqlite3.connect('data/market_flow.db')
+          KEEP_DAYS = 35
+          all_dates = [r[0] for r in conn.execute(
+              'SELECT DISTINCT date FROM daily_prices ORDER BY date DESC'
+          ).fetchall()]
+          if len(all_dates) > KEEP_DAYS:
+              cutoff = all_dates[KEEP_DAYS - 1]
+              for tbl in ['daily_prices', 'stock_metrics', 'industry_metrics']:
+                  try:
+                      n = conn.execute(f'DELETE FROM {tbl} WHERE date < ?', [cutoff]).rowcount
+                      print(f'Trimmed {n:,} rows from {tbl} (cutoff={cutoff})')
+                  except Exception as e:
+                      print(f'Trim {tbl}: {e}')
+              conn.commit()
+          else:
+              print(f'Only {len(all_dates)} dates — no trimming needed')
+          conn.execute('PRAGMA wal_checkpoint(TRUNCATE);')
+          conn.execute('VACUUM;')
+          conn.close()
+          size_mb = os.path.getsize('data/market_flow.db') / (1024 * 1024)
+          print(f'DB size after trim+vacuum: {size_mb:.1f} MB')
+          if size_mb > 95:
+              raise RuntimeError(f'DB too large ({size_mb:.1f} MB) — cannot push to GitHub!')
+          PYEOF
 
+      # ── 7. Run data integrity tests ───────────────────────────────────────
+      - name: Run Integrity Tests on Updated Dataset
+        run: |
+          python -m pytest tests/test_canonical_v3_2_unification.py -q --tb=short
 
-      - name: Atomic Commit & Push Validated Production Data
+      # ── 8. Commit & Push validated DB back to repo ────────────────────────
+      # The [skip ci] tag prevents the ci.yml release-gate workflow from
+      # triggering on this automated commit, avoiding a pointless re-run
+      # and the broken hash-check on the now-updated market_flow.db.
+      - name: Commit & Push Updated Database
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/market_flow.db
           if git diff --staged --quiet; then
-            echo "No database changes to commit (Idempotent / No-op)."
+            echo "ℹ️  No database changes to commit (pipeline was idempotent / no new data)."
           else
-            git commit -m "chore(data): automated bhavcopy daily update [skip ci]"
+            TRADE_DATE=$(python -c "import datetime; print(datetime.date.today().strftime('%Y-%m-%d'))")
+            git commit -m "chore(data): automated bhavcopy update ${TRADE_DATE} [skip ci]"
             git push origin main
-            echo "Successfully promoted validated dataset to production."
+            echo "✅ Successfully pushed updated market database to production."
           fi
 
+      # ── 9. Post job summary ───────────────────────────────────────────────
+      - name: Write Job Summary
+        if: always()
+        run: |
+          python -c "
+          import sqlite3, datetime, os
+
+          summary = []
+          summary.append('## 📊 NSE Bhavcopy Pipeline Run')
+          summary.append('')
+          summary.append(f'**Run Date:** $(date -u +\"%Y-%m-%d %H:%M UTC\")')
+          summary.append('')
+
+          try:
+              conn = sqlite3.connect('data/market_flow.db')
+              latest = conn.execute('SELECT MAX(date) FROM daily_prices').fetchone()[0]
+              count = conn.execute('SELECT COUNT(*) FROM daily_prices WHERE date = ?', [latest]).fetchone()[0]
+              conn.close()
+              summary.append(f'| Metric | Value |')
+              summary.append(f'|--------|-------|')
+              summary.append(f'| Latest Trade Date | {latest} |')
+              summary.append(f'| Equities Processed | {count:,} |')
+              summary.append(f'| Status | ✅ Success |')
+          except Exception as e:
+              summary.append(f'| Status | ❌ Error: {e} |')
+
+          with open(os.environ.get('GITHUB_STEP_SUMMARY', '/dev/null'), 'w') as f:
+              f.write('\n'.join(summary))
+          " 2>/dev/null || true

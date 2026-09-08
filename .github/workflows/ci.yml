@@ -12,6 +12,11 @@ jobs:
     name: Full Release Gates & Security Verification
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    # Skip this job for automated bhavcopy data commits — they are validated
+    # by the bhavcopy_pipeline.yml integrity tests before being pushed.
+    # The [skip ci] tag in those commit messages prevents a pointless re-run
+    # and avoids false failures from the live market_flow.db hash changing daily.
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
 
     steps:
       - name: Checkout Code
@@ -66,13 +71,15 @@ jobs:
           import hashlib, sys
           from pathlib import Path
 
+          # Only pin STATIC research artifacts here.
+          # Live databases (market_flow.db, decision_ledger.db) are EXCLUDED —
+          # their hashes change every trading day by design.
           expected = {
               'config/model_v3_2_frozen.py': 'e350e9209960357d75668ff3dc9fb742162525169ae1f19d7fb7b681beadc756',
               'research/final_v3/results/final_predictions.csv': '52019b780e8b9d714e8f926063dce725541b27335dec47b7f6e66346520bca6b',
               'research/live_forward/ledger/live_predictions.csv': '7950580952b7d3e4d082aeb2c8b48ed892fbe9ce2487d0755255cce81977136e',
               'research/live_forward/ledger/live_hashes.csv': '0010c55813170804e62726ce458ac78cee0394b8995b9f3d2bd8066014c0ca43',
               'research/live_forward/promotion_gate/promotion_status.json': 'e9761f0b27853f1e2d3635dbe11a36a859b2dee899a1aeb6a15a8f39c1575fa3',
-              'data/decision_ledger.db': '2a3f7046e8cf072a959c044ddd879a61720deb049eb7ff5cc16703acdf8f7696'
           }
 
           for path_str, exp_hash in expected.items():
@@ -87,6 +94,7 @@ jobs:
               print(f'[MATCH] {path_str} -> {actual[:16]}...')
           print('Gate 2 (Protected Production Hashes): PASSED')
           "
+
 
       - name: Gate 3 — Full Pytest Regression Suite
         run: |

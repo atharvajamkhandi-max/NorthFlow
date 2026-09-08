@@ -1,0 +1,16 @@
+# SQLite databases stored as regular git objects (auto-trimmed to ~50 MB).
+# Git LFS is NOT used — it requires LFS to be installed on all machines.
+data/market_flow.db -filter -diff -merge binary
+data/decision_ledger.db -filter -diff -merge binary
+
+# Ensure consistent line endings for shell scripts on Linux runners
+*.sh text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+
+# Treat compiled files as binary
+*.pyc binary
+*.pyo binary
