@@ -47,7 +47,20 @@ def main():
     print(f"Message:        {result.get('message')}")
     print("=" * 60 + "\n")
 
-    if result.get("status") == "SUCCESS":
+    # Export outputs to GitHub Actions if running inside workflow
+    import os
+    gh_output = os.environ.get("GITHUB_OUTPUT")
+    new_data = (result.get("status") == "SUCCESS" and result.get("records_processed", 0) > 0)
+    if gh_output:
+        try:
+            with open(gh_output, "a") as f:
+                f.write(f"NEW_DATA={'true' if new_data else 'false'}\n")
+                f.write(f"TRADE_DATE={result.get('trade_date', '')}\n")
+                f.write(f"PIPELINE_STATUS={result.get('status', '')}\n")
+        except Exception as e:
+            logger.warning(f"Could not write to GITHUB_OUTPUT: {e}")
+
+    if result.get("status") == "SUCCESS" and new_data:
         # Vacuum database to keep file compact
         try:
             with db.get_connection() as conn:

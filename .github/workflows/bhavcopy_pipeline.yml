@@ -2,8 +2,13 @@ name: Scheduled NSE Bhavcopy Pipeline
 
 on:
   schedule:
-    # Single daily run at 20:00 IST = 14:30 UTC, weekdays only
+    # Multiple checkpoints to ensure resilience against GitHub runner queue delays:
+    # 18:30 IST = 13:00 UTC (primary checkpoint right after NSE bhavcopy release)
+    - cron: '0 13 * * 1-5'
+    # 20:00 IST = 14:30 UTC (secondary checkpoint)
     - cron: '30 14 * * 1-5'
+    # 21:30 IST = 16:00 UTC (late evening catch-up checkpoint)
+    - cron: '0 16 * * 1-5'
 
   workflow_dispatch:
     inputs:
@@ -77,8 +82,9 @@ jobs:
 
       # ── 6. Auto-trim old data & Optimize database ────────────────────────
       # Keeps only the most recent 35 trading sessions (~7 weeks).
-      # This ensures market_flow.db stays well under GitHub's 100 MB file limit.
+      # Only runs if new data was ingested to prevent unnecessary commit churn.
       - name: Trim Old Data & Vacuum Database
+        if: steps.pipeline.outputs.NEW_DATA == 'true' || github.event.inputs.force == 'true'
         run: |
           python - <<'PYEOF'
           import sqlite3, os
@@ -109,14 +115,13 @@ jobs:
 
       # ── 7. Run data integrity tests ───────────────────────────────────────
       - name: Run Integrity Tests on Updated Dataset
+        if: steps.pipeline.outputs.NEW_DATA == 'true' || github.event.inputs.force == 'true'
         run: |
           python -m pytest tests/test_canonical_v3_2_unification.py -q --tb=short
 
       # ── 8. Commit & Push validated DB back to repo ────────────────────────
-      # The [skip ci] tag prevents the ci.yml release-gate workflow from
-      # triggering on this automated commit, avoiding a pointless re-run
-      # and the broken hash-check on the now-updated market_flow.db.
       - name: Commit & Push Updated Database
+        if: steps.pipeline.outputs.NEW_DATA == 'true' || github.event.inputs.force == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -124,7 +129,10 @@ jobs:
           if git diff --staged --quiet; then
             echo "ℹ️  No database changes to commit (pipeline was idempotent / no new data)."
           else
-            TRADE_DATE=$(python -c "import datetime; print(datetime.date.today().strftime('%Y-%m-%d'))")
+            TRADE_DATE="${{ steps.pipeline.outputs.TRADE_DATE }}"
+            if [ -z "$TRADE_DATE" ]; then
+              TRADE_DATE=$(python -c "import sqlite3; conn=sqlite3.connect('data/market_flow.db'); print(conn.execute('SELECT MAX(date) FROM daily_prices').fetchone()[0]); conn.close()")
+            fi
             git commit -m "chore(data): automated bhavcopy update ${TRADE_DATE} [skip ci]"
             git push origin main
             echo "✅ Successfully pushed updated market database to production."

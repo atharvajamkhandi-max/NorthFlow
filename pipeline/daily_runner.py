@@ -73,6 +73,26 @@ class DailyPipelineRunner:
         except Exception:
             return datetime.datetime.utcnow() + datetime.timedelta(hours=5, minutes=30)
 
+    def get_latest_completed_trading_day(self, as_of: Optional[datetime.datetime] = None) -> datetime.date:
+        """
+        Returns the latest official NSE trading day whose market session has completed
+        (i.e. after 16:30 IST). If current time is before 16:30 IST, returns previous trading day.
+        """
+        if as_of is None:
+            as_of = self.get_ist_now()
+
+        # If before market close / data publishing (16:30 IST), target yesterday or earlier
+        if as_of.time() < datetime.time(16, 30):
+            candidate = as_of.date() - datetime.timedelta(days=1)
+        else:
+            candidate = as_of.date()
+
+        start_cal = candidate - datetime.timedelta(days=14)
+        trading_days = self.provider.get_trading_days(start_cal, candidate)
+        if trading_days:
+            return datetime.datetime.strptime(trading_days[-1], "%Y-%m-%d").date()
+        return candidate
+
     def determine_current_checkpoint(self, now_time: Optional[datetime.time] = None) -> str:
         """
         Determines the current checkpoint label (e.g. '17:00', '18:00', '19:00', '20:00') based on time.
@@ -98,68 +118,90 @@ class DailyPipelineRunner:
     ) -> Dict[str, Any]:
         """
         Executes a checkpoint run for target_date.
+        If target_date is None, auto-detects the latest completed trading day and
+        automatically catches up any missing trading sessions between the DB and target_date.
         """
         self.db.initialize_schema()
         now_dt = self.get_ist_now()
 
-        if target_date is None:
-            target_date = now_dt.date()
-        elif isinstance(target_date, str):
-            target_date = datetime.datetime.strptime(target_date, "%Y-%m-%d").date()
-
-        iso_date = target_date.strftime("%Y-%m-%d")
         if checkpoint_time_str is None:
             checkpoint_time_str = self.determine_current_checkpoint(now_dt.time())
 
-        logger.info(f"Initiating Daily Pipeline Checkpoint [{checkpoint_time_str} IST] for Trade Date: {iso_date}")
+        # Determine dates to process
+        if target_date is not None:
+            if isinstance(target_date, str):
+                target_date_obj = datetime.datetime.strptime(target_date, "%Y-%m-%d").date()
+            else:
+                target_date_obj = target_date
+            dates_to_process = [target_date_obj.strftime("%Y-%m-%d")]
+        else:
+            target_date_obj = self.get_latest_completed_trading_day(now_dt)
+            iso_target = target_date_obj.strftime("%Y-%m-%d")
 
-        # 1. Trading Day Check
-        if not force and not self.is_trading_day(target_date):
-            msg = f"No trading session on {iso_date} (Weekend/Holiday). Pipeline skipped."
-            logger.info(msg)
-            self.db.log_pipeline_event(
-                stage="DAILY_PIPELINE_CHECKPOINT",
-                status="SKIPPED",
-                trade_date=iso_date,
-                records_processed=0,
-                message=msg
-            )
-            return {
-                "status": "SKIPPED_NOT_TRADING_DAY",
-                "trade_date": iso_date,
-                "checkpoint": checkpoint_time_str,
-                "message": msg
-            }
+            # Check if there are missing trading days between DB max date and target_date
+            with self.db.get_connection() as conn:
+                row = conn.execute("SELECT MAX(date) FROM daily_prices;").fetchone()
+                max_db_date_str = row[0] if row and row[0] else None
 
-        # 2. Idempotency Check
-        if not force and self.is_already_processed_today(iso_date):
-            msg = f"Today's market data ({iso_date}) already processed successfully. No action required."
-            logger.info(msg)
-            self.db.log_pipeline_event(
-                stage="DAILY_PIPELINE_CHECKPOINT",
-                status="SKIPPED",
-                trade_date=iso_date,
-                records_processed=0,
-                message=msg
-            )
-            return {
-                "status": "SKIPPED_ALREADY_SUCCESS",
-                "trade_date": iso_date,
-                "checkpoint": checkpoint_time_str,
-                "message": msg
-            }
+            if max_db_date_str and not force:
+                if max_db_date_str >= iso_target:
+                    if self.is_already_processed_today(iso_target):
+                        msg = f"Latest market data ({iso_target}) already processed successfully. No action required."
+                        logger.info(msg)
+                        self.db.log_pipeline_event(
+                            stage="DAILY_PIPELINE_CHECKPOINT",
+                            status="SKIPPED",
+                            trade_date=iso_target,
+                            records_processed=0,
+                            message=msg
+                        )
+                        return {
+                            "status": "SKIPPED_ALREADY_SUCCESS",
+                            "trade_date": iso_target,
+                            "checkpoint": checkpoint_time_str,
+                            "records_processed": 0,
+                            "message": msg
+                        }
+                    else:
+                        dates_to_process = [iso_target]
+                else:
+                    max_db_date = datetime.datetime.strptime(max_db_date_str, "%Y-%m-%d").date()
+                    trading_days = self.provider.get_trading_days(max_db_date, target_date_obj)
+                    dates_to_process = [d for d in trading_days if d > max_db_date_str and d <= iso_target]
+                    if not dates_to_process:
+                        dates_to_process = [iso_target]
+            else:
+                dates_to_process = [iso_target]
 
-        # 3. Attempt Market Data Fetch
-        logger.info(f"Attempting NSE market data download for {iso_date} at checkpoint {checkpoint_time_str} IST...")
+        logger.info(f"Initiating Daily Pipeline Checkpoint [{checkpoint_time_str} IST] for Trade Date(s): {dates_to_process}")
+
         market_updater = MarketDataUpdater(db=self.db, provider=self.provider)
-        inserted_prices = market_updater.ingest_single_date(iso_date, force=force)
+        total_inserted = 0
+        successfully_ingested_dates = []
 
-        with self.db.get_connection() as conn:
-            total_prices_today = conn.execute("SELECT COUNT(*) FROM daily_prices WHERE date = ?;", [iso_date]).fetchone()[0]
+        for d_str in dates_to_process:
+            d_obj = datetime.datetime.strptime(d_str, "%Y-%m-%d").date()
+            if not force and not self.is_trading_day(d_obj):
+                logger.info(f"Skipping {d_str} (not an official trading day).")
+                continue
 
-        # 4. If data is completely unavailable (neither newly inserted nor existing in DB)
-        if total_prices_today == 0:
+            logger.info(f"Attempting NSE market data download for {d_str} at checkpoint {checkpoint_time_str} IST...")
+            inserted_prices = market_updater.ingest_single_date(d_str, force=force)
+
+            with self.db.get_connection() as conn:
+                count_today = conn.execute("SELECT COUNT(*) FROM daily_prices WHERE date = ?;", [d_str]).fetchone()[0]
+
+            if count_today > 0:
+                total_inserted += inserted_prices
+                successfully_ingested_dates.append(d_str)
+                start_lookback = d_obj - datetime.timedelta(days=7)
+                market_updater.sync_benchmark_data(start_lookback, d_obj)
+            else:
+                logger.warning(f"NSE market data unavailable for {d_str} at checkpoint {checkpoint_time_str} IST.")
+
+        if not successfully_ingested_dates:
             is_final_checkpoint = (checkpoint_time_str == "20:00" or checkpoint_time_str == DAILY_UPDATE_TIMES[-1])
+            iso_date = dates_to_process[-1]
             if is_final_checkpoint:
                 fail_msg = f"PIPELINE FAILED / DATA STALE: NSE market data unavailable after final {checkpoint_time_str} IST attempt for {iso_date}."
                 logger.error(fail_msg)
@@ -174,6 +216,7 @@ class DailyPipelineRunner:
                     "status": "FAILED",
                     "trade_date": iso_date,
                     "checkpoint": checkpoint_time_str,
+                    "records_processed": 0,
                     "message": fail_msg
                 }
             else:
@@ -190,13 +233,12 @@ class DailyPipelineRunner:
                     "status": "RETRY_PENDING",
                     "trade_date": iso_date,
                     "checkpoint": checkpoint_time_str,
+                    "records_processed": 0,
                     "message": retry_msg
                 }
 
-        # 5. Data is available -> Process complete pipeline immediately
-        logger.info(f"NSE data available ({total_prices_today} records). Processing full analytical pipeline...")
-        start_lookback = target_date - datetime.timedelta(days=7)
-        market_updater.sync_benchmark_data(start_lookback, target_date)
+        # Data is available -> Process complete analytical pipeline across dataset
+        logger.info(f"NSE data available for {len(successfully_ingested_dates)} date(s) ({total_inserted} new records). Processing full analytical pipeline...")
 
         logger.info("Computing stock metrics...")
         stock_calc = StockMetricsCalculator(db=self.db)
@@ -228,20 +270,27 @@ class DailyPipelineRunner:
         except Exception as e:
             logger.warning(f"IPO auto-classifier encountered an error (non-fatal): {e}")
 
-        success_msg = f"Daily pipeline completed successfully at {checkpoint_time_str} IST for {iso_date} ({total_prices_today} equities processed)."
-        logger.info(success_msg)
-        self.db.log_pipeline_event(
-            stage="DAILY_PIPELINE_COMPLETE",
-            status="SUCCESS",
-            trade_date=iso_date,
-            records_processed=total_prices_today,
-            message=success_msg
-        )
+        # Log completion for each successfully ingested date
+        for d_str in successfully_ingested_dates:
+            with self.db.get_connection() as conn:
+                count_d = conn.execute("SELECT COUNT(*) FROM daily_prices WHERE date = ?;", [d_str]).fetchone()[0]
+            success_msg = f"Daily pipeline completed successfully at {checkpoint_time_str} IST for {d_str} ({count_d} equities processed)."
+            self.db.log_pipeline_event(
+                stage="DAILY_PIPELINE_COMPLETE",
+                status="SUCCESS",
+                trade_date=d_str,
+                records_processed=count_d,
+                message=success_msg
+            )
+
+        latest_completed_date = successfully_ingested_dates[-1]
+        summary_msg = f"Daily pipeline completed successfully for {len(successfully_ingested_dates)} date(s) ending {latest_completed_date} ({total_inserted} records ingested)."
+        logger.info(summary_msg)
 
         return {
             "status": "SUCCESS",
-            "trade_date": iso_date,
+            "trade_date": latest_completed_date,
             "checkpoint": checkpoint_time_str,
-            "records_processed": inserted_prices,
-            "message": success_msg
+            "records_processed": total_inserted,
+            "message": summary_msg
         }
