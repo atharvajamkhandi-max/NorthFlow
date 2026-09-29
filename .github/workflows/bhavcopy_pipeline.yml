@@ -2,13 +2,23 @@ name: Scheduled NSE Bhavcopy Pipeline
 
 on:
   schedule:
-    # Multiple checkpoints to ensure resilience against GitHub runner queue delays:
-    # 18:30 IST = 13:00 UTC (primary checkpoint right after NSE bhavcopy release)
-    - cron: '0 13 * * 1-5'
-    # 20:00 IST = 14:30 UTC (secondary checkpoint)
-    - cron: '30 14 * * 1-5'
-    # 21:30 IST = 16:00 UTC (late evening catch-up checkpoint)
-    - cron: '0 16 * * 1-5'
+    # Staggered checkpoints at off-peak minutes (:17, :47) to bypass GitHub runner queue congestion:
+    # 18:47 IST = 13:17 UTC (first check after NSE release)
+    - cron: '17 13 * * 1-5'
+    # 19:17 IST = 13:47 UTC
+    - cron: '47 13 * * 1-5'
+    # 19:47 IST = 14:17 UTC
+    - cron: '17 14 * * 1-5'
+    # 20:17 IST = 14:47 UTC
+    - cron: '47 14 * * 1-5'
+    # 20:47 IST = 15:17 UTC
+    - cron: '17 15 * * 1-5'
+    # 21:17 IST = 15:47 UTC
+    - cron: '47 15 * * 1-5'
+    # 21:47 IST = 16:17 UTC
+    - cron: '17 16 * * 1-5'
+    # 22:17 IST = 16:47 UTC
+    - cron: '47 16 * * 1-5'
 
   workflow_dispatch:
     inputs:
