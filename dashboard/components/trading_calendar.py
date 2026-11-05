@@ -11,7 +11,7 @@ from typing import List, Dict, Any, Tuple, Optional
 from database.db import Database
 from dashboard.components.theme import get_theme_tokens
 
-@st.cache_data(ttl=300)
+@st.cache_data(ttl=15)
 def get_available_nse_sessions_cached() -> List[str]:
     """Retrieves all distinct trading dates available in SQLite sorted chronologically."""
     db = Database()
@@ -63,8 +63,14 @@ def render_trading_session_calendar(db: Optional[Database] = None) -> str:
     first_session = all_sessions[0]
     latest_session = all_sessions[-1]
 
-    if "selected_trading_date" not in st.session_state or st.session_state["selected_trading_date"] not in all_sessions:
+    last_seen_latest = st.session_state.get("_last_seen_latest_session")
+    curr_selected = st.session_state.get("selected_trading_date")
+
+    # Auto-advance to latest_session if first load, invalid, or user was on the previously latest session:
+    if not curr_selected or curr_selected not in all_sessions or (last_seen_latest and curr_selected == last_seen_latest and latest_session != last_seen_latest):
         st.session_state["selected_trading_date"] = latest_session
+
+    st.session_state["_last_seen_latest_session"] = latest_session
 
     curr_selected_str = st.session_state["selected_trading_date"]
     curr_idx = all_sessions.index(curr_selected_str)
